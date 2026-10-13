@@ -194,7 +194,12 @@ const SECTORS = [
       "onboard credit",
       "kids sail free",
       "cruise offers",
-      "cruise discounts"
+      "cruise discounts",
+      "cruise passport",
+      "closed loop cruise",
+      "closed-loop cruise",
+      "hurricane season cruise",
+      "cruise documents"
     ],
     "card": {
       "image": {
