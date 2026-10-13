@@ -134,3 +134,47 @@ section h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 24px; }
 .sources ul { margin: 0; padding-left: 20px; color: var(--ink-2); }
 .sources a { color: var(--accent-2); }
 .more-link { margin: 18px 0 0; font-weight: 600; } .more-link a { color: var(--accent-2); }
+
+/* Blocks (page "blocks": strip, deals, tiles, steps, links) */
+.blocks { padding: 48px 0; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; margin-bottom: 22px; }
+.block-head h2 { margin: 0; flex: 1 1 auto; }
+.block-head p { flex: 1 1 100%; order: 3; margin: 0; color: var(--ink-2); max-width: 720px; }
+.block-more { font-weight: 600; color: var(--accent); text-decoration: none; white-space: nowrap; }
+.ico { flex: 0 0 auto; }
+.blocks-strip { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.strip-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 24px; }
+.strip-list li { display: flex; gap: 10px; align-items: center; font-size: 14.5px; color: var(--ink-2); }
+.strip-list .ico { color: var(--accent); }
+.strip-list strong { color: var(--ink); }
+.deal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.deal { display: flex; flex-direction: column; gap: 6px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: inherit; transition: transform .2s, border-color .2s; }
+.deal:hover { transform: translateY(-2px); border-color: var(--accent); }
+.deal-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.deal-top .ico { width: 40px; height: 40px; padding: 9px; border-radius: 12px; background: var(--surface-2); color: var(--accent); }
+.deal-badge { font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--accent); color: #fff; }
+.deal h3 { font-size: 18px; margin: 0; }
+.deal p { margin: 0; color: var(--ink-2); font-size: 14.5px; flex: 1; }
+.tiles { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 210px; gap: 14px; }
+.tile-photo { position: relative; overflow: hidden; border-radius: var(--radius); color: #fff; text-decoration: none; isolation: isolate; background: var(--surface-2); }
+.tile-photo .card-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; margin: 0; transition: transform .4s; z-index: -2; }
+.tile-photo:hover .card-img { transform: scale(1.05); }
+.tile-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.75) 100%); }
+.tile-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px; }
+.tile-body h3 { font-size: 20px; margin: 0; }
+.tile-body p { margin: 4px 0 0; font-size: 13.5px; opacity: .9; }
+.tile-badge { display: inline-block; font-size: 11.5px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 3px 8px; border-radius: 6px; background: rgba(255,255,255,.18); backdrop-filter: blur(6px); margin-bottom: 8px; }
+.tile-feature { grid-column: span 2; grid-row: span 2; }
+.tile-feature .tile-body h3 { font-size: 28px; }
+@media (max-width: 900px) { .tiles { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 180px; } }
+@media (max-width: 520px) { .tiles { grid-auto-rows: 150px; gap: 10px; } .tile-feature { grid-row: span 1; } .tile-feature .tile-body h3 { font-size: 22px; } .tile-body { padding: 12px; } .tile-body h3 { font-size: 17px; } }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; counter-reset: step; }
+.steps li { position: relative; padding: 22px 20px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); counter-increment: step; }
+.steps li::before { content: counter(step); position: absolute; top: 18px; right: 18px; font: 700 34px var(--display); color: var(--line); }
+.steps .ico { color: var(--accent); margin-bottom: 10px; }
+.steps h3 { font-size: 18px; margin: 0 0 6px; }
+.steps p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+.pill-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 14.5px; background: var(--surface); }
+.pill .ico { width: 16px; height: 16px; color: var(--accent); }
+.pill:hover { border-color: var(--accent); color: var(--accent); }

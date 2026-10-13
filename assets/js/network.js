@@ -185,7 +185,16 @@ const SECTORS = [
       "seine cruise",
       "small ship cruises",
       "adults only cruise",
-      "cruise ship deals"
+      "cruise ship deals",
+      "santorini cruise",
+      "mykonos cruise",
+      "tenerife cruise",
+      "madeira cruise",
+      "solo cruise",
+      "onboard credit",
+      "kids sail free",
+      "cruise offers",
+      "cruise discounts"
     ],
     "card": {
       "image": {
