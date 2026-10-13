@@ -1,0 +1,29 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "home",
+  "name": "Shmor Home",
+  "subdomain": "home",
+  "order": 80,
+  "status": "planned",
+  "icon": "sofa",
+  "accent": "#B45309",
+  "blurb": "Furniture, homeware, appliances and garden. Compare retailers before you buy.",
+  "keywords": [
+    "sofa",
+    "couch",
+    "furniture",
+    "bed",
+    "mattress",
+    "kitchen",
+    "appliance",
+    "garden",
+    "homeware",
+    "rug",
+    "fridge",
+    "washing machine"
+  ],
+  "fallback": "",
+  "popular": [],
+  "offers": [],
+  "links": {}
+}

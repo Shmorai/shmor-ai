@@ -1,0 +1,34 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "experiences",
+  "name": "Shmor Experiences",
+  "subdomain": "experiences",
+  "order": 90,
+  "status": "planned",
+  "icon": "ticket",
+  "accent": "#7C3AED",
+  "blurb": "Days out, gift experiences, events and tickets. Find something to do this weekend.",
+  "keywords": [
+    "experience",
+    "tickets",
+    "gig",
+    "concert",
+    "theatre",
+    "spa day",
+    "day out",
+    "days out",
+    "gift",
+    "event",
+    "festival",
+    "weekend"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Days out this weekend",
+      "q": "days out"
+    }
+  ],
+  "offers": [],
+  "links": {}
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "pros",
+  "name": "Shmor Pros",
+  "subdomain": "pros",
+  "order": 20,
+  "status": "planned",
+  "icon": "wrench",
+  "accent": "#EA580C",
+  "blurb": "Find and compare local tradespeople and professionals: plumbers, cleaners, builders, tutors and more.",
+  "keywords": [
+    "plumber",
+    "electrician",
+    "builder",
+    "cleaner",
+    "cleaning",
+    "cleaners",
+    "contractor",
+    "hvac",
+    "mover",
+    "movers",
+    "gardener",
+    "roofer",
+    "painter",
+    "decorator",
+    "handyman",
+    "tutor",
+    "photographer",
+    "removals",
+    "locksmith",
+    "near me",
+    "quote",
+    "quotes",
+    "landscaper",
+    "boiler",
+    "trades"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Plumbers near you",
+      "q": "plumber near me"
+    },
+    {
+      "label": "Move-out cleaning",
+      "q": "move out cleaning"
+    }
+  ],
+  "offers": [],
+  "links": {}
+}

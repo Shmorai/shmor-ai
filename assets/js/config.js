@@ -52,11 +52,13 @@ const SITE = {
 
 /* ---------------------------------------------------------------------
    REFERRAL / AFFILIATE LINKS
+   Network-wide links live here. Links for ONE marketplace belong in
+   that site's manifest ("links") and are merged in by the sync script.
    Every outbound referral goes through  /go/?to=<slug>  so you can:
      - change a link in ONE place and every button updates
      - get automatic click tracking (sub-ID) in Awin / CJ / Impact reports
    Use a slug anywhere on the site:
-     - in OFFERS / SECTORS below (link: 'slug', fallback: 'slug')
+     - in OFFERS below, or a site manifest (link: 'slug', fallback: 'slug')
      - in any HTML page:  <a data-aff="slug">Visit</a>
 
    network → which sub-ID parameter gets added automatically:
@@ -96,58 +98,17 @@ const AFFILIATE_LINKS = {
 };
 
 /* ---------------------------------------------------------------------
-   MARKETPLACES (each lives on its own subdomain with its own design)
-   live: true      → cards & searches go to https://<sub>.shmor.ai
-   live: false     → shown as "Launching soon"
-   fallback: slug  → while not live, send searches/clicks to this
-                     referral link instead (earn from day one)
+   MARKETPLACES are NOT edited here.
+   Each marketplace has its own manifest: network/<id>.json (or, once the
+   site exists, shmor-site.json inside its own folder/repo). Run
+       node tools/sync-network.js
+   to pull every site's card, keywords, popular searches, offers and
+   referral links into assets/js/network.js (generated, don't edit).
    --------------------------------------------------------------------- */
-const SECTORS = [
-  { id: 'travel', name: 'Shmor Travel', sub: 'travel', icon: 'plane', accent: '#5B4BF5', live: false, fallback: '',
-    blurb: 'Package holidays, hotels, city breaks and flights compared across leading travel brands.',
-    keywords: ['holiday', 'holidays', 'vacation', 'vacations', 'hotel', 'hotels', 'flight', 'flights', 'trip', 'city break', 'resort', 'all-inclusive', 'all inclusive', 'beach', 'cruise', 'villa', 'tenerife', 'spain', 'greece', 'dubai', 'lanzarote', 'paris', 'cancun', 'florida', 'orlando', 'las vegas', 'new york', 'hawaii', 'italy', 'portugal', 'travel', 'airport', 'car hire', 'getaway'] },
-  { id: 'pros', name: 'Shmor Pros', sub: 'pros', icon: 'wrench', accent: '#EA580C', live: false, fallback: '',
-    blurb: 'Find and compare local tradespeople and professionals: plumbers, cleaners, builders, tutors and more.',
-    keywords: ['plumber', 'electrician', 'builder', 'cleaner', 'cleaning', 'cleaners', 'contractor', 'hvac', 'mover', 'movers', 'gardener', 'roofer', 'painter', 'decorator', 'handyman', 'tutor', 'photographer', 'removals', 'locksmith', 'near me', 'quote', 'quotes', 'landscaper', 'boiler', 'trades'] },
-  { id: 'deals', name: 'Shmor Deals', sub: 'deals', icon: 'tag', accent: '#DB2777', live: false, fallback: '',
-    blurb: 'Hand-picked discounts, voucher codes and flash sales from trusted online retailers.',
-    keywords: ['deal', 'deals', 'discount', 'voucher', 'code', 'codes', 'sale', 'offer', 'offers', 'cheap', 'coupon', 'black friday', 'cashback'] },
-  { id: 'connect', name: 'Shmor Connect', sub: 'connect', icon: 'wifi', accent: '#0284C7', live: false, fallback: '',
-    blurb: 'Internet, mobile plans and TV packages compared by speed, price and contract length.',
-    keywords: ['broadband', 'wifi', 'wi-fi', 'internet', 'fibre', 'fiber', 'cell phone', 'cellphone', 'phone plan', 'mobile', 'sim', 'sim only', 'phone contract', 'tv package', '5g'] },
-  { id: 'energy', name: 'Shmor Energy', sub: 'energy', icon: 'sun', accent: '#059669', live: false, fallback: '',
-    blurb: 'Solar panels, heat pumps, EV chargers and home upgrades. Get matched with approved installers.',
-    keywords: ['solar', 'solar panels', 'heat pump', 'ev charger', 'insulation', 'energy', 'battery', 'renewable'] },
-  { id: 'tech', name: 'Shmor Tech', sub: 'tech', icon: 'laptop', accent: '#4F46E5', live: false, fallback: '',
-    blurb: 'Laptops, phones, TVs and gadgets with price comparison across major retailers.',
-    keywords: ['laptop', 'phone', 'iphone', 'tv', 'television', 'headphones', 'tablet', 'camera', 'console', 'gadget', 'smartwatch'] },
-  { id: 'style', name: 'Shmor Style', sub: 'style', icon: 'shirt', accent: '#BE185D', live: false, fallback: '',
-    blurb: 'Fashion, beauty and lifestyle brands in one place. Filter by size, price and delivery.',
-    keywords: ['dress', 'shoes', 'trainers', 'sneakers', 'fashion', 'clothes', 'jacket', 'beauty', 'makeup', 'skincare', 'perfume', 'jewellery'] },
-  { id: 'home', name: 'Shmor Home', sub: 'home', icon: 'sofa', accent: '#B45309', live: false, fallback: '',
-    blurb: 'Furniture, homeware, appliances and garden. Compare retailers before you buy.',
-    keywords: ['sofa', 'couch', 'furniture', 'bed', 'mattress', 'kitchen', 'appliance', 'garden', 'homeware', 'rug', 'fridge', 'washing machine'] },
-  { id: 'experiences', name: 'Shmor Experiences', sub: 'experiences', icon: 'ticket', accent: '#7C3AED', live: false, fallback: '',
-    blurb: 'Days out, gift experiences, events and tickets. Find something to do this weekend.',
-    keywords: ['experience', 'tickets', 'gig', 'concert', 'theatre', 'spa day', 'day out', 'days out', 'gift', 'event', 'festival', 'weekend'] },
-  { id: 'motors', name: 'Shmor Motors', sub: 'motors', icon: 'car', accent: '#DC2626', live: false, fallback: '',
-    blurb: 'Car leasing, servicing, tyres and parts. Compare local garages and online deals.',
-    keywords: ['car', 'lease', 'leasing', 'tyres', 'tires', 'mot', 'servicing', 'oil change', 'auto insurance', 'garage', 'van', 'electric car'] },
-];
 
-/* ---------------------------------------------------------------------
-   POPULAR SEARCHES — tiles on the homepage that run a search.
-   --------------------------------------------------------------------- */
-const POPULAR = [
-  { label: 'All-inclusive holidays', q: 'all-inclusive holidays', sector: 'travel' },
-  { label: 'Last-minute city breaks', q: 'city break', sector: 'travel' },
-  { label: 'Plumbers near you', q: 'plumber near me', sector: 'pros' },
-  { label: 'Move-out cleaning', q: 'move out cleaning', sector: 'pros' },
-  { label: 'Fast home internet', q: 'fiber internet', sector: 'connect' },
-  { label: 'Solar panel quotes', q: 'solar panels', sector: 'energy' },
-  { label: "Today's voucher codes", q: 'voucher codes', sector: 'deals' },
-  { label: 'Days out this weekend', q: 'days out', sector: 'experiences' },
-];
+/* Extra network-wide popular-search tiles (sector-specific ones live in
+   each site's manifest). { label, q, sector } */
+const POPULAR = [];
 
 /* ---------------------------------------------------------------------
    FEATURED OFFERS — the "Top offers" section only appears when this

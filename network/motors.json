@@ -1,0 +1,29 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "motors",
+  "name": "Shmor Motors",
+  "subdomain": "motors",
+  "order": 100,
+  "status": "planned",
+  "icon": "car",
+  "accent": "#DC2626",
+  "blurb": "Car leasing, servicing, tyres and parts. Compare local garages and online deals.",
+  "keywords": [
+    "car",
+    "lease",
+    "leasing",
+    "tyres",
+    "tires",
+    "mot",
+    "servicing",
+    "oil change",
+    "auto insurance",
+    "garage",
+    "van",
+    "electric car"
+  ],
+  "fallback": "",
+  "popular": [],
+  "offers": [],
+  "links": {}
+}

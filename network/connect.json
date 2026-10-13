@@ -1,0 +1,37 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "connect",
+  "name": "Shmor Connect",
+  "subdomain": "connect",
+  "order": 40,
+  "status": "planned",
+  "icon": "wifi",
+  "accent": "#0284C7",
+  "blurb": "Internet, mobile plans and TV packages compared by speed, price and contract length.",
+  "keywords": [
+    "broadband",
+    "wifi",
+    "wi-fi",
+    "internet",
+    "fibre",
+    "fiber",
+    "cell phone",
+    "cellphone",
+    "phone plan",
+    "mobile",
+    "sim",
+    "sim only",
+    "phone contract",
+    "tv package",
+    "5g"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Fast home internet",
+      "q": "fiber internet"
+    }
+  ],
+  "offers": [],
+  "links": {}
+}

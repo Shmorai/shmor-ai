@@ -1,0 +1,60 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "travel",
+  "name": "Shmor Travel",
+  "subdomain": "travel",
+  "order": 10,
+  "status": "planned",
+  "icon": "plane",
+  "accent": "#5B4BF5",
+  "blurb": "Package holidays, hotels, city breaks and flights compared across leading travel brands.",
+  "keywords": [
+    "holiday",
+    "holidays",
+    "vacation",
+    "vacations",
+    "hotel",
+    "hotels",
+    "flight",
+    "flights",
+    "trip",
+    "city break",
+    "resort",
+    "all-inclusive",
+    "all inclusive",
+    "beach",
+    "cruise",
+    "villa",
+    "tenerife",
+    "spain",
+    "greece",
+    "dubai",
+    "lanzarote",
+    "paris",
+    "cancun",
+    "florida",
+    "orlando",
+    "las vegas",
+    "new york",
+    "hawaii",
+    "italy",
+    "portugal",
+    "travel",
+    "airport",
+    "car hire",
+    "getaway"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "All-inclusive holidays",
+      "q": "all-inclusive holidays"
+    },
+    {
+      "label": "Last-minute city breaks",
+      "q": "city break"
+    }
+  ],
+  "offers": [],
+  "links": {}
+}

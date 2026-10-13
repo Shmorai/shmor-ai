@@ -51,16 +51,38 @@ The logo is drawn in code (`MARK` in `assets/js/main.js`), so it's sharp at ever
 
 > `.ai` domains are registered through the Anguilla registry. Most registrars (Namecheap, Porkbun, Cloudflare and others) sell them, and DNS works the same way.
 
-### Adding a marketplace subdomain later
-Each marketplace is its own repo with its own design:
-1. Create a repo such as `shmor-travel` with a `CNAME` file containing `travel.shmor.ai`, and enable Pages the same way.
+### Hosting a marketplace subdomain
+After `tools/new-site.js` creates `../shmor-<id>/` (see section 2):
+1. Push it to its own GitHub repo (e.g. `shmor-travel`) and enable Pages the same way. The `CNAME` file is already there.
 2. Add a DNS record: **CNAME**, name `travel`, value `YOUR-USERNAME.github.io`.
-3. In this repo, set `live: true` for that sector in `assets/js/config.js`. Cards and searches will then go to it.
-   Searches arrive at `https://travel.shmor.ai/search?q=…`, so build a `/search/` page there that reads `q`.
 
 ---
 
-## 2. Day-to-day editing: `assets/js/config.js`
+## 2. The Shmor network: adding sites and referral links
+
+Each marketplace is described by **one file**, its manifest:
+
+- before the site exists: `network/<id>.json` in this repo (all 10 planned sectors are already here);
+- once it exists: `shmor-site.json` inside its own folder `../shmor-<id>/` (this copy takes priority).
+
+The manifest holds the site's **card** (name, blurb, icon, colour), **status** (`planned` → `building` → `live`), **search keywords**, **popular searches**, **featured offers** and **all its referral links**. One command pulls every manifest into this site:
+
+```bash
+node tools/sync-network.js
+```
+
+That updates the cards, search routing, popular tiles, offers, the "Brands we compare" strip, the footer and the `/go/` redirects. It also checks for mistakes (non-https links, duplicate slugs, unknown icons, missing fields) and stops if it finds any.
+
+**Start a new marketplace** (scaffolds `../shmor-pets/` with its own git repo, starter page, `/search/` page and CNAME, then syncs):
+```bash
+node tools/new-site.js pets --name "Shmor Pets" --icon search --accent "#E0A100" --blurb "Pet insurance, food and vets compared." --keywords "pet,dog,cat,vet,pet insurance"
+```
+
+**Go live:** set `"status": "live"` in its `shmor-site.json` and run the sync.
+
+> With Claude: just say *"the next site is Shmor Pets"* or *"add these Awin links to Shmor Travel"*. The `shmor-network` skill in this workspace runs the whole process.
+
+## 3. Site-wide settings: `assets/js/config.js`
 
 Almost everything is controlled from this one file:
 
@@ -71,14 +93,12 @@ Almost everything is controlled from this one file:
 | `SITE.forms` | Paste free [Formspree](https://formspree.io) endpoints to switch on the newsletter and contact forms. While empty, the newsletter is hidden and the contact page shows an email button. |
 | `SITE.analytics.ga4` | Optional Google Analytics ID. Setting it turns on the cookie consent banner automatically. |
 | `SITE.regions` | US / UK / EU markets and currency symbols. Visitors are auto-detected and can switch in the footer. |
-| `AFFILIATE_LINKS` | **Your referral links**; see below. |
-| `SECTORS` | The marketplaces: name, subdomain, colour, search keywords, `live`, `fallback`. |
-| `POPULAR` | The "What people are searching for" tiles. |
-| `OFFERS` | Featured deals. The section only appears once you add some. |
+| `AFFILIATE_LINKS` | Network-wide referral links (links for one marketplace go in its manifest's `"links"`, same format). |
+| `POPULAR` / `OFFERS` | Extra network-wide tiles and deals (sector ones come from manifests). |
 
 ### Adding referral links (Awin, CJ, Impact, …)
 
-Add each link **once** under a short name (a "slug"):
+Add each link **once** under a short name (a "slug"), either in a site's manifest (`"links": { ... }`, JSON) or in `config.js` (JS):
 
 ```js
 const AFFILIATE_LINKS = {
@@ -111,7 +131,7 @@ Visitors get their region's link. If a region has no link, they get the default 
 
 Then use the slug anywhere:
 - **Featured offer:** `OFFERS: [{ title: '20% off city breaks', sector: 'travel', link: 'acme-hotels', badge: 'Ends Sunday' }]`
-- **Earn before a marketplace launches:** set `fallback: 'acme-hotels'` on a sector. Its card and its searches then go to that partner until you set `live: true`.
+- **Earn before a marketplace launches:** set `"fallback": "acme-hotels"` in a site's manifest. Its card and its searches then go to that partner until its status is `live`.
 - **In any page's HTML:** `<a data-aff="acme-hotels">Visit Acme</a>`
 
 Every referral goes through `shmor.ai/go/?to=acme-hotels`, which:
@@ -124,7 +144,7 @@ Supported sub-ID parameters: Awin `clickref`, CJ `sid`, Impact `subId1`, Rakuten
 
 ---
 
-## 3. Editing pages
+## 4. Editing pages
 
 - **Homepage:** `index.html`
 - **About, Partners, Contact, Privacy, Cookies, Terms, How we make money, 404:** edit the copy in `tools/pages/*.html`, then rebuild:
@@ -142,7 +162,7 @@ Then open <http://localhost:4000>.
 
 ---
 
-## 4. Before launch checklist
+## 5. Before launch checklist
 
 - [ ] Fill in `SITE.company` (legal name, number, address, jurisdiction)
 - [ ] Set up the email addresses in `SITE.emails` (Zoho Mail and Cloudflare Email Routing both have free options)
@@ -161,11 +181,15 @@ go/                     Referral redirect (shmor.ai/go/?to=slug)
 about/ partners/ contact/ privacy/ cookies/ terms/ affiliate-disclosure/
 404.html                Not-found page
 assets/css/style.css    Brand styles (light + dark mode)
-assets/js/config.js     ← edit this: links, sectors, offers, company details
+assets/js/config.js     ← site-wide settings, company details, network-wide links
+assets/js/network.js    GENERATED from network/*.json by tools/sync-network.js
+network/<id>.json       one manifest per marketplace (card, keywords, links, offers)
 assets/js/region.js     US/UK/EU detection + per-region link resolution
 assets/js/main.js       Layout, search routing, referral links, consent
 assets/img/favicon.svg
 tools/build-pages.js    Rebuilds inner pages + sitemap
+tools/new-site.js       Scaffolds ../shmor-<id>/ and syncs it in
+tools/sync-network.js   Pulls all manifests into network.js (validates)
 tools/serve.js          Local preview server
 CNAME .nojekyll robots.txt sitemap.xml   GitHub Pages / SEO files
 ```

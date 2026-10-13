@@ -1,0 +1,28 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "tech",
+  "name": "Shmor Tech",
+  "subdomain": "tech",
+  "order": 60,
+  "status": "planned",
+  "icon": "laptop",
+  "accent": "#4F46E5",
+  "blurb": "Laptops, phones, TVs and gadgets with price comparison across major retailers.",
+  "keywords": [
+    "laptop",
+    "phone",
+    "iphone",
+    "tv",
+    "television",
+    "headphones",
+    "tablet",
+    "camera",
+    "console",
+    "gadget",
+    "smartwatch"
+  ],
+  "fallback": "",
+  "popular": [],
+  "offers": [],
+  "links": {}
+}

@@ -73,7 +73,7 @@
   }
 
   /* ---------------- Sector routing ---------------- */
-  const urlFor = (s, q) => `https://${s.sub}.${SITE.domain}/${q ? 'search?q=' + encodeURIComponent(q) : ''}`;
+  const urlFor = (s, q) => `https://${s.sub}.${SITE.domain}/${q ? 'search/?q=' + encodeURIComponent(q) : ''}`;
   function routeQuery(q) {
     const t = ' ' + q.toLowerCase() + ' ';
     let best = null, score = 0;
@@ -133,7 +133,7 @@
               <select id="regionSelect" aria-label="Choose your region">${Object.entries(SITE.regions.list).map(([k, v]) => `<option value="${k}"${k === REGION ? ' selected' : ''}>${esc(v.label)} (${v.currency})</option>`).join('')}</select>
             </label>
           </div>
-          <div><h5>Marketplaces</h5><ul>${SECTORS.slice(0, 6).map(s => `<li><a href="${ROOT}#network">${esc(s.name)}</a></li>`).join('')}</ul></div>
+          <div><h5>Marketplaces</h5><ul>${[...SECTORS].sort((a, b) => b.live - a.live).slice(0, 6).map(s => `<li><a href="${s.live ? `https://${s.sub}.${SITE.domain}/` : ROOT + "#network"}">${esc(s.name)}</a></li>`).join('')}</ul></div>
           <div><h5>Company</h5><ul>
             <li><a href="${ROOT}about/">About us</a></li>
             <li><a href="${ROOT}partners/">Partner with us</a></li>

@@ -54,6 +54,7 @@ ${body.trim()}
 </main>
 <footer id="site-footer" class="site-footer"></footer>
 <script src="${r}assets/js/config.js"></script>
+<script src="${r}assets/js/network.js"></script>
 <script src="${r}assets/js/region.js"></script>
 <script src="${r}assets/js/main.js"></script>
 </body>

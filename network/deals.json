@@ -1,0 +1,35 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "deals",
+  "name": "Shmor Deals",
+  "subdomain": "deals",
+  "order": 30,
+  "status": "planned",
+  "icon": "tag",
+  "accent": "#DB2777",
+  "blurb": "Hand-picked discounts, voucher codes and flash sales from trusted online retailers.",
+  "keywords": [
+    "deal",
+    "deals",
+    "discount",
+    "voucher",
+    "code",
+    "codes",
+    "sale",
+    "offer",
+    "offers",
+    "cheap",
+    "coupon",
+    "black friday",
+    "cashback"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Today's voucher codes",
+      "q": "voucher codes"
+    }
+  ],
+  "offers": [],
+  "links": {}
+}

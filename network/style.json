@@ -1,0 +1,29 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "style",
+  "name": "Shmor Style",
+  "subdomain": "style",
+  "order": 70,
+  "status": "planned",
+  "icon": "shirt",
+  "accent": "#BE185D",
+  "blurb": "Fashion, beauty and lifestyle brands in one place. Filter by size, price and delivery.",
+  "keywords": [
+    "dress",
+    "shoes",
+    "trainers",
+    "sneakers",
+    "fashion",
+    "clothes",
+    "jacket",
+    "beauty",
+    "makeup",
+    "skincare",
+    "perfume",
+    "jewellery"
+  ],
+  "fallback": "",
+  "popular": [],
+  "offers": [],
+  "links": {}
+}
