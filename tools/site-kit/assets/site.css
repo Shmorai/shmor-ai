@@ -124,3 +124,13 @@ section h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 24px; }
 .photo-credit { position: absolute; right: 14px; bottom: 8px; margin: 0; font-size: 11px; color: rgba(255,255,255,.75); z-index: 1; }
 .photo-credit a { color: inherit; }
 .card-img { display: block; width: calc(100% + 44px); max-width: none; height: auto; aspect-ratio: 5 / 3; object-fit: cover; margin: -22px -22px 12px; }
+
+/* Blog: post meta, byline, sources */
+.post-meta { font-size: 13px; color: var(--ink-3); }
+.post-byline { font-size: 14px; color: var(--ink-3); margin: 14px 0 0; }
+.hero.has-img .post-byline { color: rgba(255,255,255,.85); }
+.sources { padding: 8px 0 40px; }
+.sources h2 { font-size: 20px; margin-bottom: 10px; }
+.sources ul { margin: 0; padding-left: 20px; color: var(--ink-2); }
+.sources a { color: var(--accent-2); }
+.more-link { margin: 18px 0 0; font-weight: 600; } .more-link a { color: var(--accent-2); }
