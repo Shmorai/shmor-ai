@@ -32,7 +32,7 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}${noindex ? '<meta n
 <meta property="og:site_name" content="Shmor.ai">
 <meta property="og:title" content="${title} | Shmor.ai">
 <meta property="og:description" content="${desc}">
-<meta name="theme-color" content="#0B1020">
+<meta name="theme-color" content="#0A0C0E">
 <link rel="icon" href="${r}assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
