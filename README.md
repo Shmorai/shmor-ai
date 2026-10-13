@@ -75,8 +75,10 @@ That updates the cards, search routing, popular tiles, offers, the "Brands we co
 
 **Start a new marketplace** (scaffolds `Shmor/sites/shmor-pets/` with its own git repo, starter page, `/search/` page and CNAME, then syncs):
 ```bash
-node tools/new-site.js pets --name "Shmor Pets" --icon search --accent "#E0A100" --blurb "Pet insurance, food and vets compared." --keywords "pet,dog,cat,vet,pet insurance"
+node tools/new-site.js petdeals --name "PetDeals" --sub petdeals --icon search --accent "#E0A100" --blurb "Pet insurance, food and vets compared." --keywords "pet,dog,cat,vet,pet insurance"
 ```
+
+Each new site is built from the **SEO site kit** (`tools/site-kit/`): one JSON file per Google landing page in `content/`, its own design in `templates/layout.html` + `assets/site.css`, and `node tools/build.js` to generate static pages, meta tags, structured data, sitemap and robots.txt. See `Shmor/sites/shmor-traveldeals/` for the reference site.
 
 **Go live:** set `"status": "live"` in its `shmor-site.json` and run the sync.
 

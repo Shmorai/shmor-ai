@@ -1,13 +1,13 @@
 {
   "$schema": "shmor-site/1",
-  "id": "travel",
-  "name": "Shmor Travel",
-  "subdomain": "travel",
+  "id": "traveldeals",
+  "name": "TravelDeals",
+  "subdomain": "traveldeals",
   "order": 10,
-  "status": "planned",
+  "status": "building",
   "icon": "plane",
-  "accent": "#5B4BF5",
-  "blurb": "Package holidays, hotels, city breaks and flights compared across leading travel brands.",
+  "accent": "#FF6B4A",
+  "blurb": "Holiday deals, flights, hotels and city breaks compared across trusted travel brands.",
   "keywords": [
     "holiday",
     "holidays",
@@ -56,5 +56,13 @@
     }
   ],
   "offers": [],
-  "links": {}
+  "links": {},
+  "seo": {
+    "siteName": "TravelDeals",
+    "description": "Holiday deals, flights, hotels and city breaks compared across trusted travel brands.",
+    "locale": "en",
+    "ogLocale": "en_GB",
+    "themeColor": "#0A0C0E",
+    "searchPlaceholder": "What are you looking for?"
+  }
 }

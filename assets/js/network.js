@@ -2,15 +2,15 @@
    Edit network/<id>.json (or the site's own shmor-site.json) and re-run the sync. */
 const SECTORS = [
   {
-    "id": "travel",
-    "name": "Shmor Travel",
-    "sub": "travel",
+    "id": "traveldeals",
+    "name": "TravelDeals",
+    "sub": "traveldeals",
     "icon": "plane",
-    "accent": "#5B4BF5",
+    "accent": "#FF6B4A",
     "live": false,
-    "status": "planned",
+    "status": "building",
     "fallback": "",
-    "blurb": "Package holidays, hotels, city breaks and flights compared across leading travel brands.",
+    "blurb": "Holiday deals, flights, hotels and city breaks compared across trusted travel brands.",
     "keywords": [
       "holiday",
       "holidays",
@@ -293,12 +293,12 @@ POPULAR.unshift(...[
   {
     "label": "All-inclusive holidays",
     "q": "all-inclusive holidays",
-    "sector": "travel"
+    "sector": "traveldeals"
   },
   {
     "label": "Last-minute city breaks",
     "q": "city break",
-    "sector": "travel"
+    "sector": "traveldeals"
   },
   {
     "label": "Plumbers near you",

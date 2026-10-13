@@ -1,182 +1,159 @@
 /* =====================================================================
-   Create a new Shmor marketplace site in the project's sites/ folder, then sync it
-   into the master site.
+   Create a new Shmor marketplace site in Shmor/sites/, with the SEO site
+   kit (tools/site-kit), then sync it into the master site.
 
-     node tools/new-site.js <id> [--name "Shmor Pets"] [--sub pets]
-                                 [--icon search] [--accent "#7644B0"]
+     node tools/new-site.js <id> [--name "TravelDeals"] [--sub traveldeals]
+                                 [--from travel]      reuse + replace a planned entry
+                                 [--icon plane] [--accent "#hex"]
                                  [--blurb "One sentence for the card."]
-                                 [--keywords "dog,cat,pet insurance"]
+                                 [--keywords "a,b,c"]
 
-   If network/<id>.json already exists (e.g. "travel"), its details are
-   used and only missing values are filled from the flags.
-   Creates:  Shmor/sites/shmor-<id>/   (its own git repo, deployable to GitHub Pages)
+   Creates Shmor/sites/shmor-<id>/  (own git repo, own design, own SEO):
+     shmor-site.json      card, keywords, referral links, offers, seo
+     content/*.json       one file per page (each = an indexable keyword page)
+     templates/layout.html + assets/site.css   this site's design
+     tools/build.js       builds pages, sitemap, robots, structured data
+     tools/serve.js       local preview
    ===================================================================== */
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
+const KIT = path.join(__dirname, 'site-kit');
+const PROJECT = path.dirname(ROOT);
+const WORKSPACE = path.dirname(PROJECT);
 const args = process.argv.slice(2);
 const id = (args[0] || '').toLowerCase();
 const flag = k => { const i = args.indexOf('--' + k); return i > -1 ? args[i + 1] : undefined; };
 
 if (!/^[a-z][a-z0-9-]{1,30}$/.test(id)) {
-  console.error('Usage: node tools/new-site.js <id> [--name "Shmor X"] [--sub x] [--icon name] [--accent "#hex"] [--blurb "..."] [--keywords "a,b,c"]');
+  console.error('Usage: node tools/new-site.js <id> [--name "X"] [--sub x] [--from plannedId] [--icon name] [--accent "#hex"] [--blurb "..."] [--keywords "a,b,c"]');
   process.exit(1);
 }
 
-const regFile = path.join(ROOT, 'network', `${id}.json`);
+const fromId = flag('from') || id;
+const regFile = path.join(ROOT, 'network', `${fromId}.json`);
 const existing = fs.existsSync(regFile) ? JSON.parse(fs.readFileSync(regFile, 'utf8')) : null;
+if (flag('from') && !existing) { console.error(`No planned entry network/${fromId}.json to reuse.`); process.exit(1); }
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+const name = flag('name') || (existing && !flag('from') ? existing.name : null) || cap(id);
+const sub = flag('sub') || (existing && !flag('from') ? existing.subdomain : null) || id;
+const blurb = flag('blurb') || existing?.blurb || `${cap(id)} options compared in one place.`;
 
 const m = {
   $schema: 'shmor-site/1',
   id,
-  name: flag('name') || existing?.name || `Shmor ${cap(id)}`,
-  subdomain: flag('sub') || existing?.subdomain || id,
+  name,
+  subdomain: sub,
   order: existing?.order ?? 100 + fs.readdirSync(path.join(ROOT, 'network')).length * 10,
   status: 'building',
   icon: flag('icon') || existing?.icon || 'search',
   accent: flag('accent') || existing?.accent || '#7644B0',
-  blurb: flag('blurb') || existing?.blurb || `${cap(id)} options compared in one place.`,
+  blurb,
   keywords: flag('keywords') ? flag('keywords').split(',').map(s => s.trim().toLowerCase()).filter(Boolean) : existing?.keywords || [id],
   fallback: existing?.fallback || '',
   popular: existing?.popular || [],
   offers: existing?.offers || [],
   links: existing?.links || {},
+  seo: {
+    siteName: name,
+    description: blurb,
+    locale: 'en',
+    ogLocale: 'en_GB',
+    themeColor: '#0A0C0E',
+    searchPlaceholder: 'What are you looking for?',
+  },
 };
 
-const SITES = path.join(path.dirname(ROOT), 'sites');
+const SITES = path.join(PROJECT, 'sites');
 fs.mkdirSync(SITES, { recursive: true });
 const dir = path.join(SITES, `shmor-${id}`);
-if (fs.existsSync(dir)) { console.error(`sites/shmor-${id} already exists. Edit its shmor-site.json and run: node tools/sync-network.js`); process.exit(1); }
+if (fs.existsSync(dir)) { console.error(`sites/shmor-${id} already exists. Edit its files, then run: node tools/build.js (in the site) and node tools/sync-network.js (here)`); process.exit(1); }
 
-const host = `${m.subdomain}.shmor.ai`;
+const host = `${sub}.shmor.ai`;
 const write = (rel, text) => { const f = path.join(dir, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, text); };
+const copy = (from, to) => { fs.mkdirSync(path.dirname(path.join(dir, to)), { recursive: true }); fs.copyFileSync(path.join(KIT, from), path.join(dir, to)); };
 
-/* ---------- Manifest: the ONE file the master site reads ---------- */
+/* ---------- Identity + hosting ---------- */
 write('shmor-site.json', JSON.stringify(m, null, 2) + '\n');
-
-/* ---------- GitHub Pages plumbing ---------- */
 write('CNAME', host + '\n');
 write('.nojekyll', '');
-write('robots.txt', `User-agent: *\nAllow: /\n`);
-fs.copyFileSync(path.join(ROOT, 'assets/img/favicon.svg'), (fs.mkdirSync(path.join(dir, 'assets'), { recursive: true }), path.join(dir, 'assets/favicon.svg')));
+write('.gitattributes', '* text=auto eol=lf\n*.webp binary\n*.png binary\n*.jpg binary\n');
 
-/* ---------- Referral helper: <a data-aff="slug"> → shmor.ai/go/ ---------- */
-write('assets/shmor-links.js', `/* Turns <a data-aff="slug"> into a tracked referral link via https://shmor.ai/go/.
-   Slugs come from this site's shmor-site.json "links". Optional data-src labels where the click came from. */
-(function () {
-  var SITE = '${id}';
-  document.querySelectorAll('a[data-aff]').forEach(function (a) {
-    a.href = 'https://shmor.ai/go/?to=' + encodeURIComponent(a.dataset.aff) +
-      '&src=' + encodeURIComponent(SITE + '-' + (a.dataset.src || 'page'));
-    a.rel = 'sponsored nofollow noopener';
-    a.target = '_blank';
-  });
-})();
-`);
+/* ---------- Kit: build tools, default design ---------- */
+copy('tools/build.js', 'tools/build.js');
+copy('tools/serve.js', 'tools/serve.js');
+copy('templates/layout.html', 'templates/layout.html');
+copy('assets/site.css', 'assets/site.css');
+copy('assets/site.js', 'assets/site.js');
+fs.copyFileSync(path.join(ROOT, 'assets/img/favicon.svg'), path.join(dir, 'assets/favicon.svg'));
 
-/* ---------- Starter pages (replace with this site's own design) ---------- */
-const head = (title, depth) => `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title}</title>
-<meta name="description" content="${m.blurb.replace(/"/g, '&quot;')}">
-<meta name="theme-color" content="#0A0C0E">
-<link rel="icon" href="${depth}assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root { color-scheme: dark; --accent: ${m.accent}; --bg: #0A0C0E; --surface: #121518; --line: #23282C; --ink: #F3F4F5; --ink-2: #B4BABE; }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: radial-gradient(700px 400px at 80% -10%, color-mix(in srgb, var(--accent) 35%, transparent), transparent 70%), var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; min-height: 100vh; }
-  a { color: inherit; }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-  header { display: flex; justify-content: space-between; align-items: center; height: 72px; border-bottom: 1px solid var(--line); }
-  .brand { font-family: Outfit, sans-serif; font-weight: 700; font-size: 24px; text-decoration: none; letter-spacing: -.02em; }
-  .brand span { color: var(--accent); }
-  .net { font-size: 14px; color: var(--ink-2); text-decoration: none; }
-  h1 { font-family: Outfit, sans-serif; font-size: clamp(40px, 7vw, 72px); letter-spacing: -.04em; line-height: 1.05; margin: 80px 0 16px; }
-  p.sub { color: var(--ink-2); font-size: 19px; max-width: 620px; }
-  form { display: flex; gap: 10px; max-width: 680px; margin-top: 32px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 8px; }
-  input { flex: 1; min-width: 0; background: transparent; border: 0; outline: 0; color: var(--ink); font: inherit; font-size: 17px; padding: 12px; }
-  button { font: 600 16px Outfit, sans-serif; background: var(--accent); color: #fff; border: 0; border-radius: 999px; padding: 12px 26px; cursor: pointer; }
-  footer { margin-top: 120px; padding: 30px 0; border-top: 1px solid var(--line); color: #868D92; font-size: 13px; }
-</style>
-</head>`;
-const brand = m.name.replace(/^Shmor\s+/, '');
-const header = depth => `<header class="wrap"><a class="brand" href="${depth}">Shmor <span>${brand}</span></a><a class="net" href="https://shmor.ai/">Part of the Shmor.ai network →</a></header>`;
-const footer = `<footer class="wrap">${m.name} is part of <a href="https://shmor.ai/">Shmor.ai</a>. Some links are affiliate links: we may earn a commission at no extra cost to you. <a href="https://shmor.ai/affiliate-disclosure/">How we make money</a> · <a href="https://shmor.ai/privacy/">Privacy</a> · <a href="https://shmor.ai/terms/">Terms</a></footer>`;
+/* ---------- Starter content ---------- */
+write('content/home.json', JSON.stringify({
+  slug: '',
+  title: `${name}: ${blurb.replace(/\.$/, '')}`.slice(0, 60),
+  description: `${blurb} Free to use, part of the Shmor.ai network.`,
+  eyebrow: 'Part of the Shmor.ai network',
+  h1: name,
+  intro: blurb,
+  related: [],
+  sections: [{ h2: `Why use ${name}?`, html: `<p>${blurb}</p>` }],
+}, null, 2) + '\n');
 
-write('index.html', `${head(`${m.name} | Shmor.ai`, '')}
-<body>
-${header('./')}
-<main class="wrap">
-  <h1>${m.name}</h1>
-  <p class="sub">${m.blurb}</p>
-  <form action="search/"><input name="q" placeholder="What are you looking for?" aria-label="Search"><button>Search</button></form>
-</main>
-${footer}
-<script src="assets/shmor-links.js"></script>
-</body>
-</html>
-`);
+write('README.md', `# ${name}  (${host})
 
-write('search/index.html', `${head(`Search | ${m.name}`, '../')}
-<body>
-${header('../')}
-<main class="wrap">
-  <h1 id="h">Results</h1>
-  <p class="sub">Search results for this marketplace go here. The master site sends searches to <code>/search/?q=...</code>.</p>
-  <!-- Example referral button: slug must exist in shmor-site.json "links" -->
-  <!-- <a data-aff="example-slug" data-src="search">View deal</a> -->
-</main>
-${footer}
-<script>var q = new URLSearchParams(location.search).get('q'); if (q) document.getElementById('h').textContent = 'Results for “' + q + '”';</script>
-<script src="../assets/shmor-links.js"></script>
-</body>
-</html>
-`);
+Part of the Shmor.ai network: its own brand, design and SEO, listed on shmor.ai via \`shmor-site.json\`.
 
-write('README.md', `# ${m.name}  (${host})
-
-Part of the Shmor.ai network. This site has its own design; the master site (shmor.ai) reads **\`shmor-site.json\`** to build this site's card, search routing and referral links.
-
-## shmor-site.json
-| Field | Meaning |
+## Edit
+| What | Where |
 |---|---|
-| \`status\` | \`planned\` → \`building\` → \`live\`. Only \`live\` sends shmor.ai visitors here. |
-| \`name\`, \`blurb\`, \`icon\`, \`accent\` | The card on shmor.ai |
-| \`keywords\` | Searches on shmor.ai containing these words are routed here |
-| \`popular\` | \`[{ "label": "...", "q": "..." }]\`: tiles on shmor.ai |
-| \`links\` | Referral links: \`"slug": { "merchant", "network", "url" }\`. \`url\` can be \`{ "us", "uk", "eu" }\` |
-| \`offers\` | \`[{ "title", "link": "slug", "badge", "terms" }]\`: featured on shmor.ai |
-| \`fallback\` | Link slug to use for this card/searches until \`live\` |
+| Card on shmor.ai, search keywords, **referral links**, offers | \`shmor-site.json\` |
+| Pages (one JSON file = one Google-indexable page) | \`content/\` (\`home.json\` is the homepage; \`content/guides/x.json\` → \`/guides/x/\`) |
+| Design | \`templates/layout.html\`, \`assets/site.css\` |
 
-After editing it, run \`node tools/sync-network.js\` in the **shmor-ai** repo, then commit and push both repos.
+## Page file fields
+\`slug\`, \`title\` (30–60 chars, unique), \`description\` (120–158 chars, unique), \`h1\`, \`eyebrow\`, \`intro\`,
+\`nav\` + \`navOrder\` (show in menu), \`chips\`, \`highlights\`, \`partners\` (link slugs), \`sections\` [{h2, html}],
+\`faqs\` [{q, a}] (adds FAQ rich results), \`related\` [slugs], \`keywords\`, \`updated\`, \`noindex\`.
 
-## Referral links on this site
-\`\`\`html
-<a data-aff="slug" data-src="hero">Visit</a>
-<script src="/assets/shmor-links.js"></script>
+## Commands
+\`\`\`bash
+node tools/build.js         # build pages, sitemap.xml, robots.txt, structured data
+node tools/serve.js 4001    # preview at http://localhost:4001
 \`\`\`
-Clicks go through https://shmor.ai/go/, which picks the visitor's US/UK/EU link and adds a sub-ID.
+After changing \`shmor-site.json\`, also run \`node tools/sync-network.js\` in \`Shmor/shmor-ai\`.
 
-## Deploy
-GitHub repo \`Shmorai/shmor-${id}\` (keep it **private** until launch) → Settings → Pages → branch \`main\`, root. Custom domain: \`${host}\`.
-DNS: \`CNAME  ${m.subdomain}  <your-username>.github.io\`
+## Referral links in pages
+List link slugs in a page's \`"partners"\`, or add \`"offers"\` in \`shmor-site.json\` (optional \`"pages": ["slug"]\`).
+Links are written into the HTML as \`https://shmor.ai/go/?to=<slug>&src=${id}-<page>\` with \`rel="sponsored nofollow"\`.
+
+## Deploy (only at launch; keep private until then)
+GitHub repo \`Shmorai/shmor-${id}\` → Settings → Pages → branch \`main\`, root. Custom domain \`${host}\`.
+DNS at GoDaddy: \`CNAME  ${sub}  shmorai.github.io\`
 `);
 
-/* ---------- git init ---------- */
+/* ---------- Build, git, preview config ---------- */
+execFileSync(process.execPath, [path.join(dir, 'tools/build.js')], { stdio: 'inherit' });
 try {
   execFileSync('git', ['init', '-b', 'main', '-q'], { cwd: dir });
   execFileSync('git', ['add', '-A'], { cwd: dir });
-  execFileSync('git', ['-c', 'user.name=Shmor', '-c', 'user.email=wirelesspaisa@gmail.com', 'commit', '-q', '-m', `Scaffold ${m.name}`], { cwd: dir });
+  execFileSync('git', ['-c', 'user.name=Shmor', '-c', 'user.email=wirelesspaisa@gmail.com', 'commit', '-q', '-m', `Scaffold ${name} (${host})`], { cwd: dir });
 } catch (e) { console.warn('git init skipped:', e.message); }
 
+const launchFile = path.join(WORKSPACE, '.claude', 'launch.json');
+if (fs.existsSync(launchFile)) {
+  const launch = JSON.parse(fs.readFileSync(launchFile, 'utf8'));
+  const used = launch.configurations.map(c => c.port);
+  let port = 4001; while (used.includes(port)) port++;
+  if (!launch.configurations.some(c => c.name === id)) {
+    launch.configurations.push({ name: id, runtimeExecutable: 'node', runtimeArgs: [`Shmor/sites/shmor-${id}/tools/serve.js`, String(port)], port });
+    fs.writeFileSync(launchFile, JSON.stringify(launch, null, 2) + '\n');
+    console.log(`✓ Preview config "${id}" added (http://localhost:${port})`);
+  }
+}
+
+if (flag('from') && fromId !== id) { fs.unlinkSync(regFile); console.log(`✓ Replaced planned entry "${fromId}" with "${id}"`); }
 console.log(`✓ Created Shmor/sites/shmor-${id}/ (${host}), status "building".`);
 execFileSync(process.execPath, [path.join(__dirname, 'sync-network.js')], { stdio: 'inherit' });
