@@ -112,9 +112,17 @@ for (const id of pulled) {
 
 /* ---------- 4. Generate assets/js/network.js ---------- */
 const list = [...manifests.values()].map(x => x.data).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.name.localeCompare(b.name));
+// Local preview ports from the workspace launch.json, so cards on localhost:4000 open each site's dev server
+const devPorts = (() => {
+  try {
+    const launch = JSON.parse(fs.readFileSync(path.resolve(ROOT, '..', '..', '.claude', 'launch.json'), 'utf8'));
+    return Object.fromEntries(launch.configurations.map(c => [c.name, c.port]));
+  } catch { return {}; }
+})();
 const sectors = list.map(m => ({
   id: m.id, name: m.name, sub: m.subdomain, icon: m.icon, accent: m.accent,
   live: m.status === 'live', status: m.status, fallback: m.fallback || '',
+  ...(m.status !== 'planned' && devPorts[m.id] ? { devPort: devPorts[m.id] } : {}),
   blurb: m.blurb, keywords: m.keywords,
 }));
 const links = {}, popular = [], offers = [];

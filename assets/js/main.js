@@ -73,7 +73,11 @@
   }
 
   /* ---------------- Sector routing ---------------- */
-  const urlFor = (s, q) => `https://${s.sub}.${SITE.domain}/${q ? 'search/?q=' + encodeURIComponent(q) : ''}`;
+  // On a local preview (localhost:4000), sites with a dev server open that instead of the real subdomain
+  const LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  const local = s => LOCAL && s.devPort;
+  const siteRoot = s => local(s) ? `http://${location.hostname}:${s.devPort}/` : `https://${s.sub}.${SITE.domain}/`;
+  const urlFor = (s, q) => `${siteRoot(s)}${q ? 'search/?q=' + encodeURIComponent(q) : ''}`;
   function routeQuery(q) {
     const t = ' ' + q.toLowerCase() + ' ';
     let best = null, score = 0;
@@ -86,7 +90,7 @@
   }
   // Where should a click / search for this sector go right now?
   function destination(s, q, src) {
-    if (s.live) return { href: urlFor(s, q), external: false };
+    if (s.live || local(s)) return { href: urlFor(s, q), external: false };
     if (hasAff(s.fallback)) return { href: goHref(s.fallback, src || 'sector-' + s.id), external: true };
     return null;
   }
@@ -133,7 +137,7 @@
               <select id="regionSelect" aria-label="Choose your region">${Object.entries(SITE.regions.list).map(([k, v]) => `<option value="${k}"${k === REGION ? ' selected' : ''}>${esc(v.label)} (${v.currency})</option>`).join('')}</select>
             </label>
           </div>
-          <div><h5>Marketplaces</h5><ul>${[...SECTORS].sort((a, b) => b.live - a.live).slice(0, 6).map(s => `<li><a href="${s.live ? `https://${s.sub}.${SITE.domain}/` : ROOT + "#network"}">${esc(s.name)}</a></li>`).join('')}</ul></div>
+          <div><h5>Marketplaces</h5><ul>${[...SECTORS].sort((a, b) => b.live - a.live).slice(0, 6).map(s => `<li><a href="${s.live || local(s) ? siteRoot(s) : ROOT + "#network"}">${esc(s.name)}</a></li>`).join('')}</ul></div>
           <div><h5>Company</h5><ul>
             <li><a href="${ROOT}about/">About us</a></li>
             <li><a href="${ROOT}partners/">Partner with us</a></li>
@@ -203,6 +207,7 @@
       const href = d ? d.href : '#updates';
       const ext = d && d.external ? ' target="_blank" rel="sponsored nofollow noopener"' : '';
       const status = s.live ? '<span class="badge live">Live</span>'
+        : local(s) ? '<span class="badge partner">Local preview</span>'
         : d ? '<span class="badge partner">Partner offers</span>' : '<span class="badge soon">Launching soon</span>';
       return `<a class="sector" href="${href}"${ext} data-id="${s.id}" style="--accent:${s.accent}">
         <div class="sector-top"><div class="ico">${icon(s.icon, 24)}</div>${status}</div>

@@ -10,6 +10,7 @@ const SECTORS = [
     "live": false,
     "status": "building",
     "fallback": "",
+    "devPort": 4001,
     "blurb": "Holiday deals, flights, hotels and city breaks compared across trusted travel brands.",
     "keywords": [
       "holiday",
@@ -45,7 +46,21 @@ const SECTORS = [
       "travel",
       "airport",
       "car hire",
-      "getaway"
+      "getaway",
+      "holiday deals",
+      "travel deals",
+      "package holiday",
+      "last minute",
+      "city breaks",
+      "cheap flights",
+      "hotel deals",
+      "all inclusive holidays",
+      "family holiday",
+      "canary islands",
+      "gran canaria",
+      "fuerteventura",
+      "disney",
+      "universal"
     ]
   },
   {
@@ -296,8 +311,13 @@ POPULAR.unshift(...[
     "sector": "traveldeals"
   },
   {
-    "label": "Last-minute city breaks",
-    "q": "city break",
+    "label": "Last-minute deals",
+    "q": "last minute holidays",
+    "sector": "traveldeals"
+  },
+  {
+    "label": "Canary Islands sun",
+    "q": "canary islands holidays",
     "sector": "traveldeals"
   },
   {
