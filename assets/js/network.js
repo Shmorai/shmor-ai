@@ -101,6 +101,90 @@ const SECTORS = [
     }
   },
   {
+    "id": "profinders",
+    "name": "ProFinders",
+    "sub": "profinders",
+    "icon": "briefcase",
+    "accent": "#14B8A6",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4002,
+    "blurb": "HR consultants, lawyers, accountants, marketers and IT support for your business. Compare free quotes.",
+    "keywords": [
+      "hr consultant",
+      "hr help",
+      "human resources",
+      "employment law",
+      "employment lawyer",
+      "employment solicitor",
+      "lawyer",
+      "lawyers",
+      "solicitor",
+      "solicitors",
+      "attorney",
+      "business lawyer",
+      "commercial lawyer",
+      "contract",
+      "accountant",
+      "accountants",
+      "accounting",
+      "bookkeeper",
+      "bookkeeping",
+      "tax return",
+      "payroll",
+      "social media",
+      "social media manager",
+      "social media marketing",
+      "marketing agency",
+      "web designer",
+      "web design",
+      "website",
+      "business consultant",
+      "consultant",
+      "business plan",
+      "it support",
+      "managed it",
+      "cyber security",
+      "b2b",
+      "professional services",
+      "small business",
+      "hr support",
+      "hr advice",
+      "hr department",
+      "hr outsourcing",
+      "vat return",
+      "sales tax",
+      "cpa firm",
+      "settlement agreement",
+      "severance",
+      "unfair dismissal",
+      "tax advisor",
+      "seo agency",
+      "digital marketing",
+      " hr ",
+      " vat ",
+      " cpa ",
+      " seo ",
+      " llc "
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+        "alt": "Business team in a meeting around a table",
+        "credit": "Dylan Gillis",
+        "creditUrl": "https://unsplash.com/@mainermedia"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#0F2440\"/><circle cx=\"18\" cy=\"18\" r=\"8\" fill=\"none\" stroke=\"#2DD4A7\" stroke-width=\"3.4\"/><path d=\"m24 24 6 6\" stroke=\"#2DD4A7\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+      "accent": "#0F9B77",
+      "wordmark": [
+        "Pro",
+        "Finders"
+      ],
+      "wordmarkColor": "#2DD4A7"
+    }
+  },
+  {
     "id": "pros",
     "name": "Shmor Pros",
     "sub": "pros",
@@ -356,6 +440,21 @@ POPULAR.unshift(...[
     "label": "Canary Islands sun",
     "q": "canary islands holidays",
     "sector": "traveldeals"
+  },
+  {
+    "label": "HR help for your business",
+    "q": "hr consultant",
+    "sector": "profinders"
+  },
+  {
+    "label": "Employment lawyers",
+    "q": "employment lawyer",
+    "sector": "profinders"
+  },
+  {
+    "label": "Small-business accountants",
+    "q": "accountant",
+    "sector": "profinders"
   },
   {
     "label": "Plumbers near you",
