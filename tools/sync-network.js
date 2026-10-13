@@ -73,6 +73,20 @@ for (const [id, { data: m }] of manifests) {
   if (m.accent && !/^#[0-9a-f]{6}$/i.test(m.accent)) err(id, `accent must be a hex colour like #613284`);
   if (!Array.isArray(m.keywords) || !m.keywords.length) err(id, 'needs a non-empty "keywords" list (drives search routing)');
 
+  // Optional brand card on shmor.ai: { image: {src, alt}, logo: "<svg…>", accent, wordmark: ["Travel","Deals"], wordmarkColor }
+  if (m.card) {
+    const c = m.card;
+    if (c.image && !isHttps(c.image.src)) err(id, 'card.image.src must be an https:// image URL');
+    if (c.image && !c.image.alt) warn(id, 'card.image has no "alt" text');
+    if (c.logo !== undefined) {
+      if (typeof c.logo !== 'string' || !/^<svg[\s>]/.test(c.logo.trim()) || !/<\/svg>\s*$/.test(c.logo)) err(id, 'card.logo must be inline SVG markup ("<svg …>…</svg>")');
+      else if (/<script|<foreignObject|\son\w+\s*=|javascript:|href\s*=\s*["']?(?!#)/i.test(c.logo)) err(id, 'card.logo may only contain plain shapes (no scripts, event handlers or external links)');
+      else if (c.logo.length > 4000) err(id, 'card.logo is too large (keep it under 4 KB)');
+    }
+    for (const k of ['accent', 'wordmarkColor']) if (c[k] && !/^#[0-9a-f]{6}$/i.test(c[k])) err(id, `card.${k} must be a hex colour like #0A6CD6`);
+    if (c.wordmark && (!Array.isArray(c.wordmark) || c.wordmark.length !== 2 || c.wordmark.join('') !== m.name)) err(id, `card.wordmark must be 2 parts that spell the name "${m.name}"`);
+  }
+
   for (const [slug, l] of Object.entries(m.links || {})) {
     if (!/^[a-z0-9][a-z0-9-]{1,60}$/.test(slug)) err(id, `link slug "${slug}" must be lowercase letters/numbers/dashes`);
     if (slugOwner.has(slug)) err(id, `link slug "${slug}" already used in ${slugOwner.get(slug)}`);
@@ -124,6 +138,7 @@ const sectors = list.map(m => ({
   live: m.status === 'live', status: m.status, fallback: m.fallback || '',
   ...(m.status !== 'planned' && devPorts[m.id] ? { devPort: devPorts[m.id] } : {}),
   blurb: m.blurb, keywords: m.keywords,
+  ...(m.card ? { card: m.card } : {}),
 }));
 const links = {}, popular = [], offers = [];
 for (const m of list) {

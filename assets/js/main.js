@@ -198,6 +198,17 @@
   }
 
   /* ---------------- Homepage ---------------- */
+  // Resize Unsplash photos through their CDN; other URLs are used as-is
+  const photo = (src, w, h) => /^https:\/\/images\.unsplash\.com\//.test(src) && !src.includes('?')
+    ? `${src}?w=${w}&h=${h}&fit=crop&auto=format&q=70` : src;
+  // "Travel" + coloured "Deals" when the card defines a wordmark split, else the plain name
+  const wordmark = s => {
+    const w = s.card && s.card.wordmark;
+    return w && w.length === 2
+      ? `${esc(w[0])}<b style="color:${esc(s.card.wordmarkColor || 'var(--accent)')}">${esc(w[1])}</b>`
+      : esc(s.name);
+  };
+
   function renderHome() {
     const grid = $('#sectorGrid');
     if (!grid) return;
@@ -209,6 +220,20 @@
       const status = s.live ? '<span class="badge live">Live</span>'
         : local(s) ? '<span class="badge partner">Local preview</span>'
         : d ? '<span class="badge partner">Partner offers</span>' : '<span class="badge soon">Launching soon</span>';
+      const c = s.card;
+      if (c && c.image) {
+        // Brand card: the marketplace's own photo, logo, wordmark and colour (from its shmor-site.json "card")
+        return `<a class="sector has-img" href="${href}"${ext} data-id="${s.id}" style="--accent:${c.accent || s.accent}">
+        <div class="sector-photo">
+          <img src="${esc(photo(c.image.src, 800, 440))}" alt="${esc(c.image.alt || '')}" loading="lazy" width="800" height="440">
+          ${status}
+          ${c.logo ? `<span class="sector-logo">${c.logo}</span>` : ''}
+        </div>
+        <h3 class="sector-name">${wordmark(s)}</h3>
+        <p>${esc(s.blurb)}</p>
+        <div class="sector-foot"><span class="domain">${s.sub}.${SITE.domain}</span><span class="arrow">${icon('arrow', 16)}</span></div>
+      </a>`;
+      }
       return `<a class="sector" href="${href}"${ext} data-id="${s.id}" style="--accent:${s.accent}">
         <div class="sector-top"><div class="ico">${icon(s.icon, 24)}</div>${status}</div>
         <h3>${esc(s.name)}</h3>
@@ -237,8 +262,8 @@
     const sec = id => SECTORS.find(s => s.id === id);
     pop.innerHTML = POPULAR.map((p, i) => {
       const s = sec(p.sector);
-      return `<button type="button" class="pop" data-i="${i}" style="--accent:${s.accent}">
-        <span class="pop-ico">${icon(s.icon, 20)}</span>
+      return `<button type="button" class="pop" data-i="${i}" style="--accent:${(s.card && s.card.accent) || s.accent}">
+        <span class="pop-ico${s.card && s.card.logo ? ' is-logo' : ''}">${s.card && s.card.logo ? s.card.logo : icon(s.icon, 20)}</span>
         <span class="pop-txt"><strong>${esc(p.label)}</strong><small>${esc(s.name)}</small></span>
         <span class="pop-arrow">${icon('arrow', 16)}</span></button>`;
     }).join('');

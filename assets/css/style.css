@@ -340,3 +340,18 @@ section { padding: 96px 0; }
 @media (max-width: 600px) { .consent { flex-direction: column; align-items: stretch; } .consent-btns .btn { flex: 1; } }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- Brand cards (marketplace photo + logo, from shmor-site.json "card") ---------- */
+.sector.has-img { padding-top: 0; overflow: hidden; }
+.sector-photo { position: relative; margin: 0 -24px 14px; height: 168px; background: var(--surface-2); }
+.sector-photo img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.sector.has-img:hover .sector-photo img { transform: scale(1.04); }
+.sector-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,.45) 100%); pointer-events: none; }
+.sector-photo .badge { position: absolute; top: 12px; right: 12px; z-index: 1; background: rgba(10,12,14,.72); color: #fff; backdrop-filter: blur(6px); }
+.sector-photo .badge.live { background: var(--green); color: #fff; }
+.sector-logo { position: absolute; left: 20px; bottom: -22px; z-index: 1; width: 52px; height: 52px; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 18px rgba(0,0,0,.35), 0 0 0 3px var(--surface); }
+.sector-logo svg { width: 100%; height: 100%; display: block; }
+.sector-name { margin-top: 18px; font-size: 22px; letter-spacing: -.02em; }
+.sector-name b { font-weight: 700; }
+.pop-ico.is-logo { background: none; padding: 0; overflow: hidden; border-radius: 12px; }
+.pop-ico.is-logo svg { width: 100%; height: 100%; display: block; }
