@@ -134,6 +134,34 @@ GitHub repo \`Shmorai/shmor-${id}\` → Settings → Pages → branch \`main\`, 
 DNS at GoDaddy: \`CNAME  ${sub}  shmorai.github.io\`
 `);
 
+/* ---------- Briefing for Claude chats opened in this folder ---------- */
+write('CLAUDE.md', `# ${name} (${host})
+
+A Shmor marketplace (shared rules in \`../../CLAUDE.md\`): its own brand, design and SEO. ${blurb} Repo: \`Shmorai/shmor-${id}\` (private until launch). Status: **building**.
+
+## Where things are
+| What | Where |
+|---|---|
+| Card on shmor.ai, search keywords, **referral links**, offers, SEO defaults | \`shmor-site.json\` |
+| Pages (1 JSON file = 1 Google landing page) | \`content/\` (\`home.json\` = homepage) |
+| Design: header, logo, footer | \`templates/layout.html\` |
+| Design: styles | \`assets/site.css\` (kit defaults; add this site's theme block at the bottom) |
+| Generated output (don't edit by hand) | \`index.html\`, \`*/index.html\`, \`sitemap.xml\`, \`robots.txt\`, \`404.html\`, \`search/\` |
+
+## Design
+Not designed yet: still the kit's default theme. Give it its own look (see \`../shmor-traveldeals/\` for a finished example) and record the palette here.
+
+## Commands (run here)
+\`\`\`bash
+node tools/build.js           # rebuild after ANY change to content/, templates/ or shmor-site.json
+node tools/serve.js <port>    # local preview (see the "${id}" preview config)
+\`\`\`
+After changing \`shmor-site.json\`, also run \`node tools/sync-network.js\` in \`../../shmor-ai\`.
+
+## Referral links
+Add to \`shmor-site.json\` → \`"links"\`, list slugs in a page's \`"partners"\` (or add \`"offers"\`), rebuild, sync the master, then commit both repos.
+`);
+
 /* ---------- Build, git, preview config ---------- */
 execFileSync(process.execPath, [path.join(dir, 'tools/build.js')], { stdio: 'inherit' });
 try {
