@@ -608,6 +608,74 @@ const SECTORS = [
       ],
       "wordmarkColor": "#A3E635"
     }
+  },
+  {
+    "id": "storagesavings",
+    "name": "StorageSavings",
+    "sub": "storagesavings",
+    "icon": "warehouse",
+    "accent": "#FACC15",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4005,
+    "blurb": "Self-storage units for home and business: size guides, container and vehicle storage, and ways to pay less.",
+    "keywords": [
+      "storage",
+      "storage unit",
+      "storage units",
+      "self storage",
+      "self-storage",
+      "storage near me",
+      "storage facility",
+      "storage container",
+      "shipping container storage",
+      "container storage",
+      "storage locker",
+      "lock up",
+      "lockup",
+      "garage storage",
+      "climate controlled storage",
+      "climate-controlled storage",
+      "business storage",
+      "commercial storage",
+      "warehouse space",
+      "student storage",
+      "storage for moving",
+      "removals storage",
+      "moving storage",
+      "portable storage",
+      "mobile storage",
+      "peer to peer storage",
+      "storage space",
+      "cheap storage",
+      "furniture storage",
+      "boat storage",
+      "rv storage",
+      "caravan storage",
+      "car storage",
+      "vehicle storage",
+      "archive storage",
+      "document storage",
+      "wine storage",
+      "storage pod",
+      "storage box"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1694601618351-dbbbb2b8934f",
+        "alt": "A row of self-storage units with yellow roll-up doors",
+        "credit": "Aga Adamek",
+        "creditUrl": "https://unsplash.com/@agaadamek"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#FACC15\"/><path d=\"M8 32V16.5L20 9l12 7.5V32\" fill=\"none\" stroke=\"#16181D\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M13.5 32V20.5h13V32\" fill=\"none\" stroke=\"#16181D\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><path d=\"M13.5 24.5h13M13.5 28.5h13\" stroke=\"#16181D\" stroke-width=\"2.2\"/></svg>",
+      "accent": "#FACC15",
+      "wordmark": [
+        "Storage",
+        "Savings"
+      ],
+      "wordmarkColor": "#FACC15"
+    }
   }
 ];
 
@@ -703,6 +771,21 @@ POPULAR.unshift(...[
     "label": "Travel VPN",
     "q": "vpn for travel",
     "sector": "bestvpns"
+  },
+  {
+    "label": "What size storage unit?",
+    "q": "storage unit sizes",
+    "sector": "storagesavings"
+  },
+  {
+    "label": "Business storage",
+    "q": "business storage",
+    "sector": "storagesavings"
+  },
+  {
+    "label": "Cheap storage near me",
+    "q": "cheap storage",
+    "sector": "storagesavings"
   }
 ]);
 
