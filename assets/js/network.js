@@ -676,6 +676,108 @@ const SECTORS = [
       ],
       "wordmarkColor": "#FACC15"
     }
+  },
+  {
+    "id": "petsavings",
+    "name": "PetSavings",
+    "sub": "petsavings",
+    "icon": "paw",
+    "accent": "#38BDF8",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4006,
+    "blurb": "Pet supplies, food, insurance and accessories compared for dogs, cats and small pets, with savings guides and help finding trusted local pet services.",
+    "keywords": [
+      "pet",
+      "pets",
+      "pet supplies",
+      "pet food",
+      "dog food",
+      "cat food",
+      "pet insurance",
+      "dog insurance",
+      "cat insurance",
+      "pet deals",
+      "pet savings",
+      "cheap pet food",
+      "pet shop",
+      "pet store",
+      "pet shop near me",
+      "dog",
+      "dogs",
+      "puppy",
+      "cat",
+      "cats",
+      "kitten",
+      "dog bed",
+      "cat litter",
+      "dog treats",
+      "flea treatment",
+      "flea and tick",
+      "worming",
+      "dog toys",
+      "cat toys",
+      "dog grooming",
+      "pet grooming",
+      "groomer",
+      "dog walker",
+      "pet sitter",
+      "kennels",
+      "boarding kennel",
+      "cattery",
+      "dog daycare",
+      "vet",
+      "vets",
+      "veterinarian",
+      "vet bills",
+      "raw dog food",
+      "pet food subscription",
+      "rabbit",
+      "hamster",
+      "guinea pig",
+      "small pets",
+      "aquarium",
+      "fish tank",
+      "bird food",
+      "pet microchip",
+      "dog harness",
+      "dog lead",
+      "dog leash",
+      "cat carrier",
+      "cat tree",
+      "scratching post",
+      "pet medication",
+      "pet prescriptions",
+      "dog boarding",
+      "cat boarding",
+      "puppy food",
+      "kitten food",
+      "senior dog food",
+      "grain free dog food",
+      "fresh dog food",
+      "wet cat food",
+      "dry dog food",
+      "pet accessories",
+      "fireworks and dogs",
+      "pet poisoning",
+      "antifreeze poisoning"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1450778869180-41d0601e046e",
+        "alt": "A white dog and a grey cat cuddling on the grass",
+        "credit": "Krista Mangulsone",
+        "creditUrl": "https://unsplash.com/@krista"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"12\" fill=\"#12263F\"/><circle cx=\"11.5\" cy=\"17\" r=\"3.3\" fill=\"#38BDF8\"/><circle cx=\"16.6\" cy=\"11.2\" r=\"3.5\" fill=\"#38BDF8\"/><circle cx=\"23.4\" cy=\"11.2\" r=\"3.5\" fill=\"#38BDF8\"/><circle cx=\"28.5\" cy=\"17\" r=\"3.3\" fill=\"#38BDF8\"/><path d=\"M20 19.2c-4.6 0-9 5.2-9 9 0 2.6 2 3.8 4.4 3.8 1.9 0 3-.9 4.6-.9s2.7.9 4.6.9c2.4 0 4.4-1.2 4.4-3.8 0-3.8-4.4-9-9-9Z\" fill=\"#F6B26B\"/></svg>",
+      "accent": "#12263F",
+      "wordmark": [
+        "Pet",
+        "Savings"
+      ],
+      "wordmarkColor": "#38BDF8"
+    }
   }
 ];
 
@@ -786,6 +888,21 @@ POPULAR.unshift(...[
     "label": "Cheap storage near me",
     "q": "cheap storage",
     "sector": "storagesavings"
+  },
+  {
+    "label": "Compare pet insurance",
+    "q": "pet insurance",
+    "sector": "petsavings"
+  },
+  {
+    "label": "Cheaper pet food",
+    "q": "cheap pet food",
+    "sector": "petsavings"
+  },
+  {
+    "label": "Local dog groomers",
+    "q": "dog grooming",
+    "sector": "petsavings"
   }
 ]);
 
