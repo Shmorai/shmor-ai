@@ -36,7 +36,7 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}${noindex ? '<meta n
 <link rel="icon" href="${r}assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${r}assets/css/style.css">
 </head>
 <body data-root="${r}" data-page="${slug || '404'}">
@@ -44,7 +44,6 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}${noindex ? '<meta n
 <header id="site-header" class="nav"></header>
 <main id="main">
 <section class="page-hero">
-  <div class="hero-glow"></div><div class="hero-grid"></div>
   <div class="wrap">
     <span class="eyebrow">${eyebrow}</span>
     <h1>${h1}</h1>

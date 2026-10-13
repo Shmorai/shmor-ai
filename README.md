@@ -6,6 +6,22 @@ Each marketplace (`travel.shmor.ai`, `pros.shmor.ai`, …) is a **separate site 
 
 ---
 
+## Brand
+Source files are in `assets/img/brand/` (logo and style pack). The website uses:
+
+| Role | Hex |
+|---|---|
+| Shmor Black (text, logo) | `#0E1214` |
+| Shmor Purple (".ai", buttons) | `#613284` |
+| Node Purple | `#7644B0` |
+| Deep Purple (node link, gradients) | `#2E1F5E` |
+| Node Green (highlights, "live") | `#2FAF82` |
+| Soft White (background) | `#FAFAF8` |
+| Cool Gray (lines) | `#E6E9EA` |
+
+Fonts: **Outfit** (headings and wordmark; geometric, in the Product Sans style) and **Inter** (body), both free from Google Fonts.
+The logo is drawn in code (`MARK` in `assets/js/main.js`), so it's sharp at every size and has a white version for dark backgrounds. A standalone vector of the icon is at `assets/img/logo-mark.svg`.
+
 ## 1. Deploy for free on GitHub Pages
 
 1. Create a free account at <https://github.com> if you don't have one.

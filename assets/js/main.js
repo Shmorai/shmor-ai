@@ -51,7 +51,9 @@
   }
   window.shmorIcon = icon;
 
-  const LOGO = `<span class="logo-word">shm<svg class="logo-o" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7" stroke="#8B7CFF" stroke-width="3.4"/><path d="M16 16l5 5" stroke="#6EE7C8" stroke-width="3.4" stroke-linecap="round"/></svg>r<span class="logo-ai">.ai</span></span>`;
+  // Brand mark: magnifier "o" with two connected nodes (purple → green)
+  const MARK = `<svg class="logo-o" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle class="ring" cx="57" cy="43" r="29" stroke-width="14"/><path class="handle" d="M34 66 12 88" stroke-width="14" stroke-linecap="round"/><path class="link" d="M46 54 67 33" stroke-width="5.5"/><circle cx="46" cy="54" r="9.5" fill="#613284"/><circle cx="67.5" cy="32.5" r="11" fill="#2FAF82"/></svg>`;
+  const LOGO = `<span class="logo-word">Shm${MARK}r<span class="logo-ai">.ai</span></span>`;
 
   /* ---------------- Referral link helpers ---------------- */
   const SUBID = { awin: 'clickref', cj: 'sid', impact: 'subId1', rakuten: 'u1', partnerize: 'pubref', tradedoubler: 'epi', webgains: 'clickref' };
@@ -124,7 +126,7 @@
       foot.innerHTML = `<div class="wrap">
         <div class="foot-grid">
           <div>
-            <a href="${ROOT}" class="logo">${LOGO}</a>
+            <a href="${ROOT}" class="logo on-dark" aria-label="${esc(SITE.name)} home">${LOGO}</a>
             <p class="foot-tag">${esc(SITE.tagline)} One place to compare holidays, local services, deals and more.</p>
             ${social ? `<p class="foot-social">${social}</p>` : ''}
             <label class="region-pick">${icon('globe', 16)}<span class="sr">Region</span>
