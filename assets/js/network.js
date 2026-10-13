@@ -537,6 +537,77 @@ const SECTORS = [
       "van",
       "electric car"
     ]
+  },
+  {
+    "id": "bestvpns",
+    "name": "BestVPNs",
+    "sub": "bestvpns",
+    "icon": "shield",
+    "accent": "#A3E635",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4004,
+    "blurb": "The best VPNs compared for privacy, streaming, speed, gaming and travel, with plain-English guides for US, UK and EU users.",
+    "keywords": [
+      "vpn",
+      "vpns",
+      "best vpn",
+      "best vpns",
+      "vpn service",
+      "vpn provider",
+      "vpn app",
+      "vpn comparison",
+      "vpn deals",
+      "cheap vpn",
+      "free vpn",
+      "vpn for streaming",
+      "streaming vpn",
+      "vpn for netflix",
+      "vpn for gaming",
+      "gaming vpn",
+      "vpn for travel",
+      "travel vpn",
+      "vpn for iphone",
+      "vpn for android",
+      "vpn for mac",
+      "vpn for windows",
+      "vpn for firestick",
+      "vpn router",
+      "mobile vpn",
+      "no logs vpn",
+      "private browsing",
+      "online privacy",
+      "internet privacy",
+      "public wifi security",
+      "public wi-fi security",
+      "ip address",
+      "hide ip address",
+      "change ip address",
+      "wireguard",
+      "vpn protocol",
+      "kill switch",
+      "split tunnelling",
+      "split tunneling",
+      "dns leak",
+      "ad blocker",
+      "encryption"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+        "alt": "Red padlock resting on a black computer keyboard",
+        "credit": "FlyD",
+        "creditUrl": "https://unsplash.com/@flyd2069"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#141A24\"/><path d=\"M20 7.5l10 3.8v7.6c0 6.6-4.2 11.2-10 13.6-5.8-2.4-10-7-10-13.6v-7.6z\" fill=\"none\" stroke=\"#A3E635\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"20\" cy=\"18\" r=\"2.8\" fill=\"#A3E635\"/><path d=\"M18.7 19.6h2.6l.9 5.6h-4.4z\" fill=\"#A3E635\"/></svg>",
+      "accent": "#141A24",
+      "wordmark": [
+        "Best",
+        "VPNs"
+      ],
+      "wordmarkColor": "#A3E635"
+    }
   }
 ];
 
@@ -617,6 +688,21 @@ POPULAR.unshift(...[
     "label": "Days out this weekend",
     "q": "days out",
     "sector": "experiences"
+  },
+  {
+    "label": "VPN for streaming",
+    "q": "vpn for streaming",
+    "sector": "bestvpns"
+  },
+  {
+    "label": "Free VPN",
+    "q": "free vpn",
+    "sector": "bestvpns"
+  },
+  {
+    "label": "Travel VPN",
+    "q": "vpn for travel",
+    "sector": "bestvpns"
   }
 ]);
 
