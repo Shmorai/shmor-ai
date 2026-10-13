@@ -310,9 +310,8 @@ const SECTORS = [
     "live": false,
     "status": "planned",
     "fallback": "",
-    "blurb": "Find and compare local tradespeople and professionals: plumbers, cleaners, builders, tutors and more.",
+    "blurb": "Find and compare local tradespeople and professionals: electricians, cleaners, builders, tutors and more.",
     "keywords": [
-      "plumber",
       "electrician",
       "builder",
       "cleaner",
@@ -335,7 +334,6 @@ const SECTORS = [
       "quote",
       "quotes",
       "landscaper",
-      "boiler",
       "trades"
     ]
   },
@@ -778,6 +776,75 @@ const SECTORS = [
       ],
       "wordmarkColor": "#38BDF8"
     }
+  },
+  {
+    "id": "localplumbers",
+    "name": "LocalPlumbers",
+    "sub": "localplumbers",
+    "icon": "droplet",
+    "accent": "#D2733A",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4007,
+    "blurb": "Compare and get introduced to local plumbers in the UK and USA. Pick your country and region first, then compare your options.",
+    "keywords": [
+      "plumber",
+      "plumbers",
+      "plumbing",
+      "local plumber",
+      "plumber near me",
+      "emergency plumber",
+      "24 hour plumber",
+      "leaking pipe",
+      "burst pipe",
+      "frozen pipes",
+      "pipe repair",
+      "blocked drain",
+      "blocked toilet",
+      "clogged drain",
+      "clogged toilet",
+      "drain unblocking",
+      "drain cleaning",
+      "sewer line",
+      "boiler repair",
+      "boiler service",
+      "boiler installation",
+      "gas safe",
+      "water heater",
+      "tankless water heater",
+      "toilet repair",
+      "leaking tap",
+      "dripping tap",
+      "leaking faucet",
+      "dripping faucet",
+      "shower installation",
+      "bathroom plumbing",
+      "radiator",
+      "central heating repair",
+      "stopcock",
+      "shutoff valve",
+      "sump pump",
+      "garbage disposal",
+      "water softener",
+      "low water pressure",
+      "watersafe"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1676210134188-4c05dd172f89",
+        "alt": "Plumber working on a pipe inside a wall",
+        "credit": "Timur Shakerzianov",
+        "creditUrl": "https://unsplash.com/@shaker_jpg"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#0D2238\"/><path d=\"M9 12h11a6 6 0 0 1 6 6v4\" fill=\"none\" stroke=\"#D2733A\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M26 25.5c0 0-4 4.4-4 7a4 4 0 0 0 8 0c0-2.6-4-7-4-7z\" fill=\"#5B9BFF\"/></svg>",
+      "accent": "#C35F25",
+      "wordmark": [
+        "Local",
+        "Plumbers"
+      ],
+      "wordmarkColor": "#F2A06D"
+    }
   }
 ];
 
@@ -830,8 +897,8 @@ POPULAR.unshift(...[
     "sector": "profinders"
   },
   {
-    "label": "Plumbers near you",
-    "q": "plumber near me",
+    "label": "Electricians near you",
+    "q": "electrician near me",
     "sector": "pros"
   },
   {
@@ -903,6 +970,21 @@ POPULAR.unshift(...[
     "label": "Local dog groomers",
     "q": "dog grooming",
     "sector": "petsavings"
+  },
+  {
+    "label": "Plumbers near you",
+    "q": "plumber near me",
+    "sector": "localplumbers"
+  },
+  {
+    "label": "Emergency plumbers",
+    "q": "emergency plumber",
+    "sector": "localplumbers"
+  },
+  {
+    "label": "Boiler repair (UK)",
+    "q": "boiler repair",
+    "sector": "localplumbers"
   }
 ]);
 

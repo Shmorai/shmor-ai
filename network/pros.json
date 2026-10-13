@@ -7,9 +7,8 @@
   "status": "planned",
   "icon": "wrench",
   "accent": "#EA580C",
-  "blurb": "Find and compare local tradespeople and professionals: plumbers, cleaners, builders, tutors and more.",
+  "blurb": "Find and compare local tradespeople and professionals: electricians, cleaners, builders, tutors and more.",
   "keywords": [
-    "plumber",
     "electrician",
     "builder",
     "cleaner",
@@ -32,14 +31,13 @@
     "quote",
     "quotes",
     "landscaper",
-    "boiler",
     "trades"
   ],
   "fallback": "",
   "popular": [
     {
-      "label": "Plumbers near you",
-      "q": "plumber near me"
+      "label": "Electricians near you",
+      "q": "electrician near me"
     },
     {
       "label": "Move-out cleaning",
