@@ -1,0 +1,38 @@
+<section class="page-body">
+  <div class="wrap two-col">
+    <div class="card">
+      <form class="form" id="contactForm">
+        <div class="row2">
+          <label>Your name<input name="name" required autocomplete="name"></label>
+          <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        </div>
+        <label>What's it about?
+          <select name="topic">
+            <option>General question</option>
+            <option>Feedback on a marketplace</option>
+            <option>Partnership / advertising</option>
+            <option>Privacy or data request</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" required></textarea></label>
+        <input type="hidden" name="_subject" value="New message from Shmor.ai">
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <p style="margin:0;font-size:13px;color:var(--ink-3)">We'll use your details only to reply. See our <a href="../privacy/" style="text-decoration:underline">privacy policy</a>.</p>
+      </form>
+      <div class="ok-msg" id="contactOk" hidden>✓ Thanks, your message has been sent. We'll be in touch soon.</div>
+      <div id="contactFallback" hidden>
+        <h3>Email us</h3>
+        <p>The quickest way to reach us is by email.</p>
+        <a data-mail="hello" href="#" class="btn btn-primary">Email Shmor</a>
+      </div>
+    </div>
+    <aside class="prose">
+      <h2 style="margin-top:0">Other ways to reach us</h2>
+      <p><strong>General:</strong> <a data-mail="hello" href="#"></a></p>
+      <p><strong>Partnerships:</strong> <a data-mail="partners" href="#"></a></p>
+      <p><strong>Privacy &amp; data requests:</strong> <a data-mail="privacy" href="#"></a></p>
+      <div class="note">Questions about a booking, order or quote? Contact the provider you bought from directly. They hold your booking details and can help fastest.</div>
+    </aside>
+  </div>
+</section>

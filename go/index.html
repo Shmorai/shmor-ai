@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Redirecting | Shmor.ai</title>
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<style>
+  :root { --bg: #0B1020; --ink: #fff; --ink-2: #B8BDD6; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; text-align: center; padding: 24px; box-sizing: border-box; }
+  .box { max-width: 440px; }
+  .spin { width: 44px; height: 44px; border-radius: 50%; border: 4px solid rgba(255,255,255,.12); border-top-color: #8B7CFF; margin: 0 auto 24px; animation: s .8s linear infinite; }
+  @keyframes s { to { transform: rotate(360deg); } }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p { color: var(--ink-2); margin: 0 0 8px; font-size: 15px; line-height: 1.6; }
+  small { color: #7E84A3; font-size: 12px; display: block; margin-top: 20px; }
+  a { color: #A99CFF; }
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="spin" id="spin"></div>
+  <h1 id="title">Taking you to our partner…</h1>
+  <p id="msg">If nothing happens, <a id="manual" href="../" rel="sponsored nofollow">click here</a>.</p>
+  <small>Shmor.ai may earn a commission if you buy through this link, at no extra cost to you. <a href="../affiliate-disclosure/">Learn more</a></small>
+</div>
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/region.js"></script>
+<script>
+(function () {
+  var SUBID = { awin: 'clickref', cj: 'sid', impact: 'subId1', rakuten: 'u1', partnerize: 'pubref', tradedoubler: 'epi', webgains: 'clickref' };
+  var p = new URLSearchParams(location.search);
+  var slug = p.get('to') || '';
+  var src = (p.get('src') || 'direct').replace(/[^a-z0-9_-]/gi, '').slice(0, 40);
+  var entry = (typeof AFFILIATE_LINKS !== 'undefined') && Object.prototype.hasOwnProperty.call(AFFILIATE_LINKS, slug) ? AFFILIATE_LINKS[slug] : null;
+  var region = SITE.regions.list[p.get('r')] ? p.get('r') : shmorRegion.get();
+  var link = shmorRegion.resolve(entry, region);
+
+  if (!link || !/^https:\/\//i.test(link.url)) {
+    document.getElementById('spin').style.display = 'none';
+    document.getElementById('title').textContent = 'This link has expired';
+    document.getElementById('msg').innerHTML = 'Sorry, we couldn’t find that offer. <a href="../">Back to Shmor.ai</a>';
+    return;
+  }
+
+  var url = link.url;
+  var param = SUBID[(link.network || '').toLowerCase()];
+  if (param && url.indexOf(param + '=') === -1) {
+    url += (url.indexOf('?') === -1 ? '?' : '&') + param + '=' + encodeURIComponent('shmor-' + region + '-' + src);
+  }
+  document.getElementById('title').textContent = 'Taking you to ' + (entry.merchant || 'our partner') + '…';
+  document.getElementById('manual').href = url;
+  location.replace(url);
+})();
+</script>
+</body>
+</html>
