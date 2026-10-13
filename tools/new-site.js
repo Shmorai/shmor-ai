@@ -1,5 +1,5 @@
 /* =====================================================================
-   Create a new Shmor marketplace site next to this repo, then sync it
+   Create a new Shmor marketplace site in the project's sites/ folder, then sync it
    into the master site.
 
      node tools/new-site.js <id> [--name "Shmor Pets"] [--sub pets]
@@ -9,7 +9,7 @@
 
    If network/<id>.json already exists (e.g. "travel"), its details are
    used and only missing values are filled from the flags.
-   Creates:  ../shmor-<id>/   (its own git repo, deployable to GitHub Pages)
+   Creates:  Shmor/sites/shmor-<id>/   (its own git repo, deployable to GitHub Pages)
    ===================================================================== */
 const fs = require('fs');
 const path = require('path');
@@ -46,8 +46,10 @@ const m = {
   links: existing?.links || {},
 };
 
-const dir = path.join(path.dirname(ROOT), `shmor-${id}`);
-if (fs.existsSync(dir)) { console.error(`../shmor-${id} already exists. Edit its shmor-site.json and run: node tools/sync-network.js`); process.exit(1); }
+const SITES = path.join(path.dirname(ROOT), 'sites');
+fs.mkdirSync(SITES, { recursive: true });
+const dir = path.join(SITES, `shmor-${id}`);
+if (fs.existsSync(dir)) { console.error(`sites/shmor-${id} already exists. Edit its shmor-site.json and run: node tools/sync-network.js`); process.exit(1); }
 
 const host = `${m.subdomain}.shmor.ai`;
 const write = (rel, text) => { const f = path.join(dir, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, text); };
@@ -165,7 +167,7 @@ After editing it, run \`node tools/sync-network.js\` in the **shmor-ai** repo, t
 Clicks go through https://shmor.ai/go/, which picks the visitor's US/UK/EU link and adds a sub-ID.
 
 ## Deploy
-GitHub repo \`shmor-${id}\` → Settings → Pages → branch \`main\`, root. Custom domain: \`${host}\`.
+GitHub repo \`Shmorai/shmor-${id}\` (keep it **private** until launch) → Settings → Pages → branch \`main\`, root. Custom domain: \`${host}\`.
 DNS: \`CNAME  ${m.subdomain}  <your-username>.github.io\`
 `);
 
@@ -176,5 +178,5 @@ try {
   execFileSync('git', ['-c', 'user.name=Shmor', '-c', 'user.email=wirelesspaisa@gmail.com', 'commit', '-q', '-m', `Scaffold ${m.name}`], { cwd: dir });
 } catch (e) { console.warn('git init skipped:', e.message); }
 
-console.log(`✓ Created ../shmor-${id}/ (${host}), status "building".`);
+console.log(`✓ Created Shmor/sites/shmor-${id}/ (${host}), status "building".`);
 execFileSync(process.execPath, [path.join(__dirname, 'sync-network.js')], { stdio: 'inherit' });

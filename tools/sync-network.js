@@ -7,9 +7,9 @@
 
    Sources (later wins):
      1. network/<id>.json                  registry kept in this repo
-     2. ../shmor-<id>/shmor-site.json      the marketplace's own repo, if it
-                                           sits next to this one; copied back
-                                           into network/<id>.json
+     2. ../sites/shmor-<id>/shmor-site.json   each marketplace's own folder in
+                                              Shmor/sites/; copied back into
+                                              network/<id>.json
    ===================================================================== */
 const fs = require('fs');
 const path = require('path');
@@ -46,12 +46,13 @@ for (const f of fs.readdirSync(NET_DIR).filter(f => f.endsWith('.json'))) {
   } catch (e) { err(f, `invalid JSON: ${e.message}`); }
 }
 const pulled = [];
-for (const dir of fs.readdirSync(path.dirname(ROOT))) {
-  const file = path.join(path.dirname(ROOT), dir, 'shmor-site.json');
-  if (!/^shmor-/.test(dir) || dir === path.basename(ROOT) || !fs.existsSync(file)) continue;
+const SITES = path.join(path.dirname(ROOT), 'sites');
+for (const dir of fs.existsSync(SITES) ? fs.readdirSync(SITES) : []) {
+  const file = path.join(SITES, dir, 'shmor-site.json');
+  if (!fs.existsSync(file)) continue;
   try {
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    manifests.set(data.id, { data, from: `../${dir}/shmor-site.json` });
+    manifests.set(data.id, { data, from: `sites/${dir}/shmor-site.json` });
     pulled.push(data.id);
   } catch (e) { err(dir, `invalid shmor-site.json: ${e.message}`); }
 }

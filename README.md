@@ -52,7 +52,7 @@ The logo is drawn in code (`MARK` in `assets/js/main.js`), so it's sharp at ever
 > `.ai` domains are registered through the Anguilla registry. Most registrars (Namecheap, Porkbun, Cloudflare and others) sell them, and DNS works the same way.
 
 ### Hosting a marketplace subdomain
-After `tools/new-site.js` creates `../shmor-<id>/` (see section 2):
+After `tools/new-site.js` creates `Shmor/sites/shmor-<id>/` (see section 2):
 1. Push it to its own GitHub repo (e.g. `shmor-travel`) and enable Pages the same way. The `CNAME` file is already there.
 2. Add a DNS record: **CNAME**, name `travel`, value `YOUR-USERNAME.github.io`.
 
@@ -63,7 +63,7 @@ After `tools/new-site.js` creates `../shmor-<id>/` (see section 2):
 Each marketplace is described by **one file**, its manifest:
 
 - before the site exists: `network/<id>.json` in this repo (all 10 planned sectors are already here);
-- once it exists: `shmor-site.json` inside its own folder `../shmor-<id>/` (this copy takes priority).
+- once it exists: `shmor-site.json` inside its own folder `Shmor/sites/shmor-<id>/` (this copy takes priority).
 
 The manifest holds the site's **card** (name, blurb, icon, colour), **status** (`planned` → `building` → `live`), **search keywords**, **popular searches**, **featured offers** and **all its referral links**. One command pulls every manifest into this site:
 
@@ -73,7 +73,7 @@ node tools/sync-network.js
 
 That updates the cards, search routing, popular tiles, offers, the "Brands we compare" strip, the footer and the `/go/` redirects. It also checks for mistakes (non-https links, duplicate slugs, unknown icons, missing fields) and stops if it finds any.
 
-**Start a new marketplace** (scaffolds `../shmor-pets/` with its own git repo, starter page, `/search/` page and CNAME, then syncs):
+**Start a new marketplace** (scaffolds `Shmor/sites/shmor-pets/` with its own git repo, starter page, `/search/` page and CNAME, then syncs):
 ```bash
 node tools/new-site.js pets --name "Shmor Pets" --icon search --accent "#E0A100" --blurb "Pet insurance, food and vets compared." --keywords "pet,dog,cat,vet,pet insurance"
 ```
@@ -188,7 +188,7 @@ assets/js/region.js     US/UK/EU detection + per-region link resolution
 assets/js/main.js       Layout, search routing, referral links, consent
 assets/img/favicon.svg
 tools/build-pages.js    Rebuilds inner pages + sitemap
-tools/new-site.js       Scaffolds ../shmor-<id>/ and syncs it in
+tools/new-site.js       Scaffolds Shmor/sites/shmor-<id>/ and syncs it in
 tools/sync-network.js   Pulls all manifests into network.js (validates)
 tools/serve.js          Local preview server
 CNAME .nojekyll robots.txt sitemap.xml   GitHub Pages / SEO files
