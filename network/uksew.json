@@ -1,13 +1,13 @@
 {
   "$schema": "shmor-site/1",
   "id": "uksew",
-  "name": "UK Sew",
+  "name": "UK SEW",
   "subdomain": "uksew",
   "order": 270,
   "status": "building",
   "icon": "scissors",
   "accent": "#7DA2FF",
-  "blurb": "UK sewing machines, parts, wool, servicing and machine hire, rooted in Leicester’s hosiery heritage.",
+  "blurb": "UK-wide guides to sewing machines, parts, wool, servicing and machine hire, with four centuries of British textile heritage.",
   "keywords": [
     "sewing machine",
     "sewing machines",
@@ -65,7 +65,39 @@
     "used sewing machine",
     "sewing machine deals",
     "sewing machine needles",
-    "sewing accessories"
+    "sewing accessories",
+    "denier",
+    "tights",
+    "socks",
+    "stockings",
+    "quilt",
+    "patchwork",
+    "dressmaking fabric",
+    "jersey",
+    "linen",
+    "denim",
+    "knitting machine",
+    "bluefaced leicester",
+    "leicester longwool",
+    "british wool",
+    "sewing room",
+    "thread a sewing machine",
+    "sewing machine tension",
+    "clean sewing machine",
+    "alterations business",
+    "singer sewing machine",
+    "brother sewing machine",
+    "janome sewing machine",
+    "juki sewing machine",
+    "sewing glossary",
+    "belgrave road",
+    "tweed",
+    "harris tweed",
+    "british knitwear",
+    "uk sewing",
+    "sewing machines uk",
+    "scotland",
+    "wales"
   ],
   "fallback": "",
   "popular": [
@@ -85,14 +117,14 @@
   "offers": [],
   "links": {},
   "seo": {
-    "siteName": "UK Sew",
-    "description": "UK sewing machines, parts, wool, accessories, servicing and machine hire, rooted in Leicester’s hosiery heritage and featuring PK Sewing Machines.",
+    "siteName": "UK SEW",
+    "description": "Independent UK-wide guides to sewing machines, parts, wool, accessories, servicing and machine hire for home sewers, tailors and workrooms.",
     "locale": "en",
     "ogLocale": "en_GB",
-    "themeColor": "#14234B",
+    "themeColor": "#F7F3EC",
     "searchPlaceholder": "Search machines, parts, wool and guides",
-    "ctaTitle": "Search UK Sew",
-    "fontsUrl": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap"
+    "ctaTitle": "Search UK SEW",
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap"
   },
   "card": {
     "image": {
@@ -101,12 +133,12 @@
       "credit": "Annie Spratt",
       "creditUrl": "https://unsplash.com/@anniespratt"
     },
-    "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"9\" fill=\"#14234B\"/><path d=\"M11 29 29 11\" stroke=\"#F7F3EC\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M27 13c4 5-1 9-6 8s-9 3-8 7\" fill=\"none\" stroke=\"#C8102E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-dasharray=\"3 2.2\"/></svg>",
-    "accent": "#14234B",
+    "logo": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"22.6\" fill=\"#14213D\"/><circle cx=\"24\" cy=\"24\" r=\"20\" fill=\"none\" stroke=\"#C9B98F\" stroke-width=\".8\"/><circle cx=\"24\" cy=\"24\" r=\"13.4\" fill=\"#F7F3EC\"/><circle cx=\"24\" cy=\"24\" r=\"11\" fill=\"none\" stroke=\"#14213D\" stroke-width=\".7\" opacity=\".25\"/><circle cx=\"20.2\" cy=\"20.2\" r=\"2\" fill=\"#14213D\"/><circle cx=\"27.8\" cy=\"20.2\" r=\"2\" fill=\"#14213D\"/><circle cx=\"20.2\" cy=\"27.8\" r=\"2\" fill=\"#14213D\"/><circle cx=\"27.8\" cy=\"27.8\" r=\"2\" fill=\"#14213D\"/><path d=\"M20.2 20.2 27.8 27.8M27.8 20.2 20.2 27.8\" stroke=\"#9E2A3A\" stroke-width=\"1.7\" stroke-linecap=\"round\"/></svg>",
+    "accent": "#14213D",
     "wordmark": [
       "UK",
-      " Sew"
+      " SEW"
     ],
-    "wordmarkColor": "#C8102E"
+    "wordmarkColor": "#9E2A3A"
   }
 }
