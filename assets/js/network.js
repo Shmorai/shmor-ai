@@ -1211,13 +1211,13 @@ const SECTORS = [
         "credit": "Annie Spratt",
         "creditUrl": "https://unsplash.com/@anniespratt"
       },
-      "logo": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"23\" fill=\"#14213D\"/><circle cx=\"24\" cy=\"24\" r=\"20\" fill=\"none\" stroke=\"#F5F0E6\" stroke-width=\".9\" stroke-dasharray=\"2.2 1.9\" opacity=\".5\"/><rect x=\"11.5\" y=\"13\" width=\"17\" height=\"3.2\" rx=\"1.2\" fill=\"#F5F0E6\"/><rect x=\"11.5\" y=\"31.8\" width=\"17\" height=\"3.2\" rx=\"1.2\" fill=\"#F5F0E6\"/><rect x=\"14\" y=\"16.2\" width=\"12\" height=\"15.6\" fill=\"#8A1C2B\"/><path d=\"M14 19.3h12M14 22.4h12M14 25.5h12M14 28.6h12\" stroke=\"#5E1420\" stroke-width=\".7\"/><path d=\"M34.5 10 35.5 12.2V33.5L34.5 38.5 33.5 33.5V12.2Z\" fill=\"#F5F0E6\"/><ellipse cx=\"34.5\" cy=\"14\" rx=\".5\" ry=\"1.5\" fill=\"#14213D\"/><path d=\"M26 17.6c3.2-.4 4.6-4.6 8.5-3.6\" fill=\"none\" stroke=\"#C9606F\" stroke-width=\"1.1\" stroke-linecap=\"round\"/></svg>",
+      "logo": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"22.6\" fill=\"#14213D\"/><circle cx=\"24\" cy=\"24\" r=\"20\" fill=\"none\" stroke=\"#C9B98F\" stroke-width=\".8\"/><circle cx=\"24\" cy=\"24\" r=\"13.4\" fill=\"#F7F3EC\"/><circle cx=\"24\" cy=\"24\" r=\"11\" fill=\"none\" stroke=\"#14213D\" stroke-width=\".7\" opacity=\".25\"/><circle cx=\"20.2\" cy=\"20.2\" r=\"2\" fill=\"#14213D\"/><circle cx=\"27.8\" cy=\"20.2\" r=\"2\" fill=\"#14213D\"/><circle cx=\"20.2\" cy=\"27.8\" r=\"2\" fill=\"#14213D\"/><circle cx=\"27.8\" cy=\"27.8\" r=\"2\" fill=\"#14213D\"/><path d=\"M20.2 20.2 27.8 27.8M27.8 20.2 20.2 27.8\" stroke=\"#9E2A3A\" stroke-width=\"1.7\" stroke-linecap=\"round\"/></svg>",
       "accent": "#14213D",
       "wordmark": [
         "UK",
         " SEW"
       ],
-      "wordmarkColor": "#8A1C2B"
+      "wordmarkColor": "#9E2A3A"
     }
   }
 ];
