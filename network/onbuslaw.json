@@ -82,6 +82,7 @@
   ],
   "offers": [],
   "links": {},
+  "people": {},
   "seo": {
     "siteName": "OnBusLaw",
     "description": "Plain-English guides to online business law and consumer rights: trademarks, scams and fraud, refunds and returns, affiliate rules and customer service.",
@@ -90,6 +91,10 @@
     "themeColor": "#0F1E3A",
     "searchPlaceholder": "Try “refund for a faulty item” or “register a trademark”",
     "fontsUrl": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap",
-    "ctaTitle": "What legal question can we help with?"
+    "ctaTitle": "What legal question can we help with?",
+    "bylines": true,
+    "editorialPage": "editorial-standards",
+    "editorialLinkText": "How we write our guides",
+    "checkedText": "Fact-checked against official sources"
   }
 }

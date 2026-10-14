@@ -178,3 +178,17 @@ section h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 24px; }
 .pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 14.5px; background: var(--surface); }
 .pill .ico { width: 16px; height: 16px; color: var(--accent); }
 .pill:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Bylines (seo.bylines) and people profiles ("people" block) */
+.byline { border-bottom: 1px solid var(--line); background: var(--surface); }
+.byline .wrap { display: flex; align-items: center; gap: 10px; padding-top: 12px; padding-bottom: 12px; }
+.byline .ico { width: 18px; height: 18px; color: var(--accent); }
+.byline p { margin: 0; font-size: 14px; color: var(--ink-2); }
+.byline a { color: var(--accent-2); }
+.people { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.person { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; scroll-margin-top: 100px; }
+.person-img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 12px; }
+.person h3 { font-size: 19px; margin: 0 0 4px; }
+.person p { margin: 6px 0 0; font-size: 14.5px; color: var(--ink-2); }
+.person-role { font-weight: 600; color: var(--ink) !important; }
+.person a { color: var(--accent-2); }
