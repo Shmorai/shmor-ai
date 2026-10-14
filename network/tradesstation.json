@@ -1,13 +1,13 @@
 {
   "$schema": "shmor-site/1",
-  "id": "buildersuk",
-  "name": "BuildersUK",
-  "subdomain": "buildersuk",
+  "id": "tradesstation",
+  "name": "TradesStation",
+  "subdomain": "tradesstation",
   "order": 20,
   "status": "building",
   "icon": "wrench",
-  "accent": "#FFC20E",
-  "blurb": "Find trusted local builders and tradespeople across the UK: extensions, lofts, kitchens, roofing, electrics and more.",
+  "accent": "#FFB300",
+  "blurb": "Your one-stop place to find trusted UK tradesmen and builders: extensions, lofts, kitchens, roofing, electrics and more.",
   "keywords": [
     "builder",
     "builders",
@@ -69,7 +69,12 @@
     "decking",
     "block paving",
     "hiring a builder",
-    "rogue trader"
+    "rogue trader",
+    "tradesstation",
+    "trades station",
+    "find a tradesman",
+    "tradesman near me",
+    "one stop trades"
   ],
   "fallback": "",
   "popular": [
@@ -89,14 +94,14 @@
   "offers": [],
   "links": {},
   "seo": {
-    "siteName": "BuildersUK",
-    "description": "Find trusted local builders and tradespeople across the UK. Compare free quotes for extensions, lofts, kitchens, bathrooms, roofing, electrics and gardens.",
+    "siteName": "TradesStation",
+    "description": "TradesStation is your one-stop place to find trusted UK tradesmen and builders. Compare free quotes for extensions, lofts, kitchens, roofing and more.",
     "locale": "en",
     "ogLocale": "en_GB",
-    "themeColor": "#1B1E22",
+    "themeColor": "#0E2238",
     "searchPlaceholder": "What job do you need doing? e.g. roofer, extension…",
     "ctaTitle": "What job do you need doing?",
-    "fontsUrl": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
   },
   "card": {
     "image": {
@@ -105,12 +110,12 @@
       "credit": "Solømen",
       "creditUrl": "https://unsplash.com/@solomen"
     },
-    "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"#FFC20E\"/><path d=\"M7 19 20 8l13 11\" fill=\"none\" stroke=\"#1B1E22\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"#1B1E22\"><rect x=\"11\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"21\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"11\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/><rect x=\"16\" y=\"27\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"25.5\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/></g></svg>",
-    "accent": "#FFC20E",
+    "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"9\" fill=\"#0E2238\"/><path d=\"M7 19 20 8l13 11\" fill=\"none\" stroke=\"#FFB300\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"#fff\"><rect x=\"11\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"21\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"11\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/><rect x=\"16\" y=\"27\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"25.5\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/></g></svg>",
+    "accent": "#FFB300",
     "wordmark": [
-      "Builders",
-      "UK"
+      "Trades",
+      "Station"
     ],
-    "wordmarkColor": "#FFC20E"
+    "wordmarkColor": "#FFB300"
   }
 }

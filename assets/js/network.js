@@ -302,16 +302,16 @@ const SECTORS = [
     }
   },
   {
-    "id": "buildersuk",
-    "name": "BuildersUK",
-    "sub": "buildersuk",
+    "id": "tradesstation",
+    "name": "TradesStation",
+    "sub": "tradesstation",
     "icon": "wrench",
-    "accent": "#FFC20E",
+    "accent": "#FFB300",
     "live": false,
     "status": "building",
     "fallback": "",
     "devPort": 4009,
-    "blurb": "Find trusted local builders and tradespeople across the UK: extensions, lofts, kitchens, roofing, electrics and more.",
+    "blurb": "Your one-stop place to find trusted UK tradesmen and builders: extensions, lofts, kitchens, roofing, electrics and more.",
     "keywords": [
       "builder",
       "builders",
@@ -373,7 +373,12 @@ const SECTORS = [
       "decking",
       "block paving",
       "hiring a builder",
-      "rogue trader"
+      "rogue trader",
+      "tradesstation",
+      "trades station",
+      "find a tradesman",
+      "tradesman near me",
+      "one stop trades"
     ],
     "card": {
       "image": {
@@ -382,13 +387,13 @@ const SECTORS = [
         "credit": "Solømen",
         "creditUrl": "https://unsplash.com/@solomen"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"#FFC20E\"/><path d=\"M7 19 20 8l13 11\" fill=\"none\" stroke=\"#1B1E22\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"#1B1E22\"><rect x=\"11\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"21\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"11\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/><rect x=\"16\" y=\"27\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"25.5\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/></g></svg>",
-      "accent": "#FFC20E",
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"9\" fill=\"#0E2238\"/><path d=\"M7 19 20 8l13 11\" fill=\"none\" stroke=\"#FFB300\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"#fff\"><rect x=\"11\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"21\" y=\"21\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"11\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/><rect x=\"16\" y=\"27\" width=\"8\" height=\"4\" rx=\".6\"/><rect x=\"25.5\" y=\"27\" width=\"3.5\" height=\"4\" rx=\".6\"/></g></svg>",
+      "accent": "#FFB300",
       "wordmark": [
-        "Builders",
-        "UK"
+        "Trades",
+        "Station"
       ],
-      "wordmarkColor": "#FFC20E"
+      "wordmarkColor": "#FFB300"
     }
   },
   {
@@ -1022,17 +1027,17 @@ POPULAR.unshift(...[
   {
     "label": "Builders near you",
     "q": "builder near me",
-    "sector": "buildersuk"
+    "sector": "tradesstation"
   },
   {
     "label": "House extensions",
     "q": "house extension",
-    "sector": "buildersuk"
+    "sector": "tradesstation"
   },
   {
     "label": "Find a roofer",
     "q": "roofer",
-    "sector": "buildersuk"
+    "sector": "tradesstation"
   },
   {
     "label": "Today's voucher codes",
