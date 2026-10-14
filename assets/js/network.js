@@ -1104,7 +1104,7 @@ const SECTORS = [
   },
   {
     "id": "uksew",
-    "name": "UK Sew",
+    "name": "UK SEW",
     "sub": "uksew",
     "icon": "scissors",
     "accent": "#7DA2FF",
@@ -1204,13 +1204,13 @@ const SECTORS = [
         "credit": "Annie Spratt",
         "creditUrl": "https://unsplash.com/@anniespratt"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"9\" fill=\"#14234B\"/><path d=\"M11 29 29 11\" stroke=\"#F7F3EC\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M27 13c4 5-1 9-6 8s-9 3-8 7\" fill=\"none\" stroke=\"#C8102E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-dasharray=\"3 2.2\"/></svg>",
-      "accent": "#14234B",
+      "logo": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"23\" fill=\"#13213F\"/><circle cx=\"24\" cy=\"24\" r=\"20\" fill=\"none\" stroke=\"#F8F5EF\" stroke-width=\".9\" stroke-dasharray=\"2.2 1.9\" opacity=\".5\"/><rect x=\"11.5\" y=\"13\" width=\"17\" height=\"3.2\" rx=\"1.2\" fill=\"#F8F5EF\"/><rect x=\"11.5\" y=\"31.8\" width=\"17\" height=\"3.2\" rx=\"1.2\" fill=\"#F8F5EF\"/><rect x=\"14\" y=\"16.2\" width=\"12\" height=\"15.6\" fill=\"#B5122B\"/><path d=\"M14 19.3h12M14 22.4h12M14 25.5h12M14 28.6h12\" stroke=\"#7E0C1E\" stroke-width=\".7\"/><path d=\"M34.5 10 35.5 12.2V33.5L34.5 38.5 33.5 33.5V12.2Z\" fill=\"#F8F5EF\"/><ellipse cx=\"34.5\" cy=\"14\" rx=\".5\" ry=\"1.5\" fill=\"#13213F\"/><path d=\"M26 17.6c3.2-.4 4.6-4.6 8.5-3.6\" fill=\"none\" stroke=\"#E04A5F\" stroke-width=\"1.1\" stroke-linecap=\"round\"/></svg>",
+      "accent": "#13213F",
       "wordmark": [
         "UK",
-        " Sew"
+        " SEW"
       ],
-      "wordmarkColor": "#C8102E"
+      "wordmarkColor": "#B5122B"
     }
   }
 ];
