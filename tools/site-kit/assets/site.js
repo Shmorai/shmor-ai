@@ -27,3 +27,19 @@
         pages.slice(0, 6).map(function (p) { return '<a class="card" href="' + p.path + '"><h3>' + esc(p.title) + '</h3><p>' + esc(p.text) + '</p></a>'; }).join('');
   }).catch(function () { out.innerHTML = '<p class="empty">Search is unavailable right now.</p>'; });
 })();
+
+/* "specs" blocks with "tabs": filter the cards by data-tag (every card shows without JS) */
+(function () {
+  'use strict';
+  document.querySelectorAll('[data-tabs]').forEach(function (bar) {
+    var grid = bar.nextElementSibling;
+    bar.hidden = false;
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-tab]');
+      if (!b) return;
+      var id = b.getAttribute('data-tab');
+      bar.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      grid.querySelectorAll('[data-tag]').forEach(function (c) { c.hidden = id !== 'all' && c.getAttribute('data-tag') !== id; });
+    });
+  });
+})();

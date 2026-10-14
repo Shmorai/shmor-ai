@@ -26,4 +26,4 @@ node tools/serve.js                 # preview http://localhost:4000  (preview co
 ## Notes
 - Theme is dark for all visitors (the `@media all` blocks in style.css hold the dark overrides).
 - The newsletter and contact forms switch on when Formspree endpoints are set in `SITE.forms`. GA4 in `SITE.analytics` switches on the consent banner.
-- Planned marketplaces still in `network/`: pros, deals, connect, energy, tech, style, home, experiences, motors.
+- Planned marketplaces still in `network/`: deals, energy, tech, style, home, experiences, motors.

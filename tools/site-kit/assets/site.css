@@ -192,3 +192,34 @@ section h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 24px; }
 .person p { margin: 6px 0 0; font-size: 14.5px; color: var(--ink-2); }
 .person-role { font-weight: 600; color: var(--ink) !important; }
 .person a { color: var(--accent-2); }
+
+/* Spec cards ("specs" block) with optional filter tabs, and meters ("meters" block) */
+.spec-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.spec-tabs[hidden] { display: none; }
+.spec-tabs button { font: 600 14px var(--display); padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.spec-tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.spec-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.spec { display: flex; flex-direction: column; gap: 12px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.spec[hidden] { display: none; }
+.spec-head { display: flex; align-items: center; gap: 12px; }
+.spec-chip { flex: 0 0 auto; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 10px; background: var(--surface-2); font: 700 15px var(--display); color: var(--accent); }
+.spec-id { flex: 1; min-width: 0; }
+.spec-kind { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.spec h3 { font-size: 19px; margin: 0; }
+.spec-badge { font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--accent); color: #fff; }
+.spec-text { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+.spec-list { margin: 0; display: grid; gap: 6px; font-size: 14px; }
+.spec-list div { display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 6px; }
+.spec-list dt { color: var(--ink-3); }
+.spec-list dd { margin: 0; text-align: right; font-weight: 600; }
+.spec-foot { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 14px; font-weight: 600; }
+.spec-foot a { text-decoration: none; color: var(--accent-2); }
+.meters { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.meter { display: flex; flex-direction: column; gap: 10px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: inherit; }
+.meter-head { display: flex; align-items: center; gap: 10px; }
+.meter-head h3 { font-size: 18px; margin: 0; flex: 1; }
+.meter-val { font-size: 13px; font-weight: 700; color: var(--accent); }
+.meter-track { display: block; height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.meter-track span { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+.meter p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+.meter-badge { align-self: flex-start; font-size: 12px; font-weight: 600; color: var(--ink-3); }

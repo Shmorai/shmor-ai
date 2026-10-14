@@ -423,32 +423,89 @@ const SECTORS = [
     ]
   },
   {
-    "id": "connect",
-    "name": "Shmor Connect",
-    "sub": "connect",
+    "id": "fullbars",
+    "name": "FullBars",
+    "sub": "fullbars",
     "icon": "wifi",
-    "accent": "#0284C7",
+    "accent": "#FF3EA5",
     "live": false,
-    "status": "planned",
+    "status": "building",
     "fallback": "",
-    "blurb": "Internet, mobile plans and TV packages compared by speed, price and contract length.",
+    "devPort": 4010,
+    "blurb": "Broadband, mobile, SIM-only and home phone providers compared side by side for the UK, USA and Europe, with plain-English switching guides.",
     "keywords": [
       "broadband",
-      "wifi",
-      "wi-fi",
-      "internet",
+      "broadband deals",
+      "cheap broadband",
+      "fibre broadband",
+      "full fibre",
+      "fiber internet",
       "fibre",
       "fiber",
-      "cell phone",
+      "internet provider",
+      "isp",
+      "home internet",
+      "wifi",
+      "wi-fi",
+      "broadband provider",
+      "broadband comparison",
+      "mobile phone deals",
+      "mobile network",
+      "phone contract",
+      "sim only",
+      "sim only deals",
+      "sim-only",
+      "cell phone plan",
+      "cell phone plans",
       "cellphone",
       "phone plan",
+      "mobile plan",
+      "esim",
+      "5g",
+      "4g",
+      "5g home broadband",
+      "home phone",
+      "landline",
+      "digital voice",
+      "tv and broadband",
+      "broadband and tv",
+      "switch broadband",
+      "switch provider",
+      "pac code",
+      "roaming",
+      "data roaming",
+      "mvno",
+      "cable internet",
+      "starlink",
+      "satellite internet",
+      "social tariff",
+      "internet",
       "mobile",
       "sim",
-      "sim only",
-      "phone contract",
       "tv package",
-      "5g"
-    ]
+      "broadband speed",
+      "internet speed",
+      "one touch switch",
+      "cell phone",
+      "internet service provider",
+      "virgin media",
+      "openreach"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9",
+        "alt": "Woman relaxing on the living room floor with a laptop",
+        "credit": "Thought Catalog",
+        "creditUrl": "https://unsplash.com/@thoughtcatalog"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#0D0B24\"/><rect x=\"8\" y=\"24\" width=\"4.6\" height=\"8\" rx=\"1.6\" fill=\"#19C3E6\"/><rect x=\"14.5\" y=\"19\" width=\"4.6\" height=\"13\" rx=\"1.6\" fill=\"#4FA8F0\"/><rect x=\"21\" y=\"13.5\" width=\"4.6\" height=\"18.5\" rx=\"1.6\" fill=\"#8B5CF6\"/><rect x=\"27.5\" y=\"8\" width=\"4.6\" height=\"24\" rx=\"1.6\" fill=\"#FF3EA5\"/></svg>",
+      "accent": "#0D0B24",
+      "wordmark": [
+        "Full",
+        "Bars"
+      ],
+      "wordmarkColor": "#FF3EA5"
+    }
   },
   {
     "id": "energy",
@@ -1045,9 +1102,19 @@ POPULAR.unshift(...[
     "sector": "deals"
   },
   {
-    "label": "Fast home internet",
-    "q": "fiber internet",
-    "sector": "connect"
+    "label": "Full fibre broadband",
+    "q": "full fibre",
+    "sector": "fullbars"
+  },
+  {
+    "label": "SIM only deals",
+    "q": "sim only",
+    "sector": "fullbars"
+  },
+  {
+    "label": "Switch provider",
+    "q": "switch broadband",
+    "sector": "fullbars"
   },
   {
     "label": "Solar panel quotes",
