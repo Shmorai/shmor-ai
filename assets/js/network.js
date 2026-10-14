@@ -600,7 +600,12 @@ const SECTORS = [
       "dyson airwrap",
       "prime day",
       "tech reviewers",
-      "mkbhd"
+      "mkbhd",
+      "apple homeview",
+      "homepod mini 2",
+      "apple tv 4k",
+      "pixel 11",
+      "google pixel"
     ],
     "card": {
       "image": {

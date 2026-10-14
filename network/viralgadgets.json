@@ -69,7 +69,12 @@
     "dyson airwrap",
     "prime day",
     "tech reviewers",
-    "mkbhd"
+    "mkbhd",
+    "apple homeview",
+    "homepod mini 2",
+    "apple tv 4k",
+    "pixel 11",
+    "google pixel"
   ],
   "fallback": "",
   "popular": [
@@ -97,7 +102,7 @@
     "searchPlaceholder": "Search gadgets, gifts and guides",
     "ctaTitle": "Find your next favourite gadget",
     "logo": "/assets/favicon.svg",
-    "fontsUrl": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap"
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap"
   },
   "retail": {
     "_note": "Check-price links when a gadget has no referral link. Add Amazon Associates tags here ONLY when the user supplies them (exactly as given).",
