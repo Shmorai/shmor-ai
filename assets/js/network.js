@@ -1101,6 +1101,92 @@ const SECTORS = [
       ],
       "wordmarkColor": "#D4B06A"
     }
+  },
+  {
+    "id": "uksew",
+    "name": "UK Sew",
+    "sub": "uksew",
+    "icon": "scissors",
+    "accent": "#7DA2FF",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4012,
+    "blurb": "UK sewing machines, parts, wool, servicing and machine hire, rooted in Leicester’s hosiery heritage.",
+    "keywords": [
+      "sewing machine",
+      "sewing machines",
+      "sewing machine repair",
+      "sewing machine service",
+      "sewing machine parts",
+      "sewing machine hire",
+      "sewing machine rental",
+      "industrial sewing machine",
+      "overlocker",
+      "serger",
+      "embroidery machine",
+      "coverstitch",
+      "needles",
+      "bobbins",
+      "presser foot",
+      "wool",
+      "yarn",
+      "knitting",
+      "haberdashery",
+      "fabric",
+      "thread",
+      "hosiery",
+      "knitwear",
+      "leicester",
+      "east midlands",
+      "singer",
+      "brother",
+      "janome",
+      "juki",
+      "bernina",
+      "pfaff",
+      "jack",
+      "sewing",
+      "dressmaking",
+      "tailoring",
+      "alterations",
+      "sewing bee",
+      "quilting",
+      "crochet",
+      "pksm",
+      "pk sewing machines",
+      "wigston",
+      "corah",
+      "wolsey",
+      "framework knitting",
+      "stocking frame",
+      "knit and stitch",
+      "yarn weights",
+      "double knit",
+      "aran",
+      "chunky wool",
+      "sock yarn",
+      "part exchange",
+      "used sewing machine",
+      "sewing machine deals",
+      "sewing machine needles",
+      "sewing accessories"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1466027397211-20d0f2449a3f",
+        "alt": "Vintage black and gold sewing machine",
+        "credit": "Annie Spratt",
+        "creditUrl": "https://unsplash.com/@anniespratt"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"9\" fill=\"#14234B\"/><path d=\"M11 29 29 11\" stroke=\"#F7F3EC\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M27 13c4 5-1 9-6 8s-9 3-8 7\" fill=\"none\" stroke=\"#C8102E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-dasharray=\"3 2.2\"/></svg>",
+      "accent": "#14234B",
+      "wordmark": [
+        "UK",
+        " Sew"
+      ],
+      "wordmarkColor": "#C8102E"
+    }
   }
 ];
 
@@ -1286,6 +1372,21 @@ POPULAR.unshift(...[
     "label": "Register a trademark",
     "q": "register a trademark",
     "sector": "onbuslaw"
+  },
+  {
+    "label": "Sewing machine repairs",
+    "q": "sewing machine repair",
+    "sector": "uksew"
+  },
+  {
+    "label": "Sewing machine parts",
+    "q": "sewing machine parts",
+    "sector": "uksew"
+  },
+  {
+    "label": "Wool & yarn",
+    "q": "wool",
+    "sector": "uksew"
   }
 ]);
 
