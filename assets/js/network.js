@@ -533,7 +533,7 @@ const SECTORS = [
     "name": "ViralGadgets",
     "sub": "viralgadgets",
     "icon": "laptop",
-    "accent": "#FF2D55",
+    "accent": "#E8452C",
     "live": false,
     "status": "building",
     "fallback": "",
@@ -609,13 +609,13 @@ const SECTORS = [
         "credit": "Héctor Martínez",
         "creditUrl": "https://unsplash.com/@oria_hector"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect x=\"2\" y=\"2\" width=\"36\" height=\"36\" rx=\"11\" fill=\"#14101F\"/><rect x=\"11\" y=\"6.5\" width=\"18\" height=\"27\" rx=\"4.5\" fill=\"#FF2D55\"/><path d=\"M21.6 10.5 15 21h4.6l-1.4 8.5L25 18.6h-4.7z\" fill=\"#FFD60A\"/><circle cx=\"33\" cy=\"7\" r=\"4.5\" fill=\"#00C2FF\" stroke=\"#14101F\" stroke-width=\"2\"/></svg>",
-      "accent": "#14101F",
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#0E0E10\"/><path d=\"M11.5 13 20 29l8.5-16\" fill=\"none\" stroke=\"#F5F3EE\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"30.5\" cy=\"10.5\" r=\"3.4\" fill=\"#E8452C\"/></svg>",
+      "accent": "#0E0E10",
       "wordmark": [
         "Viral",
         "Gadgets"
       ],
-      "wordmarkColor": "#FF2D55"
+      "wordmarkColor": "#E8452C"
     }
   },
   {
