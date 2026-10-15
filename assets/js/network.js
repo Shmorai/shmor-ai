@@ -1616,6 +1616,75 @@ const SECTORS = [
       ],
       "wordmarkColor": "#FF8FA3"
     }
+  },
+  {
+    "id": "hotelhero",
+    "name": "HotelHero",
+    "sub": "hotelhero",
+    "icon": "bed",
+    "accent": "#FF3B5C",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4018,
+    "blurb": "UK hotel deals compared across Booking.com, Hotels.com, Expedia, trivago, KAYAK, lastminute.com and more in one search.",
+    "keywords": [
+      "hotel",
+      "hotels",
+      "uk hotels",
+      "hotel deals",
+      "cheap hotels",
+      "hotel deals uk",
+      "hotel comparison",
+      "compare hotels",
+      "hotel prices",
+      "last minute hotels",
+      "weekend break",
+      "weekend breaks",
+      "spa hotel",
+      "spa hotels",
+      "spa break",
+      "spa breaks",
+      "london hotels",
+      "edinburgh hotels",
+      "manchester hotels",
+      "liverpool hotels",
+      "york hotels",
+      "bath hotels",
+      "brighton hotels",
+      "cornwall hotels",
+      "lake district hotels",
+      "glasgow hotels",
+      "birmingham hotels",
+      "cardiff hotels",
+      "belfast hotels",
+      "seaside hotels",
+      "dog friendly hotels",
+      "family hotels",
+      "airport hotels",
+      "boutique hotels",
+      "country house hotels",
+      "staycation",
+      "b&b",
+      "bed and breakfast",
+      "hotelhero",
+      "hotel hero"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1611892440504-42a792e24d32",
+        "alt": "Hotel bedroom with a wooden bed, teal pillows and a garden view",
+        "credit": "visualsofdana",
+        "creditUrl": "https://unsplash.com/@visualsofdana"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M20 2.5 35 7.8V19c0 9.3-6.2 15.6-15 18.5C11.2 34.6 5 28.3 5 19V7.8Z\" fill=\"#FF3B5C\"/><path d=\"M20 7.6l1.2 2.5 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4Z\" fill=\"#FFC531\"/><g fill=\"none\" stroke=\"#fff\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 18v11\"/><path d=\"M12 21h13a3 3 0 0 1 3 3v5\"/><path d=\"M12 26.5h16\"/><path d=\"M15.5 21v5.5\"/></g></svg>",
+      "accent": "#0F1A3C",
+      "wordmark": [
+        "Hotel",
+        "Hero"
+      ],
+      "wordmarkColor": "#FF3B5C"
+    }
   }
 ];
 
@@ -1881,6 +1950,21 @@ POPULAR.unshift(...[
     "label": "Cosmetic surgery",
     "q": "cosmetic surgery",
     "sector": "carecompass"
+  },
+  {
+    "label": "London hotel deals",
+    "q": "london hotels",
+    "sector": "hotelhero"
+  },
+  {
+    "label": "UK spa breaks",
+    "q": "spa breaks",
+    "sector": "hotelhero"
+  },
+  {
+    "label": "Hotels tonight",
+    "q": "last minute hotels",
+    "sector": "hotelhero"
   }
 ]);
 
