@@ -1685,6 +1685,76 @@ const SECTORS = [
       ],
       "wordmarkColor": "#FF3B5C"
     }
+  },
+  {
+    "id": "devisartisans",
+    "name": "DevisArtisans",
+    "sub": "devisartisans",
+    "icon": "house",
+    "accent": "#E2673F",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4019,
+    "blurb": "Trouvez un artisan en France : plombier, électricien, couvreur, peintre… Comparez des devis gratuits.",
+    "keywords": [
+      "artisan",
+      "artisans",
+      "trouver un artisan",
+      "devis artisan",
+      "devis travaux",
+      "devis gratuit",
+      "travaux maison",
+      "plombier",
+      "électricien",
+      "electricien",
+      "couvreur",
+      "toiture",
+      "peintre en bâtiment",
+      "peintre batiment",
+      "maçon",
+      "macon",
+      "maçonnerie",
+      "chauffagiste",
+      "chaudière",
+      "chaudiere",
+      "pompe à chaleur",
+      "pompe a chaleur",
+      "climatisation",
+      "menuisier",
+      "carreleur",
+      "carrelage",
+      "plaquiste",
+      "paysagiste",
+      "jardinier",
+      "élagage",
+      "elagage",
+      "serrurier",
+      "rénovation",
+      "isolation des combles",
+      "isolation",
+      "entreprise du bâtiment",
+      "maprimerénov",
+      "maprimerenov",
+      "artisan rge",
+      "garantie décennale",
+      "garantie decennale"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1672627170267-fca17bb54156",
+        "alt": "Maison en construction avec murs en contreplaqué et fenêtres neuves",
+        "credit": "Ernie Journeys",
+        "creditUrl": "https://unsplash.com/@erniejourneys"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#1B2A41\"/><path d=\"M8 20.5 20 10l12 10.5\" fill=\"none\" stroke=\"#E2673F\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m14.5 25.5 4 4 7.5-8\" fill=\"none\" stroke=\"#F4C27A\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "accent": "#C4532D",
+      "wordmark": [
+        "Devis",
+        "Artisans"
+      ],
+      "wordmarkColor": "#F4C27A"
+    }
   }
 ];
 
@@ -1965,6 +2035,21 @@ POPULAR.unshift(...[
     "label": "Hotels tonight",
     "q": "last minute hotels",
     "sector": "hotelhero"
+  },
+  {
+    "label": "Plombier près de chez moi",
+    "q": "plombier",
+    "sector": "devisartisans"
+  },
+  {
+    "label": "Pompe à chaleur",
+    "q": "pompe à chaleur",
+    "sector": "devisartisans"
+  },
+  {
+    "label": "Rénovation maison",
+    "q": "rénovation",
+    "sector": "devisartisans"
   }
 ]);
 
