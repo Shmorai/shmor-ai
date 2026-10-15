@@ -1522,6 +1522,100 @@ const SECTORS = [
       ],
       "wordmarkColor": "#F5A524"
     }
+  },
+  {
+    "id": "carecompass",
+    "name": "CareCompass",
+    "sub": "carecompass",
+    "icon": "heartpulse",
+    "accent": "#FF8FA3",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4017,
+    "blurb": "Find US dentists, cosmetic surgeons and private clinics offering free consultations, with every insurance plan explained.",
+    "keywords": [
+      "dentist",
+      "dentists",
+      "dental",
+      "dental care",
+      "dental clinic",
+      "dental implants",
+      "teeth whitening",
+      "veneers",
+      "invisalign",
+      "clear aligners",
+      "braces",
+      "orthodontist",
+      "root canal",
+      "dental insurance",
+      "dental savings plan",
+      "emergency dentist",
+      "cosmetic dentist",
+      "cosmetic surgery",
+      "plastic surgery",
+      "plastic surgeon",
+      "botox",
+      "fillers",
+      "rhinoplasty",
+      "breast augmentation",
+      "liposuction",
+      "tummy tuck",
+      "facelift",
+      "med spa",
+      "private healthcare",
+      "private clinic",
+      "concierge medicine",
+      "direct primary care",
+      "urgent care",
+      "health insurance",
+      "medicare",
+      "medicaid",
+      "aca marketplace",
+      "obamacare",
+      "ppo",
+      "hmo",
+      "free consultation",
+      "in-network doctor",
+      "healthcare news",
+      "us healthcare",
+      "medicare open enrollment",
+      "aca open enrollment",
+      "medicaid work requirements",
+      "part d",
+      "drug prices",
+      "ozempic",
+      "wegovy",
+      "glp-1",
+      "compounded semaglutide",
+      "hsa",
+      "no surprises act",
+      "surprise medical bill",
+      "medical debt",
+      "telehealth",
+      "fluoride",
+      "dental tourism",
+      "medical tourism",
+      "pediatric dentist",
+      "chip",
+      "hospital price transparency",
+      "dentures"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09",
+        "alt": "Modern dental treatment room with a patient chair and equipment",
+        "credit": "Benyamin Bohlouli",
+        "creditUrl": "https://unsplash.com/@benyamin_bohlouli"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#13213F\"/><circle cx=\"20\" cy=\"20\" r=\"12.5\" fill=\"none\" stroke=\"#FF8FA3\" stroke-width=\"2\"/><path d=\"M20 9.5l3.2 10.5H16.8z\" fill=\"#FF8FA3\"/><path d=\"M20 30.5l-3.2-10.5h6.4z\" fill=\"#fff\"/><circle cx=\"20\" cy=\"20\" r=\"1.8\" fill=\"#13213F\"/></svg>",
+      "accent": "#13213F",
+      "wordmark": [
+        "Care",
+        "Compass"
+      ],
+      "wordmarkColor": "#FF8FA3"
+    }
   }
 ];
 
@@ -1772,6 +1866,21 @@ POPULAR.unshift(...[
     "label": "Get retention released",
     "q": "retention",
     "sector": "buildlaw"
+  },
+  {
+    "label": "Free dental consultation",
+    "q": "free dental consultation",
+    "sector": "carecompass"
+  },
+  {
+    "label": "Does Medicare cover dental?",
+    "q": "medicare dental",
+    "sector": "carecompass"
+  },
+  {
+    "label": "Cosmetic surgery",
+    "q": "cosmetic surgery",
+    "sector": "carecompass"
   }
 ]);
 
