@@ -1696,7 +1696,7 @@ const SECTORS = [
     "status": "building",
     "fallback": "",
     "devPort": 4019,
-    "blurb": "Trouvez un artisan en France et comparez des devis gratuits : 30 métiers, 13 régions, conseils et blog.",
+    "blurb": "Trouvez un artisan en France et comparez des devis gratuits : 30 métiers, 13 régions, 10 guides, astuces et blog.",
     "keywords": [
       "artisan",
       "artisans",
@@ -1778,7 +1778,13 @@ const SECTORS = [
       "chauffe-eau",
       "volet roulant",
       "fenêtres",
-      "fenetres"
+      "fenetres",
+      "astuces travaux",
+      "conseils travaux",
+      "budget travaux",
+      "audit énergétique",
+      "vmc",
+      "borne de recharge"
     ],
     "card": {
       "image": {
