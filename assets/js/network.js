@@ -508,25 +508,73 @@ const SECTORS = [
     }
   },
   {
-    "id": "energy",
-    "name": "Shmor Energy",
-    "sub": "energy",
-    "icon": "sun",
-    "accent": "#059669",
+    "id": "energysavers",
+    "name": "EnergySavers",
+    "sub": "energysavers",
+    "icon": "zap",
+    "accent": "#2EE59D",
     "live": false,
-    "status": "planned",
+    "status": "building",
     "fallback": "",
-    "blurb": "Solar panels, heat pumps, EV chargers and home upgrades. Get matched with approved installers.",
+    "devPort": 4016,
+    "blurb": "Compare UK gas, electricity and water suppliers, tariffs and price cap changes, with money-saving guides, grants and the latest energy news.",
     "keywords": [
-      "solar",
-      "solar panels",
-      "heat pump",
-      "ev charger",
-      "insulation",
       "energy",
-      "battery",
-      "renewable"
-    ]
+      "energy bills",
+      "gas",
+      "electricity",
+      "gas and electricity",
+      "energy supplier",
+      "energy suppliers",
+      "switch energy supplier",
+      "compare energy",
+      "energy tariff",
+      "fixed tariff",
+      "price cap",
+      "energy price cap",
+      "ofgem",
+      "standing charge",
+      "economy 7",
+      "ev tariff",
+      "smart meter",
+      "water bill",
+      "water bills",
+      "water meter",
+      "water company",
+      "warm home discount",
+      "winter fuel payment",
+      "energy grants",
+      "boiler upgrade scheme",
+      "heat pump",
+      "solar panels",
+      "insulation",
+      "energy saving",
+      "energy saving tips",
+      "cheap energy",
+      "octopus energy",
+      "british gas",
+      "eon",
+      "ovo",
+      "edf",
+      "scottish power",
+      "utility bills",
+      "vat on electricity"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1780554193584-2e4da0bd7b36",
+        "alt": "A street lined with brick terraced houses and parked cars",
+        "credit": "William V",
+        "creditUrl": "https://unsplash.com/@william_vdg"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#062A23\"/><path d=\"M12.7 23.3a1.2 1.2 0 0 1-.94-1.96l11.88-12.24a.6.6 0 0 1 1.03.55l-2.3 7.22A1.2 1.2 0 0 0 23.5 18.5h8.4a1.2 1.2 0 0 1 .94 1.96L20.96 32.7a.6.6 0 0 1-1.03-.55l2.3-7.22A1.2 1.2 0 0 0 21.1 23.3Z\" fill=\"#2EE59D\" transform=\"translate(-4.2 -1)\"/><circle cx=\"30.5\" cy=\"10\" r=\"3\" fill=\"#FFC531\"/></svg>",
+      "accent": "#062A23",
+      "wordmark": [
+        "Energy",
+        "Savers"
+      ],
+      "wordmarkColor": "#2EE59D"
+    }
   },
   {
     "id": "viralgadgets",
@@ -1561,9 +1609,19 @@ POPULAR.unshift(...[
     "sector": "fullbars"
   },
   {
-    "label": "Solar panel quotes",
-    "q": "solar panels",
-    "sector": "energy"
+    "label": "Energy price cap",
+    "q": "price cap",
+    "sector": "energysavers"
+  },
+  {
+    "label": "Compare energy suppliers",
+    "q": "energy suppliers",
+    "sector": "energysavers"
+  },
+  {
+    "label": "Water bill help",
+    "q": "water bills",
+    "sector": "energysavers"
   },
   {
     "label": "TikTok-famous gadgets",
