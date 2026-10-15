@@ -84,7 +84,40 @@
     "harry potter",
     "alnwick castle",
     "glenfinnan",
-    "junior ranger"
+    "junior ranger",
+    "escape room",
+    "escape rooms",
+    "go karting",
+    "go-karting",
+    "trampoline park",
+    "laser tag",
+    "bowling",
+    "zip line",
+    "zip wire",
+    "high ropes",
+    "surfing",
+    "surf lessons",
+    "paddleboarding",
+    "kayaking",
+    "skate park",
+    "ice skating",
+    "indoor skiing",
+    "water parks",
+    "things to do with teenagers",
+    "days out for teenagers",
+    "teen days out",
+    "toddler days out",
+    "soft play",
+    "camping",
+    "glamping",
+    "stargazing",
+    "castles",
+    "science centre",
+    "planetarium",
+    "accessible days out",
+    "indoor activities",
+    "adventure finder",
+    "things to do near me"
   ],
   "fallback": "",
   "popular": [
@@ -93,12 +126,12 @@
       "q": "family days out"
     },
     {
-      "label": "Theme park offers",
-      "q": "theme park tickets"
+      "label": "Days out for teens",
+      "q": "things to do with teenagers"
     },
     {
-      "label": "Harry Potter days out",
-      "q": "harry potter studio tour"
+      "label": "Theme park offers",
+      "q": "theme park tickets"
     }
   ],
   "offers": [],
