@@ -830,11 +830,77 @@ const SECTORS = [
       "mot",
       "servicing",
       "oil change",
-      "auto insurance",
       "garage",
       "van",
       "electric car"
     ]
+  },
+  {
+    "id": "domcominsure",
+    "name": "DomCom Insure",
+    "sub": "domcominsure",
+    "icon": "shield",
+    "accent": "#8B7CFF",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4014,
+    "blurb": "Home and business insurance explained and compared: buildings, contents, landlord, car, liability, professional indemnity and more for the UK, US and Europe.",
+    "keywords": [
+      "insurance",
+      "compare insurance",
+      "insurance comparison",
+      "home insurance",
+      "homeowners insurance",
+      "house insurance",
+      "buildings insurance",
+      "contents insurance",
+      "renters insurance",
+      "tenants insurance",
+      "landlord insurance",
+      "car insurance",
+      "auto insurance",
+      "motor insurance",
+      "van insurance",
+      "travel insurance",
+      "life insurance",
+      "business insurance",
+      "commercial insurance",
+      "small business insurance",
+      "public liability",
+      "general liability",
+      "employers liability",
+      "workers comp",
+      "workers compensation",
+      "professional indemnity",
+      "errors and omissions",
+      "cyber insurance",
+      "commercial property insurance",
+      "tradesman insurance",
+      "contractors insurance",
+      "business owners policy",
+      "directors and officers",
+      "d&o insurance",
+      "fleet insurance",
+      "flood insurance",
+      "insurance claim",
+      "insurance renewal"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+        "alt": "Grey timber-clad detached house with a neat front lawn",
+        "credit": "todd kent",
+        "creditUrl": "https://unsplash.com/@churchoftodd"
+      },
+      "logo": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\"><path d=\"M20 3 6 8v11c0 9 6 15 14 18Z\" fill=\"#F06A3C\"/><path d=\"M20 3l14 5v11c0 9-6 15-14 18Z\" fill=\"#138A8A\"/><path d=\"M9.5 21.5 14 17.5l4.5 4V28h-9Z\" fill=\"#fff\"/><path d=\"M13 28v-3.5h2V28Z\" fill=\"#F06A3C\"/><path d=\"M22 15h8.5v13H22Z\" fill=\"#fff\"/><path d=\"M23.8 17.2h1.8v1.8h-1.8Zm3 0h1.8v1.8h-1.8Zm-3 3.2h1.8v1.8h-1.8Zm3 0h1.8v1.8h-1.8Zm-1.4 3.6h1.8V28h-1.8Z\" fill=\"#138A8A\"/></svg>",
+      "accent": "#8B7CFF",
+      "wordmark": [
+        "DomCom",
+        " Insure"
+      ],
+      "wordmarkColor": "#8B7CFF"
+    }
   },
   {
     "id": "bestvpns",
@@ -1452,6 +1518,21 @@ POPULAR.unshift(...[
     "label": "Theme park offers",
     "q": "theme park tickets",
     "sector": "happydaysout"
+  },
+  {
+    "label": "Compare home insurance",
+    "q": "home insurance",
+    "sector": "domcominsure"
+  },
+  {
+    "label": "Public liability cover",
+    "q": "public liability",
+    "sector": "domcominsure"
+  },
+  {
+    "label": "Landlord insurance",
+    "q": "landlord insurance",
+    "sector": "domcominsure"
   },
   {
     "label": "VPN for streaming",
