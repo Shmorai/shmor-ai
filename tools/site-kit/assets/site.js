@@ -43,3 +43,21 @@
     });
   });
 })();
+
+/* Fold the top menu into the menu button whenever it doesn't fit (any screen width) */
+(function () {
+  'use strict';
+  var root = document.documentElement, bar = document.querySelector('.site-header .bar'), nav = document.querySelector('[data-nav]');
+  if (!bar || !nav) return;
+  function fit() {
+    root.classList.remove('nav-compact');
+    nav.classList.remove('open');
+    if (getComputedStyle(nav).display === 'none') return; // phone layout already uses the menu button
+    var over = bar.scrollWidth > bar.clientWidth + 1 || nav.scrollWidth > nav.clientWidth + 1 ||
+      nav.getBoundingClientRect().right > bar.getBoundingClientRect().right + 1;
+    if (over) root.classList.add('nav-compact');
+  }
+  fit();
+  window.addEventListener('resize', fit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+})();

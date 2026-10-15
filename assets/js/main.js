@@ -144,7 +144,7 @@
               <select id="regionSelect" aria-label="Choose your region">${Object.entries(SITE.regions.list).map(([k, v]) => `<option value="${k}"${k === REGION ? ' selected' : ''}>${esc(v.label)} (${v.currency})</option>`).join('')}</select>
             </label>
           </div>
-          <div><h5>Marketplaces</h5><ul>${[...SECTORS].sort((a, b) => b.live - a.live).slice(0, 6).map(s => `<li><a href="${s.live || local(s) ? siteRoot(s) : ROOT + "#network"}">${esc(s.name)}</a></li>`).join('')}</ul></div>
+          <div><h5>Marketplaces</h5><ul>${[...SECTORS].sort((a, b) => (b.live - a.live) || ((b.status !== "planned") - (a.status !== "planned"))).slice(0, 6).map(s => `<li><a href="${s.live || local(s) ? siteRoot(s) : ROOT + "#network"}">${esc(s.name)}</a></li>`).join('')}</ul></div>
           <div><h5>Company</h5><ul>
             <li><a href="${ROOT}about/">About us</a></li>
             <li><a href="${ROOT}partners/">Partner with us</a></li>

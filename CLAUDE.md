@@ -21,6 +21,7 @@ node tools/sync-network.js          # pull every ../sites/*/shmor-site.json in, 
 node tools/new-site.js <brand> --name "Brand" --sub <brand> [--from <plannedId>] ...   # new marketplace in ../sites/
 node tools/build-pages.js           # rebuild inner pages + sitemap.xml
 node tools/serve.js                 # preview http://localhost:4000  (preview config "shmor")
+node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags, links, referral slugs, sitemaps); --external also checks images
 ```
 
 ## Notes
