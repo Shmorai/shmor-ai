@@ -1404,7 +1404,7 @@ const SECTORS = [
     "name": "BuildLaw",
     "sub": "buildlaw",
     "icon": "hardhat",
-    "accent": "#8FC1A0",
+    "accent": "#5FA8FF",
     "live": false,
     "status": "building",
     "fallback": "",
@@ -1466,13 +1466,13 @@ const SECTORS = [
         "credit": "Samuel Regan-Asante",
         "creditUrl": "https://unsplash.com/@reganography"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"#123A2C\"/><path d=\"M7 33V22a13 13 0 0 1 26 0v11h-5V22a8 8 0 0 0-16 0v11z\" fill=\"#EFE7D6\"/><g stroke=\"#123A2C\" stroke-width=\"1.1\"><path d=\"M8.7 15.5 13.1 18\"/><path d=\"M31.3 15.5 26.9 18\"/><path d=\"M7 26.5h5\"/><path d=\"M28 26.5h5\"/></g><path d=\"M16.3 6.2h7.4l-2.1 8.1h-3.2z\" fill=\"#C2532F\"/><path d=\"M5 33.6h30\" stroke=\"#EFE7D6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></svg>",
-      "accent": "#123A2C",
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#0A1A33\"/><g fill=\"none\" stroke=\"#F5A524\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 10.5h29\" stroke-width=\"2.4\"/><path d=\"M11 10.5V34\" stroke-width=\"2.4\"/><path d=\"m11 5.5-4.5 5M11 5.5l11 5\" stroke-width=\"1.4\"/><path d=\"M8.6 34h4.8\" stroke-width=\"2\"/><path d=\"M28 10.5v5.5\" stroke-width=\"1.4\"/></g><rect x=\"21.5\" y=\"16.5\" width=\"13\" height=\"14\" rx=\"3\" fill=\"#F5A524\"/><text x=\"28\" y=\"27.6\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11.5\" font-weight=\"700\" fill=\"#0A1A33\">§</text></svg>",
+      "accent": "#0A1A33",
       "wordmark": [
         "Build",
         "Law"
       ],
-      "wordmarkColor": "#EC9A78"
+      "wordmarkColor": "#F5A524"
     }
   }
 ];
