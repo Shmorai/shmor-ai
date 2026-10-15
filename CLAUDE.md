@@ -20,7 +20,7 @@ The hub of the Shmor network (see `../CLAUDE.md` for the shared rules). Static s
 node tools/sync-network.js          # pull every ../sites/*/shmor-site.json in, validate, regenerate network.js
 node tools/new-site.js <brand> --name "Brand" --sub <brand> [--from <plannedId>] ...   # new marketplace in ../sites/
 node tools/build-pages.js           # rebuild inner pages + sitemap.xml
-node tools/serve.js                 # preview http://localhost:4000  (preview config "shmor")
+node tools/serve.js                 # preview http://localhost:4000 AND every marketplace on its own port (4001+), so all cards/searches open (preview config "shmor")
 node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags, links, referral slugs, sitemaps); --external also checks images
 ```
 

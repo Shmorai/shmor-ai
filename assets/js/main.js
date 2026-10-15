@@ -258,7 +258,9 @@
 
     // Quick chips
     const quick = $('#quick');
-    quick.innerHTML = POPULAR.slice(0, 6).map(p => `<button type="button" data-q="${esc(p.q)}">${esc(p.label)}</button>`).join('');
+    // Only suggest searches that lead somewhere: built/live sites, or planned ones with a partner fallback
+    const USABLE = POPULAR.filter(p => { const s = SECTORS.find(x => x.id === p.sector); return s && (s.status !== 'planned' || destination(s)); });
+    quick.innerHTML = USABLE.slice(0, 6).map(p => `<button type="button" data-q="${esc(p.q)}">${esc(p.label)}</button>`).join('');
     quick.addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       $('#q').value = b.dataset.q; updateHint(); $('#q').focus();
@@ -267,7 +269,7 @@
     // Popular tiles
     const pop = $('#popularGrid');
     const sec = id => SECTORS.find(s => s.id === id);
-    pop.innerHTML = POPULAR.map((p, i) => {
+    pop.innerHTML = USABLE.map((p, i) => {
       const s = sec(p.sector);
       return `<button type="button" class="pop" data-i="${i}" style="--accent:${(s.card && s.card.accent) || s.accent}">
         <span class="pop-ico${s.card && s.card.logo ? ' is-logo' : ''}">${s.card && s.card.logo ? s.card.logo : icon(s.icon, 20)}</span>
@@ -276,7 +278,7 @@
     }).join('');
     pop.addEventListener('click', e => {
       const b = e.target.closest('.pop'); if (!b) return;
-      const p = POPULAR[+b.dataset.i]; go(sec(p.sector), p.q, 'popular');
+      const p = USABLE[+b.dataset.i]; go(sec(p.sector), p.q, 'popular');
     });
 
     // Offers (only when configured)
