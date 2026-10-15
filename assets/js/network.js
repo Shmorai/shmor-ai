@@ -1398,6 +1398,82 @@ const SECTORS = [
       ],
       "wordmarkColor": "#9E2A3A"
     }
+  },
+  {
+    "id": "buildlaw",
+    "name": "BuildLaw",
+    "sub": "buildlaw",
+    "icon": "hardhat",
+    "accent": "#8FC1A0",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4015,
+    "blurb": "UK construction law made clear for builders and clients: JCT and NEC contracts, payment notices, retentions, contract administration and disputes.",
+    "keywords": [
+      "construction law",
+      "building law",
+      "construction contract",
+      "building contract",
+      "jct",
+      "jct contract",
+      "jct minor works",
+      "jct design and build",
+      "nec",
+      "nec4",
+      "payment notice",
+      "pay less notice",
+      "construction payment",
+      "retention",
+      "retentions",
+      "housing grants act",
+      "construction act",
+      "adjudication",
+      "construction adjudication",
+      "construction mediation",
+      "construction dispute",
+      "building dispute",
+      "builder dispute",
+      "builder not paid",
+      "extension of time",
+      "liquidated damages",
+      "variations",
+      "practical completion",
+      "contract administrator",
+      "quantity surveyor",
+      "subcontractor",
+      "subcontract",
+      "cis",
+      "construction solicitor",
+      "building safety act",
+      "defects",
+      "snagging",
+      "cowboy builder",
+      "home extension contract",
+      "construction claims",
+      "jct homeowner contract",
+      "nec contract",
+      "contract administration",
+      "mediation",
+      "construction law uk",
+      "building contract dispute",
+      "final account"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1599995903128-531fc7fb694b",
+        "alt": "Tower cranes over a building site with concrete foundations at low sun",
+        "credit": "Samuel Regan-Asante",
+        "creditUrl": "https://unsplash.com/@reganography"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"#123A2C\"/><path d=\"M7 33V22a13 13 0 0 1 26 0v11h-5V22a8 8 0 0 0-16 0v11z\" fill=\"#EFE7D6\"/><g stroke=\"#123A2C\" stroke-width=\"1.1\"><path d=\"M8.7 15.5 13.1 18\"/><path d=\"M31.3 15.5 26.9 18\"/><path d=\"M7 26.5h5\"/><path d=\"M28 26.5h5\"/></g><path d=\"M16.3 6.2h7.4l-2.1 8.1h-3.2z\" fill=\"#C2532F\"/><path d=\"M5 33.6h30\" stroke=\"#EFE7D6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></svg>",
+      "accent": "#123A2C",
+      "wordmark": [
+        "Build",
+        "Law"
+      ],
+      "wordmarkColor": "#EC9A78"
+    }
   }
 ];
 
@@ -1623,6 +1699,21 @@ POPULAR.unshift(...[
     "label": "Wool & yarn",
     "q": "wool",
     "sector": "uksew"
+  },
+  {
+    "label": "Pay less notices",
+    "q": "pay less notice",
+    "sector": "buildlaw"
+  },
+  {
+    "label": "Which JCT contract?",
+    "q": "jct contract",
+    "sector": "buildlaw"
+  },
+  {
+    "label": "Get retention released",
+    "q": "retention",
+    "sector": "buildlaw"
   }
 ]);
 
