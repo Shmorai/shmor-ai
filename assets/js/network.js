@@ -1696,7 +1696,7 @@ const SECTORS = [
     "status": "building",
     "fallback": "",
     "devPort": 4019,
-    "blurb": "Trouvez un artisan en France : plombier, électricien, couvreur, peintre… Comparez des devis gratuits.",
+    "blurb": "Trouvez un artisan en France et comparez des devis gratuits : 30 métiers, 13 régions, conseils et blog.",
     "keywords": [
       "artisan",
       "artisans",
@@ -1738,7 +1738,47 @@ const SECTORS = [
       "maprimerenov",
       "artisan rge",
       "garantie décennale",
-      "garantie decennale"
+      "garantie decennale",
+      "charpentier",
+      "charpente",
+      "façadier",
+      "ravalement",
+      "cuisiniste",
+      "salle de bain",
+      "douche italienne",
+      "pisciniste",
+      "piscine",
+      "vitrier",
+      "terrassier",
+      "terrassement",
+      "ramoneur",
+      "ramonage",
+      "nettoyage",
+      "femme de ménage",
+      "déménageur",
+      "déménagement",
+      "demenagement",
+      "diagnostiqueur",
+      "diagnostic immobilier",
+      " dpe ",
+      "panneaux solaires",
+      "photovoltaïque",
+      "photovoltaique",
+      "poêle à bois",
+      "poele a bois",
+      "poêle à granulés",
+      "parquet",
+      "véranda",
+      "veranda",
+      "placo",
+      "climatiseur",
+      "débouchage",
+      "fuite d’eau",
+      "fuite d'eau",
+      "chauffe-eau",
+      "volet roulant",
+      "fenêtres",
+      "fenetres"
     ],
     "card": {
       "image": {
@@ -1747,13 +1787,13 @@ const SECTORS = [
         "credit": "Ernie Journeys",
         "creditUrl": "https://unsplash.com/@erniejourneys"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#1B2A41\"/><path d=\"M8 20.5 20 10l12 10.5\" fill=\"none\" stroke=\"#E2673F\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m14.5 25.5 4 4 7.5-8\" fill=\"none\" stroke=\"#F4C27A\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
-      "accent": "#C4532D",
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#0B2545\"/><path d=\"M8 20.5 20 10l12 10.5\" fill=\"none\" stroke=\"#D9663F\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m14.5 25.5 4 4 7.5-8\" fill=\"none\" stroke=\"#F4C27A\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "accent": "#1D4E9E",
       "wordmark": [
         "Devis",
         "Artisans"
       ],
-      "wordmarkColor": "#F4C27A"
+      "wordmarkColor": "#F2A07F"
     }
   }
 ];
