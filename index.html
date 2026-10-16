@@ -182,19 +182,62 @@
   </div>
 </section>
 
-<!-- ================= NEWSLETTER (shown when SITE.forms.newsletter set) ================= -->
-<section class="news" id="updates" style="padding-top:8px">
-  <div class="wrap">
-    <span class="eyebrow">The Shmor Weekly</span>
-    <h2>The best deals, found for you.</h2>
-    <p class="lede" style="margin-left:auto;margin-right:auto">One email a week with standout offers and new marketplace launches. Unsubscribe any time.</p>
-    <form class="news-form">
-      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address">
-      <input type="hidden" name="_subject" value="New Shmor Weekly subscriber">
-      <button class="btn btn-primary" type="submit">Subscribe</button>
-    </form>
-    <div class="ok-msg" id="newsOk" hidden>✓ You're in. Look out for your first Shmor Weekly.</div>
-    <small>By subscribing you agree to our <a href="privacy/">Privacy Policy</a>.</small>
+<!-- ================= SIGN-UP: The Shmor Weekly (sends to the master Google Sheet, see SITE.signup) ================= -->
+<section class="join" id="updates">
+  <div class="wrap join-grid">
+    <div class="join-copy">
+      <span class="eyebrow">The Shmor Weekly</span>
+      <h2>Let us do the searching. You get the good bits.</h2>
+      <p class="lede">Once a week we'll round up the best finds from <strong>every Shmor marketplace</strong>: travel deals, gadget drops, money-saving guides and brand-new sites, all in one friendly email.</p>
+      <ul class="join-perks">
+        <li><span>✓</span> One email a week. No spam, ever.</li>
+        <li><span>✓</span> Picks from all our marketplaces, in one place</li>
+        <li><span>✓</span> Unsubscribe in one click, any time</li>
+      </ul>
+    </div>
+
+    <div class="join-card">
+      <form id="signupForm" class="join-form" novalidate>
+        <h3>Count me in 👋</h3>
+        <p class="join-sub">It takes 20 seconds. We'd love to have you.</p>
+
+        <label class="fld">What's your name?
+          <input name="name" autocomplete="name" placeholder="Full name, e.g. Alex Morgan" required minlength="2">
+        </label>
+        <label class="fld">Your email
+          <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        </label>
+        <div class="fld-row">
+          <label class="fld">Where are you based?
+            <select name="country" autocomplete="country-name" required>
+              <option value="">Choose your country</option>
+            </select>
+          </label>
+          <label class="fld">Phone number
+            <input name="phone" type="tel" autocomplete="tel" placeholder="+44 7700 900123" required>
+          </label>
+        </div>
+
+        <label class="tick"><input type="checkbox" name="emailConsent" required>
+          <span>Yes please, send me the <strong>Shmor Weekly</strong> email with deals and updates from across the Shmor network.</span></label>
+        <label class="tick"><input type="checkbox" name="smsConsent">
+          <span>Also text me about the occasional big deal (optional, max a couple a month).</span></label>
+
+        <!-- spam trap: real people never see or fill this -->
+        <input type="text" name="company" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+
+        <p class="join-err" id="signupErr" role="alert" hidden></p>
+        <button class="btn btn-primary join-btn" type="submit">Join the Shmor Weekly</button>
+        <p class="join-legal">We'll only use your details to send the updates you ask for, and we never sell them. For security and to prevent spam we also record when you signed up and your IP address. See our <a href="privacy/">privacy policy</a>.</p>
+      </form>
+
+      <div class="join-done" id="signupDone" hidden>
+        <div class="join-done-ico">🎉</div>
+        <h3>You're in, <span id="signupName">friend</span>!</h3>
+        <p>Welcome to the Shmor Weekly. Your first round-up of the best finds lands in your inbox soon.</p>
+        <a class="btn btn-quiet" href="#network">Explore the marketplaces</a>
+      </div>
+    </div>
   </div>
 </section>
 </main>

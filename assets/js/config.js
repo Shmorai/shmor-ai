@@ -31,6 +31,27 @@ const SITE = {
     contact: '',
   },
 
+  // "Join the Shmor Weekly" sign-ups → Google Form "Shmor Weekly sign-ups (master)"
+  // → Google Sheet "Shmor Network Sign-ups (MASTER)" (account youtube@shmor.ai).
+  // Google adds the Timestamp column itself. Field codes come from the form;
+  // if a question is added or renamed in the form, update its code here.
+  signup: {
+    formAction: 'https://docs.google.com/forms/d/e/1FAIpQLScWHB4EPv6PvuxRHpCWzoP9wYAHuEPoHyqERgS5oU8Qkh2phA/formResponse',
+    fields: {
+      name: 'entry.944173896',
+      email: 'entry.1494422821',
+      phone: 'entry.1469592634',
+      country: 'entry.57901292',
+      emailConsent: 'entry.604876',
+      smsConsent: 'entry.366807439',
+      ip: 'entry.596290519',
+      source: 'entry.1939103685',
+      region: 'entry.1587159683',
+      browser: 'entry.707341773',
+    },
+    ipLookup: 'https://api.ipify.org?format=json', // free public-IP service; the browser asks it for its own IP
+  },
+
   // Google Analytics 4 measurement ID, e.g. 'G-XXXXXXXXXX'.
   // When set, a cookie consent banner appears and GA only loads after "Accept".
   analytics: { ga4: '' },

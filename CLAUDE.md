@@ -24,6 +24,13 @@ node tools/serve.js                 # preview http://localhost:4000 AND every ma
 node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags, links, referral slugs, sitemaps); --external also checks images
 ```
 
+## Shmor Weekly sign-up (homepage #updates)
+- Form on index.html collects full name, email, phone, country, email consent (required), SMS consent (optional), plus a spam trap.
+- Submits to Google Form "Shmor Weekly sign-ups (master) - website form" → Google Sheet **"Shmor Network Sign-ups (MASTER)"** in the youtube@shmor.ai Google account (Timestamp added by Google). Also records IP (via api.ipify.org), source page, region, browser.
+- Sheet: https://docs.google.com/spreadsheets/d/1lKFmDNVIz-fWw2qxkO-bUE8UMPAWOl0zbLEmuF8br_U/edit · Form editor: https://docs.google.com/forms/d/126muk4rb9IvPVMNCVIbLVdWYP3VdsPun8Or1tO02nYg/edit
+- Field codes live in `assets/js/config.js` → `SITE.signup.fields`. If a form question is added or renamed, re-read the codes (FB_PUBLIC_LOAD_DATA_ on the form's viewform page) and update them.
+- Privacy policy covers it (tools/pages/privacy.html). Don't claim subscriber numbers we don't have.
+
 ## Notes
 - Theme is dark for all visitors (the `@media all` blocks in style.css hold the dark overrides).
 - The newsletter and contact forms switch on when Formspree endpoints are set in `SITE.forms`. GA4 in `SITE.analytics` switches on the consent banner.

@@ -345,15 +345,77 @@
   }
 
   /* ---------------- Forms (Formspree-compatible) ---------------- */
-  function wireForms() {
-    const news = $('#updates');
-    if (news) {
-      if (!SITE.forms.newsletter) news.hidden = true;
-      else {
-        const f = $('form', news);
-        f.addEventListener('submit', e => submitForm(e, SITE.forms.newsletter, $('#newsOk')));
+  /* ---------------- Shmor Weekly sign-up → Google Form → master Google Sheet ---------------- */
+  const COUNTRIES = [
+    ['United Kingdom', '+44'], ['United States', '+1'], ['Ireland', '+353'], ['Austria', '+43'], ['Belgium', '+32'],
+    ['Bulgaria', '+359'], ['Croatia', '+385'], ['Cyprus', '+357'], ['Czechia', '+420'], ['Denmark', '+45'],
+    ['Estonia', '+372'], ['Finland', '+358'], ['France', '+33'], ['Germany', '+49'], ['Greece', '+30'],
+    ['Hungary', '+36'], ['Italy', '+39'], ['Latvia', '+371'], ['Lithuania', '+370'], ['Luxembourg', '+352'],
+    ['Malta', '+356'], ['Netherlands', '+31'], ['Norway', '+47'], ['Poland', '+48'], ['Portugal', '+351'],
+    ['Romania', '+40'], ['Slovakia', '+421'], ['Slovenia', '+386'], ['Spain', '+34'], ['Sweden', '+46'],
+    ['Switzerland', '+41'], ['Canada', '+1'], ['Australia', '+61'], ['Other', ''],
+  ];
+  function wireSignup() {
+    const form = $('#signupForm');
+    if (!form) return;
+    const S = SITE.signup;
+    if (!S || !S.formAction) { $('#updates').hidden = true; return; }
+    const sel = form.elements.country, phone = form.elements.phone, err = $('#signupErr');
+    sel.insertAdjacentHTML('beforeend', COUNTRIES.map(([n]) => `<option>${esc(n)}</option>`).join(''));
+    // Pre-pick a likely country from the visitor's region, and show the right dialling code
+    const guess = { uk: 'United Kingdom', us: 'United States' }[REGION];
+    if (guess) sel.value = guess;
+    const hintPhone = () => { const c = COUNTRIES.find(([n]) => n === sel.value); phone.placeholder = c && c[1] ? `${c[1]} …` : 'Phone number with country code'; };
+    sel.addEventListener('change', hintPhone); hintPhone();
+
+    const fail = msg => { err.textContent = msg; err.hidden = false; };
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      err.hidden = true;
+      const v = k => (form.elements[k].value || '').trim();
+      if (v('company')) { form.hidden = true; $('#signupDone').hidden = false; return; } // spam trap
+      if (v('name').length < 2) return fail('Please tell us your name.');
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v('email'))) return fail('That email doesn’t look quite right. Mind checking it?');
+      if (!v('country')) return fail('Please choose where you’re based.');
+      const digits = v('phone').replace(/[^\d]/g, '');
+      if (digits.length < 7 || digits.length > 15) return fail('Please add a phone number, including the country code if you can.');
+      if (!form.elements.emailConsent.checked) return fail('Tick the box to say you’d like the Shmor Weekly, and you’re all set.');
+
+      const btn = $('button[type=submit]', form);
+      btn.disabled = true; btn.textContent = 'Signing you up…';
+      // Best-effort public IP (the site has no server, so the browser asks a public IP service)
+      let ip = 'unavailable';
+      try {
+        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 2500);
+        const r = await fetch(S.ipLookup, { signal: ctl.signal }); clearTimeout(t);
+        ip = (await r.json()).ip || ip;
+      } catch (e2) { /* blocked or offline: keep 'unavailable' */ }
+
+      const F = S.fields, body = new URLSearchParams();
+      body.append(F.name, v('name'));
+      body.append(F.email, v('email').toLowerCase());
+      body.append(F.phone, v('phone'));
+      body.append(F.country, v('country'));
+      body.append(F.emailConsent, 'Yes');
+      body.append(F.smsConsent, form.elements.smsConsent.checked ? 'Yes' : 'No');
+      body.append(F.ip, ip);
+      body.append(F.source, location.href.split('#')[0]);
+      body.append(F.region, (SITE.regions.list[REGION] || {}).label || REGION);
+      body.append(F.browser, navigator.userAgent.slice(0, 300));
+      try {
+        // Google Forms doesn't allow reading the reply from other sites, so success = the request was sent
+        await fetch(S.formAction, { method: 'POST', mode: 'no-cors', body });
+        $('#signupName').textContent = v('name').split(/\s+/)[0];
+        form.hidden = true; $('#signupDone').hidden = false;
+      } catch (e3) {
+        btn.disabled = false; btn.textContent = 'Join the Shmor Weekly';
+        fail('Sorry, we couldn’t sign you up just now. Please check your connection and try again.');
       }
-    }
+    });
+  }
+
+  function wireForms() {
+    wireSignup();
     const cf = $('#contactForm');
     if (cf) {
       if (!SITE.forms.contact) { cf.hidden = true; $('#contactFallback').hidden = false; }
