@@ -553,6 +553,10 @@ const SECTORS = [
       "uniqlo coupon",
       "the north face discount",
       "samsung discount",
+      "adidas promo code",
+      "boots discount code",
+      "currys voucher code",
+      "h&m promo code",
       "expiring soon",
       "hot deals"
     ],
