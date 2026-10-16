@@ -103,7 +103,7 @@ const SECTORS = [
     "name": "TapTill",
     "sub": "taptill",
     "icon": "creditcard",
-    "accent": "#00D1C1",
+    "accent": "#F5243F",
     "live": false,
     "status": "building",
     "fallback": "",
@@ -192,13 +192,13 @@ const SECTORS = [
         "credit": "Clay Banks",
         "creditUrl": "https://unsplash.com/@claybanks"
       },
-      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#0E1A2B\"/><rect x=\"11\" y=\"7.5\" width=\"16\" height=\"25\" rx=\"4\" fill=\"none\" stroke=\"#00D1C1\" stroke-width=\"2.2\"/><rect x=\"14\" y=\"11\" width=\"10\" height=\"6.5\" rx=\"1.5\" fill=\"#00D1C1\"/><circle cx=\"15.5\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"19\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"22.5\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"15.5\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"19\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"22.5\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><path d=\"M30 15.5a6 6 0 0 1 0 9M33 13a10 10 0 0 1 0 14\" fill=\"none\" stroke=\"#FF7A45\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
-      "accent": "#0E1A2B",
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#1C1A6E\"/><rect x=\"11\" y=\"7.5\" width=\"16\" height=\"25\" rx=\"4\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\"/><rect x=\"14\" y=\"11\" width=\"10\" height=\"6.5\" rx=\"1.5\" fill=\"#fff\"/><circle cx=\"15.5\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"19\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"22.5\" cy=\"22.5\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"15.5\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"19\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"22.5\" cy=\"27\" r=\"1.3\" fill=\"#fff\"/><path d=\"M30 15.5a6 6 0 0 1 0 9M33 13a10 10 0 0 1 0 14\" fill=\"none\" stroke=\"#F5243F\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+      "accent": "#1C1A6E",
       "wordmark": [
         "Tap",
         "Till"
       ],
-      "wordmarkColor": "#00D1C1"
+      "wordmarkColor": "#FF6B7F"
     }
   },
   {
