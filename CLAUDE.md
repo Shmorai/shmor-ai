@@ -31,6 +31,14 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
 - Field codes live in `assets/js/config.js` → `SITE.signup.fields`. If a form question is added or renamed, re-read the codes (FB_PUBLIC_LOAD_DATA_ on the form's viewform page) and update them.
 - Privacy policy covers it (tools/pages/privacy.html). Don't claim subscriber numbers we don't have.
 
+## Shmor Weekly email (sending)
+- `node tools/build-weekly.js` builds this week's digest → `weekly/latest.json` (+ `weekly/preview.html`): newest English articles from the last 7 days, max 1 per site, 8 stories. Run it weekly (e.g. Sunday) and publish with the site. `/weekly/` is excluded in robots.txt.
+- Apps Script **"Shmor Weekly sender"** is bound to the sign-up Sheet (source: `tools/weekly-email/Code.gs`; when changing it, re-paste the file + a `SAMPLE_ISSUE` const into the editor). Project: https://script.google.com/home/projects/1EhKJ898fTr6J1OJrwJzolEXSVWNgw6lLtuwntjHLO_RIqDIevFcqRDIK/edit
+- Every Monday ~9am it fetches https://shmor.ai/weekly/latest.json and emails everyone with Weekly email consent = Yes and no "Unsubscribed" date. It never sends the same issue twice. It logs to the "Send log" tab. Sheet menu: Shmor Weekly → test / send now / set up.
+- Unsubscribe web app (HMAC-signed links): https://script.google.com/macros/s/AKfycbx_NGOKCsxuD9LdWoi_YLwNfm_L6vwzu9xqS2uZXMge9TOJFJG76vy_YtL7w14TB1HF/exec
+- **Off until launch**: "Weekly email settings" tab → Sending enabled = NO; real sends are also blocked until "Company postal address" is filled in.
+- Caveats: youtube@shmor.ai is a Google account WITHOUT Gmail (mail is hosted at GoDaddy), so Google's send limit is about 100 emails/day (the script pauses and resumes the next day). shmor.ai's SPF record only authorises GoDaddy, so emails sent by Google from @shmor.ai may land in spam. Before launch, either add include:_spf.google.com to the SPF record or move sending to an email service (Brevo/Mailchimp) with domain authentication.
+
 ## Notes
 - Theme is dark for all visitors (the `@media all` blocks in style.css hold the dark overrides).
 - The newsletter and contact forms switch on when Formspree endpoints are set in `SITE.forms`. GA4 in `SITE.analytics` switches on the consent banner.
