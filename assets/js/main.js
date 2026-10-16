@@ -75,6 +75,12 @@
   const hasAff = slug => !!(slug && typeof AFFILIATE_LINKS !== 'undefined' && AFFILIATE_LINKS[slug]);
   window.shmorAffiliate = { SUBID, goHref };
 
+  // Only marketplaces that have a website (or a partner fallback) appear anywhere on shmor.ai:
+  // cards, footer, counts and search routing. Planned ones stay in network/ until they're built.
+  for (let i = SECTORS.length - 1; i >= 0; i--) {
+    if (SECTORS[i].status === 'planned' && !hasAff(SECTORS[i].fallback)) SECTORS.splice(i, 1);
+  }
+
   function wireAffLinks(scope = document) {
     $$('a[data-aff]', scope).forEach(a => {
       const slug = a.dataset.aff;
@@ -319,7 +325,7 @@
       const s = routeQuery(q);
       hint.innerHTML = s
         ? `${icon('search', 15)} Searching in <span class="chip-mini" style="--accent:${s.accent}">${icon(s.icon, 14)} ${esc(s.name)}</span>`
-        : `${icon('search', 15)} Searching across <strong>Shmor Deals</strong>`;
+        : `${icon('search', 15)} No marketplace matches yet. Try other words, or browse <strong>all marketplaces</strong> below`;
     }
     if (matchMedia('(max-width: 580px)').matches) input.placeholder = 'Trips, local pros, deals…';
     input.addEventListener('input', updateHint);
@@ -328,7 +334,11 @@
       e.preventDefault();
       const q = input.value.trim();
       if (!q) { input.focus(); return; }
-      go(routeQuery(q) || SECTORS.find(x => x.id === 'deals'), q, 'search');
+      const s = routeQuery(q);
+      if (s) return go(s, q, 'search');
+      // No marketplace matches: say so and show the marketplaces instead of going nowhere
+      toast('No marketplace matches that yet. Browse them all below.');
+      const grid = $('#network'); if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     const pq = new URLSearchParams(location.search).get('q');
     if (pq) { input.value = pq; updateHint(); }
