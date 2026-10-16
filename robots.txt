@@ -4,3 +4,4 @@ Disallow: /go/
 Disallow: /weekly/
 
 Sitemap: https://shmor.ai/sitemap.xml
+Sitemap: https://shmor.ai/sitemap-network.xml

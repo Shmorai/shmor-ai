@@ -77,7 +77,7 @@ console.log('built 404.html');
 
 // Sitemap
 const today = new Date().toISOString().slice(0, 10);
-const urls = ['', ...PAGES.map(p => p.slug + '/')];
+const urls = ['', ...PAGES.map(p => p.slug + '/'), ...['marketplaces/', 'daily/'].filter(u => fs.existsSync(path.join(ROOT, u, 'index.html')))];
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => `  <url><loc>${DOMAIN}/${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +

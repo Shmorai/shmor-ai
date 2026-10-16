@@ -39,6 +39,14 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
 - **Off until launch**: "Weekly email settings" tab → Sending enabled = NO; real sends are also blocked until "Company postal address" is filled in.
 - Caveats: youtube@shmor.ai is a Google account WITHOUT Gmail (mail is hosted at GoDaddy), so Google's send limit is about 100 emails/day (the script pauses and resumes the next day). shmor.ai's SPF record only authorises GoDaddy, so emails sent by Google from @shmor.ai may land in spam. Before launch, either add include:_spf.google.com to the SPF record or move sending to an email service (Brevo/Mailchimp) with domain authentication.
 
+## Shmor Daily + network SEO
+- `node tools/rebuild-all.js` (add `--kit` after changing the site kit): network index → every site → master sync → Shmor Daily → weekly digest. Run it before committing network-wide changes.
+- `tools/build-network-index.js` → `network-index.json` (every indexable page + topic words). Each site's build adds a **"From across the Shmor network"** box: up to 3 related pages on OTHER sites, same language, rarity-weighted topic match (≥2 shared distinctive words, score ≥ 4.2). Precision matters more than count; don't loosen it to add links.
+- `tools/build-daily.js` → `/daily/` (indexable hub, rebuilt daily), `/daily/YYYY-MM-DD/` (noindex,follow), `/daily/feed.xml`, `/marketplaces/` directory, `sitemap-network.xml` (sitemap index of every site; submit once in Search Console via the shmor.ai Domain property), and the "Today on the Shmor network" strip in index.html (between DAILY:START/END markers).
+- Partner offers & referral picks on Shmor Daily appear automatically once OFFERS / featured AFFILIATE_LINKS exist.
+- `tools/audit-seo.js [--detail]`: thin pages, orphans, sitemap coverage, alt text, lang, cross-network links. Thin = < 300 words. Don't pad; expand with genuinely useful content only.
+- SEO rules: no keyword stuffing, no bulk/sitewide cross-links, no fake backlinks. Real backlinks come from outreach, PR and partners.
+
 ## Notes
 - Theme is dark for all visitors (the `@media all` blocks in style.css hold the dark overrides).
 - The newsletter and contact forms switch on when Formspree endpoints are set in `SITE.forms`. GA4 in `SITE.analytics` switches on the consent banner.

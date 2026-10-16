@@ -119,7 +119,8 @@
     const head = $('#site-header');
     if (head) {
       const links = [
-        ['Marketplaces', `${ROOT}#network`],
+        ['Marketplaces', `${ROOT}marketplaces/`],
+        ['Shmor Daily', `${ROOT}daily/`],
         ['How it works', `${ROOT}#how`],
         ['About', `${ROOT}about/`],
         ['For brands', `${ROOT}partners/`],

@@ -383,3 +383,33 @@ section { padding: 96px 0; }
 .join-done p { color: var(--ink-2); margin: 10px 0 22px; }
 @media (max-width: 900px) { .join-grid { grid-template-columns: 1fr; gap: 32px; } }
 @media (max-width: 480px) { .fld-row { grid-template-columns: 1fr; gap: 0; } .join-card { padding: 22px 18px; } }
+
+/* ---------- Shmor Daily + marketplace directory ---------- */
+.dly-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px !important; }
+.dly-jump a { font-size: 14px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); }
+.dly-jump a:hover { color: var(--ink); border-color: var(--purple-2); }
+.dly-sec { padding: 44px 0 8px; }
+.dly-sec h2 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 20px; }
+.dly-top { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.dly-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.dly-card { display: flex; flex-direction: column; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; padding: 0 0 18px; transition: transform .2s, border-color .2s; }
+.dly-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+.dly-card img { width: 100%; height: auto; aspect-ratio: 5 / 3; object-fit: cover; display: block; margin-bottom: 8px; }
+.dly-card > :not(img) { padding: 0 18px; }
+.dly-card h3 { font-size: 18px; line-height: 1.3; }
+.dly-big h3 { font-size: 22px; }
+.dly-card p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.dly-meta { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding-top: 4px; }
+.dly-meta b { color: var(--accent); }
+.dly-offer { padding-top: 16px; }
+.dly-note { color: var(--ink-3); font-size: 13px; margin-top: 12px; }
+.dly-sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.dly-sites a { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 14px; }
+.dly-sites a:hover { border-color: var(--accent); }
+.dly-sites b { font-family: var(--display); font-size: 17px; }
+.dly-sites span { color: var(--ink-2); font-size: 14px; }
+.dly-sites small { color: var(--ink-3); font-size: 12px; font-family: ui-monospace, Consolas, monospace; }
+.dly-cta { display: flex; align-items: center; justify-content: space-between; gap: 20px; background: linear-gradient(135deg, #613284, #2E1F5E); border-radius: 22px; padding: 28px; flex-wrap: wrap; }
+.dly-cta h2 { color: #fff; margin: 0 0 6px; } .dly-cta p { color: rgba(255,255,255,.85); margin: 0; }
+.dly-archive { display: flex; flex-wrap: wrap; gap: 8px; } .dly-archive a { font-size: 14px; padding: 6px 12px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); }
+@media (max-width: 760px) { .dly-top { grid-template-columns: 1fr; } }
