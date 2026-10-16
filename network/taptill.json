@@ -3,7 +3,7 @@
   "id": "taptill",
   "name": "TapTill",
   "subdomain": "taptill",
-  "order": 360,
+  "order": 11,
   "status": "building",
   "icon": "creditcard",
   "accent": "#00D1C1",
