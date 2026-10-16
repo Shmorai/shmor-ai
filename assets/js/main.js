@@ -95,7 +95,9 @@
   // On a local preview (localhost:4000), sites with a dev server open that instead of the real subdomain
   const LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
   const local = s => LOCAL && s.devPort;
-  const siteRoot = s => local(s) ? `http://${location.hostname}:${s.devPort}/` : `https://${s.sub}.${SITE.domain}/`;
+  // Match the visitor's protocol: works over http while HTTPS certificates are being issued; https once enforced
+  const SCHEME = location.protocol === 'http:' ? 'http' : 'https';
+  const siteRoot = s => local(s) ? `http://${location.hostname}:${s.devPort}/` : `${SCHEME}://${s.sub}.${SITE.domain}/`;
   const urlFor = (s, q) => `${siteRoot(s)}${q ? 'search/?q=' + encodeURIComponent(q) : ''}`;
   function routeQuery(q) {
     const t = ' ' + q.toLowerCase() + ' ';
