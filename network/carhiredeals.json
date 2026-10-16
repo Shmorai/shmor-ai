@@ -1,0 +1,360 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "carhiredeals",
+  "name": "CarHireDeals",
+  "subdomain": "carhiredeals",
+  "order": 340,
+  "status": "building",
+  "icon": "car",
+  "accent": "#2F6BFF",
+  "blurb": "Car hire and rental car deals compared across the major brands, at airports and local depots in the USA, UK, Europe and worldwide.",
+  "keywords": [
+    "car hire",
+    "car rental",
+    "rental car",
+    "rental cars",
+    "hire car",
+    "car hire deals",
+    "car rental deals",
+    "cheap car hire",
+    "cheap car rental",
+    "airport car hire",
+    "airport car rental",
+    "car hire airport",
+    "rent a car",
+    "van hire",
+    "one way car rental",
+    "one way car hire",
+    "hertz",
+    "avis",
+    "enterprise",
+    "europcar",
+    "sixt",
+    "budget",
+    "alamo",
+    "national car rental",
+    "thrifty",
+    "dollar rent a car",
+    "green motion",
+    "rentalcars",
+    "discover cars",
+    "heathrow car hire",
+    "gatwick car hire",
+    "lax car rental",
+    "orlando car rental",
+    "mco car rental",
+    "malaga car hire",
+    "alicante car hire",
+    "faro car hire",
+    "dubai car rental",
+    "young driver car hire",
+    "carhiredeals",
+    "car rental usa",
+    "car hire europe",
+    "car hire uk",
+    "jfk car rental",
+    "dubai car hire",
+    "car rental companies",
+    "car hire excess insurance",
+    "rental car insurance",
+    "downtown car rental",
+    "local car hire",
+    "cargo van rental",
+    "drop off car hire"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Airport car hire",
+      "q": "airport car hire"
+    },
+    {
+      "label": "Orlando car rental",
+      "q": "orlando car rental"
+    },
+    {
+      "label": "Malaga car hire",
+      "q": "malaga car hire"
+    }
+  ],
+  "offers": [],
+  "links": {},
+  "seo": {
+    "siteName": "CarHireDeals",
+    "description": "Car hire and rental car deals compared across the major brands, at airports and local depots in the USA, UK, Europe and worldwide.",
+    "locale": "en",
+    "ogLocale": "en_GB",
+    "themeColor": "#0B1530",
+    "searchPlaceholder": "Search car hire guides, e.g. Orlando or excess insurance",
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+    "ctaTitle": "Where are you picking up?"
+  },
+  "card": {
+    "image": {
+      "src": "https://images.unsplash.com/photo-1572401611152-cf63d874b019",
+      "alt": "Red hatchback driving on an open asphalt road",
+      "credit": "Maksim Tarasov",
+      "creditUrl": "https://unsplash.com/@awsmsky"
+    },
+    "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#2F6BFF\"/><path d=\"M9 23.6 11.3 18A3 3 0 0 1 14.1 16h11.8a3 3 0 0 1 2.8 2L31 23.6V27a1 1 0 0 1-1 1h-2.2a1 1 0 0 1-1-1v-1H13.2v1a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1Z\" fill=\"#fff\"/><path d=\"m13.2 22 1.3-3.4a1 1 0 0 1 .9-.6h9.2a1 1 0 0 1 .9.6l1.3 3.4Z\" fill=\"#2F6BFF\"/><circle cx=\"13.2\" cy=\"24.2\" r=\"1.3\" fill=\"#FFB020\"/><circle cx=\"26.8\" cy=\"24.2\" r=\"1.3\" fill=\"#FFB020\"/><path d=\"M8 32.5h5m4.5 0h5m4.5 0h5\" stroke=\"#FFB020\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "accent": "#2F6BFF",
+    "wordmark": [
+      "CarHire",
+      "Deals"
+    ],
+    "wordmarkColor": "#FFB020"
+  },
+  "providers": [
+    {
+      "id": "kayak",
+      "name": "KAYAK",
+      "kind": "search",
+      "color": "#FF690F",
+      "note": "Metasearch: compares hundreds of rental sites at once",
+      "prefill": true,
+      "url": {
+        "us": "https://www.kayak.com/cars/{qp}/{in}-{h1}h/{out}-{h2}h",
+        "uk": "https://www.kayak.co.uk/cars/{qp}/{in}-{h1}h/{out}-{h2}h",
+        "eu": "https://www.kayak.ie/cars/{qp}/{in}-{h1}h/{out}-{h2}h"
+      },
+      "home": {
+        "us": "https://www.kayak.com/cars",
+        "uk": "https://www.kayak.co.uk/cars",
+        "eu": "https://www.kayak.ie/cars"
+      }
+    },
+    {
+      "id": "expedia",
+      "name": "Expedia",
+      "kind": "search",
+      "color": "#1A2B6D",
+      "note": "Car rental from the big brands, plus flight + car bundles",
+      "prefill": true,
+      "url": {
+        "us": "https://www.expedia.com/carsearch?locn={q}&date1={inUS}&date2={outUS}&time1={t1}&time2={t2}",
+        "uk": "https://www.expedia.co.uk/carsearch?locn={q}&date1={inUK}&date2={outUK}&time1={t1}&time2={t2}",
+        "eu": "https://www.expedia.ie/carsearch?locn={q}&date1={inUK}&date2={outUK}&time1={t1}&time2={t2}"
+      },
+      "home": {
+        "us": "https://www.expedia.com/Cars",
+        "uk": "https://www.expedia.co.uk/Cars",
+        "eu": "https://www.expedia.ie/Cars"
+      }
+    },
+    {
+      "id": "rentalcars",
+      "name": "Rentalcars.com",
+      "kind": "search",
+      "color": "#0071C2",
+      "note": "Car hire broker from the Booking.com group, worldwide",
+      "home": {
+        "us": "https://www.rentalcars.com/",
+        "uk": "https://www.rentalcars.com/",
+        "eu": "https://www.rentalcars.com/"
+      }
+    },
+    {
+      "id": "discovercars",
+      "name": "Discover Cars",
+      "kind": "search",
+      "color": "#1EA362",
+      "note": "Broker comparing local and international suppliers",
+      "home": {
+        "us": "https://www.discovercars.com/",
+        "uk": "https://www.discovercars.com/",
+        "eu": "https://www.discovercars.com/"
+      }
+    },
+    {
+      "id": "skyscanner",
+      "name": "Skyscanner",
+      "kind": "search",
+      "color": "#0062E3",
+      "note": "Car hire price comparison",
+      "home": {
+        "us": "https://www.skyscanner.com/carhire",
+        "uk": "https://www.skyscanner.net/carhire",
+        "eu": "https://www.skyscanner.net/carhire"
+      }
+    },
+    {
+      "id": "priceline",
+      "name": "Priceline",
+      "kind": "search",
+      "color": "#0068EF",
+      "note": "US rental car deals, including Express Deals",
+      "regions": [
+        "us"
+      ],
+      "home": {
+        "us": "https://www.priceline.com/rental-cars/"
+      }
+    },
+    {
+      "id": "autoeurope",
+      "name": "Auto Europe",
+      "kind": "search",
+      "color": "#C8102E",
+      "note": "Broker for car rental in Europe and worldwide",
+      "regions": [
+        "us",
+        "eu"
+      ],
+      "home": {
+        "us": "https://www.autoeurope.com/",
+        "eu": "https://www.autoeurope.com/"
+      }
+    },
+    {
+      "id": "hertz",
+      "name": "Hertz",
+      "kind": "brand",
+      "color": "#FFCC00",
+      "ink": "#111",
+      "group": "Hertz",
+      "note": "Airports and city locations worldwide; also runs Dollar and Thrifty",
+      "home": {
+        "us": "https://www.hertz.com/",
+        "uk": "https://www.hertz.co.uk/",
+        "eu": "https://www.hertz.com/"
+      }
+    },
+    {
+      "id": "avis",
+      "name": "Avis",
+      "kind": "brand",
+      "color": "#D4002A",
+      "group": "Avis Budget Group",
+      "note": "Global brand at most major airports",
+      "home": {
+        "us": "https://www.avis.com/",
+        "uk": "https://www.avis.co.uk/",
+        "eu": "https://www.avis.com/"
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "kind": "brand",
+      "color": "#169A5A",
+      "group": "Enterprise Mobility",
+      "note": "Big network of neighbourhood branches as well as airports",
+      "home": {
+        "us": "https://www.enterprise.com/",
+        "uk": "https://www.enterprise.co.uk/",
+        "eu": "https://www.enterprise.com/"
+      }
+    },
+    {
+      "id": "sixt",
+      "name": "SIXT",
+      "kind": "brand",
+      "color": "#FF5F00",
+      "group": "Sixt SE",
+      "note": "German brand known for premium models, growing in the US",
+      "home": {
+        "us": "https://www.sixt.com/",
+        "uk": "https://www.sixt.co.uk/",
+        "eu": "https://www.sixt.com/"
+      }
+    },
+    {
+      "id": "europcar",
+      "name": "Europcar",
+      "kind": "brand",
+      "color": "#00964F",
+      "group": "Europcar Mobility Group",
+      "note": "One of Europe’s largest networks",
+      "regions": [
+        "uk",
+        "eu"
+      ],
+      "home": {
+        "uk": "https://www.europcar.co.uk/",
+        "eu": "https://www.europcar.com/"
+      }
+    },
+    {
+      "id": "budget",
+      "name": "Budget",
+      "kind": "brand",
+      "color": "#F26522",
+      "group": "Avis Budget Group",
+      "note": "Value brand from the Avis group",
+      "home": {
+        "us": "https://www.budget.com/",
+        "uk": "https://www.budget.co.uk/",
+        "eu": "https://www.budget.com/"
+      }
+    },
+    {
+      "id": "alamo",
+      "name": "Alamo",
+      "kind": "brand",
+      "color": "#0F4C97",
+      "group": "Enterprise Mobility",
+      "note": "Popular with leisure travellers, especially in the US",
+      "home": {
+        "us": "https://www.alamo.com/",
+        "uk": "https://www.alamo.co.uk/",
+        "eu": "https://www.alamo.com/"
+      }
+    },
+    {
+      "id": "national",
+      "name": "National",
+      "kind": "brand",
+      "color": "#00843D",
+      "group": "Enterprise Mobility",
+      "note": "Business-travel favourite, with the Emerald Club programme",
+      "home": {
+        "us": "https://www.nationalcar.com/",
+        "uk": "https://www.nationalcar.co.uk/",
+        "eu": "https://www.nationalcar.com/"
+      }
+    },
+    {
+      "id": "thrifty",
+      "name": "Thrifty",
+      "kind": "brand",
+      "color": "#004B87",
+      "group": "Hertz",
+      "note": "Value brand from the Hertz group",
+      "home": {
+        "us": "https://www.thrifty.com/",
+        "uk": "https://www.thrifty.co.uk/",
+        "eu": "https://www.thrifty.com/"
+      }
+    },
+    {
+      "id": "dollar",
+      "name": "Dollar",
+      "kind": "brand",
+      "color": "#C8102E",
+      "group": "Hertz",
+      "note": "Value brand from the Hertz group, mainly in the US",
+      "regions": [
+        "us"
+      ],
+      "home": {
+        "us": "https://www.dollar.com/"
+      }
+    },
+    {
+      "id": "greenmotion",
+      "name": "Green Motion",
+      "kind": "brand",
+      "color": "#6CB33F",
+      "group": "Green Motion",
+      "note": "Franchise brand with an eco-focused fleet",
+      "regions": [
+        "uk",
+        "eu"
+      ],
+      "home": {
+        "uk": "https://www.greenmotion.com/",
+        "eu": "https://www.greenmotion.com/"
+      }
+    }
+  ]
+}
