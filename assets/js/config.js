@@ -10,16 +10,18 @@ const SITE = {
 
   // Shown in the legal pages and footer — fill these in before launch.
   company: {
-    legalName: '[Your Company Name Ltd]',
-    number: '[Company number]',
-    address: '[Registered office address]',
-    jurisdiction: 'England and Wales',
+    legalName: 'Shmor.ai',
+    number: '',                 // add the Companies House number here once registered; it then shows in the footer
+    address: '82 King Street, Manchester, Greater Manchester, M2 4WQ, United Kingdom',
+    jurisdiction: 'England and Wales', // governing law in the terms of use
   },
 
   emails: {
-    hello: 'hello@shmor.ai',
-    partners: 'partners@shmor.ai',
-    privacy: 'privacy@shmor.ai',
+    info: 'info@shmor.ai',          // main enquiries
+    help: 'contactus@shmor.ai',     // help & support
+    partners: 'partnership@shmor.ai', // brands, advertisers, affiliate partners
+    privacy: 'contactus@shmor.ai',  // privacy & data requests
+    hello: 'info@shmor.ai',         // older pages use data-mail="hello"
   },
 
   // Free form backends (GitHub Pages can't process forms itself).

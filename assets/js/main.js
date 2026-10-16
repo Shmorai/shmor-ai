@@ -175,7 +175,7 @@
         </div>
         <div class="disclosure">
           <p><strong>Affiliate disclosure:</strong> ${esc(SITE.name)} is free to use. Some links on our sites are affiliate links. If you click through and buy or enquire, we may earn a commission from the provider at no extra cost to you. <a href="${ROOT}affiliate-disclosure/">Learn more</a>.</p>
-          <p>© ${new Date().getFullYear()} ${esc(SITE.company.legalName)}. ${esc(SITE.name)} is a trading name of ${esc(SITE.company.legalName)}, registered in ${esc(SITE.company.jurisdiction)} (${esc(SITE.company.number)}).</p>
+          <p>© ${new Date().getFullYear()} ${esc(SITE.company.legalName)}${SITE.company.number ? ` · Company no. ${esc(SITE.company.number)}` : ''} · Main office: ${esc(SITE.company.address)} · <a href="mailto:${esc(SITE.emails.info)}">${esc(SITE.emails.info)}</a></p>
         </div>
       </div>`;
     }

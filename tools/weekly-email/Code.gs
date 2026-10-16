@@ -36,9 +36,9 @@ function setup() {
       ['Sending enabled', 'NO', 'Set to YES at launch. While NO, the Monday run sends nothing (tests still work).'],
       ['Digest URL', 'https://shmor.ai/weekly/latest.json', "This week's stories, published with shmor.ai every week."],
       ['From name', 'Shmor Weekly', 'Shown as the sender name.'],
-      ['Reply-to email', 'hello@shmor.ai', 'Where replies go.'],
+      ['Reply-to email', 'info@shmor.ai', 'Where replies go.'],
       ['Test recipient', Session.getEffectiveUser().getEmail(), 'Where "Send a test to me" goes.'],
-      ['Company postal address', '[Company legal name, registered address]', 'Shown in every email footer (required for US subscribers). Real sends are blocked until this is filled in.'],
+      ['Company postal address', 'Shmor.ai, 82 King Street, Manchester, Greater Manchester, M2 4WQ, United Kingdom', 'Shown in every email footer (required for US subscribers). Real sends are blocked until this is filled in.'],
     ]);
     st.setColumnWidth(1, 190); st.setColumnWidth(2, 360); st.setColumnWidth(3, 520);
   }

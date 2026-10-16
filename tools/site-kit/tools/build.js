@@ -537,7 +537,7 @@ const footerNav = pages.filter(p => p.slug && !p.noindex && p.type !== 'post').s
 function render(p, main, opts) {
   const fill = {
     head: head(p, opts), nav: navHtml, main, footer_nav: footerNav,
-    year: String(new Date().getFullYear()), site_name: esc(NAME),
+    year: String(new Date().getFullYear()), site_name: esc(NAME), contact_email: `${site.subdomain}@shmor.ai`,
     body_class: p.slug ? `page page-${p.slug.split('/')[0]}` : 'home',
   };
   return layout.replace(/{{([a-z_]+)}}/g, (m, k) => (k in fill ? fill[k] : m));
