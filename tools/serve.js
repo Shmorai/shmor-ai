@@ -36,11 +36,19 @@ function serveFolder(root, port, label) {
 console.log('Shmor preview:');
 serveFolder(ROOT, PORT, 'shmor.ai');
 
-// Marketplaces: ports from the workspace launch.json (config name = site id)
-let launch = { configurations: [] };
-try { launch = JSON.parse(fs.readFileSync(path.resolve(ROOT, '..', '..', '.claude', 'launch.json'), 'utf8')); } catch { /* no launch.json */ }
+// Marketplaces: ports from the workspace launch.json (config name = site id).
+// Re-checked every 15 seconds, so a site created while the preview is running opens without a restart.
 const SITES = path.resolve(ROOT, '..', 'sites');
-for (const c of launch.configurations) {
-  const dir = path.join(SITES, `shmor-${c.name}`);
-  if (c.port && c.port !== PORT && fs.existsSync(path.join(dir, 'shmor-site.json'))) serveFolder(dir, c.port, c.name);
+const started = new Set();
+function startSites() {
+  let launch = { configurations: [] };
+  try { launch = JSON.parse(fs.readFileSync(path.resolve(ROOT, '..', '..', '.claude', 'launch.json'), 'utf8')); } catch { /* no launch.json */ }
+  for (const c of launch.configurations) {
+    const dir = path.join(SITES, `shmor-${c.name}`);
+    if (!c.port || c.port === PORT || started.has(c.port) || !fs.existsSync(path.join(dir, 'shmor-site.json'))) continue;
+    started.add(c.port);
+    serveFolder(dir, c.port, c.name);
+  }
 }
+startSites();
+setInterval(startSites, 15000);
