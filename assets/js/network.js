@@ -248,7 +248,6 @@ const SECTORS = [
       "bookkeeper",
       "bookkeeping",
       "tax return",
-      "payroll",
       "social media",
       "social media manager",
       "social media marketing",
@@ -268,7 +267,6 @@ const SECTORS = [
       "hr support",
       "hr advice",
       "hr department",
-      "hr outsourcing",
       "vat return",
       "sales tax",
       "cpa firm",
@@ -1992,6 +1990,103 @@ const SECTORS = [
       ],
       "wordmarkColor": "#FFB020"
     }
+  },
+  {
+    "id": "prosourced",
+    "name": "ProSourced",
+    "sub": "prosourced",
+    "icon": "globe",
+    "accent": "#B07CFF",
+    "live": false,
+    "status": "building",
+    "fallback": "",
+    "devPort": 4022,
+    "blurb": "A global marketplace to find and compare accountants, payroll, HR, consultants, web designers, marketers and more, with free quotes.",
+    "keywords": [
+      "outsourcing",
+      "outsource",
+      "business outsourcing",
+      "outsourced accounting",
+      "outsourced bookkeeping",
+      "outsource payroll",
+      "payroll",
+      "payroll services",
+      "payroll provider",
+      "payroll outsourcing",
+      "global payroll",
+      "international payroll",
+      "employer of record",
+      " eor ",
+      " peo ",
+      "hr outsourcing",
+      "management consultant",
+      "management consulting",
+      "strategy consultant",
+      "fractional cfo",
+      "fractional cmo",
+      "virtual assistant",
+      "virtual assistants",
+      "translation services",
+      "translator",
+      "localisation",
+      "localization",
+      "company formation",
+      "company registration",
+      "register a company",
+      "incorporate a business",
+      "international expansion",
+      "expand abroad",
+      "recruitment agency",
+      "recruiter",
+      "headhunter",
+      "digital marketing agency",
+      "ppc agency",
+      "google ads",
+      "branding agency",
+      "logo design",
+      "brand identity",
+      "graphic designer",
+      "web development",
+      "website developer",
+      "ecommerce website",
+      "shopify developer",
+      "hire freelancers",
+      "find a professional",
+      "find professionals",
+      "business services",
+      "b2b marketplace",
+      "quotes from professionals",
+      "managed service provider",
+      "bark alternative",
+      "fractional coo",
+      "offshore team",
+      "remote team",
+      "nearshore",
+      "hire a consultant",
+      "business help",
+      "find an accountant abroad",
+      "international accountant",
+      "cross-border",
+      "global hiring",
+      "hire internationally",
+      "translation agency",
+      "professional services marketplace"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+        "alt": "Earth seen from space with city lights and network lines",
+        "credit": "NASA",
+        "creditUrl": "https://unsplash.com/@nasa"
+      },
+      "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"10\" fill=\"#1A1233\"/><g fill=\"none\" stroke=\"#B07CFF\"><circle cx=\"19\" cy=\"21\" r=\"10.5\" stroke-width=\"2.4\"/><ellipse cx=\"19\" cy=\"21\" rx=\"4.4\" ry=\"10.5\" stroke-width=\"1.6\"/><path d=\"M8.5 21h21M10.6 15h16.8M10.6 27h16.8\" stroke-width=\"1.4\"/></g><circle cx=\"30\" cy=\"10\" r=\"5.2\" fill=\"#2FAF82\" stroke=\"#1A1233\" stroke-width=\"2\"/><path d=\"m27.7 10.1 1.6 1.6 3-3.2\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "accent": "#1A1233",
+      "wordmark": [
+        "Pro",
+        "Sourced"
+      ],
+      "wordmarkColor": "#B07CFF"
+    }
   }
 ];
 
@@ -2317,6 +2412,21 @@ POPULAR.unshift(...[
     "label": "Malaga car hire",
     "q": "malaga car hire",
     "sector": "carhiredeals"
+  },
+  {
+    "label": "Outsource payroll",
+    "q": "payroll outsourcing",
+    "sector": "prosourced"
+  },
+  {
+    "label": "Management consultants",
+    "q": "management consultant",
+    "sector": "prosourced"
+  },
+  {
+    "label": "Virtual assistants",
+    "q": "virtual assistant",
+    "sector": "prosourced"
   }
 ]);
 
