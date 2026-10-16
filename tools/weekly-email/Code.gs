@@ -1,6 +1,8 @@
 /**
  * Shmor Weekly: emails the weekly digest to everyone in this sheet who
- * ticked "Weekly email consent", from the Google account that owns the sheet.
+ * ticked "Weekly email consent". Sends through Brevo (authenticated for shmor.ai)
+ * once a Brevo API key is connected (menu → Connect Brevo); otherwise through
+ * the Google account that owns the sheet.
  *
  *   • Every Monday ~9am (sheet time zone) sendWeekly() runs automatically.
  *   • It only sends when "Sending enabled" = YES on the "Weekly email settings" tab
@@ -22,6 +24,7 @@ function onOpen() {
     .addItem('Send a test to me', 'sendTestToMe')
     .addItem("Send this week's email now", 'sendWeeklyNow')
     .addSeparator()
+    .addItem('Connect Brevo (paste API key)', 'connectBrevo')
     .addItem('Set up or repair', 'setup')
     .addToUi();
 }
@@ -42,6 +45,7 @@ function setup() {
     ]);
     st.setColumnWidth(1, 190); st.setColumnWidth(2, 360); st.setColumnWidth(3, 520);
   }
+  if (!('From email' in settings_())) st.appendRow(['From email', 'weekly@shmor.ai', 'Sender address when sending through Brevo (must be @shmor.ai, the domain authenticated in Brevo).']);
   let log = ss.getSheetByName(LOG_SHEET);
   if (!log) {
     log = ss.insertSheet(LOG_SHEET);
@@ -81,17 +85,21 @@ function send_(manual, resuming) {
   let start = resuming && props.getProperty('PENDING_ISSUE') === issue ? Number(props.getProperty('PENDING_INDEX') || 0) : 0;
   let sent = 0, failed = 0;
   for (let i = start; i < list.length; i++) {
-    if (MailApp.getRemainingDailyQuota() < 1) {
+    let limited = !brevoKey_() && MailApp.getRemainingDailyQuota() < 1;
+    if (!limited) {
+      try { deliver_(list[i], d.digest, s, false); sent++; }
+      catch (e) { if (e.dailyLimit) limited = true; else failed++; }
+    }
+    if (limited) {
       props.setProperties({ PENDING_ISSUE: issue, PENDING_INDEX: String(i) });
       ScriptApp.newTrigger('resumeWeekly').timeBased().after(24 * 60 * 60 * 1000).create();
-      return log_('paused', issue, sent, 'Daily Google email limit reached at ' + i + '/' + list.length + '. Resumes automatically in 24 hours.');
+      return log_('paused', issue, sent, 'Daily email limit (' + (brevoKey_() ? 'Brevo' : 'Google') + ') reached at ' + i + '/' + list.length + '. Resumes automatically in 24 hours.');
     }
-    try { deliver_(list[i], d.digest, s, false); sent++; } catch (e) { failed++; }
   }
   props.setProperty('LAST_ISSUE', issue);
   props.deleteProperty('PENDING_ISSUE'); props.deleteProperty('PENDING_INDEX');
   ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'resumeWeekly').forEach(t => ScriptApp.deleteTrigger(t));
-  return log_(manual ? 'sent (manual)' : 'sent', issue, sent, failed ? failed + ' failed' : 'All delivered to Google for sending.');
+  return log_(manual ? 'sent (manual)' : 'sent', issue, sent, (failed ? failed + ' failed' : 'All handed over for sending') + ' via ' + (brevoKey_() ? 'Brevo.' : 'Google.'));
 }
 
 function sendTestToMe() {
@@ -108,6 +116,8 @@ function sendTestToMe() {
 
 function deliver_(sub, digest, s, isTest) {
   const unsub = unsubUrl_(sub.email, s);
+  const key = brevoKey_();
+  if (key) return brevoSend_(key, sub, digest, s, isTest, unsub);
   MailApp.sendEmail({
     to: sub.email,
     subject: (isTest ? '[TEST] ' : '') + digest.subject,
@@ -116,6 +126,45 @@ function deliver_(sub, digest, s, isTest) {
     name: s['From name'] || 'Shmor Weekly',
     replyTo: s['Reply-to email'] || undefined,
   });
+}
+
+/* ---------------- Brevo ---------------- */
+// The API key is kept in Script Properties (never in the sheet). Remove it there to fall back to Google sending.
+function brevoKey_() { return PropertiesService.getScriptProperties().getProperty('BREVO_API_KEY'); }
+
+function connectBrevo() {
+  const ui = SpreadsheetApp.getUi();
+  const r = ui.prompt('Connect Brevo', 'Paste your Brevo API key (Brevo → SMTP & API → API keys). It is stored privately in this script, not in the sheet.', ui.ButtonSet.OK_CANCEL);
+  if (r.getSelectedButton() !== ui.Button.OK || !r.getResponseText().trim()) return;
+  const key = r.getResponseText().trim();
+  const res = UrlFetchApp.fetch('https://api.brevo.com/v3/account', { headers: { 'api-key': key, accept: 'application/json' }, muteHttpExceptions: true });
+  if (res.getResponseCode() !== 200) { ui.alert('Brevo did not accept that key (HTTP ' + res.getResponseCode() + '). Nothing was saved.'); return; }
+  PropertiesService.getScriptProperties().setProperty('BREVO_API_KEY', key);
+  log_('setup', '', 0, 'Brevo connected (' + (JSON.parse(res.getContentText()).email || 'account') + '). Emails now send through Brevo.');
+  ui.alert('Brevo connected. Use "Send a test to me" to check it.');
+}
+
+function brevoSend_(key, sub, digest, s, isTest, unsub) {
+  const from = String(s['From email'] || 'weekly@shmor.ai').trim();
+  const payload = {
+    sender: { name: s['From name'] || 'Shmor Weekly', email: from },
+    to: [{ email: sub.email }],
+    subject: (isTest ? '[TEST] ' : '') + digest.subject,
+    htmlContent: render_(digest, sub.first, unsub, s, isTest),
+    textContent: plain_(digest, sub.first, unsub, s),
+    headers: { 'List-Unsubscribe': '<' + unsub + '>' },
+    tags: ['shmor-weekly'],
+  };
+  if (s['Reply-to email']) payload.replyTo = { email: s['Reply-to email'] };
+  const res = UrlFetchApp.fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'post', contentType: 'application/json', payload: JSON.stringify(payload),
+    headers: { 'api-key': key, accept: 'application/json' }, muteHttpExceptions: true,
+  });
+  const code = res.getResponseCode();
+  if (code >= 200 && code < 300) return;
+  const err = new Error('Brevo HTTP ' + code + ': ' + res.getContentText().slice(0, 300));
+  if (code === 429 || /limit|quota|credit/i.test(res.getContentText())) err.dailyLimit = true;
+  throw err;
 }
 
 /* ---------------- Subscribers ---------------- */
