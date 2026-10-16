@@ -497,30 +497,80 @@ const SECTORS = [
     }
   },
   {
-    "id": "deals",
-    "name": "Shmor Deals",
-    "sub": "deals",
+    "id": "vouchervault",
+    "name": "VoucherVault",
+    "sub": "vouchervault",
     "icon": "tag",
-    "accent": "#DB2777",
+    "accent": "#E5136F",
     "live": false,
-    "status": "planned",
+    "status": "building",
     "fallback": "",
-    "blurb": "Hand-picked discounts, voucher codes and flash sales from trusted online retailers.",
+    "devPort": 4024,
+    "blurb": "Live voucher codes, promo codes and coupons for the world's biggest brands, checked against the brands' own sites, with hot deals, expiring-soon offers and saving advice.",
     "keywords": [
+      "voucher",
+      "vouchers",
+      "voucher code",
+      "voucher codes",
+      "discount code",
+      "discount codes",
+      "promo code",
+      "promo codes",
+      "coupon",
+      "coupons",
+      "coupon code",
+      "coupon codes",
+      "code",
+      "codes",
       "deal",
       "deals",
       "discount",
-      "voucher",
-      "code",
-      "codes",
-      "sale",
+      "discounts",
       "offer",
       "offers",
-      "cheap",
-      "coupon",
+      "sale",
+      "sales",
+      "student discount",
+      "military discount",
+      "first order discount",
+      "free delivery",
+      "free shipping",
       "black friday",
-      "cashback"
-    ]
+      "cyber monday",
+      "singles day",
+      "cashback",
+      "nike code",
+      "asos code",
+      "puma code",
+      "under armour code",
+      "dell coupon",
+      "lenovo coupon",
+      "sephora code",
+      "lookfantastic code",
+      "gymshark discount",
+      "old navy code",
+      "kohls coupon",
+      "uniqlo coupon",
+      "the north face discount",
+      "samsung discount",
+      "expiring soon",
+      "hot deals"
+    ],
+    "card": {
+      "image": {
+        "src": "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+        "alt": "A shopper holding paper shopping bags",
+        "credit": "freestocks",
+        "creditUrl": "https://unsplash.com/@freestocks"
+      },
+      "logo": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#E5136F\"/><path d=\"M9 14a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v2.6a3.4 3.4 0 0 0 0 6.8V26a3 3 0 0 1-3 3H12a3 3 0 0 1-3-3v-2.6a3.4 3.4 0 0 0 0-6.8z\" fill=\"#fff\"/><path d=\"M16.5 23.5l7-7\" stroke=\"#E5136F\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"16.8\" cy=\"16.8\" r=\"1.7\" fill=\"#E5136F\"/><circle cx=\"23.2\" cy=\"23.2\" r=\"1.7\" fill=\"#E5136F\"/></svg>",
+      "accent": "#E5136F",
+      "wordmark": [
+        "Voucher",
+        "Vault"
+      ],
+      "wordmarkColor": "#E5136F"
+    }
   },
   {
     "id": "fullbars",
@@ -2344,7 +2394,17 @@ POPULAR.unshift(...[
   {
     "label": "Today's voucher codes",
     "q": "voucher codes",
-    "sector": "deals"
+    "sector": "vouchervault"
+  },
+  {
+    "label": "Student discounts",
+    "q": "student discount",
+    "sector": "vouchervault"
+  },
+  {
+    "label": "Black Friday 2026",
+    "q": "black friday",
+    "sector": "vouchervault"
   },
   {
     "label": "Full fibre broadband",
