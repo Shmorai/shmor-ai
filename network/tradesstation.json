@@ -4,7 +4,7 @@
   "name": "TradesStation",
   "subdomain": "tradesstation",
   "order": 20,
-  "status": "building",
+  "status": "live",
   "icon": "wrench",
   "accent": "#FFB300",
   "blurb": "Your one-stop place to find trusted UK tradesmen and builders: extensions, lofts, kitchens, roofing, electrics and more.",

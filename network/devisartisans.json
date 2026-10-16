@@ -4,7 +4,7 @@
   "name": "DevisArtisans",
   "subdomain": "devisartisans",
   "order": 320,
-  "status": "building",
+  "status": "live",
   "icon": "house",
   "accent": "#E2673F",
   "blurb": "Trouvez un artisan en France et comparez des devis gratuits : 30 métiers, 13 régions, 10 guides, astuces et blog.",

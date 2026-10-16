@@ -4,7 +4,7 @@
   "name": "HandwerkerFinder",
   "subdomain": "handwerkerfinder",
   "order": 330,
-  "status": "building",
+  "status": "live",
   "icon": "wrench",
   "accent": "#22C55E",
   "blurb": "Handwerker in ganz Deutschland finden und kostenlose Angebote vergleichen: 31 Gewerke, 16 Bundesländer, Ratgeber und Blog.",

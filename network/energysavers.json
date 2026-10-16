@@ -4,7 +4,7 @@
   "name": "EnergySavers",
   "subdomain": "energysavers",
   "order": 50,
-  "status": "building",
+  "status": "live",
   "icon": "zap",
   "accent": "#2EE59D",
   "blurb": "Compare UK gas, electricity and water suppliers, tariffs and price cap changes, with money-saving guides, grants and the latest energy news.",

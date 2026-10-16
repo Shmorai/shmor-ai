@@ -4,7 +4,7 @@
   "name": "BuildLaw",
   "subdomain": "buildlaw",
   "order": 290,
-  "status": "building",
+  "status": "live",
   "icon": "hardhat",
   "accent": "#5FA8FF",
   "blurb": "UK construction law made clear for builders and clients: JCT and NEC contracts, payment notices, retentions, contract administration and disputes.",

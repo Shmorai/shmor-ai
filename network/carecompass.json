@@ -4,7 +4,7 @@
   "name": "CareCompass",
   "subdomain": "carecompass",
   "order": 300,
-  "status": "building",
+  "status": "live",
   "icon": "heartpulse",
   "accent": "#FF8FA3",
   "blurb": "Find US dentists, cosmetic surgeons and private clinics offering free consultations, with every insurance plan explained.",

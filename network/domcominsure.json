@@ -4,7 +4,7 @@
   "name": "DomCom Insure",
   "subdomain": "domcominsure",
   "order": 110,
-  "status": "building",
+  "status": "live",
   "icon": "shield",
   "accent": "#8B7CFF",
   "blurb": "Home and business insurance explained and compared: buildings, contents, landlord, car, liability, professional indemnity and more for the UK, US and Europe.",

@@ -4,7 +4,7 @@
   "name": "StorageSavings",
   "subdomain": "storagesavings",
   "order": 230,
-  "status": "building",
+  "status": "live",
   "icon": "warehouse",
   "accent": "#FACC15",
   "blurb": "Self-storage units for home and business: size guides, container and vehicle storage, and ways to pay less.",

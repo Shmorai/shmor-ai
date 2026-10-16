@@ -4,7 +4,7 @@
   "name": "CruiseDeals",
   "subdomain": "cruisedeals",
   "order": 12,
-  "status": "building",
+  "status": "live",
   "icon": "ship",
   "accent": "#E3B04B",
   "blurb": "Cruise deals worldwide: Caribbean, Mediterranean, Alaska, Norwegian fjords and river cruises compared across trusted cruise lines.",
