@@ -26,7 +26,11 @@ const ROOT = path.join(__dirname, '..', '..');
 const GRAPH = 'https://graph.facebook.com/v24.0';
 const args = process.argv.slice(2);
 const DRY = args.includes('--dry-run');
-const COUNT = Number((args[args.indexOf('--count') + 1]) || 0) || 1;
+const opt = name => (args.indexOf(name) > -1 ? args[args.indexOf(name) + 1] : '');
+const COUNT = Number(opt('--count')) || 1;
+// --backdate: date the posts one per day over the previous COUNT days (10:00 UTC), oldest first,
+// so they fill the Page's timeline without flooding followers' feeds
+const BACKDATE = args.includes('--backdate');
 
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'network-index.json'), 'utf8'));
 const live = new Set(index.sites.filter(s => s.status === 'live').map(s => s.id));
@@ -120,10 +124,15 @@ function choose(posted, n) {
   const posted = await history();
   const picks = choose(posted, COUNT);
   if (!picks.length) { console.log('Nothing new to post.'); return; }
-  for (const item of picks) {
+  const today = new Date();
+  for (const [n, item] of picks.entries()) {
     const { link, message } = compose(item);
-    if (DRY) { console.log('─'.repeat(60) + `\n[${item.siteName}] ${link}\n\n${message}\n`); continue; }
-    const r = await graph(`/${process.env.FB_PAGE_ID}/feed`, { message, link }, 'POST');
-    console.log(`✓ Posted ${item.siteName}: ${item.title} (${r.id})`);
+    const when = BACKDATE ? new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - (picks.length - n), 10)) : null;
+    const dated = when ? ` (dated ${when.toISOString().slice(0, 10)})` : '';
+    if (DRY) { console.log('─'.repeat(60) + `\n[${item.siteName}]${dated} ${link}\n\n${message}\n`); continue; }
+    const params = { message, link };
+    if (when) Object.assign(params, { backdated_time: String(Math.floor(when / 1000)), backdated_time_granularity: 'day' });
+    const r = await graph(`/${process.env.FB_PAGE_ID}/feed`, params, 'POST');
+    console.log(`✓ Posted ${item.siteName}: ${item.title}${dated} (${r.id})`);
   }
 })().catch(e => { console.error('✗ ' + e.message); process.exit(1); });

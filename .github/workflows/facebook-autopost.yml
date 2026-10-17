@@ -15,6 +15,13 @@ on:
         description: 'Preview only (do not post)'
         type: boolean
         default: false
+      count:
+        description: 'How many posts (one per site, in rotation)'
+        default: '1'
+      backdate:
+        description: 'Backdate them, one per day over the previous days'
+        type: boolean
+        default: false
 
 concurrency: facebook-autopost
 
@@ -31,4 +38,4 @@ jobs:
         env:
           FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-        run: node tools/social/facebook-autopost.js ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: node tools/social/facebook-autopost.js --count "${{ inputs.count || '1' }}" ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.backdate && '--backdate' || '' }}
