@@ -81,7 +81,11 @@ async function graph(pathname, params = {}, method = 'GET') {
     ? await fetch(url + '?' + body)
     : await fetch(url, { method, body });
   const json = await res.json().catch(() => ({}));
-  if (!res.ok || json.error) throw new Error(`Graph ${method} ${pathname}: ${(json.error && json.error.message) || res.status}`);
+  if (!res.ok || json.error) {
+    const e = json.error || {};
+    const detail = [e.message || res.status, e.error_user_title, e.error_user_msg, e.code && `code ${e.code}${e.error_subcode ? '/' + e.error_subcode : ''}`].filter(Boolean).join(' | ');
+    throw new Error(`Graph ${method} ${pathname}: ${detail}`);
+  }
   return json;
 }
 
