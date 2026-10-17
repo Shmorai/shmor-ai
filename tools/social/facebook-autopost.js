@@ -91,13 +91,59 @@ async function graph(pathname, params = {}, method = 'GET') {
 
 async function history() {
   if (DRY && !process.env.FB_PAGE_TOKEN) return [];
-  const r = await graph(`/${process.env.FB_PAGE_ID}/posts`, { fields: 'created_time,message,attachments{unshimmed_url,url}', limit: '100' });
+  const r = await graph(`/${process.env.FB_PAGE_ID}/posts`, { fields: 'id,created_time,message,permalink_url,attachments{unshimmed_url,url}', limit: '100' });
   return (r.data || []).map(p => {
     const a = p.attachments && p.attachments.data && p.attachments.data[0];
     let u = a && (a.unshimmed_url || a.url) || '';
     try { const x = new URL(u); if (x.hostname.endsWith('facebook.com') && x.searchParams.get('u')) u = x.searchParams.get('u'); } catch { /* not a URL */ }
-    return { time: p.created_time, url: u ? bareUrl(u) : '', title: String(p.message || '').split('\n')[0].trim() };
+    return { id: p.id, time: p.created_time, permalink: p.permalink_url || '', url: u ? bareUrl(u) : '', title: String(p.message || '').split('\n')[0].trim() };
   });
+}
+
+/* ---------- calendar feed (social/facebook-calendar.ics on shmor.ai) ----------
+   Past posts (with links) + the planned posts for the next 7 days, so the user can
+   subscribe once in Google Calendar ("From URL"). Planned items are a forecast: new
+   articles published in the meantime can take a slot. */
+const SLOTS_UTC = [8, 12, 17];            // keep in step with the cron times in the workflow
+const PLAN_DAYS = 7;
+function icsText(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n'); }
+function icsFold(line) {           // RFC 5545: lines over 75 octets continue with a leading space
+  const out = []; let cur = '';
+  for (const ch of line) { if (Buffer.byteLength(cur + ch) > 74) { out.push(cur); cur = ' ' + ch; } else cur += ch; }
+  return out.concat(cur).join('\r\n');
+}
+const icsTime = d => new Date(d).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+function writeCalendar(posted) {
+  const now = new Date(), stamp = icsTime(now), events = [];
+  const byUrl = Object.fromEntries(items.map(i => [bareUrl(i.url), i]));
+  for (const p of posted) {
+    const it = byUrl[p.url] || items.find(i => i.title === p.title);
+    const site = it ? it.siteName : 'Shmor.ai';
+    events.push({ uid: `fb-${p.id}@shmor.ai`, start: p.time, summary: `✅ Facebook: ${site}: ${p.title}`,
+      desc: `Posted on the Shmor.ai Facebook Page.\nPost: ${p.permalink}\nArticle: ${p.url}`, url: p.permalink || p.url });
+  }
+  const slots = [];
+  for (let d = 0; d <= PLAN_DAYS; d++) for (const h of SLOTS_UTC) {
+    const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + d, h));
+    if (t > now) slots.push(t);
+  }
+  choose(posted, slots.length).forEach((it, k) => {
+    const { message } = compose(it);
+    events.push({ uid: `plan-${icsTime(slots[k])}@shmor.ai`, start: slots[k], summary: `🗓 Planned: ${it.siteName}: ${it.title}`,
+      desc: `Planned Facebook post (may change if a newer article is published first).\n\n${message}\n\nArticle: ${bareUrl(it.url)}`, url: bareUrl(it.url) });
+  });
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Shmor.ai//Facebook auto-post//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+    'X-WR-CALNAME:Shmor.ai Facebook posts', 'X-WR-CALDESC:Posts made and planned on the Shmor.ai Facebook Page', 'REFRESH-INTERVAL;VALUE=DURATION:PT6H', 'X-PUBLISHED-TTL:PT6H'];
+  for (const e of events) {
+    const start = new Date(e.start);
+    lines.push('BEGIN:VEVENT', `UID:${e.uid}`, `DTSTAMP:${stamp}`, `DTSTART:${icsTime(start)}`, `DTEND:${icsTime(new Date(+start + 15 * 60000))}`,
+      `SUMMARY:${icsText(e.summary)}`, `DESCRIPTION:${icsText(e.desc)}`, e.url ? `URL:${e.url}` : '', 'TRANSP:TRANSPARENT', 'END:VEVENT');
+  }
+  lines.push('END:VCALENDAR');
+  const file = path.join(ROOT, 'social', 'facebook-calendar.ics');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, lines.filter(Boolean).map(icsFold).join('\r\n') + '\r\n');
+  console.log(`✓ Calendar: ${posted.length} posted + ${slots.length} planned → social/facebook-calendar.ics`);
 }
 
 /* ---------- choose ---------- */
@@ -126,8 +172,8 @@ function choose(posted, n) {
     console.error('Set FB_PAGE_ID and FB_PAGE_TOKEN (or use --dry-run).'); process.exit(1);
   }
   const posted = await history();
-  const picks = choose(posted, COUNT);
-  if (!picks.length) { console.log('Nothing new to post.'); return; }
+  const picks = args.includes('--calendar-only') ? [] : choose(posted, COUNT);
+  if (!picks.length) console.log('Nothing to post this run.');
   const today = new Date();
   for (const [n, item] of picks.entries()) {
     const { link, message } = compose(item);
@@ -139,4 +185,5 @@ function choose(posted, n) {
     const r = await graph(`/${process.env.FB_PAGE_ID}/feed`, params, 'POST');
     console.log(`✓ Posted ${item.siteName}: ${item.title}${dated} (${r.id})`);
   }
+  if (args.includes('--calendar') || args.includes('--calendar-only')) writeCalendar(DRY || !picks.length ? posted : await history());
 })().catch(e => { console.error('✗ ' + e.message); process.exit(1); });

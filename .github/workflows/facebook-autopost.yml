@@ -2,6 +2,8 @@
 # Three runs a day (times are UTC: 08:00, 12:00, 17:00 ≈ 9am, 1pm, 6pm UK in summer, 8am, 12pm, 5pm in winter).
 # Needs repo secret FB_PAGE_TOKEN and repo variable FB_PAGE_ID (set by tools/social/facebook-connect.js).
 # Run it by hand from the Actions tab: "Run workflow" (tick dry run to preview without posting).
+# After each run it refreshes social/facebook-calendar.ics (posted + next 7 days planned) and commits it,
+# so https://shmor.ai/social/facebook-calendar.ics can be subscribed to in Google Calendar.
 name: Facebook auto-post
 
 on:
@@ -22,8 +24,15 @@ on:
         description: 'Backdate them, one per day over the previous days'
         type: boolean
         default: false
+      calendar_only:
+        description: 'Only refresh the calendar feed (no post)'
+        type: boolean
+        default: false
 
 concurrency: facebook-autopost
+
+permissions:
+  contents: write
 
 jobs:
   post:
@@ -38,4 +47,14 @@ jobs:
         env:
           FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-        run: node tools/social/facebook-autopost.js --count "${{ inputs.count || '1' }}" ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.backdate && '--backdate' || '' }}
+        run: node tools/social/facebook-autopost.js --count "${{ inputs.count || '1' }}" ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.backdate && '--backdate' || '' }} ${{ inputs.calendar_only && '--calendar-only' || '--calendar' }}
+      - name: Publish the calendar feed
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "Shmor"
+          git config user.email "wirelesspaisa@gmail.com"
+          git add social/facebook-calendar.ics
+          git diff --cached --quiet && exit 0
+          git commit -m "Facebook calendar: update posted and planned posts"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 10; done
+          exit 1
