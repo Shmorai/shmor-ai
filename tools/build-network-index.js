@@ -37,7 +37,8 @@ for (const dir of fs.readdirSync(SITES).filter(d => d.startsWith('shmor-'))) {
   const lang = ((m.seo && m.seo.locale) || 'en').slice(0, 2);
   const base = `https://${m.subdomain}.shmor.ai`;
   sites.push({ id: m.id, name: m.name, subdomain: m.subdomain, lang, accent: (m.card && m.card.accent) || m.accent, blurb: m.blurb,
-    image: m.card && m.card.image ? photo(m.card.image.src) : null, status: m.status, url: `${base}/` });
+    image: m.card && m.card.image ? photo(m.card.image.src) : null, status: m.status, url: `${base}/`,
+    keywords: (m.keywords || []).slice(0, 12) });
   for (const f of walk(path.join(sd, 'content'))) {
     let p; try { p = JSON.parse(fs.readFileSync(f, 'utf8')); } catch { continue; }
     if (typeof p.slug !== 'string' || p.noindex || !p.slug || p.type === 'blog') continue; // skip home + blog index
@@ -47,6 +48,7 @@ for (const dir of fs.readdirSync(SITES).filter(d => d.startsWith('shmor-'))) {
       title: clean(p.h1 || p.title), text: p.cardText || p.description || '',
       url: `${base}/${p.slug}/`, image: p.image && p.image.src ? photo(p.image.src) : null,
       terms: term([p.title, p.h1, p.description, ...(p.keywords || [])].join(' ')),
+      keywords: (p.keywords || []).slice(0, 6), // used for social hashtags (tools/social/)
     });
   }
 }

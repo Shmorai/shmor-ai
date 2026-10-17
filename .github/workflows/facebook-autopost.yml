@@ -1,0 +1,34 @@
+# Posts the next Shmor network article to the Shmor.ai Facebook Page.
+# Three runs a day (times are UTC: 08:00, 12:00, 17:00 ≈ 9am, 1pm, 6pm UK in summer, 8am, 12pm, 5pm in winter).
+# Needs repo secret FB_PAGE_TOKEN and repo variable FB_PAGE_ID (set by tools/social/facebook-connect.js).
+# Run it by hand from the Actions tab: "Run workflow" (tick dry run to preview without posting).
+name: Facebook auto-post
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only (do not post)'
+        type: boolean
+        default: false
+
+concurrency: facebook-autopost
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    if: ${{ vars.FB_AUTOPOST != 'off' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Post to Facebook
+        env:
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: node tools/social/facebook-autopost.js ${{ inputs.dry_run && '--dry-run' || '' }}
