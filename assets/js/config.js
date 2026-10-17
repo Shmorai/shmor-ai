@@ -58,7 +58,7 @@ const SITE = {
   // When set, a cookie consent banner appears and GA only loads after "Accept".
   analytics: { ga4: '' },
 
-  social: { x: '', instagram: '', linkedin: '', tiktok: '', facebook: '' },
+  social: { x: '', instagram: '', linkedin: '', tiktok: '', facebook: 'https://www.facebook.com/profile.php?id=61595437111281' },
 
   // Markets we serve. Visitors are auto-detected (by time zone) and can
   // switch in the footer. Affects currency symbols and which referral URL
