@@ -118,7 +118,8 @@ function writeCalendar(posted) {
   const byUrl = Object.fromEntries(items.map(i => [bareUrl(i.url), i]));
   for (const p of posted) {
     const it = byUrl[p.url] || items.find(i => i.title === p.title);
-    const site = it ? it.siteName : 'Shmor.ai';
+    if (!it) continue;                     // skip non-article posts (profile picture / cover updates etc.)
+    const site = it.siteName;
     events.push({ uid: `fb-${p.id}@shmor.ai`, start: p.time, summary: `✅ Facebook: ${site}: ${p.title}`,
       desc: `Posted on the Shmor.ai Facebook Page.\nPost: ${p.permalink}\nArticle: ${p.url}`, url: p.permalink || p.url });
   }
@@ -143,7 +144,7 @@ function writeCalendar(posted) {
   const file = path.join(ROOT, 'social', 'facebook-calendar.ics');
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, lines.filter(Boolean).map(icsFold).join('\r\n') + '\r\n');
-  console.log(`✓ Calendar: ${posted.length} posted + ${slots.length} planned → social/facebook-calendar.ics`);
+  const done = events.length - slots.length; console.log(`✓ Calendar: ${done} posted + ${slots.length} planned → social/facebook-calendar.ics`);
 }
 
 /* ---------- choose ---------- */
