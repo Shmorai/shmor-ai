@@ -1,0 +1,484 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Shmor.ai//Facebook auto-post//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shmor.ai Facebook posts
+X-WR-CALDESC:Posts made and planned on the Shmor.ai Facebook Page
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097950337514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T005314Z
+DTEND:20261017T010814Z
+SUMMARY:✅ Facebook: CruiseDeals: Christmas and New Year cruises: festive
+  ideas and booking tips
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097950337514570\nArticle: https://cru
+ isedeals.shmor.ai/blog/christmas-new-year-cruises/
+URL:https://www.facebook.com/122097949713514570/posts/122097950337514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097950235514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T005309Z
+DTEND:20261017T010809Z
+SUMMARY:✅ Facebook: CarHireDeals: Dubai car rental
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097950235514570\nArticle: https://car
+ hiredeals.shmor.ai/airport-car-hire/dubai/
+URL:https://www.facebook.com/122097949713514570/posts/122097950235514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097950205514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T005305Z
+DTEND:20261017T010805Z
+SUMMARY:✅ Facebook: CareCompass: Medicare open enrollment for 2027: what
+  to check before December 7
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097950205514570\nArticle: https://car
+ ecompass.shmor.ai/blog/medicare-open-enrollment-2027/
+URL:https://www.facebook.com/122097949713514570/posts/122097950205514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097950181514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T005258Z
+DTEND:20261017T010758Z
+SUMMARY:✅ Facebook: BuildLaw: Are construction retentions being banned? 
+ The late payments bill explained
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097950181514570\nArticle: https://bui
+ ldlaw.shmor.ai/blog/retention-ban-late-payments-bill/
+URL:https://www.facebook.com/122097949713514570/posts/122097950181514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097950139514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T005252Z
+DTEND:20261017T010752Z
+SUMMARY:✅ Facebook: BestVPNs: How to test your VPN for IP\, DNS and WebR
+ TC leaks
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097950139514570\nArticle: https://bes
+ tvpns.shmor.ai/blog/vpn-leak-test/
+URL:https://www.facebook.com/122097949713514570/posts/122097950139514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_4589464348009491@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T000542Z
+DTEND:20261017T002042Z
+SUMMARY:✅ Facebook: Shmor.ai: 
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/4589464348009491?substory_index=45894643
+ 48009491\nArticle: https://www.facebook.com/profile.php/
+URL:https://www.facebook.com/122097949713514570/posts/4589464348009491?sub
+ story_index=4589464348009491
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb-1314102815127597_122097933801514570@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T000521Z
+DTEND:20261017T002021Z
+SUMMARY:✅ Facebook: Shmor.ai: 
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122097933801514570?substory_index=139802
+ 5968717072\nArticle: https://www.facebook.com/profile.php/
+URL:https://www.facebook.com/122097949713514570/posts/122097933801514570?s
+ ubstory_index=1398025968717072
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261017T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T080000Z
+DTEND:20261017T081500Z
+SUMMARY:🗓 Planned: DevisArtisans: Audit énergétique : quand est-il o
+ bligatoire et à quoi sert-il ?
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nAudit énergétique : quand est-il obligatoire et à quoi
+  sert-il ?\n\nVente de maison classée E\, F ou G\, contenu de l’audit
+ \, différence avec le DPE\, scénarios de travaux : tout savoir sur l
+ ’audit énergétique réglementaire.\n\nÀ lire sur DevisArtisans 👇\
+ n\n#Immobilier #Audit #Énergétique #DevisArtisans #ShmorAI\n\nArticle: 
+ https://devisartisans.shmor.ai/blog/audit-energetique-vente/
+URL:https://devisartisans.shmor.ai/blog/audit-energetique-vente/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261017T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T120000Z
+DTEND:20261017T121500Z
+SUMMARY:🗓 Planned: DomCom Insure: Christmas gifts and your contents ins
+ urance
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nChristmas gifts and your contents insurance\n\nExpensive p
+ resents can push you over contents limits. Seasonal increases\, single-it
+ em limits\, gifts in the car\, parcels and Christmas fire safety.\n\nRead
+  it on DomCom Insure 👇\n\n#SeasonalIncreaseContents #GiftsInsurance #D
+ omComInsure #ShmorAI\n\nArticle: https://domcominsure.shmor.ai/blog/chris
+ tmas-gifts-contents-cover/
+URL:https://domcominsure.shmor.ai/blog/christmas-gifts-contents-cover/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261017T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261017T170000Z
+DTEND:20261017T171500Z
+SUMMARY:🗓 Planned: EnergySavers: Autumn Budget 2026: what to watch for 
+ energy bills
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nAutumn Budget 2026: what to watch for energy bills\n\nRepo
+ rted measures vs what’s already confirmed.\n\nRead it on EnergySavers 
+ 👇\n\n#BudgetEnergyBills #Budget28October #GreenLeviesBudget #EnergySav
+ ers #ShmorAI\n\nArticle: https://energysavers.shmor.ai/blog/autumn-budget
+ -2026-energy/
+URL:https://energysavers.shmor.ai/blog/autumn-budget-2026-energy/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261018T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261018T080000Z
+DTEND:20261018T081500Z
+SUMMARY:🗓 Planned: FullBars: The digital landline switchover: what you 
+ need to know
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nThe digital landline switchover: what you need to know\n\n
+ The UK’s copper phone network closes by 31 January 2027. What digital v
+ oice means for your landline\, telecare alarms and power cuts\, and how t
+ o stay safe.\n\nRead it on FullBars 👇\n\n#DigitalVoice #PSTNSwitchOff 
+ #Telecare #FullBars #ShmorAI\n\nArticle: https://fullbars.shmor.ai/blog/d
+ igital-landline-switchover/
+URL:https://fullbars.shmor.ai/blog/digital-landline-switchover/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261018T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261018T120000Z
+DTEND:20261018T121500Z
+SUMMARY:🗓 Planned: HandwerkerFinder: Drei Angebote einholen und fair ve
+ rgleichen
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nDrei Angebote einholen und fair vergleichen\n\nGleiche Lei
+ stung\, gleiche Basis\, gezielte Rückfragen\n\nJetzt lesen auf Handwerke
+ rFinder 👇\n\n#AngeboteEinholen #HandwerkerVergleichen #GünstigerHandw
+ erker #HandwerkerFinder #ShmorAI\n\nArticle: https://handwerkerfinder.shm
+ or.ai/blog/angebote-richtig-vergleichen/
+URL:https://handwerkerfinder.shmor.ai/blog/angebote-richtig-vergleichen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261018T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261018T170000Z
+DTEND:20261018T171500Z
+SUMMARY:🗓 Planned: HappyDaysOut: An advent calendar of days out
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nAn advent calendar of days out\n\nTwenty-four festive idea
+ s for December\, many of them free.\n\nRead it on HappyDaysOut 👇\n\n#A
+ dventCalendarIdeas #DecemberActivities #FestiveDaysOut #HappyDaysOut #Shm
+ orAI\n\nArticle: https://happydaysout.shmor.ai/blog/advent-days-out-calen
+ dar/
+URL:https://happydaysout.shmor.ai/blog/advent-days-out-calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261019T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261019T080000Z
+DTEND:20261019T081500Z
+SUMMARY:🗓 Planned: HotelHero: Compare hotel prices on every site
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nCompare hotel prices on every site\n\nCompare hotel prices
+  for the same dates on Booking.com\, Hotels.com\, Expedia\, trivago\, KAY
+ AK\, lastminute.com and Google Hotels. Free tool\, no booking fees.\n\nRe
+ ad it on HotelHero 👇\n\n#Hotel #WeekendBreak #HotelHero #ShmorAI\n\nAr
+ ticle: https://hotelhero.shmor.ai/compare/
+URL:https://hotelhero.shmor.ai/compare/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261019T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261019T120000Z
+DTEND:20261019T121500Z
+SUMMARY:🗓 Planned: LocalPlumbers: Bathroom and kitchen plumbing project
+ s
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nBathroom and kitchen plumbing projects\n\nNew bathrooms\, 
+ showers and kitchens involve more than fitting taps.\n\nRead it on LocalP
+ lumbers 👇\n\n#BathroomPlumbing #ShowerInstallation #KitchenPlumbing #L
+ ocalPlumbers #ShmorAI\n\nArticle: https://localplumbers.shmor.ai/bathroom
+ -plumbing/
+URL:https://localplumbers.shmor.ai/bathroom-plumbing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261019T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261019T170000Z
+DTEND:20261019T171500Z
+SUMMARY:🗓 Planned: OnBusLaw: How to cancel a subscription: your rights 
+ in the US\, UK and EU
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nHow to cancel a subscription: your rights in the US\, UK a
+ nd EU\n\nThe FTC rule’s fate\, US state laws\, UK reforms\, EU rights a
+ nd how to stop recurring payments.\n\nRead it on OnBusLaw 👇\n\n#Cancel
+ Subscription #ClickToCancel #AutoRenewal #OnBusLaw #ShmorAI\n\nArticle: h
+ ttps://onbuslaw.shmor.ai/blog/cancel-subscriptions/
+URL:https://onbuslaw.shmor.ai/blog/cancel-subscriptions/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261020T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261020T080000Z
+DTEND:20261020T081500Z
+SUMMARY:🗓 Planned: PetSavings: Fireworks and pets: how to keep dogs and
+  cats calm
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nFireworks and pets: how to keep dogs and cats calm\n\nSafe
+  dens\, walk timing and how to help nervous pets through fireworks season
+ .\n\nRead it on PetSavings 👇\n\n#FireworksAndDogs #CatFireworks #Bonfi
+ reNightPets #PetSavings #ShmorAI\n\nArticle: https://petsavings.shmor.ai/
+ blog/fireworks-and-pets/
+URL:https://petsavings.shmor.ai/blog/fireworks-and-pets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261020T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261020T120000Z
+DTEND:20261020T121500Z
+SUMMARY:🗓 Planned: ProFinders: Find a qualified accountant for your bus
+ iness
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nFind a qualified accountant for your business\n\nYear-end 
+ accounts and business tax returns · Personal tax returns for sole trader
+ s\, freelancers and owners · VAT or sales tax registration and returns\n
+ \nRead it on ProFinders 👇\n\n#Accountants #AccountantNearMe #FindAnAcc
+ ountant #ProFinders #ShmorAI\n\nArticle: https://profinders.shmor.ai/acco
+ untants/
+URL:https://profinders.shmor.ai/accountants/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261020T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261020T170000Z
+DTEND:20261020T171500Z
+SUMMARY:🗓 Planned: ProSourced: Employer of record vs PEO vs contractor:
+  how to hire abroad
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nEmployer of record vs PEO vs contractor: how to hire abroa
+ d\n\nHiring someone in another country?\n\nRead it on ProSourced 👇\n\n
+ #EmployerOfRecord #EORVsPEO #HireEmployeesAbroad #ProSourced #ShmorAI\n\n
+ Article: https://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-co
+ ntractor/
+URL:https://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contract
+ or/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261021T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261021T080000Z
+DTEND:20261021T081500Z
+SUMMARY:🗓 Planned: StorageSavings: Container storage vs a storage unit:
+  which is better?
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nContainer storage vs a storage unit: which is better?\n\nC
+ onvenience\, access\, cost factors and security compared.\n\nRead it on S
+ torageSavings 👇\n\n#Storage #LockUp #StorageSavings #ShmorAI\n\nArticl
+ e: https://storagesavings.shmor.ai/blog/container-vs-storage-unit/
+URL:https://storagesavings.shmor.ai/blog/container-vs-storage-unit/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261021T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261021T120000Z
+DTEND:20261021T121500Z
+SUMMARY:🗓 Planned: TapTill: The £100 contactless limit has gone: what 
+ it means for your business
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nThe £100 contactless limit has gone: what it means for yo
+ ur business\n\nIssuers now set their own limits. What changes at the till
+ .\n\nRead it on TapTill 👇\n\n#ContactlessLimit #FCAContactless #TapTil
+ l #ShmorAI\n\nArticle: https://taptill.shmor.ai/blog/contactless-limit-sc
+ rapped/
+URL:https://taptill.shmor.ai/blog/contactless-limit-scrapped/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261021T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261021T170000Z
+DTEND:20261021T171500Z
+SUMMARY:🗓 Planned: TradesStation: Accessible bathrooms and Disabled Fac
+ ilities Grants
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nAccessible bathrooms and Disabled Facilities Grants\n\nLev
+ el-access showers\, grab rails and how a council grant can help.\n\nRead 
+ it on TradesStation 👇\n\n#DisabledFacilitiesGrant #AccessibleBathroom 
+ #LevelAccessShower #TradesStation #ShmorAI\n\nArticle: https://tradesstat
+ ion.shmor.ai/blog/accessible-bathrooms-disabled-facilities-grant/
+URL:https://tradesstation.shmor.ai/blog/accessible-bathrooms-disabled-faci
+ lities-grant/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261022T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261022T080000Z
+DTEND:20261022T081500Z
+SUMMARY:🗓 Planned: TravelDeals: Christmas market city breaks: Europe’
+ s best festive getaways
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nChristmas market city breaks: Europe’s best festive geta
+ ways\n\nNuremberg\, Vienna\, Prague\, Strasbourg and more: where to go fo
+ r a festive city break and when to book.\n\nRead it on TravelDeals 👇\n
+ \n#ChristmasMarkets #ChristmasMarketBreaks #ChristmasCityBreak #TravelDea
+ ls #ShmorAI\n\nArticle: https://traveldeals.shmor.ai/blog/christmas-marke
+ t-city-breaks/
+URL:https://traveldeals.shmor.ai/blog/christmas-market-city-breaks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261022T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261022T120000Z
+DTEND:20261022T121500Z
+SUMMARY:🗓 Planned: UK SEW: How to choose a sewing machine
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nHow to choose a sewing machine\n\nMachine types\, must-hav
+ e features\, new vs used and where to get advice.\n\nRead it on UK SEW 
+ 👇\n\n#FirstSewingMachine #UKSEW #ShmorAI\n\nArticle: https://uksew.shm
+ or.ai/blog/how-to-choose-a-sewing-machine/
+URL:https://uksew.shmor.ai/blog/how-to-choose-a-sewing-machine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261022T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261022T170000Z
+DTEND:20261022T171500Z
+SUMMARY:🗓 Planned: ViralGadgets: Apple HomeView\, HomePod mini 2 and th
+ e new Apple TV 4K\, explained
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nApple HomeView\, HomePod mini 2 and the new Apple TV 4K\, 
+ explained\n\nApple’s new smart display\, speaker and TV box: prices\, d
+ ates and the catches.\n\nRead it on ViralGadgets 👇\n\n#AppleHomeview #
+ HomepodMini2 #AppleHomeHub #ViralGadgets #ShmorAI\n\nArticle: https://vir
+ algadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple-tv/
+URL:https://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple
+ -tv/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261023T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261023T080000Z
+DTEND:20261023T081500Z
+SUMMARY:🗓 Planned: VoucherVault: How to find voucher codes that actuall
+ y work
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nHow to find voucher codes that actually work\n\nWhere work
+ ing promo codes really come from: brand banners\, official code pages\, s
+ ign-up offers\, group discounts and affiliate feeds\, plus the traps to a
+ void..\n\nRead it on VoucherVault 👇\n\n#WorkingPromoCodes #RealCouponC
+ odes #VoucherVault #ShmorAI\n\nArticle: https://vouchervault.shmor.ai/blo
+ g/how-to-find-voucher-codes-that-work/
+URL:https://vouchervault.shmor.ai/blog/how-to-find-voucher-codes-that-work
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261023T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261023T120000Z
+DTEND:20261023T121500Z
+SUMMARY:🗓 Planned: BestVPNs: VPN vs Tor vs proxy: what’s the differen
+ ce?
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nVPN vs Tor vs proxy: what’s the difference?\n\nHow VPNs\
+ , Tor and proxies route your traffic\, and which to use when.\n\nRead it 
+ on BestVPNs 👇\n\n#VPNVsTor #VPNVsProxy #TorVsProxy #BestVPNs #ShmorAI\
+ n\nArticle: https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
+URL:https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261023T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261023T170000Z
+DTEND:20261023T171500Z
+SUMMARY:🗓 Planned: BuildLaw: How to write a valid pay less notice
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nHow to write a valid pay less notice\n\nWhat a pay less no
+ tice must say\, when to serve it and the mistakes that make it invalid.\n
+ \nRead it on BuildLaw 👇\n\n#PayLessNotice #BuildLaw #ShmorAI\n\nArticl
+ e: https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/
+URL:https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261024T080000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261024T080000Z
+DTEND:20261024T081500Z
+SUMMARY:🗓 Planned: CareCompass: ACA Marketplace open enrollment for 202
+ 7: dates and tips
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nACA Marketplace open enrollment for 2027: dates and tips\n
+ \nHealthCare.gov open enrollment for 2027 coverage starts November 1\, 20
+ 26.\n\nRead it on CareCompass 👇\n\n#AcaOpenEnrollment #HealthcareGov #
+ MarketplaceInsurance #CareCompass #ShmorAI\n\nArticle: https://carecompas
+ s.shmor.ai/blog/aca-open-enrollment-2027/
+URL:https://carecompass.shmor.ai/blog/aca-open-enrollment-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261024T120000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261024T120000Z
+DTEND:20261024T121500Z
+SUMMARY:🗓 Planned: CarHireDeals: Faro car hire
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nFaro car hire\n\nThe easiest way to explore Algarve beache
+ s\, cliffs and villages at your own pace.\n\nRead it on CarHireDeals 👇
+ \n\n#FaoCarHire #FaoCarRental #CarHireDeals #ShmorAI\n\nArticle: https://
+ carhiredeals.shmor.ai/airport-car-hire/faro/
+URL:https://carhiredeals.shmor.ai/airport-car-hire/faro/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261024T170000Z@shmor.ai
+DTSTAMP:20261017T005752Z
+DTSTART:20261024T170000Z
+DTEND:20261024T171500Z
+SUMMARY:🗓 Planned: CruiseDeals: EES\, ETIAS and the UK ETA: what cruise
+  passengers need to know
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nEES\, ETIAS and the UK ETA: what cruise passengers need to
+  know\n\nHow Europe’s Entry/Exit System\, ETIAS and the UK ETA apply wh
+ en you arrive by ship.\n\nRead it on CruiseDeals 👇\n\n#EesCruise #Etia
+ sCruise #UKEtaCruise #CruiseDeals #ShmorAI\n\nArticle: https://cruisedeal
+ s.shmor.ai/blog/cruise-entry-rules-ees-etias-uk-eta/
+URL:https://cruisedeals.shmor.ai/blog/cruise-entry-rules-ees-etias-uk-eta/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
