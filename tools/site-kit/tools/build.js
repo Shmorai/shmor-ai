@@ -191,7 +191,9 @@ function head(p, { noindex = false, canonical = true } = {}) {
       publisher: { '@id': `${BASE}/#org` }, inLanguage: seo.locale || 'en',
       potentialAction: { '@type': 'SearchAction', target: `${BASE}/search/?q={search_term_string}`, 'query-input': 'required name=search_term_string' } });
     graph.push({ '@type': 'Organization', '@id': `${BASE}/#org`, name: NAME, url: `${BASE}/`,
-      ...(seo.logo ? { logo: `${BASE}${seo.logo}` } : {}),
+      ...(seo.logo ? { logo: `${BASE}${seo.logo}` } : fs.existsSync(path.join(ROOT, 'assets', 'favicon.svg')) ? { logo: `${BASE}/assets/favicon.svg` } : {}),
+      email: `${site.subdomain}@shmor.ai`,
+      contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: `${site.subdomain}@shmor.ai` },
       parentOrganization: { '@type': 'Organization', name: 'Shmor.ai', url: `${MASTER}/` } });
   }
   graph.push({ '@type': 'WebPage', '@id': `${url}#page`, url, name: p.title, description: p.description,
