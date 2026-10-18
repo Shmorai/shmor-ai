@@ -37,7 +37,7 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}${noindex ? '<meta n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${r}assets/css/style.css">
+<link rel="stylesheet" href="${r}assets/css/style.css?v=20261018">
 </head>
 <body data-root="${r}" data-page="${slug || '404'}">
 <a class="skip" href="#main">Skip to content</a>
@@ -53,10 +53,10 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}${noindex ? '<meta n
 ${body.trim()}
 </main>
 <footer id="site-footer" class="site-footer"></footer>
-<script src="${r}assets/js/config.js"></script>
-<script src="${r}assets/js/network.js"></script>
-<script src="${r}assets/js/region.js"></script>
-<script src="${r}assets/js/main.js"></script>
+<script src="${r}assets/js/config.js?v=20261018"></script>
+<script src="${r}assets/js/network.js?v=20261018"></script>
+<script src="${r}assets/js/region.js?v=20261018"></script>
+<script src="${r}assets/js/main.js?v=20261018"></script>
 </body>
 </html>
 `;

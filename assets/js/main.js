@@ -45,6 +45,8 @@
     arrow: ['M5 12h14', 'm12 5 7 7-7 7'],
     external: ['M15 3h6v6', 'M10 14 21 3', 'M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'],
     check: ['M20 6 9 17l-5-5'],
+    pin: ['M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0', 'c:12,10,3'],
+    lock: ['M7 11V7a5 5 0 0 1 10 0v4', 'M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z'],
     menu: ['M4 7h16', 'M4 12h16', 'M4 17h16'],
     close: ['M18 6 6 18', 'm6 6 12 12'],
     bell: ['M10.268 21a2 2 0 0 0 3.464 0', 'M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326'],
@@ -154,6 +156,10 @@
           <div>
             <a href="${ROOT}" class="logo on-dark" aria-label="${esc(SITE.name)} home">${LOGO}</a>
             <p class="foot-tag">${esc(SITE.tagline)} One place to compare holidays, local services, deals and more.</p>
+            <address class="foot-contact">
+              <span>${icon('pin', 16)}<span><strong>Main office</strong><br>${esc(SITE.company.address)}</span></span>
+              <a href="mailto:${esc(SITE.emails.info)}">${icon('mail', 16)}<span>${esc(SITE.emails.info)}</span></a>
+            </address>
             ${social ? `<p class="foot-social">${social}</p>` : ''}
             <label class="region-pick">${icon('globe', 16)}<span class="sr">Region</span>
               <select id="regionSelect" aria-label="Choose your region">${Object.entries(SITE.regions.list).map(([k, v]) => `<option value="${k}"${k === REGION ? ' selected' : ''}>${esc(v.label)} (${v.currency})</option>`).join('')}</select>
@@ -173,9 +179,19 @@
             <li><a href="${ROOT}affiliate-disclosure/">Affiliate disclosure</a></li>
           </ul></div>
         </div>
+        <ul class="foot-trust" aria-label="Why people trust ${esc(SITE.name)}">
+          <li>${icon('check', 18)}<span><strong>Free to use</strong>No sign-up, no booking fees</span></li>
+          <li>${icon('layers', 18)}<span><strong>Independent comparison</strong>${SECTORS.filter(s => s.live).length || 'Specialist'} marketplaces, one search</span></li>
+          <li>${icon('lock', 18)}<span><strong>Secure site</strong>Encrypted HTTPS on every page</span></li>
+          <li>${icon('shield', 18)}<span><strong>Transparent</strong>Clear affiliate disclosure</span></li>
+        </ul>
         <div class="disclosure">
           <p><strong>Affiliate disclosure:</strong> ${esc(SITE.name)} is free to use. Some links on our sites are affiliate links. If you click through and buy or enquire, we may earn a commission from the provider at no extra cost to you. <a href="${ROOT}affiliate-disclosure/">Learn more</a>.</p>
-          <p>© ${new Date().getFullYear()} ${esc(SITE.company.legalName)}${SITE.company.number ? ` · Company no. ${esc(SITE.company.number)}` : ''} · Main office: ${esc(SITE.company.address)} · <a href="mailto:${esc(SITE.emails.info)}">${esc(SITE.emails.info)}</a></p>
+        </div>
+        <div class="foot-bottom">
+          <p>© ${SITE.company.founded && SITE.company.founded < new Date().getFullYear() ? `${SITE.company.founded}–` : ''}${new Date().getFullYear()} ${esc(SITE.company.legalName)}™. All rights reserved.${SITE.company.number ? ` Company no. ${esc(SITE.company.number)}.` : ''}<br>
+          <span class="foot-tm">${esc(SITE.name)}™, “${esc(SITE.tagline)}” and the Shmor logo are trademarks of ${esc(SITE.company.legalName)}. Brand names shown on our sites belong to their respective owners.</span></p>
+          <nav class="foot-legal" aria-label="Legal"><a href="${ROOT}privacy/">Privacy</a><a href="${ROOT}cookies/">Cookies</a><a href="${ROOT}terms/">Terms</a><a href="${ROOT}contact/">Contact</a></nav>
         </div>
       </div>`;
     }

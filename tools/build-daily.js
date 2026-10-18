@@ -85,7 +85,7 @@ ${top[0] && top[0].image ? `<meta property="og:image" content="${esc(top[0].imag
 <link rel="alternate" type="application/rss+xml" title="Shmor Daily" href="${DOMAIN}/daily/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${root}assets/css/style.css">
+<link rel="stylesheet" href="${root}assets/css/style.css?v=20261018">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
 <body data-root="${root}" data-page="daily">
@@ -95,10 +95,10 @@ ${top[0] && top[0].image ? `<meta property="og:image" content="${esc(top[0].imag
 ${main}
 </main>
 <footer id="site-footer" class="site-footer"></footer>
-<script src="${root}assets/js/config.js"></script>
-<script src="${root}assets/js/network.js"></script>
-<script src="${root}assets/js/region.js"></script>
-<script src="${root}assets/js/main.js"></script>
+<script src="${root}assets/js/config.js?v=20261018"></script>
+<script src="${root}assets/js/network.js?v=20261018"></script>
+<script src="${root}assets/js/region.js?v=20261018"></script>
+<script src="${root}assets/js/main.js?v=20261018"></script>
 </body>
 </html>
 `;

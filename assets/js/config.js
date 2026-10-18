@@ -14,6 +14,7 @@ const SITE = {
     number: '',                 // add the Companies House number here once registered; it then shows in the footer
     address: '82 King Street, Manchester, Greater Manchester, M2 4WQ, United Kingdom',
     jurisdiction: 'England and Wales', // governing law in the terms of use
+    founded: 2025,              // footer shows "© 2025–<this year>"
   },
 
   emails: {
