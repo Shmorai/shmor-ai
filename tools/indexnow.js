@@ -44,6 +44,13 @@ const DRY = args.includes('--dry-run');
     const changed = urls.filter(u => state[u.loc] !== u.mod);
     if (!changed.length) continue;
     if (DRY) { console.log(`${host}: ${changed.length} to submit`); total += changed.length; continue; }
+    // Only submit once GitHub Pages serves this sitemap (i.e. the push has deployed); wait up to ~6 minutes
+    let live = false;
+    for (let t = 0; t < 24 && !live; t++) {
+      live = await fetch(`https://${host}/sitemap.xml`, { cache: 'no-store' }).then(r => r.text()).then(s => s.trim() === xml.trim()).catch(() => false);
+      if (!live) await new Promise(r => setTimeout(r, 15000));
+    }
+    if (!live) { console.log(`… ${host}: live sitemap doesn't match yet (not pushed/deployed?), will retry next run`); continue; }
     for (let i = 0; i < changed.length; i += 10000) {
       const batch = changed.slice(i, i + 10000);
       const res = await fetch(ENDPOINT, {
