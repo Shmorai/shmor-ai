@@ -29,4 +29,5 @@ for (const d of fs.readdirSync(SITES).filter(d => d.startsWith('shmor-'))) {
 console.log(run(path.join(__dirname, 'sync-network.js')).split('\n').pop());
 if (fs.existsSync(path.join(__dirname, 'build-daily.js'))) console.log(run(path.join(__dirname, 'build-daily.js')).split('\n').pop());
 console.log(run(path.join(__dirname, 'build-weekly.js')).split('\n')[0]);
+console.log(run(path.join(__dirname, 'indexnow.js'), ['--setup']).split('\n')[0]); // keeps the IndexNow key file on every site (new ones too)
 if (failed) { console.error(`\n${failed} site(s) failed to build.`); process.exit(1); }
