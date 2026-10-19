@@ -8,8 +8,21 @@ X-WR-CALDESC:Posts made and planned on the Shmor.ai Facebook Page
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
+UID:fb-1314102815127597_122099503527514570@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261019T083000Z
+DTEND:20261019T084500Z
+SUMMARY:✅ Facebook: EnergySavers: Autumn Budget 2026: what to watch for 
+ energy bills
+DESCRIPTION:Posted on the Shmor.ai Facebook Page.\nPost: https://www.faceb
+ ook.com/122097949713514570/posts/122099503527514570\nArticle: https://ene
+ rgysavers.shmor.ai/blog/autumn-budget-2026-energy/
+URL:https://www.facebook.com/122097949713514570/posts/122099503527514570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fb-1314102815127597_122098236129514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T120957Z
 DTEND:20261017T122457Z
 SUMMARY:✅ Facebook: DomCom Insure: Christmas gifts and your contents ins
@@ -22,7 +35,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122098134969514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T081544Z
 DTEND:20261017T083044Z
 SUMMARY:✅ Facebook: DevisArtisans: Audit énergétique : quand est-il ob
@@ -35,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122097950337514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T005314Z
 DTEND:20261017T010814Z
 SUMMARY:✅ Facebook: CruiseDeals: Christmas and New Year cruises: festive
@@ -48,7 +61,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122097950235514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T005309Z
 DTEND:20261017T010809Z
 SUMMARY:✅ Facebook: CarHireDeals: Dubai car rental
@@ -60,7 +73,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122097950205514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T005305Z
 DTEND:20261017T010805Z
 SUMMARY:✅ Facebook: CareCompass: Medicare open enrollment for 2027: what
@@ -73,7 +86,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122097950181514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T005258Z
 DTEND:20261017T010758Z
 SUMMARY:✅ Facebook: BuildLaw: Are construction retentions being banned? 
@@ -86,7 +99,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb-1314102815127597_122097950139514570@shmor.ai
-DTSTAMP:20261017T121003Z
+DTSTAMP:20261019T083007Z
 DTSTART:20261017T005252Z
 DTEND:20261017T010752Z
 SUMMARY:✅ Facebook: BestVPNs: How to test your VPN for IP\, DNS and WebR
@@ -98,26 +111,10 @@ URL:https://www.facebook.com/122097949713514570/posts/122097950139514570
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261017T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261017T170000Z
-DTEND:20261017T171500Z
-SUMMARY:🗓 Planned: EnergySavers: Autumn Budget 2026: what to watch for 
- energy bills
-DESCRIPTION:Planned Facebook post (may change if a newer article is publis
- hed first).\n\nAutumn Budget 2026: what to watch for energy bills\n\nRepo
- rted measures vs what’s already confirmed.\n\nRead it on EnergySavers 
- 👇\n\n#BudgetEnergyBills #Budget28October #GreenLeviesBudget #EnergySav
- ers #ShmorAI\n\nArticle: https://energysavers.shmor.ai/blog/autumn-budget
- -2026-energy/
-URL:https://energysavers.shmor.ai/blog/autumn-budget-2026-energy/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261018T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261018T080000Z
-DTEND:20261018T081500Z
+UID:plan-20261019T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261019T120000Z
+DTEND:20261019T121500Z
 SUMMARY:🗓 Planned: FullBars: The digital landline switchover: what you 
  need to know
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -131,10 +128,10 @@ URL:https://fullbars.shmor.ai/blog/digital-landline-switchover/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261018T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261018T120000Z
-DTEND:20261018T121500Z
+UID:plan-20261019T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261019T170000Z
+DTEND:20261019T171500Z
 SUMMARY:🗓 Planned: HandwerkerFinder: Drei Angebote einholen und fair ve
  rgleichen
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -147,10 +144,10 @@ URL:https://handwerkerfinder.shmor.ai/blog/angebote-richtig-vergleichen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261018T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261018T170000Z
-DTEND:20261018T171500Z
+UID:plan-20261020T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261020T080000Z
+DTEND:20261020T081500Z
 SUMMARY:🗓 Planned: HappyDaysOut: An advent calendar of days out
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  hed first).\n\nAn advent calendar of days out\n\nTwenty-four festive idea
@@ -162,10 +159,10 @@ URL:https://happydaysout.shmor.ai/blog/advent-days-out-calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261019T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261019T080000Z
-DTEND:20261019T081500Z
+UID:plan-20261020T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261020T120000Z
+DTEND:20261020T121500Z
 SUMMARY:🗓 Planned: HotelHero: Compare hotel prices on every site
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  hed first).\n\nCompare hotel prices on every site\n\nCompare hotel prices
@@ -177,10 +174,10 @@ URL:https://hotelhero.shmor.ai/compare/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261019T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261019T120000Z
-DTEND:20261019T121500Z
+UID:plan-20261020T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261020T170000Z
+DTEND:20261020T171500Z
 SUMMARY:🗓 Planned: LocalPlumbers: Bathroom and kitchen plumbing project
  s
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -193,10 +190,10 @@ URL:https://localplumbers.shmor.ai/bathroom-plumbing/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261019T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261019T170000Z
-DTEND:20261019T171500Z
+UID:plan-20261021T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261021T080000Z
+DTEND:20261021T081500Z
 SUMMARY:🗓 Planned: OnBusLaw: How to cancel a subscription: your rights 
  in the US\, UK and EU
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -209,10 +206,10 @@ URL:https://onbuslaw.shmor.ai/blog/cancel-subscriptions/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261020T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261020T080000Z
-DTEND:20261020T081500Z
+UID:plan-20261021T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261021T120000Z
+DTEND:20261021T121500Z
 SUMMARY:🗓 Planned: PetSavings: Fireworks and pets: how to keep dogs and
   cats calm
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -225,10 +222,10 @@ URL:https://petsavings.shmor.ai/blog/fireworks-and-pets/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261020T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261020T120000Z
-DTEND:20261020T121500Z
+UID:plan-20261021T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261021T170000Z
+DTEND:20261021T171500Z
 SUMMARY:🗓 Planned: ProFinders: Find a qualified accountant for your bus
  iness
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -242,10 +239,10 @@ URL:https://profinders.shmor.ai/accountants/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261020T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261020T170000Z
-DTEND:20261020T171500Z
+UID:plan-20261022T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261022T080000Z
+DTEND:20261022T081500Z
 SUMMARY:🗓 Planned: ProSourced: Employer of record vs PEO vs contractor:
   how to hire abroad
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -259,10 +256,10 @@ URL:https://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contract
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261021T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261021T080000Z
-DTEND:20261021T081500Z
+UID:plan-20261022T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261022T120000Z
+DTEND:20261022T121500Z
 SUMMARY:🗓 Planned: StorageSavings: Container storage vs a storage unit:
   which is better?
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -274,10 +271,10 @@ URL:https://storagesavings.shmor.ai/blog/container-vs-storage-unit/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261021T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261021T120000Z
-DTEND:20261021T121500Z
+UID:plan-20261022T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261022T170000Z
+DTEND:20261022T171500Z
 SUMMARY:🗓 Planned: TapTill: The £100 contactless limit has gone: what 
  it means for your business
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -290,10 +287,10 @@ URL:https://taptill.shmor.ai/blog/contactless-limit-scrapped/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261021T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261021T170000Z
-DTEND:20261021T171500Z
+UID:plan-20261023T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261023T080000Z
+DTEND:20261023T081500Z
 SUMMARY:🗓 Planned: TradesStation: Accessible bathrooms and Disabled Fac
  ilities Grants
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -307,10 +304,10 @@ URL:https://tradesstation.shmor.ai/blog/accessible-bathrooms-disabled-faci
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261022T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261022T080000Z
-DTEND:20261022T081500Z
+UID:plan-20261023T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261023T120000Z
+DTEND:20261023T121500Z
 SUMMARY:🗓 Planned: TravelDeals: Christmas market city breaks: Europe’
  s best festive getaways
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -324,10 +321,10 @@ URL:https://traveldeals.shmor.ai/blog/christmas-market-city-breaks/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261022T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261022T120000Z
-DTEND:20261022T121500Z
+UID:plan-20261023T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261023T170000Z
+DTEND:20261023T171500Z
 SUMMARY:🗓 Planned: UK SEW: How to choose a sewing machine
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  hed first).\n\nHow to choose a sewing machine\n\nMachine types\, must-hav
@@ -338,10 +335,10 @@ URL:https://uksew.shmor.ai/blog/how-to-choose-a-sewing-machine/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261022T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261022T170000Z
-DTEND:20261022T171500Z
+UID:plan-20261024T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261024T080000Z
+DTEND:20261024T081500Z
 SUMMARY:🗓 Planned: ViralGadgets: Apple HomeView\, HomePod mini 2 and th
  e new Apple TV 4K\, explained
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -355,10 +352,10 @@ URL:https://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261023T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261023T080000Z
-DTEND:20261023T081500Z
+UID:plan-20261024T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261024T120000Z
+DTEND:20261024T121500Z
 SUMMARY:🗓 Planned: VoucherVault: How to find voucher codes that actuall
  y work
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -373,10 +370,10 @@ URL:https://vouchervault.shmor.ai/blog/how-to-find-voucher-codes-that-work
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261023T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261023T120000Z
-DTEND:20261023T121500Z
+UID:plan-20261024T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261024T170000Z
+DTEND:20261024T171500Z
 SUMMARY:🗓 Planned: BestVPNs: VPN vs Tor vs proxy: what’s the differen
  ce?
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -388,10 +385,10 @@ URL:https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261023T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261023T170000Z
-DTEND:20261023T171500Z
+UID:plan-20261025T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261025T080000Z
+DTEND:20261025T081500Z
 SUMMARY:🗓 Planned: BuildLaw: How to write a valid pay less notice
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  hed first).\n\nHow to write a valid pay less notice\n\nWhat a pay less no
@@ -402,10 +399,10 @@ URL:https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261024T080000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261024T080000Z
-DTEND:20261024T081500Z
+UID:plan-20261025T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261025T120000Z
+DTEND:20261025T121500Z
 SUMMARY:🗓 Planned: CareCompass: ACA Marketplace open enrollment for 202
  7: dates and tips
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -418,10 +415,10 @@ URL:https://carecompass.shmor.ai/blog/aca-open-enrollment-2027/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261024T120000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261024T120000Z
-DTEND:20261024T121500Z
+UID:plan-20261025T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261025T170000Z
+DTEND:20261025T171500Z
 SUMMARY:🗓 Planned: CarHireDeals: Faro car hire
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  hed first).\n\nFaro car hire\n\nThe easiest way to explore Algarve beache
@@ -432,10 +429,10 @@ URL:https://carhiredeals.shmor.ai/airport-car-hire/faro/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261024T170000Z@shmor.ai
-DTSTAMP:20261017T121003Z
-DTSTART:20261024T170000Z
-DTEND:20261024T171500Z
+UID:plan-20261026T080000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261026T080000Z
+DTEND:20261026T081500Z
 SUMMARY:🗓 Planned: CruiseDeals: EES\, ETIAS and the UK ETA: what cruise
   passengers need to know
 DESCRIPTION:Planned Facebook post (may change if a newer article is publis
@@ -445,6 +442,40 @@ DESCRIPTION:Planned Facebook post (may change if a newer article is publis
  sCruise #UKEtaCruise #CruiseDeals #ShmorAI\n\nArticle: https://cruisedeal
  s.shmor.ai/blog/cruise-entry-rules-ees-etias-uk-eta/
 URL:https://cruisedeals.shmor.ai/blog/cruise-entry-rules-ees-etias-uk-eta/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261026T120000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261026T120000Z
+DTEND:20261026T121500Z
+SUMMARY:🗓 Planned: DevisArtisans: Préparer sa maison pour l’hiver :
+  10 points à vérifier
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nPréparer sa maison pour l’hiver : 10 points à vérifi
+ er\n\nChaudière\, ramonage\, gouttières\, toiture\, isolation\, robinet
+ s extérieurs : la check-list d’automne pour passer l’hiver au chaud
+  et éviter les sinistres.\n\nÀ lire sur DevisArtisans 👇\n\n#Entretie
+ n #Préparer #Maison #DevisArtisans #ShmorAI\n\nArticle: https://devisart
+ isans.shmor.ai/blog/preparer-maison-hiver/
+URL:https://devisartisans.shmor.ai/blog/preparer-maison-hiver/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-20261026T170000Z@shmor.ai
+DTSTAMP:20261019T083007Z
+DTSTART:20261026T170000Z
+DTEND:20261026T171500Z
+SUMMARY:🗓 Planned: DomCom Insure: NFIP reauthorization: what the next d
+ eadline means for flood cover
+DESCRIPTION:Planned Facebook post (may change if a newer article is publis
+ hed first).\n\nNFIP reauthorization: what the next deadline means for flo
+ od cover\n\nThe NFIP is authorized until 11 December 2026. What happens t
+ o new flood policies and renewals if it lapses\, and how to protect your 
+ home.\n\nRead it on DomCom Insure 👇\n\n#NfipReauthorization #NfipLapse
+  #FloodInsuranceDeadline #DomComInsure #ShmorAI\n\nArticle: https://domco
+ minsure.shmor.ai/blog/nfip-reauthorization-2026/
+URL:https://domcominsure.shmor.ai/blog/nfip-reauthorization-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
