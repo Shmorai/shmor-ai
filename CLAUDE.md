@@ -53,7 +53,7 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
 - Planned marketplaces still in `network/`: deals, energy, tech, style, home, experiences, motors.
 
 ## Facebook Page auto-posting
-- Page: **Shmor.ai** (https://www.facebook.com/profile.php?id=61595437111281), run from the user's personal profile. Linked in `SITE.social.facebook` and the homepage Organization JSON-LD `sameAs`.
+- Page: **Shmor.ai** (https://www.facebook.com/profile.php?id=61596510427365), run from the user's personal profile. Linked in `SITE.social.facebook` and the homepage Organization JSON-LD `sameAs`.
 - `tools/social/facebook-autopost.js` posts the next network article (title + description + link with UTM + 2–5 hashtags from the page's own `keywords`, plus the site brand tag and #ShmorAI). It rotates sites (least recently posted first), prefers newest blog posts/reviews, and uses the Page's last 100 posts as its log so nothing repeats. `--dry-run --count N` previews without a token.
 - Runs from GitHub Actions `.github/workflows/facebook-autopost.yml` at 08:00, 12:00, 17:00 UTC. Needs repo secret `FB_PAGE_TOKEN` + variable `FB_PAGE_ID`, set by the user running `node tools/social/facebook-connect.js` (never handle the token yourself). Pause: repo variable `FB_AUTOPOST=off`.
 - Hashtags come from `network-index.json` `keywords` (article) with the site's `keywords` as fallback; content keywords therefore double as social tags, so keep them clean.
