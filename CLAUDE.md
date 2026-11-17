@@ -76,3 +76,14 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
 - GitHub Actions `.github/workflows/social-autopost.yml` daily 06:30 UTC (+ manual: mode=schedule|test|dry-run|calendar-only); commits `social/posted.json` + `social/facebook-calendar.ics` (Google Calendar feed, now "Shmor.ai social posts"). Secret `BUFFER_API_KEY` set by the user via `node --use-system-ca tools/social/buffer-connect.js --web` (form on localhost:4799). Pause: repo variable `SOCIAL_AUTOPOST=off`.
 - Test 2026-11-17 18:45 London: one post to each network, all published, no errors. First schedule run: 14 posts. Old `facebook-autopost.yml` stays paused (`FB_AUTOPOST=off`); its token is dead.
 - Calendar (2026-11-17): feed is now https://shmor.ai/social/calendar.ics (old facebook-calendar.ics kept in sync), subscribed in Google Calendar (youtube@shmor.ai) as **"Shmor.ai social posts"**; the old "Shmor.ai Facebook posts" subscription was removed. Entries: ✅ published / 🗓 scheduled in Buffer / 📝 planned forecast 14 days ahead (`PLAN_DAYS`), each with UK time, networks, site, article + link, keywords, per-network hashtags and the exact Facebook/X/LinkedIn text. Also removed 24 recurring "<Site> – Social Post | Shmor AutoBot" series from the user's own "Shmor" calendar (unknown origin, contained unverified figures); if they reappear, find what creates them.
+
+## Blog writing: Claude cloud routines (set up 2026-11-17)
+- Goal: every site gets 3 new posts a week (trending + evergreen mix, search keywords in titles/headings, official sources only, in-site backlinks via `related`). Prompt template: `tools/blog-routine/PROMPT.md` (`{{SITES}}` = the group's site list). Manage at https://claude.ai/code/routines (environment "Default", model claude-sonnet-5-5, connectors cleared).
+- 6 routines, 4 sites each (times UTC):
+  1. Travel: traveldeals, cruisedeals, hotelhero, carhiredeals, Mon/Wed/Fri 06:00 (trig_01LoXPH8kTKwdGB1TK17Yu8R)
+  2. Money & home: energysavers, fullbars, storagesavings, vouchervault, Mon/Wed/Fri 06:20 (trig_011aerzTWkr96hynQqCbVNsq)
+  3. Cover & care: domcominsure, carecompass, petsavings, bestvpns, Mon/Wed/Fri 06:40 (trig_01HLz8GjRuiL4wVxyhyAD6rm)
+  4. Trades & makers: tradesstation, localplumbers, profinders, uksew, Tue/Thu/Sat 06:00 (trig_011pPpUBFGsJXBzq5AJ9v46E)
+  5. Business & law: buildlaw, onbuslaw, prosourced, taptill, Tue/Thu/Sat 06:20 (trig_01Y9Uaegr8mCv2BAaKAhMrub)
+  6. Leisure, tech & EU: happydaysout, viralgadgets, devisartisans, handwerkerfinder, Tue/Thu/Sat 06:40 (trig_01TCPhQtonUVUb2znWrWJgt5)
+- First test (routine 1, 2026-11-17): cloning worked, but the environment's network allowlist blocked official sites (gov.uk, caa.co.uk, edinburgh.gov.uk → ENOTFOUND), so the run correctly published nothing. The "Default" environment needs Network access = Full (claude.ai/code → environment settings) before the routines can verify facts.
