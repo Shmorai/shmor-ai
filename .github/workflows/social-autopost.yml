@@ -1,0 +1,49 @@
+# Schedules the next 48 h of Shmor network posts into Buffer (Facebook Page, X, LinkedIn).
+# Buffer publishes them at the set times (FB + X 08:00/12:00/17:00 UTC, LinkedIn 12:00 UTC).
+# Needs repo secret BUFFER_API_KEY (set by: node --use-system-ca tools/social/buffer-connect.js --web).
+# Pause: repo variable SOCIAL_AUTOPOST=off. Logs to social/posted.json; calendar → social/facebook-calendar.ics.
+name: Social auto-post (Buffer)
+
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'schedule (next 48 h) | test (one post to each channel in ~10 min) | dry-run | calendar-only'
+        default: schedule
+
+concurrency: social-autopost
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    if: ${{ vars.SOCIAL_AUTOPOST != 'off' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Schedule posts in Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          case "${{ inputs.mode || 'schedule' }}" in
+            test) node tools/social/buffer-autopost.js --test ;;
+            dry-run) node tools/social/buffer-autopost.js --dry-run ;;
+            calendar-only) node tools/social/buffer-autopost.js --calendar-only ;;
+            *) node tools/social/buffer-autopost.js ;;
+          esac
+      - name: Save the log and calendar
+        if: ${{ inputs.mode != 'dry-run' }}
+        run: |
+          git config user.name "Shmor"
+          git config user.email "wirelesspaisa@gmail.com"
+          git add social/posted.json social/facebook-calendar.ics
+          git diff --cached --quiet && exit 0
+          git commit -m "Social: update posting log and calendar"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 10; done
+          exit 1
