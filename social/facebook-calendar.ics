@@ -10,14 +10,85 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:shmor-20261117184500000@shmor.ai
-DTSTAMP:20261117T183441Z
+DTSTAMP:20261117T184811Z
 DTSTART:20261117T184500Z
 DTEND:20261117T190000Z
-SUMMARY:🗓 Facebook + X + LinkedIn: BestVPNs: How to test your VPN for I
- P\, DNS and WebRTC leaks
-DESCRIPTION:Scheduled in Buffer on Facebook\, X\, LinkedIn.\nArticle: http
- s://bestvpns.shmor.ai/blog/vpn-leak-test/
+SUMMARY:✅ Facebook + X + LinkedIn: BestVPNs: How to test your VPN for IP
+ \, DNS and WebRTC leaks
+DESCRIPTION:Published via Buffer on Facebook\, X\, LinkedIn.\nArticle: htt
+ ps://bestvpns.shmor.ai/blog/vpn-leak-test/
 URL:https://bestvpns.shmor.ai/blog/vpn-leak-test/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261118080000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:🗓 Facebook + X: BuildLaw: Are construction retentions being ban
+ ned? The late payments bill explained
+DESCRIPTION:Scheduled in Buffer on Facebook\, X.\nArticle: https://buildla
+ w.shmor.ai/blog/retention-ban-late-payments-bill/
+URL:https://buildlaw.shmor.ai/blog/retention-ban-late-payments-bill/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261118120000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261118T120000Z
+DTEND:20261118T121500Z
+SUMMARY:🗓 Facebook + X + LinkedIn: CareCompass: Medicare open enrollmen
+ t for 2027: what to check before December 7
+DESCRIPTION:Scheduled in Buffer on Facebook\, X\, LinkedIn.\nArticle: http
+ s://carecompass.shmor.ai/blog/medicare-open-enrollment-2027/
+URL:https://carecompass.shmor.ai/blog/medicare-open-enrollment-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261118170000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261118T170000Z
+DTEND:20261118T171500Z
+SUMMARY:🗓 Facebook + X: CarHireDeals: Dubai car rental
+DESCRIPTION:Scheduled in Buffer on Facebook\, X.\nArticle: https://carhire
+ deals.shmor.ai/airport-car-hire/dubai/
+URL:https://carhiredeals.shmor.ai/airport-car-hire/dubai/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261119080000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261119T080000Z
+DTEND:20261119T081500Z
+SUMMARY:🗓 Facebook + X: CruiseDeals: Christmas and New Year cruises: fe
+ stive ideas and booking tips
+DESCRIPTION:Scheduled in Buffer on Facebook\, X.\nArticle: https://cruised
+ eals.shmor.ai/blog/christmas-new-year-cruises/
+URL:https://cruisedeals.shmor.ai/blog/christmas-new-year-cruises/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261119120000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261119T120000Z
+DTEND:20261119T121500Z
+SUMMARY:🗓 Facebook + X + LinkedIn: DevisArtisans: Audit énergétique 
+ : quand est-il obligatoire et à quoi sert-il ?
+DESCRIPTION:Scheduled in Buffer on Facebook\, X\, LinkedIn.\nArticle: http
+ s://devisartisans.shmor.ai/blog/audit-energetique-vente/
+URL:https://devisartisans.shmor.ai/blog/audit-energetique-vente/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261119170000000@shmor.ai
+DTSTAMP:20261117T184811Z
+DTSTART:20261119T170000Z
+DTEND:20261119T171500Z
+SUMMARY:🗓 Facebook + X: DomCom Insure: Christmas gifts and your content
+ s insurance
+DESCRIPTION:Scheduled in Buffer on Facebook\, X.\nArticle: https://domcomi
+ nsure.shmor.ai/blog/christmas-gifts-contents-cover/
+URL:https://domcominsure.shmor.ai/blog/christmas-gifts-contents-cover/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
