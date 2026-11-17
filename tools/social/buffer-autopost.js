@@ -93,17 +93,53 @@ function upcomingSlots(now) {
 }
 const history = () => log.posts.map(p => ({ url: p.url, title: p.title, time: p.at }));
 
+/* ---------- calendar feed ----------
+   ✅ published + 🗓 scheduled in Buffer (from the log) + 📝 planned forecast for the next
+   PLAN_DAYS days (same rotation the scheduler will use; can shift if new articles appear).
+   Every entry carries the time, networks, site, article, keywords, hashtags and the exact
+   text for each network. Published at social/calendar.ics (and the old facebook-calendar.ics). */
+const PLAN_DAYS = 14;
+const CALS = [path.join(ROOT, 'social', 'calendar.ics'), CAL];
+const ACCOUNT = { facebook: 'Facebook (Shmor.ai Page)', twitter: 'X (@Shmorai)', linkedin: 'LinkedIn (Alex F Morgan)' };
+const ukTime = d => new Date(d).toLocaleString('en-GB', { timeZone: 'Europe/London', weekday: 'short', day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+function slotsBetween(from, days) {
+  const out = [];
+  for (let d = 0; d <= days; d++) for (const h of [...new Set([...SLOTS.fx, ...SLOTS.li])].sort((a, b) => a - b)) {
+    const t = new Date(Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), from.getUTCDate() + d, h));
+    if (t > from && t - from <= days * 86400000) out.push({ at: t, services: [...(SLOTS.fx.includes(h) ? ['facebook', 'twitter'] : []), ...(SLOTS.li.includes(h) ? ['linkedin'] : [])] });
+  }
+  return out;
+}
+function entry(it, at, services, status) {
+  const tags = { facebook: hashtags(it).join(' '), twitter: hashtags(it, { topics: 1, shmor: false }).join(' '), linkedin: hashtags(it, { topics: 2 }).join(' ') };
+  const host = new URL(it.url).host;
+  const desc = [
+    `Status: ${status}`,
+    `When: ${ukTime(at)} (UK time)`,
+    `Networks: ${services.map(s => ACCOUNT[s]).join(', ')}`,
+    `Site: ${it.siteName} (${host})`,
+    `Article: ${it.title}`,
+    `Link: ${bareUrl(it.url)}`,
+    `Keywords: ${(it.keywords || []).join(', ') || '(none)'}`,
+    `Hashtags:\n${services.map(s => `  ${LABEL[s]}: ${tags[s]}`).join('\n')}`,
+    ...services.map(s => `\n━━ ${LABEL[s]} post ━━\n${FORMAT[s](it).text}`),
+  ].join('\n');
+  const icon = status.startsWith('Published') ? '✅' : status.startsWith('Scheduled') ? '🗓' : '📝';
+  return { uid: `shmor-${new Date(at).toISOString().replace(/[^0-9]/g, '')}@shmor.ai`, start: at, url: bareUrl(it.url),
+    summary: `${icon} ${services.map(s => LABEL[s]).join(' + ')}: ${it.siteName}: ${it.title}`, desc };
+}
 function writeCalendar() {
-  const now = Date.now(), bySlot = {};
-  for (const p of log.posts) (bySlot[p.at] = bySlot[p.at] || { ...p, nets: [] }).nets.push(LABEL[p.service]);
-  const events = Object.values(bySlot).map(s => {
-    const done = new Date(s.at) <= now;
-    return { uid: `shmor-${s.at.replace(/[^0-9]/g, '')}@shmor.ai`, start: s.at, url: s.url,
-      summary: `${done ? '✅' : '🗓'} ${s.nets.join(' + ')}: ${s.site}: ${s.title}`,
-      desc: `${done ? 'Published via Buffer' : 'Scheduled in Buffer'} on ${s.nets.join(', ')}.\nArticle: ${s.url}` };
-  });
-  writeIcs(CAL, 'Shmor.ai social posts', 'Posts scheduled and published on the Shmor.ai Facebook Page, X and LinkedIn', events);
-  console.log(`✓ Calendar: ${events.length} slots → social/facebook-calendar.ics`);
+  const now = new Date(), events = [], bySlot = {};
+  for (const p of log.posts) (bySlot[p.at] = bySlot[p.at] || { ...p, services: [] }).services.push(p.service);
+  for (const s of Object.values(bySlot)) {
+    const it = items.find(i => bareUrl(i.url) === s.url) || { url: s.url, title: s.title, siteName: s.site, keywords: [], text: '', lang: 'en' };
+    events.push(entry(it, s.at, s.services, new Date(s.at) <= now ? 'Published via Buffer' : 'Scheduled in Buffer'));
+  }
+  // forecast the remaining slots in the next PLAN_DAYS days
+  const free = slotsBetween(now, PLAN_DAYS).filter(s => !bySlot[s.at.toISOString()]);
+  choose(history(), free.length).forEach((it, k) => events.push(entry(it, free[k].at, free[k].services, 'Planned (forecast; scheduled into Buffer 48 h ahead, may change if newer articles are published)')));
+  for (const f of CALS) writeIcs(f, 'Shmor.ai social posts', 'Shmor.ai posts on Facebook, X and LinkedIn: published, scheduled in Buffer, and planned for the next 2 weeks', events);
+  console.log(`✓ Calendar: ${Object.keys(bySlot).length} published/scheduled + ${free.length} planned → social/calendar.ics`);
 }
 
 (async () => {
