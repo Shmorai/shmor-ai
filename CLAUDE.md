@@ -87,3 +87,5 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
   5. Business & law: buildlaw, onbuslaw, prosourced, taptill, Tue/Thu/Sat 06:20 (trig_01Y9Uaegr8mCv2BAaKAhMrub)
   6. Leisure, tech & EU: happydaysout, viralgadgets, devisartisans, handwerkerfinder, Tue/Thu/Sat 06:40 (trig_01TCPhQtonUVUb2znWrWJgt5)
 - First test (routine 1, 2026-11-17): cloning worked, but the environment's network allowlist blocked official sites (gov.uk, caa.co.uk, edinburgh.gov.uk → ENOTFOUND), so the run correctly published nothing. The "Default" environment needs Network access = Full (claude.ai/code → environment settings) before the routines can verify facts.
+- Each routine's message is just its site list plus "follow shmor-ai/tools/blog-routine/PROMPT.md", so changing PROMPT.md (commit + push shmor-ai) changes all six routines; no routine edits needed.
+- 2nd test (2026-11-17 19:40): research and builds fine, but `git push` from the cloud still returned 403 "Claude doesn't have GitHub access to Shmorai/…" → the Claude GitHub App must be installed on the Shmorai account with access to all shmor-* repos, then GitHub reconnected at claude.ai.
