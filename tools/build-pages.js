@@ -62,8 +62,19 @@ ${body.trim()}
 `;
 }
 
+// {{SITES}} / {{SITE_COUNT}}: a plain-HTML list of every live marketplace, read from ../sites/*/shmor-site.json,
+// so reviewers (and crawlers without JavaScript) can see every site this business runs.
+const SITES_DIR = path.join(ROOT, '..', 'sites');
+const escH = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const sites = (fs.existsSync(SITES_DIR) ? fs.readdirSync(SITES_DIR) : []).map(d => {
+  try { return JSON.parse(fs.readFileSync(path.join(SITES_DIR, d, 'shmor-site.json'), 'utf8')); } catch (e) { return null; }
+}).filter(s => s && s.status === 'live' && s.subdomain).sort((a, b) => a.name.localeCompare(b.name));
+const sitesHtml = sites.length ? '<ul class="site-list">\n' + sites.map(s =>
+  `        <li><a href="https://${s.subdomain}.shmor.ai/"><strong>${escH(s.name)}</strong></a> (${s.subdomain}.shmor.ai): ${escH(s.blurb || '')}</li>`).join('\n') + '\n      </ul>' : '';
+const fillPage = html => html.replace(/{{SITES}}/g, sitesHtml).replace(/{{SITE_COUNT}}/g, String(sites.length));
+
 for (const p of PAGES) {
-  const body = fs.readFileSync(path.join(SRC, p.slug + '.html'), 'utf8');
+  const body = fillPage(fs.readFileSync(path.join(SRC, p.slug + '.html'), 'utf8'));
   fs.mkdirSync(path.join(ROOT, p.slug), { recursive: true });
   fs.writeFileSync(path.join(ROOT, p.slug, 'index.html'), page(p, body));
   console.log('built', p.slug + '/index.html');

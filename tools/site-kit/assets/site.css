@@ -232,3 +232,8 @@ section h2 { font-size: clamp(26px, 3.4vw, 36px); margin-bottom: 24px; }
 
 /* Let article columns shrink so wide tables scroll inside their box instead of widening the page */
 .content-grid > * { min-width: 0; }
+
+/* Affiliate disclosure bar at the top of every page (tools/build.js "aff-top"). Theme-neutral: inherits each site's colours. */
+.aff-top { order: -99; font-size: 12.5px; line-height: 1.5; border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent); }
+.aff-top p { margin: 0; padding: 7px 0; opacity: .78; }
+.aff-top a { text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }
