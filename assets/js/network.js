@@ -2640,6 +2640,106 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "traveldeals"
   },
+  "cj7226122-home": {
+    "merchant": "Arangrant",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926854-17037905",
+    "blurb": "Arangrant finds discounted business and first class fares; tell it your trip and an agent sends options.",
+    "sector": "traveldeals"
+  },
+  "cj7226122-40off": {
+    "merchant": "Arangrant",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926854-17039669",
+    "expires": "2026-12-30",
+    "then": "cj7226122-home",
+    "blurb": "Arangrant: instant $40 off business class air tickets (Arangrant’s offer, listed until 30 Dec 2026).",
+    "sector": "traveldeals"
+  },
+  "cj7226122-b-728": {
+    "merchant": "Arangrant",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926854-17038257",
+    "expires": "2026-12-30",
+    "then": "cj7226122-home",
+    "banner": {
+      "src": "/assets/img/partners/cj7226122-b-728.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926854-17038257",
+      "width": 728,
+      "height": 90,
+      "alt": "Arangrant: business and first class flights worldwide, extra $40 off with code BC40"
+    },
+    "sector": "traveldeals"
+  },
+  "cj7226122-b-300": {
+    "merchant": "Arangrant",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926854-17038278",
+    "expires": "2026-12-30",
+    "then": "cj7226122-home",
+    "banner": {
+      "src": "/assets/img/partners/cj7226122-b-300.png",
+      "cjSrc": "https://www.awltovhc.com/image-101926854-17038278",
+      "width": 300,
+      "height": 250,
+      "alt": "Arangrant: business and first class flights worldwide, extra $40 off with code BC40"
+    },
+    "sector": "traveldeals"
+  },
+  "cj7287203-home": {
+    "merchant": "FragranceShop.com",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926868-16942179",
+    "blurb": "FragranceShop.com: discount designer perfume and cologne (US).",
+    "sector": "vouchervault"
+  },
+  "cj7287203-women": {
+    "merchant": "FragranceShop.com",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926868-16942204",
+    "blurb": "Women’s perfume at FragranceShop.com.",
+    "sector": "vouchervault"
+  },
+  "cj7287203-men": {
+    "merchant": "FragranceShop.com",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926868-16942203",
+    "blurb": "Men’s cologne at FragranceShop.com.",
+    "sector": "vouchervault"
+  },
+  "cj5384937-home": {
+    "merchant": "eCosmetics",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926868-17386714",
+    "blurb": "eCosmetics: make-up, skincare, haircare and fragrance from professional brands (US).",
+    "sector": "vouchervault"
+  },
+  "cj5384937-b-728": {
+    "merchant": "eCosmetics",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926868-17386714",
+    "banner": {
+      "src": "/assets/img/partners/cj5384937-b-728.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926868-17386714",
+      "width": 728,
+      "height": 90,
+      "alt": "eCosmetics"
+    },
+    "sector": "vouchervault"
+  },
+  "cj5384937-b-300": {
+    "merchant": "eCosmetics",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926868-17386689",
+    "banner": {
+      "src": "/assets/img/partners/cj5384937-b-300.jpg",
+      "cjSrc": "https://www.ftjcfx.com/image-101926868-17386689",
+      "width": 300,
+      "height": 250,
+      "alt": "eCosmetics"
+    },
+    "sector": "vouchervault"
+  },
   "cj4837117-home": {
     "merchant": "NordVPN",
     "network": "cj",
@@ -3196,6 +3296,67 @@ Object.assign(AFFILIATE_LINKS, {
       "alt": "VIP Cars: save up to 70% on car rentals"
     },
     "sector": "carhiredeals"
+  },
+  "cj998086-home": {
+    "merchant": "Corel",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926926-15734376",
+    "blurb": "Corel makes design, photo, video and document software, including CorelDRAW.",
+    "sector": "prosourced"
+  },
+  "cj998086-go": {
+    "merchant": "Corel",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926926-17040074",
+    "blurb": "CorelDRAW Go: simple design software for social posts, flyers and branded graphics.",
+    "sector": "prosourced"
+  },
+  "cj998086-suite": {
+    "merchant": "Corel",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926926-17254962",
+    "blurb": "CorelDRAW Graphics Suite: professional vector illustration, layout and logo design.",
+    "sector": "prosourced"
+  },
+  "cj998086-b-go-728": {
+    "merchant": "Corel",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926926-17040544",
+    "banner": {
+      "src": "/assets/img/partners/cj998086-b-go-728.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926926-17040544",
+      "width": 728,
+      "height": 90,
+      "alt": "CorelDRAW Go: freedom to design beyond templates"
+    },
+    "sector": "prosourced"
+  },
+  "cj998086-b-go-300": {
+    "merchant": "Corel",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926926-17040543",
+    "banner": {
+      "src": "/assets/img/partners/cj998086-b-go-300.jpg",
+      "cjSrc": "https://www.tqlkg.com/image-101926926-17040543",
+      "width": 300,
+      "height": 250,
+      "alt": "CorelDRAW Go: create unique designs, zero learning curve"
+    },
+    "sector": "prosourced"
+  },
+  "cj2898768-home": {
+    "merchant": "24-7PressRelease",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926926-15734478",
+    "blurb": "24-7PressRelease distributes your press release to news sites, search engines and journalists.",
+    "sector": "prosourced"
+  },
+  "cj2898768-plans": {
+    "merchant": "24-7PressRelease",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926926-10754877",
+    "blurb": "Compare 24-7PressRelease distribution plans.",
+    "sector": "prosourced"
   }
 });
 
@@ -3641,6 +3802,18 @@ OFFERS.push(...[
     "pages": [
       "",
       "blog/winter-sun-destinations"
+    ],
+    "expires": "2026-12-30",
+    "sector": "traveldeals"
+  },
+  {
+    "title": "Business and first class flights: extra $40 off with code BC40",
+    "link": "cj7226122-40off",
+    "badge": "Arangrant code",
+    "merchant": "Arangrant",
+    "terms": "Arangrant’s affiliate programme code. Listed until 30 Dec 2026; check the full terms with Arangrant before you book.",
+    "pages": [
+      "cheap-flights"
     ],
     "expires": "2026-12-30",
     "sector": "traveldeals"
