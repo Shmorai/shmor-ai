@@ -2559,6 +2559,26 @@ Object.assign(AFFILIATE_LINKS, {
       "alt": "LawDepot legal forms: wills, leases, contracts and more"
     },
     "sector": "onbuslaw"
+  },
+  "cj5324242-home": {
+    "merchant": "NordPass",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926904-13868703",
+    "blurb": "A password manager that creates and stores strong, unique passwords for every account. From the makers of NordVPN.",
+    "sector": "onbuslaw"
+  },
+  "cj5324242-b-350": {
+    "merchant": "NordPass",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926904-15273216",
+    "banner": {
+      "src": "/assets/img/partners/cj5324242-b-350.png",
+      "cjSrc": "https://www.lduhtrp.net/image-101926904-15273216",
+      "width": 350,
+      "height": 200,
+      "alt": "Discover NordPass Premium password manager"
+    },
+    "sector": "onbuslaw"
   }
 });
 
