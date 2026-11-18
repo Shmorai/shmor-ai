@@ -1,9 +1,9 @@
 {
   "issue": "2026-W47",
-  "generated": "2026-11-18T06:43:52.765Z",
+  "generated": "2026-11-18T12:21:25.096Z",
   "subject": "The Shmor Weekly: Winter tyres and snow chains in a hire car in Europe: what to check",
-  "preheader": "This week: CarHireDeals, CruiseDeals, HotelHero and more, all in one place.",
-  "intro": "Here's this week's round-up from across the Shmor network: the freshest guides and money-saving finds from 5 of our marketplaces, picked so you don't have to go looking.",
+  "preheader": "This week: CarHireDeals, CruiseDeals, EnergySavers and more, all in one place.",
+  "intro": "Here's this week's round-up from across the Shmor network: the freshest guides and money-saving finds from 8 of our marketplaces, picked so you don't have to go looking.",
   "items": [
     {
       "site": "CarHireDeals",
@@ -28,6 +28,28 @@
       "imageAlt": "Calm green water in the Geirangerfjord between steep, forested mountainsides with waterfalls"
     },
     {
+      "site": "EnergySavers",
+      "siteId": "energysavers",
+      "accent": "#062A23",
+      "date": "2026-11-18",
+      "title": "Energy price cap January 2027: when it’s announced and what to do now",
+      "blurb": "The next cap covers Jan–Mar 2027. Here is the announcement date, what the cap limits and how to prepare.",
+      "url": "https://energysavers.shmor.ai/blog/energy-price-cap-january-2027/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Electricity pylons and power lines against the sky"
+    },
+    {
+      "site": "FullBars",
+      "siteId": "fullbars",
+      "accent": "#0D0B24",
+      "date": "2026-11-18",
+      "title": "How to switch mobile provider and keep your number (PAC and STAC explained)",
+      "blurb": "The texts to send, what a PAC and STAC are, and what to check before you leave your network.",
+      "url": "https://fullbars.shmor.ai/blog/switch-mobile-provider-keep-number/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
+      "image": "https://images.unsplash.com/photo-1592890288564-76628a30a657?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Person holding an Android smartphone"
+    },
+    {
       "site": "HotelHero",
       "siteId": "hotelhero",
       "accent": "#0F1A3C",
@@ -37,6 +59,17 @@
       "url": "https://hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Edinburgh_Skyline_%2831186849414%29.jpg/1920px-Edinburgh_Skyline_%2831186849414%29.jpg",
       "imageAlt": "The Edinburgh skyline with the Old Town rooftops and spires"
+    },
+    {
+      "site": "StorageSavings",
+      "siteId": "storagesavings",
+      "accent": "#FACC15",
+      "date": "2026-11-18",
+      "title": "Storing a car for winter: SORN, tax and insurance explained",
+      "blurb": "When a SORN is needed, what happens if you skip it, and how to bring the car back on the road.",
+      "url": "https://storagesavings.shmor.ai/blog/storing-a-car-over-winter-sorn/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
+      "image": "https://images.unsplash.com/photo-1592351763700-b9b35a6465ea?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "A white caravan trailer parked on grass under a blue sky"
     },
     {
       "site": "TravelDeals",
@@ -50,15 +83,15 @@
       "imageAlt": "View of an aircraft wing above the clouds from a plane window"
     },
     {
-      "site": "EnergySavers",
-      "siteId": "energysavers",
-      "accent": "#062A23",
-      "date": "2026-11-17",
-      "title": "How to read your gas and electricity meter (and why it matters)",
-      "blurb": "Digit-by-digit help for every meter type, and what to do about an estimated bill.",
-      "url": "https://energysavers.shmor.ai/blog/how-to-read-gas-electricity-meter/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Kos-Kos_city-Electricity_meter-01ASD.jpg/1920px-Kos-Kos_city-Electricity_meter-01ASD.jpg",
-      "imageAlt": "Three older electricity meters in sealed boxes mounted side by side on an outside wall"
+      "site": "VoucherVault",
+      "siteId": "vouchervault",
+      "accent": "#E5136F",
+      "date": "2026-11-18",
+      "title": "Black Friday returns and refunds: know your rights before you buy",
+      "blurb": "Your 14-day cancellation right in the UK, how US returns work, and what to check before you buy.",
+      "url": "https://vouchervault.shmor.ai/blog/black-friday-returns-refunds-rights/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W47",
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Sale lettering for a shopping event"
     }
   ],
   "cta": {

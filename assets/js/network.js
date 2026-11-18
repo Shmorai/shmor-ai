@@ -2384,10 +2384,11 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.anrdoezrs.net/click-101926854-15444628",
     "banner": {
-      "src": "https://www.lduhtrp.net/image-101926854-15444628",
+      "src": "/assets/img/partners/cj6248437-b-flights-728.jpg",
       "width": 728,
       "height": 90,
-      "alt": "TravelUp: cheap flights to the USA"
+      "alt": "TravelUp: cheap flights to the USA",
+      "cjSrc": "https://www.lduhtrp.net/image-101926854-15444628"
     },
     "sector": "traveldeals"
   },
@@ -2396,10 +2397,11 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.tkqlhce.com/click-101926854-15444626",
     "banner": {
-      "src": "https://www.lduhtrp.net/image-101926854-15444626",
+      "src": "/assets/img/partners/cj6248437-b-flights-300.jpg",
       "width": 300,
       "height": 250,
-      "alt": "TravelUp: cheap flights to the USA"
+      "alt": "TravelUp: cheap flights to the USA",
+      "cjSrc": "https://www.lduhtrp.net/image-101926854-15444626"
     },
     "sector": "traveldeals"
   },
@@ -2408,10 +2410,11 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.anrdoezrs.net/click-101926854-15363623",
     "banner": {
-      "src": "https://www.ftjcfx.com/image-101926854-15363623",
+      "src": "/assets/img/partners/cj6248437-b-hotels-728.jpg",
       "width": 728,
       "height": 90,
-      "alt": "TravelUp hotel deals"
+      "alt": "TravelUp hotel deals",
+      "cjSrc": "https://www.ftjcfx.com/image-101926854-15363623"
     },
     "sector": "traveldeals"
   },
@@ -2420,10 +2423,11 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.dpbolvw.net/click-101926854-15363621",
     "banner": {
-      "src": "https://www.lduhtrp.net/image-101926854-15363621",
+      "src": "/assets/img/partners/cj6248437-b-hotels-300.jpg",
       "width": 300,
       "height": 250,
-      "alt": "TravelUp hotel deals"
+      "alt": "TravelUp hotel deals",
+      "cjSrc": "https://www.lduhtrp.net/image-101926854-15363621"
     },
     "sector": "traveldeals"
   },
@@ -2434,10 +2438,11 @@ Object.assign(AFFILIATE_LINKS, {
     "expires": "2026-12-31",
     "then": "cj6248437-holidays",
     "banner": {
-      "src": "https://www.awltovhc.com/image-101926854-15859871",
+      "src": "/assets/img/partners/cj6248437-b-holidays-300.jpg",
       "width": 300,
       "height": 250,
-      "alt": "TravelUp holiday deals"
+      "alt": "TravelUp holiday deals",
+      "cjSrc": "https://www.awltovhc.com/image-101926854-15859871"
     },
     "sector": "traveldeals"
   },
@@ -2448,10 +2453,11 @@ Object.assign(AFFILIATE_LINKS, {
     "expires": "2026-12-31",
     "then": "cj6248437-holidays",
     "banner": {
-      "src": "https://www.ftjcfx.com/image-101926854-15859875",
+      "src": "/assets/img/partners/cj6248437-b-paris-728.jpg",
       "width": 728,
       "height": 90,
-      "alt": "TravelUp holiday deals"
+      "alt": "TravelUp holiday deals",
+      "cjSrc": "https://www.ftjcfx.com/image-101926854-15859875"
     },
     "sector": "traveldeals"
   }
