@@ -10,7 +10,7 @@
      filtered out in GA4 once the "Internal traffic" data filter is active); ?shmor_internal=0 removes the mark.
    - window.shmorConsent.reset() asks again (used by the "Change cookie preferences" button on shmor.ai/cookies/). */
 (function () {
-  var GA4_ID = '';
+  var GA4_ID = 'G-G08ZS5P052';
 
   if (window.__shmorConsent) return; window.__shmorConsent = true;
   var host = location.hostname;
