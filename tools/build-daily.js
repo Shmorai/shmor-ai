@@ -63,8 +63,9 @@ const weekSites = new Set(en.filter(p => p.date >= daysAgo(7)).map(p => p.site))
 const intl = ['fr', 'de'].map(l => ({ lang: l, items: posts.filter(p => p.lang === l).slice(0, 3) })).filter(x => x.items.length);
 
 // Partner offers & referral picks (only real, configured ones)
-const offers = (OFFERS || []).filter(o => AFFILIATE_LINKS[o.link]);
-const featured = Object.entries(AFFILIATE_LINKS).filter(([, l]) => l.featured).slice(0, 8);
+const TODAY_ISO = new Date().toISOString().slice(0, 10), notExpired = x => !(x && x.expires && x.expires < TODAY_ISO);
+const offers = (OFFERS || []).filter(o => AFFILIATE_LINKS[o.link] && notExpired(o) && notExpired(AFFILIATE_LINKS[o.link]));
+const featured = Object.entries(AFFILIATE_LINKS).filter(([, l]) => l.featured && notExpired(l)).slice(0, 8);
 
 /* ---------- Page shell (header/footer come from main.js, like every shmor.ai page) ---------- */
 function page({ title, desc, canonical, robots, root, main, ld }) {

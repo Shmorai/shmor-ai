@@ -36,6 +36,11 @@
   var slug = p.get('to') || '';
   var src = (p.get('src') || 'direct').replace(/[^a-z0-9_-]/gi, '').slice(0, 40);
   var entry = (typeof AFFILIATE_LINKS !== 'undefined') && Object.prototype.hasOwnProperty.call(AFFILIATE_LINKS, slug) ? AFFILIATE_LINKS[slug] : null;
+  // Dated links: after "expires" (last valid day) send the click to the link's "then" slug, or show "expired"
+  var today = new Date().toISOString().slice(0, 10);
+  for (var hop = 0; entry && entry.expires && entry.expires < today && hop < 3; hop++) {
+    entry = entry.then && Object.prototype.hasOwnProperty.call(AFFILIATE_LINKS, entry.then) ? AFFILIATE_LINKS[entry.then] : null;
+  }
   var region = SITE.regions.list[p.get('r')] ? p.get('r') : shmorRegion.get();
   var link = shmorRegion.resolve(entry, region);
 

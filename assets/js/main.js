@@ -313,7 +313,8 @@
     });
 
     // Offers (only when configured)
-    const offers = OFFERS.filter(o => hasAff(o.link));
+    const TODAY = new Date().toISOString().slice(0, 10), notExpired = x => !(x && x.expires && x.expires < TODAY);
+    const offers = OFFERS.filter(o => hasAff(o.link) && notExpired(o) && notExpired(AFFILIATE_LINKS[o.link]));
     if (offers.length) {
       $('#offers').hidden = false;
       $('#offerGrid').innerHTML = offers.map(o => {
@@ -329,7 +330,7 @@
     }
 
     // Featured brands (only when configured)
-    const brands = Object.entries(AFFILIATE_LINKS).filter(([, v]) => v.featured);
+    const brands = Object.entries(AFFILIATE_LINKS).filter(([, v]) => v.featured && notExpired(v));
     if (brands.length) {
       $('#brands').hidden = false;
       $('#brandRow').innerHTML = brands.map(([slug, v]) =>
