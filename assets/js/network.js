@@ -2587,6 +2587,13 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "traveldeals"
   },
+  "cj7728435-flights": {
+    "merchant": "HopeGoo",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926854-17366885",
+    "blurb": "Search flights, including to Asia, with HopeGoo, an Asia-focused travel booking site; prices in $.",
+    "sector": "traveldeals"
+  },
   "cj4837117-home": {
     "merchant": "NordVPN",
     "network": "cj",
