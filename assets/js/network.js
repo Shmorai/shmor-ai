@@ -2550,6 +2550,43 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "traveldeals"
   },
+  "cj6868393-newuser": {
+    "merchant": "Oojo",
+    "network": "cj",
+    "url": {
+      "us": "https://www.anrdoezrs.net/click-101926854-15789169",
+      "uk": "https://www.tkqlhce.com/click-101926854-15789174"
+    },
+    "blurb": "Book flights with Oojo, an online flight booking site.",
+    "sector": "traveldeals"
+  },
+  "cj6868393-generic": {
+    "merchant": "Oojo",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926854-15789175",
+    "blurb": "Search and book flights with Oojo.",
+    "sector": "traveldeals"
+  },
+  "cj6868393-concierge": {
+    "merchant": "Oojo",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926854-15789176",
+    "blurb": "Oojo includes a personal concierge with every flight booking.",
+    "sector": "traveldeals"
+  },
+  "cj6868393-b-italy-350": {
+    "merchant": "Oojo",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926854-15869773",
+    "banner": {
+      "src": "/assets/img/partners/cj6868393-b-italy-350.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926854-15869773",
+      "width": 350,
+      "height": 250,
+      "alt": "Oojo: fly to Italy now"
+    },
+    "sector": "traveldeals"
+  },
   "cj4837117-home": {
     "merchant": "NordVPN",
     "network": "cj",
@@ -3283,6 +3320,18 @@ OFFERS.push(...[
       "cheap-flights"
     ],
     "expires": "2026-11-30",
+    "sector": "traveldeals"
+  },
+  {
+    "title": "Get $50 off your first flight booking",
+    "link": "cj6868393-newuser",
+    "badge": "New customers",
+    "merchant": "Oojo",
+    "terms": "Oojo’s new-customer offer. Check the full terms on Oojo before you book.",
+    "pages": [
+      "",
+      "cheap-flights"
+    ],
     "sector": "traveldeals"
   }
 ]);
