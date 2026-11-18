@@ -2580,6 +2580,80 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "bestvpns"
   },
+  "cj6282055-home": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15736773",
+    "blurb": "Surfshark VPN apps for phones, computers and TVs. Check its current plans and terms on its own site.",
+    "sector": "bestvpns"
+  },
+  "cj6282055-download": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15438544",
+    "blurb": "Download Surfshark VPN.",
+    "sector": "bestvpns"
+  },
+  "cj6282055-cleanweb": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926897-15740556",
+    "blurb": "Surfshark CleanWeb ad and tracker blocker.",
+    "sector": "bestvpns"
+  },
+  "cj6282055-antivirus": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926897-15737546",
+    "blurb": "Surfshark Antivirus.",
+    "sector": "bestvpns"
+  },
+  "cj6282055-b-cleanweb-728": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926897-15852647",
+    "banner": {
+      "src": "/assets/img/partners/cj6282055-b-cleanweb-728.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926897-15852647",
+      "width": 728,
+      "height": 90,
+      "alt": "Surfshark CleanWeb: enjoy ad-free browsing"
+    },
+    "sector": "bestvpns"
+  },
+  "cj6282055-b-cleanweb-320": {
+    "merchant": "Surfshark",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15852643",
+    "banner": {
+      "src": "/assets/img/partners/cj6282055-b-cleanweb-320.png",
+      "cjSrc": "https://www.ftjcfx.com/image-101926897-15852643",
+      "width": 320,
+      "height": 50,
+      "alt": "Surfshark CleanWeb: enjoy ad-free browsing"
+    },
+    "sector": "bestvpns"
+  },
+  "cj5324242-home-bv": {
+    "merchant": "NordPass",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926897-13868703",
+    "blurb": "A password manager that creates and stores strong, unique passwords for every account. From the makers of NordVPN.",
+    "sector": "bestvpns"
+  },
+  "cj5324242-b-350-bv": {
+    "merchant": "NordPass",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926897-15273216",
+    "banner": {
+      "src": "/assets/img/partners/cj5324242-b-350.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926897-15273216",
+      "width": 350,
+      "height": 200,
+      "alt": "Discover NordPass Premium password manager"
+    },
+    "sector": "bestvpns"
+  },
   "cj4544498-business": {
     "merchant": "LawDepot",
     "network": "cj",
