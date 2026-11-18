@@ -114,7 +114,74 @@
     }
   ],
   "offers": [],
-  "links": {},
+  "links": {
+    "cj7127091-home": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101926900-17244504",
+      "blurb": "Raw Paws Pet Food: frozen raw food, treats and chews for dogs and cats. US delivery only."
+    },
+    "cj7127091-frozen": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101926900-15878720",
+      "blurb": "Frozen raw dog and cat food from Raw Paws. US delivery only."
+    },
+    "cj7127091-treats": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101926900-17014991",
+      "blurb": "Pet treats from Raw Paws. US delivery only."
+    },
+    "cj7127091-chews": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101926900-17013702",
+      "blurb": "Dog chews from Raw Paws. US delivery only."
+    },
+    "cj7127091-autoship": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.tkqlhce.com/click-101926900-17234935",
+      "blurb": "Raw Paws Auto Ship & Save: repeat deliveries of your pet’s food. US delivery only."
+    },
+    "cj7127091-sale": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.tkqlhce.com/click-101926900-17295891",
+      "blurb": "Pet products on sale at Raw Paws. US delivery only."
+    },
+    "cj7127091-dogtreats": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101926900-17234729",
+      "blurb": "Dog treats from Raw Paws. US delivery only."
+    },
+    "cj7127091-b-shop-300": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101926900-17332859",
+      "banner": {
+        "src": "/assets/img/partners/cj7127091-b-shop-300.png",
+        "cjSrc": "https://www.awltovhc.com/image-101926900-17332859",
+        "width": 300,
+        "height": 250,
+        "alt": "Raw Paws Pet Food: fresh, healthy pet food. Shop now (US delivery only)"
+      }
+    },
+    "cj7127091-b-fresh-300": {
+      "merchant": "Raw Paws Pet Food",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101926900-17332855",
+      "banner": {
+        "src": "/assets/img/partners/cj7127091-b-fresh-300.png",
+        "cjSrc": "https://www.tqlkg.com/image-101926900-17332855",
+        "width": 300,
+        "height": 250,
+        "alt": "Raw Paws Pet Food: fresh, healthy pet food. Shop now (US delivery only)"
+      }
+    }
+  },
   "seo": {
     "siteName": "PetSavings",
     "description": "Compare pet food, supplies and pet insurance for dogs, cats and small pets, with money-saving guides and help finding trusted local groomers, sitters and kennels.",
