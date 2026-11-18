@@ -2461,6 +2461,125 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "traveldeals"
   },
+  "cj4837117-home": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": {
+      "us": "https://www.jdoqocy.com/click-101926897-12814518",
+      "uk": "https://www.dpbolvw.net/click-101926897-12814536"
+    },
+    "featured": true,
+    "blurb": "NordVPN apps for phones, computers, TVs and routers. Check its current plans, audits and refund terms on its own site.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-pricing": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-15078184",
+    "blurb": "See NordVPN’s current plans and prices on its own site.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-threat": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15371518",
+    "blurb": "NordVPN’s Threat Protection: blocks known malware, trackers and ads.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-all": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252F",
+    "blurb": "NordVPN apps for every device.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-ios": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252Fios%252F",
+    "blurb": "NordVPN for iPhone and iPad.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-android": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252Fandroid%252F",
+    "blurb": "NordVPN for Android.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-windows": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252Fwindows%252F",
+    "blurb": "NordVPN for Windows.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-mac": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252Fmac%252F",
+    "blurb": "NordVPN for Mac.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-dl-firestick": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-13914989?url=https%3A%2F%2Fgo.nordvpn.net%2Faff_c%3Foffer_id%3D449%26aff_id%3D2495%26url%3Dhttps%253A%252F%252Fnordvpn.com%252Fdownload%252Ffirestick%252F",
+    "blurb": "NordVPN for Amazon Fire TV Stick.",
+    "sector": "bestvpns"
+  },
+  "cj4837117-b-faster-728": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15640646",
+    "banner": {
+      "src": "/assets/img/partners/cj4837117-b-faster-728.png",
+      "cjSrc": "https://www.awltovhc.com/image-101926897-15640646",
+      "width": 729,
+      "height": 90,
+      "alt": "NordVPN: faster than ever. Get VPN now"
+    },
+    "sector": "bestvpns"
+  },
+  "cj4837117-b-faster-300": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-15640650",
+    "banner": {
+      "src": "/assets/img/partners/cj4837117-b-faster-300.png",
+      "cjSrc": "https://www.lduhtrp.net/image-101926897-15640650",
+      "width": 300,
+      "height": 250,
+      "alt": "NordVPN: faster than ever. Get VPN now"
+    },
+    "sector": "bestvpns"
+  },
+  "cj4837117-b-av-728": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-17303397",
+    "banner": {
+      "src": "/assets/img/partners/cj4837117-b-av-728.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926897-17303397",
+      "width": 728,
+      "height": 90,
+      "alt": "NordVPN offer: get 75% off plus 3 months extra (NordVPN’s terms apply)"
+    },
+    "sector": "bestvpns"
+  },
+  "cj4837117-b-av-320": {
+    "merchant": "NordVPN",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926897-17303395",
+    "banner": {
+      "src": "/assets/img/partners/cj4837117-b-av-320.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926897-17303395",
+      "width": 320,
+      "height": 50,
+      "alt": "NordVPN offer: get 75% off plus 3 months extra (NordVPN’s terms apply)"
+    },
+    "sector": "bestvpns"
+  },
   "cj4544498-business": {
     "merchant": "LawDepot",
     "network": "cj",
