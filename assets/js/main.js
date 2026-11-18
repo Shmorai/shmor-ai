@@ -456,38 +456,11 @@
   }
 
   /* ---------------- Cookie consent (only when analytics configured) ---------------- */
-  function loadGA(id) {
-    if (window.__gaLoaded) return; window.__gaLoaded = true;
-    const s = document.createElement('script');
-    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
-    document.head.appendChild(s);
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { dataLayer.push(arguments); };
-    gtag('js', new Date()); gtag('config', id, { anonymize_ip: true });
-  }
+  // Banner + GA4 live in assets/js/consent.js (shared with every *.shmor.ai site; the GA4 ID is set there)
   function consent() {
-    const id = SITE.analytics && SITE.analytics.ga4;
-    window.shmorConsent = {
-      reset() { store.del('shmor-consent'); location.reload(); },
-      enabled: !!id,
-    };
-    if (!id) return;
-    // Global Privacy Control = opt-out (US state laws); no banner, no analytics
-    if (navigator.globalPrivacyControl === true) return;
-    const v = store.get('shmor-consent');
-    if (v === 'yes') return loadGA(id);
-    if (v === 'no') return;
-    const bar = document.createElement('div');
-    bar.className = 'consent';
-    bar.setAttribute('role', 'dialog'); bar.setAttribute('aria-label', 'Cookie preferences');
-    bar.innerHTML = `<p>We use optional analytics cookies to understand how Shmor is used and improve it. See our <a href="${ROOT}cookies/">cookie policy</a>.</p>
-      <div class="consent-btns"><button class="btn btn-quiet" data-c="no">Reject</button><button class="btn btn-primary" data-c="yes">Accept</button></div>`;
-    document.body.appendChild(bar);
-    bar.addEventListener('click', e => {
-      const c = e.target.dataset.c; if (!c) return;
-      store.set('shmor-consent', c); bar.remove();
-      if (c === 'yes') loadGA(id);
-    });
+    const s = document.createElement('script');
+    s.src = ROOT + 'assets/js/consent.js?v=20261117'; s.defer = true;
+    document.head.appendChild(s);
   }
 
   /* ---------------- Boot ---------------- */

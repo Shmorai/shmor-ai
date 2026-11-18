@@ -55,8 +55,8 @@ const SITE = {
     ipLookup: 'https://api.ipify.org?format=json', // free public-IP service; the browser asks it for its own IP
   },
 
-  // Google Analytics 4 measurement ID, e.g. 'G-XXXXXXXXXX'.
-  // When set, a cookie consent banner appears and GA only loads after "Accept".
+  // Google Analytics: the measurement ID now lives in assets/js/consent.js (GA4_ID),
+  // shared by shmor.ai and every *.shmor.ai site. This field is no longer used.
   analytics: { ga4: '' },
 
   social: { x: '', instagram: '', linkedin: '', tiktok: '', facebook: 'https://www.facebook.com/profile.php?id=61596510427365' },
