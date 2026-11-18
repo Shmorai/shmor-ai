@@ -2951,6 +2951,176 @@ Object.assign(AFFILIATE_LINKS, {
       "alt": "Discover NordPass Premium password manager"
     },
     "sector": "onbuslaw"
+  },
+  "cj7466061-home": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926924-17094338",
+    "blurb": "Carla compares 1,000+ rental companies, from Hertz, Avis and Sixt to local firms, with book-now-pay-later options.",
+    "sector": "carhiredeals"
+  },
+  "cj7466061-bnpl": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17075184",
+    "blurb": "Book now, pay later car rental with Carla.",
+    "sector": "carhiredeals"
+  },
+  "cj7466061-offers": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926924-17097170",
+    "blurb": "Special offers on car rental at Carla.",
+    "sector": "carhiredeals"
+  },
+  "cj7466061-luxury": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17075187",
+    "blurb": "Rent luxury cars with Carla.",
+    "sector": "carhiredeals"
+  },
+  "cj7466061-b-970": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926924-17071499",
+    "banner": {
+      "src": "/assets/img/partners/cj7466061-b-970.jpg",
+      "cjSrc": "https://www.tqlkg.com/image-101926924-17071499",
+      "width": 970,
+      "height": 250,
+      "alt": "Carla Car Rental: book now, pay later"
+    },
+    "sector": "carhiredeals"
+  },
+  "cj7466061-b-720": {
+    "merchant": "Carla Car Rental",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926924-17097175",
+    "banner": {
+      "src": "/assets/img/partners/cj7466061-b-720.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926924-17097175",
+      "width": 720,
+      "height": 720,
+      "alt": "Carla Car Rental: travel now, pay later"
+    },
+    "sector": "carhiredeals"
+  },
+  "cj7819955-home": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17257114",
+    "blurb": "VIP Cars compares car rental at 22,000+ locations in 150+ countries.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-uk": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926924-17361606",
+    "blurb": "Car rental across the UK with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-offers": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926924-17270271",
+    "blurb": "VIP Cars offers: save up to 70% on car rental (VIP Cars’ own offer; check its terms).",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-lhr": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Funited-kingdom%2Flondon%2Fheathrow-airport",
+    "blurb": "Compare car hire at Heathrow with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-lgw": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Funited-kingdom%2Flondon%2Fgatwick-airport",
+    "blurb": "Compare car hire at Gatwick with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-fao": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Fportugal%2Ffaro%2Ffaro-airport",
+    "blurb": "Compare car hire at Faro Airport with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-agp": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Fspain-mainland%2Fmalaga%2Fmalaga-airport",
+    "blurb": "Compare car hire at Malaga Airport with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-mco": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Fusa-florida%2Forlando%2Forlando-airport",
+    "blurb": "Compare car rental at Orlando Airport with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-lax": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Fusa-california%2Flos-angeles%2Flos-angeles-airport",
+    "blurb": "Compare car rental at LAX with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-jfk": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Fusa-new-york%2Fnew-york-city%2Fjohn-f-kennedy-airport",
+    "blurb": "Compare car rental at JFK with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-dxb": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926924-17236371?url=https%3A%2F%2Fwww.vipcars.com%2Fcar-rental%2Funited-arab-emirates%2Fdubai%2Fdubai-international-airport",
+    "blurb": "Compare car rental at Dubai Airport with VIP Cars.",
+    "sector": "carhiredeals"
+  },
+  "cj7819955-b-728": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926924-17236024",
+    "banner": {
+      "src": "/assets/img/partners/cj7819955-b-728.jpg",
+      "cjSrc": "https://www.lduhtrp.net/image-101926924-17236024",
+      "width": 728,
+      "height": 90,
+      "alt": "VIP Cars: save up to 70% on car rentals"
+    },
+    "sector": "carhiredeals"
+  },
+  "cj7819955-b-300": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926924-17236022",
+    "banner": {
+      "src": "/assets/img/partners/cj7819955-b-300.jpg",
+      "cjSrc": "https://www.tqlkg.com/image-101926924-17236022",
+      "width": 300,
+      "height": 250,
+      "alt": "VIP Cars: save up to 70% on car rentals"
+    },
+    "sector": "carhiredeals"
+  },
+  "cj7819955-b-320": {
+    "merchant": "VIP Cars",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926924-17236021",
+    "banner": {
+      "src": "/assets/img/partners/cj7819955-b-320.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926924-17236021",
+      "width": 320,
+      "height": 50,
+      "alt": "VIP Cars: save up to 70% on car rentals"
+    },
+    "sector": "carhiredeals"
   }
 });
 
