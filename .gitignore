@@ -1,0 +1,4 @@
+# Never commit Google service-account keys or other secrets
+*service-account*.json
+.shmor-secrets/
+*.pem
