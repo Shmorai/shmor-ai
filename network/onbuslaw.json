@@ -81,7 +81,98 @@
     }
   ],
   "offers": [],
-  "links": {},
+  "links": {
+    "cj4544498-business": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.tkqlhce.com/click-101926904-16944793",
+        "uk": "https://www.tkqlhce.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fgroups%2Fbusiness%2F%3Floc%3DGB"
+      },
+      "blurb": "Customise business documents and contracts with LawDepot. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-website-terms": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.jdoqocy.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fwebsite-terms-and-conditions%2F%3Floc%3DUS",
+        "uk": "https://www.kqzyfj.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fwebsite-terms-and-conditions%2F%3Floc%3DGB"
+      },
+      "blurb": "Create website terms and conditions from a LawDepot template. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-demand-letter": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.tkqlhce.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fdemand-letter%2F%3Floc%3DUS",
+        "uk": "https://www.anrdoezrs.net/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fdemand-letter%2F%3Floc%3DGB"
+      },
+      "blurb": "Write a formal demand letter (letter before action) with a LawDepot template. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-cease-desist": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.dpbolvw.net/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fcease-and-desist-letter%2F%3Floc%3DUS",
+        "uk": "https://www.tkqlhce.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fcease-and-desist-letter%2F%3Floc%3DGB"
+      },
+      "blurb": "Create a cease and desist letter with a LawDepot template. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-partnership": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.kqzyfj.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fpartnership-agreement%2F%3Floc%3DUS",
+        "uk": "https://www.kqzyfj.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fpartnership-agreement%2F%3Floc%3DGB"
+      },
+      "blurb": "Draft a partnership agreement with a LawDepot template. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-business-plan": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": {
+        "us": "https://www.jdoqocy.com/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fbusiness-plan%2F%3Floc%3DUS",
+        "uk": "https://www.dpbolvw.net/click-101926904-16944793?url=https%3A%2F%2Fwww.lawdepot.com%2Fcontracts%2Fbusiness-plan%2F%3Floc%3DGB"
+      },
+      "blurb": "Build a business plan with a LawDepot template. A document-template subscription service with a free trial; templates are not legal advice."
+    },
+    "cj4544498-b-business-728": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101926904-17082033",
+      "banner": {
+        "src": "/assets/img/partners/cj4544498-b-business-728.jpg",
+        "cjSrc": "https://www.awltovhc.com/image-101926904-17082033",
+        "width": 728,
+        "height": 90,
+        "alt": "LawDepot small business forms and legal templates"
+      }
+    },
+    "cj4544498-b-business-300": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": "https://www.anrdoezrs.net/click-101926904-17082032",
+      "banner": {
+        "src": "/assets/img/partners/cj4544498-b-business-300.jpg",
+        "cjSrc": "https://www.lduhtrp.net/image-101926904-17082032",
+        "width": 300,
+        "height": 250,
+        "alt": "LawDepot small business forms and legal templates"
+      }
+    },
+    "cj4544498-b-generic-728": {
+      "merchant": "LawDepot",
+      "network": "cj",
+      "url": "https://www.anrdoezrs.net/click-101926904-17082906",
+      "banner": {
+        "src": "/assets/img/partners/cj4544498-b-generic-728.jpg",
+        "cjSrc": "https://www.tqlkg.com/image-101926904-17082906",
+        "width": 728,
+        "height": 90,
+        "alt": "LawDepot legal forms: wills, leases, contracts and more"
+      }
+    }
+  },
   "people": {},
   "seo": {
     "siteName": "OnBusLaw",
