@@ -49,7 +49,10 @@
   var url = link.url;
   var param = SUBID[(link.network || '').toLowerCase()];
   if (param && url.indexOf(param + '=') === -1) {
-    url += (url.indexOf('?') === -1 ? '?' : '&') + param + '=' + encodeURIComponent('shmor-' + region + '-' + src);
+    var sub = param + '=' + encodeURIComponent('shmor-' + region + '-' + src);
+    var q = url.indexOf('?');
+    // Put the sub-ID first so deep links (CJ "?url=…", which should stay last) keep working
+    url = q === -1 ? url + '?' + sub : url.slice(0, q + 1) + sub + '&' + url.slice(q + 1);
   }
   document.getElementById('title').textContent = 'Taking you to ' + (entry.merchant || 'our partner') + '…';
   document.getElementById('manual').href = url;
