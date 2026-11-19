@@ -1,0 +1,218 @@
+{
+  "$schema": "shmor-site/1",
+  "id": "sillybaby",
+  "name": "SillyBaby",
+  "subdomain": "sillybaby",
+  "order": 370,
+  "status": "building",
+  "icon": "baby",
+  "accent": "#FF7EB6",
+  "blurb": "Playful, fact-checked baby and child care guides from newborn to age 12: feeding, sleep, milestones, health, safety, gear and play for new parents.",
+  "keywords": [
+    "baby",
+    "babies",
+    "newborn",
+    "toddler",
+    "toddlers",
+    "baby care",
+    "new mom",
+    "new mum",
+    "first time mom",
+    "first time mum",
+    "breastfeeding",
+    "bottle feeding",
+    "baby formula",
+    "weaning",
+    "baby led weaning",
+    "starting solids",
+    "baby sleep",
+    "sleep schedule",
+    "safe sleep",
+    "swaddle",
+    "diapers",
+    "nappies",
+    "diaper rash",
+    "nappy rash",
+    "teething",
+    "baby milestones",
+    "potty training",
+    "toilet training",
+    "baby gear",
+    "stroller",
+    "pram",
+    "pushchair",
+    "car seat",
+    "baby monitor",
+    "baby clothes",
+    "baby toys",
+    "preschool",
+    "kids",
+    "children",
+    "parenting",
+    "colic",
+    "baby registry",
+    "baby shower"
+  ],
+  "fallback": "",
+  "popular": [
+    {
+      "label": "Safe sleep for babies",
+      "q": "safe sleep"
+    },
+    {
+      "label": "Starting solids",
+      "q": "starting solids"
+    },
+    {
+      "label": "Baby milestones",
+      "q": "baby milestones"
+    }
+  ],
+  "offers": [
+    {
+      "title": "10% off baby sleep sacks",
+      "link": "cj8022425-deal10-sleep",
+      "badge": "DEAL10",
+      "terms": "10% off your order with code DEAL10, issued through the Kaiya Baby affiliate programme. Listed until 27 Feb 2027; check full terms and delivery at checkout.",
+      "pages": [
+        "sleep",
+        "sleep/safe-sleep",
+        "blog/tog-ratings-explained",
+        "newborn"
+      ],
+      "expires": "2027-02-27"
+    },
+    {
+      "title": "10% off baby bodysuits",
+      "link": "cj8022425-deal10-bodysuits",
+      "badge": "DEAL10",
+      "terms": "10% off your order with code DEAL10, issued through the Kaiya Baby affiliate programme. Listed until 27 Feb 2027; check full terms and delivery at checkout.",
+      "pages": [
+        "newborn",
+        "baby",
+        "blog/hospital-bag-checklist"
+      ],
+      "expires": "2027-02-27"
+    },
+    {
+      "title": "10% off Kaiya Baby best sellers",
+      "link": "cj8022425-deal10-best",
+      "badge": "DEAL10",
+      "terms": "10% off your order with code DEAL10, issued through the Kaiya Baby affiliate programme. Listed until 27 Feb 2027; check full terms and delivery at checkout.",
+      "pages": [
+        "",
+        "gear"
+      ],
+      "expires": "2027-02-27"
+    }
+  ],
+  "links": {
+    "cj8022425-home": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.tkqlhce.com/click-101932353-17342824",
+      "featured": true,
+      "blurb": "Organic cotton and camel wool baby sleep sacks, swaddles and baby clothes. Check delivery to your country at checkout."
+    },
+    "cj8022425-sleep-sacks": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101932353-17342824?url=https%3A%2F%2Fkaiyababy.com%2Fcollections%2Fsleep-sacks",
+      "blurb": "Baby and toddler sleep sacks (wearable blankets) in a range of TOG ratings."
+    },
+    "cj8022425-swaddle": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.dpbolvw.net/click-101932353-17342824?url=https%3A%2F%2Fkaiyababy.com%2Fcollections%2Fswaddle"
+    },
+    "cj8022425-guide": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.dpbolvw.net/click-101932353-17342824?url=https%3A%2F%2Fkaiyababy.com%2Fpages%2Fa-selection-guide-of-sleep-sacks"
+    },
+    "cj8022425-walker": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.dpbolvw.net/click-101932353-17342824?url=https%3A%2F%2Fkaiyababy.com%2Fcollections%2Fwalker-sleep-sack"
+    },
+    "cj8022425-bodysuits": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101932353-17342824?url=https%3A%2F%2Fkaiyababy.com%2Fcollections%2Fbodysuits"
+    },
+    "cj8022425-deal10-sleep": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101932353-17347377",
+      "expires": "2027-02-27",
+      "then": "cj8022425-sleep-sacks"
+    },
+    "cj8022425-deal10-bodysuits": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.dpbolvw.net/click-101932353-17347378",
+      "expires": "2027-02-27",
+      "then": "cj8022425-bodysuits"
+    },
+    "cj8022425-deal10-best": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101932353-17347380",
+      "expires": "2027-02-27",
+      "then": "cj8022425-home"
+    },
+    "cj8022425-b-designed-886": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101932353-17342333",
+      "banner": {
+        "src": "/assets/img/partners/cj8022425-b-designed-886.png",
+        "width": 886,
+        "height": 443,
+        "alt": "Kaiya Baby: Thoughtfully Designed sleep sacks made for gentle bedtimes. Shop now",
+        "cjSrc": "https://www.ftjcfx.com/image-101932353-17342333"
+      }
+    },
+    "cj8022425-b-nights-686": {
+      "merchant": "Kaiya Baby",
+      "network": "cj",
+      "url": "https://www.jdoqocy.com/click-101932353-17342322",
+      "banner": {
+        "src": "/assets/img/partners/cj8022425-b-nights-686.png",
+        "width": 686,
+        "height": 572,
+        "alt": "Kaiya Baby: Made for Little Nights baby sleepwear. Shop now",
+        "cjSrc": "https://www.ftjcfx.com/image-101932353-17342322"
+      }
+    }
+  },
+  "seo": {
+    "siteName": "SillyBaby",
+    "description": "Friendly, fact-checked baby and child care guides for new and first-time parents in the US, UK and Europe, from newborn to age 12.",
+    "locale": "en",
+    "ogLocale": "en_GB",
+    "themeColor": "#2A2350",
+    "searchPlaceholder": "Search feeding, sleep, milestones…",
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap",
+    "ctaTitle": "What can we help with today?",
+    "bylines": true,
+    "editorialPage": "how-we-write",
+    "checkedText": "Checked against NHS, CDC and AAP guidance",
+    "logo": "/assets/favicon.svg"
+  },
+  "card": {
+    "image": {
+      "src": "https://images.unsplash.com/photo-1778276539528-1d1846658dd1",
+      "alt": "A mother smiling at her laughing baby",
+      "credit": "Rashmi Kalburgie",
+      "creditUrl": "https://unsplash.com/@rkalburgie"
+    },
+    "logo": "<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"13\" fill=\"#FF7EB6\"/><circle cx=\"20\" cy=\"22\" r=\"12\" fill=\"#FFF3E6\"/><path d=\"M20 10.2c-2.6-.3-3.6 1.6-2.5 2.9 1 1.1 2.9.4 2.6-1\" fill=\"none\" stroke=\"#2A2350\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"15.6\" cy=\"21\" r=\"1.7\" fill=\"#2A2350\"/><circle cx=\"24.4\" cy=\"21\" r=\"1.7\" fill=\"#2A2350\"/><circle cx=\"12.6\" cy=\"25\" r=\"1.9\" fill=\"#FFB3D2\"/><circle cx=\"27.4\" cy=\"25\" r=\"1.9\" fill=\"#FFB3D2\"/><path d=\"M16.5 26.3c1.9 2.2 5.1 2.2 7 0\" fill=\"none\" stroke=\"#2A2350\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>",
+    "accent": "#2A2350",
+    "wordmark": [
+      "Silly",
+      "Baby"
+    ],
+    "wordmarkColor": "#FF7EB6"
+  }
+}

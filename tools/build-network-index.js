@@ -33,7 +33,7 @@ for (const dir of fs.readdirSync(SITES).filter(d => d.startsWith('shmor-'))) {
   const sd = path.join(SITES, dir);
   if (!fs.existsSync(path.join(sd, 'shmor-site.json'))) continue;
   const m = JSON.parse(fs.readFileSync(path.join(sd, 'shmor-site.json'), 'utf8'));
-  if (m.status === 'planned') continue;
+  if (m.status !== 'live') continue; // pre-launch sites stay out of Shmor Daily, the weekly digest, social posts and other sites' network boxes until launch
   const lang = ((m.seo && m.seo.locale) || 'en').slice(0, 2);
   const base = `https://${m.subdomain}.shmor.ai`;
   sites.push({ id: m.id, name: m.name, subdomain: m.subdomain, lang, accent: (m.card && m.card.accent) || m.accent, blurb: m.blurb,
