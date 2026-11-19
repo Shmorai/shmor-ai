@@ -82,7 +82,7 @@ node tools/test-network.js          # crawl & check EVERY site (pages, SEO tags,
 - 6 routines, 4 sites each (times UTC):
   1. Travel: traveldeals, cruisedeals, hotelhero, carhiredeals, Mon/Wed/Fri 06:00 (trig_01LoXPH8kTKwdGB1TK17Yu8R)
   2. Money & home: energysavers, fullbars, storagesavings, vouchervault, Mon/Wed/Fri 06:20 (trig_011aerzTWkr96hynQqCbVNsq)
-  3. Cover & care: domcominsure, carecompass, petsavings, bestvpns, Mon/Wed/Fri 06:40 (trig_01HLz8GjRuiL4wVxyhyAD6rm)
+  3. Cover & care: domcominsure, carecompass, petsavings, bestvpns, sillybaby (added 2026-11-19, pre-launch private repo), Mon/Wed/Fri 06:40 (trig_01HLz8GjRuiL4wVxyhyAD6rm)
   4. Trades & makers: tradesstation, localplumbers, profinders, uksew, Tue/Thu/Sat 06:00 (trig_011pPpUBFGsJXBzq5AJ9v46E)
   5. Business & law: buildlaw, onbuslaw, prosourced, taptill, Tue/Thu/Sat 06:20 (trig_01Y9Uaegr8mCv2BAaKAhMrub)
   6. Leisure, tech & EU: happydaysout, viralgadgets, devisartisans, handwerkerfinder, Tue/Thu/Sat 06:40 (trig_01TCPhQtonUVUb2znWrWJgt5)
