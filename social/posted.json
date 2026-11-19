@@ -175,6 +175,62 @@
    "title": "How to switch mobile provider and keep your number (PAC and STAC explained)",
    "site": "FullBars",
    "buffer": "6afdca220a57e5a1571b53ec"
+  },
+  {
+   "at": "2026-11-20T17:00:00.000Z",
+   "service": "facebook",
+   "url": "https://handwerkerfinder.shmor.ai/blog/angebote-richtig-vergleichen/",
+   "title": "Drei Angebote einholen und fair vergleichen",
+   "site": "HandwerkerFinder",
+   "buffer": "6aff1c8770751782c0cef57b"
+  },
+  {
+   "at": "2026-11-20T17:00:00.000Z",
+   "service": "twitter",
+   "url": "https://handwerkerfinder.shmor.ai/blog/angebote-richtig-vergleichen/",
+   "title": "Drei Angebote einholen und fair vergleichen",
+   "site": "HandwerkerFinder",
+   "buffer": "6aff1c8770751782c0cef5a3"
+  },
+  {
+   "at": "2026-11-21T08:00:00.000Z",
+   "service": "facebook",
+   "url": "https://happydaysout.shmor.ai/blog/advent-days-out-calendar/",
+   "title": "An advent calendar of days out",
+   "site": "HappyDaysOut",
+   "buffer": "6aff1c883ba4b53c30e5c3ef"
+  },
+  {
+   "at": "2026-11-21T08:00:00.000Z",
+   "service": "twitter",
+   "url": "https://happydaysout.shmor.ai/blog/advent-days-out-calendar/",
+   "title": "An advent calendar of days out",
+   "site": "HappyDaysOut",
+   "buffer": "6aff1c88014b5cec7ecfc64a"
+  },
+  {
+   "at": "2026-11-21T12:00:00.000Z",
+   "service": "facebook",
+   "url": "https://hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/",
+   "title": "UK visitor levy: what Edinburgh and Wales hotel guests will pay",
+   "site": "HotelHero",
+   "buffer": "6aff1c89e03d69424b6e7d1b"
+  },
+  {
+   "at": "2026-11-21T12:00:00.000Z",
+   "service": "twitter",
+   "url": "https://hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/",
+   "title": "UK visitor levy: what Edinburgh and Wales hotel guests will pay",
+   "site": "HotelHero",
+   "buffer": "6aff1c89014b5cec7ecfc679"
+  },
+  {
+   "at": "2026-11-21T12:00:00.000Z",
+   "service": "linkedin",
+   "url": "https://hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/",
+   "title": "UK visitor levy: what Edinburgh and Wales hotel guests will pay",
+   "site": "HotelHero",
+   "buffer": "6aff1c893ba4b53c30e5c48c"
   }
  ]
 }
