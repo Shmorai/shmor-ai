@@ -2812,6 +2812,54 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "vouchervault"
   },
+  "cj7711902-home-vv": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926868-17242061",
+    "blurb": "AliExpress: global marketplace of independent sellers.",
+    "sector": "vouchervault"
+  },
+  "cj7711902-new3": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926868-17385377",
+    "expires": "2026-12-31",
+    "then": "cj7711902-home-vv",
+    "blurb": "AliExpress new US users: $3 off $10 with code 0003NEWUSOFF.",
+    "sector": "vouchervault"
+  },
+  "cj7711902-new5": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926868-17385378",
+    "expires": "2026-12-31",
+    "then": "cj7711902-home-vv",
+    "blurb": "AliExpress new US users: $5 off $20 with code 5NEWUSOFF.",
+    "sector": "vouchervault"
+  },
+  "cj7711902-new12": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926868-17385379",
+    "expires": "2026-12-31",
+    "then": "cj7711902-home-vv",
+    "blurb": "AliExpress new US users: $12 off $80 with code 12NEWUSOFF.",
+    "sector": "vouchervault"
+  },
+  "cj7711902-home": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926879-17242061",
+    "blurb": "AliExpress: a global marketplace of independent sellers. Delivery times, quality and returns vary by seller, so check them before you buy.",
+    "sector": "viralgadgets"
+  },
+  "cj7711902-electronics": {
+    "merchant": "AliExpress",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926879-17242082",
+    "blurb": "Phone and electronics accessories on AliExpress (sold by independent sellers).",
+    "sector": "viralgadgets"
+  },
   "cj4837117-home": {
     "merchant": "NordVPN",
     "network": "cj",
@@ -3428,6 +3476,34 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.jdoqocy.com/click-101926926-10754877",
     "blurb": "Compare 24-7PressRelease distribution plans.",
+    "sector": "prosourced"
+  },
+  "cj7529241-home": {
+    "merchant": "AOMEI",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926926-17143106",
+    "blurb": "AOMEI makes Windows backup, disk cloning, partition and remote-desktop software.",
+    "sector": "prosourced"
+  },
+  "cj7529241-backupper": {
+    "merchant": "AOMEI",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926926-17143105",
+    "blurb": "AOMEI Backupper: scheduled file, system and disk backups for Windows PCs and servers.",
+    "sector": "prosourced"
+  },
+  "cj7529241-partition": {
+    "merchant": "AOMEI",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926926-17214898",
+    "blurb": "AOMEI Partition Assistant: resize, move and manage disk partitions on Windows.",
+    "sector": "prosourced"
+  },
+  "cj7529241-anyviewer": {
+    "merchant": "AOMEI",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926926-17143103",
+    "blurb": "AOMEI AnyViewer: remote desktop software for remote IT support.",
     "sector": "prosourced"
   },
   "cj8022425-home": {

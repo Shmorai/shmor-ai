@@ -92,7 +92,20 @@
     }
   ],
   "offers": [],
-  "links": {},
+  "links": {
+    "cj7711902-home": {
+      "merchant": "AliExpress",
+      "network": "cj",
+      "url": "https://www.dpbolvw.net/click-101926879-17242061",
+      "blurb": "AliExpress: a global marketplace of independent sellers. Delivery times, quality and returns vary by seller, so check them before you buy."
+    },
+    "cj7711902-electronics": {
+      "merchant": "AliExpress",
+      "network": "cj",
+      "url": "https://www.kqzyfj.com/click-101926879-17242082",
+      "blurb": "Phone and electronics accessories on AliExpress (sold by independent sellers)."
+    }
+  },
   "seo": {
     "siteName": "ViralGadgets",
     "description": "The gadgets everyone is talking about on TikTok, Amazon and YouTube, sorted by age, who it is for and type, with honest heads-ups and deal timing.",
