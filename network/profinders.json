@@ -79,7 +79,14 @@
     }
   ],
   "offers": [],
-  "links": {},
+  "links": {
+    "cj5113136-home-pf": {
+      "merchant": "FlexJobs",
+      "network": "cj",
+      "url": "https://www.tkqlhce.com/click-101926862-15734834",
+      "blurb": "FlexJobs: a subscription job board of hand-screened remote, hybrid and flexible jobs."
+    }
+  },
   "seo": {
     "siteName": "ProFinders",
     "description": "Find and compare HR consultants, employment lawyers, accountants, marketers, web designers and IT support for your business. Free quotes, no obligation.",

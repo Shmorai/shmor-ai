@@ -2758,6 +2758,13 @@ Object.assign(AFFILIATE_LINKS, {
     },
     "sector": "traveldeals"
   },
+  "cj5113136-home-pf": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926862-15734834",
+    "blurb": "FlexJobs: a subscription job board of hand-screened remote, hybrid and flexible jobs.",
+    "sector": "profinders"
+  },
   "cj7287203-home": {
     "merchant": "FragranceShop.com",
     "network": "cj",
@@ -2858,6 +2865,34 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.kqzyfj.com/click-101926879-17242082",
     "blurb": "Phone and electronics accessories on AliExpress (sold by independent sellers).",
+    "sector": "viralgadgets"
+  },
+  "cj7889430-home": {
+    "merchant": "Abracadabra NYC",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926879-17277658",
+    "blurb": "Abracadabra NYC: a New York magic, costume and novelty shop with magic tricks, pranks, props and unusual gifts.",
+    "sector": "viralgadgets"
+  },
+  "cj7889430-magic": {
+    "merchant": "Abracadabra NYC",
+    "network": "cj",
+    "url": "https://www.jdoqocy.com/click-101926879-17267165",
+    "blurb": "Magic tricks and sets from Abracadabra NYC.",
+    "sector": "viralgadgets"
+  },
+  "cj7889430-pranks": {
+    "merchant": "Abracadabra NYC",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926879-17267161",
+    "blurb": "Practical jokes and pranks from Abracadabra NYC.",
+    "sector": "viralgadgets"
+  },
+  "cj7889430-gifts": {
+    "merchant": "Abracadabra NYC",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926879-17267163",
+    "blurb": "Unique and novelty gifts from Abracadabra NYC.",
     "sector": "viralgadgets"
   },
   "cj4837117-home": {
@@ -3050,6 +3085,53 @@ Object.assign(AFFILIATE_LINKS, {
       "width": 350,
       "height": 200,
       "alt": "Discover NordPass Premium password manager"
+    },
+    "sector": "bestvpns"
+  },
+  "cj5887918-home": {
+    "merchant": "HideMy.Name",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926897-15736978",
+    "blurb": "HideMy.Name VPN: apps for Windows, macOS, iOS, Android, Linux and routers, with a free trial and a 30-day refund policy on its own site.",
+    "sector": "bestvpns"
+  },
+  "cj5887918-wifi": {
+    "merchant": "HideMy.Name",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-15618968",
+    "blurb": "Connect securely to public Wi-Fi with HideMy.Name VPN.",
+    "sector": "bestvpns"
+  },
+  "cj5887918-protect": {
+    "merchant": "HideMy.Name",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-15618964",
+    "blurb": "Protect your online activities with HideMy.Name VPN.",
+    "sector": "bestvpns"
+  },
+  "cj5887918-b-wifi-500": {
+    "merchant": "HideMy.Name",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926897-15618457",
+    "banner": {
+      "src": "/assets/img/partners/cj5887918-b-wifi-500.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926897-15618457",
+      "width": 500,
+      "height": 500,
+      "alt": "HideMy.Name: connect securely to public Wi-Fi with a VPN. HideMy.Name VPN: save up to 75% (its own 5-year-plan saving)"
+    },
+    "sector": "bestvpns"
+  },
+  "cj5887918-b-protect-500": {
+    "merchant": "HideMy.Name",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926897-15618456",
+    "banner": {
+      "src": "/assets/img/partners/cj5887918-b-protect-500.jpg",
+      "cjSrc": "https://www.awltovhc.com/image-101926897-15618456",
+      "width": 500,
+      "height": 500,
+      "alt": "HideMy.Name: protect your online activities with a VPN. HideMy.Name VPN: save up to 75% (its own 5-year-plan saving)"
     },
     "sector": "bestvpns"
   },
@@ -3504,6 +3586,53 @@ Object.assign(AFFILIATE_LINKS, {
     "network": "cj",
     "url": "https://www.tkqlhce.com/click-101926926-17143103",
     "blurb": "AOMEI AnyViewer: remote desktop software for remote IT support.",
+    "sector": "prosourced"
+  },
+  "cj5113136-home": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.kqzyfj.com/click-101926926-15734834",
+    "blurb": "FlexJobs: a subscription job board of hand-screened remote, hybrid and flexible jobs.",
+    "sector": "prosourced"
+  },
+  "cj5113136-jobs": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926926-13413287",
+    "blurb": "Search remote and flexible jobs on FlexJobs.",
+    "sector": "prosourced"
+  },
+  "cj5113136-tour": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.tkqlhce.com/click-101926926-13413290",
+    "blurb": "Take FlexJobs’ quick tour to see how it screens job listings.",
+    "sector": "prosourced"
+  },
+  "cj5113136-b-728": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.dpbolvw.net/click-101926926-15681497",
+    "banner": {
+      "src": "/assets/img/partners/cj5113136-b-728.png",
+      "cjSrc": "https://www.tqlkg.com/image-101926926-15681497",
+      "width": 728,
+      "height": 90,
+      "alt": "FlexJobs: access the best remote jobs"
+    },
+    "sector": "prosourced"
+  },
+  "cj5113136-b-300": {
+    "merchant": "FlexJobs",
+    "network": "cj",
+    "url": "https://www.anrdoezrs.net/click-101926926-15681483",
+    "banner": {
+      "src": "/assets/img/partners/cj5113136-b-300.png",
+      "cjSrc": "https://www.ftjcfx.com/image-101926926-15681483",
+      "width": 300,
+      "height": 250,
+      "alt": "FlexJobs: access the best remote jobs"
+    },
     "sector": "prosourced"
   },
   "cj8022425-home": {
