@@ -297,6 +297,46 @@
         "height": 500,
         "alt": "HideMy.Name: protect your online activities with a VPN. HideMy.Name VPN: save up to 75% (its own 5-year-plan saving)"
       }
+    },
+    "rk54233-home": {
+      "merchant": "Keeper",
+      "network": "rakuten",
+      "url": "https://click.linksynergy.com/fs-bin/click?id=gdGQwOn3qEg&offerid=2065364.2&type=3&subid=0",
+      "blurb": "A password manager that stores your passwords and private files in an end-to-end encrypted vault on all your devices."
+    },
+    "rk54233-plans": {
+      "merchant": "Keeper",
+      "network": "rakuten",
+      "url": "https://click.linksynergy.com/deeplink?id=gdGQwOn3qEg&mid=54233&murl=https%3A%2F%2Fwww.keepersecurity.com%2Fpricing%2Fpersonal-and-family.html"
+    },
+    "rk54233-generator": {
+      "merchant": "Keeper",
+      "network": "rakuten",
+      "url": "https://click.linksynergy.com/deeplink?id=gdGQwOn3qEg&mid=54233&murl=https%3A%2F%2Fwww.keepersecurity.com%2Ffeatures%2Fpassword-generator%2F"
+    },
+    "rk54233-b-700": {
+      "merchant": "Keeper",
+      "network": "rakuten",
+      "url": "https://click.linksynergy.com/fs-bin/click?id=gdGQwOn3qEg&offerid=2065364.7&subid=0&type=4",
+      "banner": {
+        "src": "/assets/img/partners/rk54233-b-700.png",
+        "cjSrc": "https://ad.linksynergy.com/fs-bin/show?id=gdGQwOn3qEg&bids=2065364.7&subid=0&type=4&gridnum=0",
+        "width": 700,
+        "height": 224,
+        "alt": "Keeper Password Manager on laptop and phone"
+      }
+    },
+    "rk54233-b-360": {
+      "merchant": "Keeper",
+      "network": "rakuten",
+      "url": "https://click.linksynergy.com/fs-bin/click?id=gdGQwOn3qEg&offerid=2065364.4&subid=0&type=4",
+      "banner": {
+        "src": "/assets/img/partners/rk54233-b-360.png",
+        "cjSrc": "https://ad.linksynergy.com/fs-bin/show?id=gdGQwOn3qEg&bids=2065364.4&subid=0&type=4&gridnum=0",
+        "width": 360,
+        "height": 400,
+        "alt": "Keeper Password Manager app on a phone"
+      }
     }
   },
   "seo": {
