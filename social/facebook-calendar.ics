@@ -10,7 +10,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:shmor-20261117184500000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261117T184500Z
 DTEND:20261117T190000Z
 SUMMARY:✅ Facebook + X + LinkedIn: BestVPNs: How to test your VPN for IP
@@ -40,7 +40,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261118T080000Z
 DTEND:20261118T081500Z
 SUMMARY:✅ Facebook + X: BuildLaw: Are construction retentions being bann
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261118T120000Z
 DTEND:20261118T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: CareCompass: Medicare open enrollment
@@ -100,7 +100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261118T170000Z
 DTEND:20261118T171500Z
 SUMMARY:✅ Facebook + X: CarHireDeals: Dubai car rental
@@ -122,7 +122,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261119T080000Z
 DTEND:20261119T081500Z
 SUMMARY:✅ Facebook + X: CruiseDeals: Christmas and New Year cruises: fes
@@ -149,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261119T120000Z
 DTEND:20261119T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: DevisArtisans: Audit énergétique :
@@ -185,19 +185,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261119T170000Z
 DTEND:20261119T171500Z
-SUMMARY:🗓 Facebook + X: DomCom Insure: Christmas gifts and your content
- s insurance
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Thu\, 19 Nov 2026\, 17:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: DomCom
-  Insure (domcominsure.shmor.ai)\nArticle: Christmas gifts and your conten
- ts insurance\nLink: https://domcominsure.shmor.ai/blog/christmas-gifts-co
- ntents-cover/\nKeywords: christmas contents insurance\, seasonal increase
-  contents\, gifts insurance\, single item limit jewellery\nHashtags:\n  F
- acebook: #SeasonalIncreaseContents #GiftsInsurance #DomComInsure #ShmorAI
- \n  X: #SeasonalIncreaseContents #DomComInsure\n\n━━ Facebook post 
+SUMMARY:✅ Facebook + X: DomCom Insure: Christmas gifts and your contents
+  insurance
+DESCRIPTION:Status: Published via Buffer\nWhen: Thu\, 19 Nov 2026\, 17:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: DomCo
+ m Insure (domcominsure.shmor.ai)\nArticle: Christmas gifts and your conte
+ nts insurance\nLink: https://domcominsure.shmor.ai/blog/christmas-gifts-c
+ ontents-cover/\nKeywords: christmas contents insurance\, seasonal increas
+ e contents\, gifts insurance\, single item limit jewellery\nHashtags:\n  
+ Facebook: #SeasonalIncreaseContents #GiftsInsurance #DomComInsure #ShmorA
+ I\n  X: #SeasonalIncreaseContents #DomComInsure\n\n━━ Facebook post 
  ━━\nChristmas gifts and your contents insurance\n\nExpensive presents
   can push you over contents limits. Seasonal increases\, single-item limi
  ts\, gifts in the car\, parcels and Christmas fire safety.\n\nRead it on 
@@ -213,20 +213,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261120T080000Z
 DTEND:20261120T081500Z
-SUMMARY:🗓 Facebook + X: EnergySavers: Energy price cap January 2027: wh
- en it’s announced and what to do now
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Fri\, 20 Nov 2026\, 08:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Energy
- Savers (energysavers.shmor.ai)\nArticle: Energy price cap January 2027: w
- hen it’s announced and what to do now\nLink: https://energysavers.shmor
- .ai/blog/energy-price-cap-january-2027/\nKeywords: energy price cap janua
- ry 2027\, ofgem price cap announcement\, price cap january to march 2027\
- , when is the next energy price cap announced\, will energy bills go up i
- n january 2027\, energy price cap forecast\nHashtags:\n  Facebook: #Energ
- y #Electricity #EnergySavers #ShmorAI\n  X: #Energy #EnergySavers\n\n━
+SUMMARY:✅ Facebook + X: EnergySavers: Energy price cap January 2027: whe
+ n it’s announced and what to do now
+DESCRIPTION:Status: Published via Buffer\nWhen: Fri\, 20 Nov 2026\, 08:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Energ
+ ySavers (energysavers.shmor.ai)\nArticle: Energy price cap January 2027: 
+ when it’s announced and what to do now\nLink: https://energysavers.shmo
+ r.ai/blog/energy-price-cap-january-2027/\nKeywords: energy price cap janu
+ ary 2027\, ofgem price cap announcement\, price cap january to march 2027
+ \, when is the next energy price cap announced\, will energy bills go up 
+ in january 2027\, energy price cap forecast\nHashtags:\n  Facebook: #Ener
+ gy #Electricity #EnergySavers #ShmorAI\n  X: #Energy #EnergySavers\n\n━
  ━ Facebook post ━━\nEnergy price cap January 2027: when it’s anno
  unced and what to do now\n\nThe next cap covers Jan–Mar 2027. Here is t
  he announcement date\, what the cap limits and how to prepare.\n\nRead it
@@ -241,23 +241,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261120T120000Z
 DTEND:20261120T121500Z
-SUMMARY:🗓 Facebook + X + LinkedIn: FullBars: How to switch mobile provi
- der and keep your number (PAC and STAC explained)
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Fri\, 20 Nov 2026\, 12:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
- lex F Morgan)\nSite: FullBars (fullbars.shmor.ai)\nArticle: How to switch
-  mobile provider and keep your number (PAC and STAC explained)\nLink: htt
- ps://fullbars.shmor.ai/blog/switch-mobile-provider-keep-number/\nKeywords
- : how to switch mobile provider\, keep my phone number when switching\, p
- ac code\, stac code\, text 65075 pac code\, switch mobile network uk\nHas
- htags:\n  Facebook: #PacCode #StacCode #FullBars #ShmorAI\n  X: #PacCode 
- #FullBars\n  LinkedIn: #PacCode #StacCode #FullBars #ShmorAI\n\n━━ Fa
- cebook post ━━\nHow to switch mobile provider and keep your number (P
- AC and STAC explained)\n\nThe texts to send\, what a PAC and STAC are\, a
- nd what to check before you leave your network.\n\nRead it on FullBars 
+SUMMARY:✅ Facebook + X + LinkedIn: FullBars: How to switch mobile provid
+ er and keep your number (PAC and STAC explained)
+DESCRIPTION:Status: Published via Buffer\nWhen: Fri\, 20 Nov 2026\, 12:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (
+ Alex F Morgan)\nSite: FullBars (fullbars.shmor.ai)\nArticle: How to switc
+ h mobile provider and keep your number (PAC and STAC explained)\nLink: ht
+ tps://fullbars.shmor.ai/blog/switch-mobile-provider-keep-number/\nKeyword
+ s: how to switch mobile provider\, keep my phone number when switching\, 
+ pac code\, stac code\, text 65075 pac code\, switch mobile network uk\nHa
+ shtags:\n  Facebook: #PacCode #StacCode #FullBars #ShmorAI\n  X: #PacCode
+  #FullBars\n  LinkedIn: #PacCode #StacCode #FullBars #ShmorAI\n\n━━ F
+ acebook post ━━\nHow to switch mobile provider and keep your number (
+ PAC and STAC explained)\n\nThe texts to send\, what a PAC and STAC are\, 
+ and what to check before you leave your network.\n\nRead it on FullBars 
  👇\n\n#PacCode #StacCode #FullBars #ShmorAI\n\n━━ X post ━━\nHo
  w to switch mobile provider and keep your number (PAC and STAC explained)
  \n\nThe texts to send\, what a PAC and STAC are\, and what to check befor
@@ -274,7 +274,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261120T170000Z
 DTEND:20261120T171500Z
 SUMMARY:🗓 Facebook + X: HandwerkerFinder: Drei Angebote einholen und fa
@@ -300,7 +300,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261121T080000Z
 DTEND:20261121T081500Z
 SUMMARY:🗓 Facebook + X: HappyDaysOut: An advent calendar of days out
@@ -325,7 +325,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261121T120000Z
 DTEND:20261121T121500Z
 SUMMARY:🗓 Facebook + X + LinkedIn: HotelHero: UK visitor levy: what Edi
@@ -362,153 +362,157 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261121T170000Z
 DTEND:20261121T171500Z
-SUMMARY:📝 Facebook + X: LocalPlumbers: Bathroom and kitchen plumbing pr
- ojects
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Sat\, 21 Nov 2026\, 1
- 7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- LocalPlumbers (localplumbers.shmor.ai)\nArticle: Bathroom and kitchen plu
- mbing projects\nLink: https://localplumbers.shmor.ai/bathroom-plumbing/\n
- Keywords: bathroom plumbing\, shower installation\, kitchen plumbing\, ba
- throom remodel\, bathroom fitter\nHashtags:\n  Facebook: #BathroomPlumbin
- g #ShowerInstallation #KitchenPlumbing #LocalPlumbers #ShmorAI\n  X: #Bat
- hroomPlumbing #LocalPlumbers\n\n━━ Facebook post ━━\nBathroom and
-  kitchen plumbing projects\n\nNew bathrooms\, showers and kitchens involv
- e more than fitting taps.\n\nRead it on LocalPlumbers 👇\n\n#BathroomPl
- umbing #ShowerInstallation #KitchenPlumbing #LocalPlumbers #ShmorAI\n\n
- ━━ X post ━━\nBathroom and kitchen plumbing projects\n\nNew bathr
- ooms\, showers and kitchens involve more than fitting taps.\n\nhttps://lo
- calplumbers.shmor.ai/bathroom-plumbing/?utm_source=x&utm_medium=social&ut
- m_campaign=autopost\n\n#BathroomPlumbing #LocalPlumbers
-URL:https://localplumbers.shmor.ai/bathroom-plumbing/
+SUMMARY:🗓 Facebook + X: LocalPlumbers: Frozen pipes: what to do\, and w
+ hen to call a plumber
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sat\, 21 Nov 2026\, 17:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: LocalP
+ lumbers (localplumbers.shmor.ai)\nArticle: Frozen pipes: what to do\, and
+  when to call a plumber\nLink: https://localplumbers.shmor.ai/blog/frozen
+ -pipes-what-to-do/\nKeywords: frozen pipes\, frozen pipes what to do\, ho
+ w to thaw frozen pipes\, burst pipe what to do\, frozen pipes uk\, frozen
+  pipes usa\nHashtags:\n  Facebook: #FrozenPipes #LocalPlumbers #ShmorAI\n
+   X: #FrozenPipes #LocalPlumbers\n\n━━ Facebook post ━━\nFrozen p
+ ipes: what to do\, and when to call a plumber\n\nHow to prevent\, thaw an
+ d deal with frozen and burst pipes\, for UK and US homes.\n\nRead it on L
+ ocalPlumbers 👇\n\n#FrozenPipes #LocalPlumbers #ShmorAI\n\n━━ X pos
+ t ━━\nFrozen pipes: what to do\, and when to call a plumber\n\nHow to
+  prevent\, thaw and deal with frozen and burst pipes\, for UK and US home
+ s.\n\nhttps://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/?utm_so
+ urce=x&utm_medium=social&utm_campaign=autopost\n\n#FrozenPipes #LocalPlum
+ bers
+URL:https://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261122T080000Z
 DTEND:20261122T081500Z
-SUMMARY:📝 Facebook + X: OnBusLaw: How to cancel a subscription: your ri
- ghts in the US\, UK and EU
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Sun\, 22 Nov 2026\, 0
- 8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- OnBusLaw (onbuslaw.shmor.ai)\nArticle: How to cancel a subscription: your
-  rights in the US\, UK and EU\nLink: https://onbuslaw.shmor.ai/blog/cance
- l-subscriptions/\nKeywords: cancel subscription\, click to cancel\, ftc c
- lick to cancel\, auto renewal\, automatic renewal law\, rosca\nHashtags:\
- n  Facebook: #CancelSubscription #ClickToCancel #AutoRenewal #OnBusLaw #S
- hmorAI\n  X: #CancelSubscription #OnBusLaw\n\n━━ Facebook post ━━
- \nHow to cancel a subscription: your rights in the US\, UK and EU\n\nThe 
- FTC rule’s fate\, US state laws\, UK reforms\, EU rights and how to sto
- p recurring payments.\n\nRead it on OnBusLaw 👇\n\n#CancelSubscription 
- #ClickToCancel #AutoRenewal #OnBusLaw #ShmorAI\n\n━━ X post ━━\nH
- ow to cancel a subscription: your rights in the US\, UK and EU\n\nThe FTC
-  rule’s fate\, US state laws\, UK reforms\, EU rights and how to stop r
- ecurring payments.\n\nhttps://onbuslaw.shmor.ai/blog/cancel-subscriptions
- /?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#CancelSubscrip
- tion #OnBusLaw
-URL:https://onbuslaw.shmor.ai/blog/cancel-subscriptions/
+SUMMARY:🗓 Facebook + X: OnBusLaw: Selling on Vinted or eBay: when platf
+ orms report you and when you owe tax
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sun\, 22 Nov 2026\, 08:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: OnBusL
+ aw (onbuslaw.shmor.ai)\nArticle: Selling on Vinted or eBay: when platform
+ s report you and when you owe tax\nLink: https://onbuslaw.shmor.ai/blog/s
+ elling-online-tax-reporting-vinted-ebay/\nKeywords: do i pay tax selling 
+ on vinted\, ebay seller hmrc reporting\, vinted tax uk\, hmrc online sell
+ ers 30 sales\, digital platform reporting\, dac7 online sellers\nHashtags
+ :\n  Facebook: #VintedTaxUK #DigitalPlatformReporting #Dac7OnlineSellers 
+ #OnBusLaw #ShmorAI\n  X: #VintedTaxUK #OnBusLaw\n\n━━ Facebook post 
+ ━━\nSelling on Vinted or eBay: when platforms report you and when you
+  owe tax\n\nPlatform reporting to HMRC\, the IRS and EU tax authorities\,
+  and when selling online becomes a taxable trade.\n\nRead it on OnBusLaw 
+ 👇\n\n#VintedTaxUK #DigitalPlatformReporting #Dac7OnlineSellers #OnBusL
+ aw #ShmorAI\n\n━━ X post ━━\nSelling on Vinted or eBay: when plat
+ forms report you and when you owe tax\n\nPlatform reporting to HMRC\, the
+  IRS and EU tax authorities\, and when selling online becomes a taxable t
+ rade.\n\nhttps://onbuslaw.shmor.ai/blog/selling-online-tax-reporting-vint
+ ed-ebay/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#VintedT
+ axUK #OnBusLaw
+URL:https://onbuslaw.shmor.ai/blog/selling-online-tax-reporting-vinted-eba
+ y/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261122T120000Z
 DTEND:20261122T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: PetSavings: Pet insurance: pre-exist
+SUMMARY:🗓 Facebook + X + LinkedIn: PetSavings: Pet insurance: pre-exist
  ing conditions and waiting periods explained
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Sun\, 22 Nov 2026\, 1
- 2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: PetSavings (petsavings.shmor.ai)\nArticle: Pet
-  insurance: pre-existing conditions and waiting periods explained\nLink: 
- https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-wa
- iting-periods/\nKeywords: pet insurance pre-existing conditions\, pet ins
- urance waiting period\, what does pet insurance not cover\, pet insurance
-  exclusions\, hereditary conditions pet insurance\, is pet insurance wort
- h it\nHashtags:\n  Facebook: #PetInsuranceExclusions #PetSavings #ShmorAI
- \n  X: #PetInsuranceExclusions #PetSavings\n  LinkedIn: #PetInsuranceExcl
- usions #PetSavings #ShmorAI\n\n━━ Facebook post ━━\nPet insurance
- : pre-existing conditions and waiting periods explained\n\nWhat pre-exist
- ing condition exclusions and waiting periods mean for your pet.\n\nRead i
- t on PetSavings 👇\n\n#PetInsuranceExclusions #PetSavings #ShmorAI\n\n
- ━━ X post ━━\nPet insurance: pre-existing conditions and waiting 
- periods explained\n\nWhat pre-existing condition exclusions and waiting p
- eriods mean for your pet.\n\nhttps://petsavings.shmor.ai/blog/pet-insuran
- ce-pre-existing-conditions-waiting-periods/?utm_source=x&utm_medium=socia
- l&utm_campaign=autopost\n\n#PetInsuranceExclusions #PetSavings\n\n━━ 
- LinkedIn post ━━\nPet insurance: pre-existing conditions and waiting 
- periods explained\n\nWhat pre-existing condition exclusions and waiting p
- eriods mean for your pet.\n\nRead it on PetSavings: https://petsavings.sh
- mor.ai/blog/pet-insurance-pre-existing-conditions-waiting-periods/?utm_so
- urce=linkedin&utm_medium=social&utm_campaign=autopost\n\n#PetInsuranceExc
- lusions #PetSavings #ShmorAI
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sun\, 22 Nov 2026\, 12:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
+ lex F Morgan)\nSite: PetSavings (petsavings.shmor.ai)\nArticle: Pet insur
+ ance: pre-existing conditions and waiting periods explained\nLink: https:
+ //petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting-
+ periods/\nKeywords: pet insurance pre-existing conditions\, pet insurance
+  waiting period\, what does pet insurance not cover\, pet insurance exclu
+ sions\, hereditary conditions pet insurance\, is pet insurance worth it\n
+ Hashtags:\n  Facebook: #PetInsuranceExclusions #PetSavings #ShmorAI\n  X:
+  #PetInsuranceExclusions #PetSavings\n  LinkedIn: #PetInsuranceExclusions
+  #PetSavings #ShmorAI\n\n━━ Facebook post ━━\nPet insurance: pre-
+ existing conditions and waiting periods explained\n\nWhat pre-existing co
+ ndition exclusions and waiting periods mean for your pet.\n\nRead it on P
+ etSavings 👇\n\n#PetInsuranceExclusions #PetSavings #ShmorAI\n\n━━ 
+ X post ━━\nPet insurance: pre-existing conditions and waiting periods
+  explained\n\nWhat pre-existing condition exclusions and waiting periods 
+ mean for your pet.\n\nhttps://petsavings.shmor.ai/blog/pet-insurance-pre-
+ existing-conditions-waiting-periods/?utm_source=x&utm_medium=social&utm_c
+ ampaign=autopost\n\n#PetInsuranceExclusions #PetSavings\n\n━━ LinkedI
+ n post ━━\nPet insurance: pre-existing conditions and waiting periods
+  explained\n\nWhat pre-existing condition exclusions and waiting periods 
+ mean for your pet.\n\nRead it on PetSavings: https://petsavings.shmor.ai/
+ blog/pet-insurance-pre-existing-conditions-waiting-periods/?utm_source=li
+ nkedin&utm_medium=social&utm_campaign=autopost\n\n#PetInsuranceExclusions
+  #PetSavings #ShmorAI
 URL:https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions
  -waiting-periods/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261122T170000Z
 DTEND:20261122T171500Z
-SUMMARY:📝 Facebook + X: ProFinders: Find a qualified accountant for you
- r business
+SUMMARY:📝 Facebook + X: ProFinders: Employment Rights Act 2025: the dat
+ es UK employers need to know
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Sun\, 22 Nov 2026\, 1
  7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- ProFinders (profinders.shmor.ai)\nArticle: Find a qualified accountant fo
- r your business\nLink: https://profinders.shmor.ai/accountants/\nKeywords
- : accountants\, accountant near me\, find an accountant\, accountant for 
- small business\, hire an accountant\nHashtags:\n  Facebook: #Accountants 
- #AccountantNearMe #FindAnAccountant #ProFinders #ShmorAI\n  X: #Accountan
- ts #ProFinders\n\n━━ Facebook post ━━\nFind a qualified accountan
- t for your business\n\nYear-end accounts and business tax returns · Pers
- onal tax returns for sole traders\, freelancers and owners · VAT or sale
- s tax registration and returns\n\nRead it on ProFinders 👇\n\n#Accounta
- nts #AccountantNearMe #FindAnAccountant #ProFinders #ShmorAI\n\n━━ X 
- post ━━\nFind a qualified accountant for your business\n\nYear-end ac
- counts and business tax returns · Personal tax returns for sole traders\
- , freelancers and owners · VAT or sales tax registration and returns\n\n
- https://profinders.shmor.ai/accountants/?utm_source=x&utm_medium=social&u
- tm_campaign=autopost\n\n#Accountants #ProFinders
-URL:https://profinders.shmor.ai/accountants/
+ ProFinders (profinders.shmor.ai)\nArticle: Employment Rights Act 2025: th
+ e dates UK employers need to know\nLink: https://profinders.shmor.ai/blog
+ /employment-rights-act-2025-key-dates/\nKeywords: employment rights act 2
+ 025\, employment rights act 2025 key dates\, unfair dismissal 6 months\, 
+ employment rights act employers\, sexual harassment duty employers\, trib
+ unal time limit 6 months\nHashtags:\n  Facebook: #HrConsultant #HrHelp #P
+ roFinders #ShmorAI\n  X: #HrConsultant #ProFinders\n\n━━ Facebook pos
+ t ━━\nEmployment Rights Act 2025: the dates UK employers need to know
+ \n\nThe Employment Rights Act 2025 timetable\, as of November 2026\, and 
+ what employers should do.\n\nRead it on ProFinders 👇\n\n#HrConsultant 
+ #HrHelp #ProFinders #ShmorAI\n\n━━ X post ━━\nEmployment Rights A
+ ct 2025: the dates UK employers need to know\n\nThe Employment Rights Act
+  2025 timetable\, as of November 2026\, and what employers should do.\n\n
+ https://profinders.shmor.ai/blog/employment-rights-act-2025-key-dates/?ut
+ m_source=x&utm_medium=social&utm_campaign=autopost\n\n#HrConsultant #ProF
+ inders
+URL:https://profinders.shmor.ai/blog/employment-rights-act-2025-key-dates/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
-SUMMARY:📝 Facebook + X: ProSourced: Employer of record vs PEO vs contra
- ctor: how to hire abroad
+SUMMARY:📝 Facebook + X: ProSourced: Making Tax Digital for Income Tax: 
+ do you need an accountant?
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Mon\, 23 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- ProSourced (prosourced.shmor.ai)\nArticle: Employer of record vs PEO vs c
- ontractor: how to hire abroad\nLink: https://prosourced.shmor.ai/blog/emp
- loyer-of-record-vs-peo-vs-contractor/\nKeywords: employer of record\, eor
-  vs peo\, hire employees abroad\, international hiring\, global employmen
- t\nHashtags:\n  Facebook: #EmployerOfRecord #EORVsPEO #HireEmployeesAbroa
- d #ProSourced #ShmorAI\n  X: #EmployerOfRecord #ProSourced\n\n━━ Face
- book post ━━\nEmployer of record vs PEO vs contractor: how to hire ab
- road\n\nHiring someone in another country?\n\nRead it on ProSourced 👇\
- n\n#EmployerOfRecord #EORVsPEO #HireEmployeesAbroad #ProSourced #ShmorAI\
- n\n━━ X post ━━\nEmployer of record vs PEO vs contractor: how to 
- hire abroad\n\nHiring someone in another country?\n\nhttps://prosourced.s
- hmor.ai/blog/employer-of-record-vs-peo-vs-contractor/?utm_source=x&utm_me
- dium=social&utm_campaign=autopost\n\n#EmployerOfRecord #ProSourced
-URL:https://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contract
- or/
+ ProSourced (prosourced.shmor.ai)\nArticle: Making Tax Digital for Income 
+ Tax: do you need an accountant?\nLink: https://prosourced.shmor.ai/blog/m
+ aking-tax-digital-income-tax-accountant/\nKeywords: making tax digital fo
+ r income tax\, mtd for income tax\, mtd itsa\, do i need an accountant fo
+ r mtd\, mtd quarterly updates\, making tax digital sole traders\nHashtags
+ :\n  Facebook: #MtdItsa #MtdQuarterlyUpdates #ProSourced #ShmorAI\n  X: #
+ MtdItsa #ProSourced\n\n━━ Facebook post ━━\nMaking Tax Digital fo
+ r Income Tax: do you need an accountant?\n\nWho must use Making Tax Digit
+ al for Income Tax\, what quarterly updates involve and when to hire help.
+ \n\nRead it on ProSourced 👇\n\n#MtdItsa #MtdQuarterlyUpdates #ProSourc
+ ed #ShmorAI\n\n━━ X post ━━\nMaking Tax Digital for Income Tax: d
+ o you need an accountant?\n\nWho must use Making Tax Digital for Income T
+ ax\, what quarterly updates involve and when to hire help.\n\nhttps://pro
+ sourced.shmor.ai/blog/making-tax-digital-income-tax-accountant/?utm_sourc
+ e=x&utm_medium=social&utm_campaign=autopost\n\n#MtdItsa #ProSourced
+URL:https://prosourced.shmor.ai/blog/making-tax-digital-income-tax-account
+ ant/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261123T120000Z
 DTEND:20261123T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: SillyBaby: Winter baby care: cosy\, 
@@ -539,7 +543,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261123T170000Z
 DTEND:20261123T171500Z
 SUMMARY:📝 Facebook + X: StorageSavings: Storing a car for winter: SORN\
@@ -568,161 +572,171 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261124T080000Z
 DTEND:20261124T081500Z
-SUMMARY:📝 Facebook + X: TapTill: The £100 contactless limit has gone: 
- what it means for your business
+SUMMARY:📝 Facebook + X: TapTill: Card chargebacks: how they work and wh
+ at to do when one lands
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Tue\, 24 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- TapTill (taptill.shmor.ai)\nArticle: The £100 contactless limit has gone
- : what it means for your business\nLink: https://taptill.shmor.ai/blog/co
- ntactless-limit-scrapped/\nKeywords: contactless limit\, contactless limi
- t 2026\, contactless limit scrapped\, fca contactless\, £100 contactless
-  limit\, contactless payments business\nHashtags:\n  Facebook: #Contactle
- ssLimit #FCAContactless #TapTill #ShmorAI\n  X: #ContactlessLimit #TapTil
- l\n\n━━ Facebook post ━━\nThe £100 contactless limit has gone: w
- hat it means for your business\n\nIssuers now set their own limits. What 
- changes at the till.\n\nRead it on TapTill 👇\n\n#ContactlessLimit #FCA
- Contactless #TapTill #ShmorAI\n\n━━ X post ━━\nThe £100 contactl
- ess limit has gone: what it means for your business\n\nIssuers now set th
- eir own limits. What changes at the till.\n\nhttps://taptill.shmor.ai/blo
- g/contactless-limit-scrapped/?utm_source=x&utm_medium=social&utm_campaign
- =autopost\n\n#ContactlessLimit #TapTill
-URL:https://taptill.shmor.ai/blog/contactless-limit-scrapped/
+ TapTill (taptill.shmor.ai)\nArticle: Card chargebacks: how they work and 
+ what to do when one lands\nLink: https://taptill.shmor.ai/blog/card-charg
+ ebacks-small-business/\nKeywords: card chargeback small business\, how to
+  dispute a chargeback\, chargeback card machine\, chargeback fee uk\, cha
+ rgeback evidence\, what is a chargeback\nHashtags:\n  Facebook: #Chargeba
+ ckCardMachine #ChargebackFeeUK #ChargebackEvidence #TapTill #ShmorAI\n  X
+ : #ChargebackCardMachine #TapTill\n\n━━ Facebook post ━━\nCard ch
+ argebacks: how they work and what to do when one lands\n\nHow chargebacks
+  work\, the 120-day window\, evidence to keep and how to respond and prev
+ ent them.\n\nRead it on TapTill 👇\n\n#ChargebackCardMachine #Chargebac
+ kFeeUK #ChargebackEvidence #TapTill #ShmorAI\n\n━━ X post ━━\nCar
+ d chargebacks: how they work and what to do when one lands\n\nHow chargeb
+ acks work\, the 120-day window\, evidence to keep and how to respond and 
+ prevent them.\n\nhttps://taptill.shmor.ai/blog/card-chargebacks-small-bus
+ iness/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Chargebac
+ kCardMachine #TapTill
+URL:https://taptill.shmor.ai/blog/card-chargebacks-small-business/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261124T120000Z
 DTEND:20261124T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: TradesStation: Accessible bathrooms 
- and Disabled Facilities Grants
+SUMMARY:📝 Facebook + X + LinkedIn: TradesStation: Replacement windows a
+ nd doors: what the Building Regulations require
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Tue\, 24 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
  dIn (Alex F Morgan)\nSite: TradesStation (tradesstation.shmor.ai)\nArticl
- e: Accessible bathrooms and Disabled Facilities Grants\nLink: https://tra
- desstation.shmor.ai/blog/accessible-bathrooms-disabled-facilities-grant/\
- nKeywords: disabled facilities grant\, accessible bathroom\, level access
-  shower\, bathroom adaptations for disabled\, dfg grant bathroom\, wet ro
- om grant\nHashtags:\n  Facebook: #DisabledFacilitiesGrant #AccessibleBath
- room #LevelAccessShower #TradesStation #ShmorAI\n  X: #DisabledFacilities
- Grant #TradesStation\n  LinkedIn: #DisabledFacilitiesGrant #AccessibleBat
- hroom #TradesStation #ShmorAI\n\n━━ Facebook post ━━\nAccessible 
- bathrooms and Disabled Facilities Grants\n\nLevel-access showers\, grab r
- ails and how a council grant can help.\n\nRead it on TradesStation 👇\n
- \n#DisabledFacilitiesGrant #AccessibleBathroom #LevelAccessShower #Trades
- Station #ShmorAI\n\n━━ X post ━━\nAccessible bathrooms and Disabl
- ed Facilities Grants\n\nLevel-access showers\, grab rails and how a counc
- il grant can help.\n\nhttps://tradesstation.shmor.ai/blog/accessible-bath
- rooms-disabled-facilities-grant/?utm_source=x&utm_medium=social&utm_campa
- ign=autopost\n\n#DisabledFacilitiesGrant #TradesStation\n\n━━ LinkedI
- n post ━━\nAccessible bathrooms and Disabled Facilities Grants\n\nLev
- el-access showers\, grab rails and how a council grant can help.\n\nRead 
- it on TradesStation: https://tradesstation.shmor.ai/blog/accessible-bathr
- ooms-disabled-facilities-grant/?utm_source=linkedin&utm_medium=social&utm
- _campaign=autopost\n\n#DisabledFacilitiesGrant #AccessibleBathroom #Trade
- sStation #ShmorAI
-URL:https://tradesstation.shmor.ai/blog/accessible-bathrooms-disabled-faci
- lities-grant/
+ e: Replacement windows and doors: what the Building Regulations require\n
+ Link: https://tradesstation.shmor.ai/blog/replacement-windows-doors-build
+ ing-regulations/\nKeywords: replacement windows building regulations\, do
+  i need building regulations for new windows\, fensa certificate\, replac
+ ement doors building regulations\, double glazing building regulations\, 
+ competent person scheme windows\nHashtags:\n  Facebook: #FensaCertificate
+  #TradesStation #ShmorAI\n  X: #FensaCertificate #TradesStation\n  Linked
+ In: #FensaCertificate #TradesStation #ShmorAI\n\n━━ Facebook post ━
+ ━\nReplacement windows and doors: what the Building Regulations require
+ \n\nWhen replacement windows and doors need Building Regulations sign-off
+ \, and what to ask your installer.\n\nRead it on TradesStation 👇\n\n#F
+ ensaCertificate #TradesStation #ShmorAI\n\n━━ X post ━━\nReplacem
+ ent windows and doors: what the Building Regulations require\n\nWhen repl
+ acement windows and doors need Building Regulations sign-off\, and what t
+ o ask your installer.\n\nhttps://tradesstation.shmor.ai/blog/replacement-
+ windows-doors-building-regulations/?utm_source=x&utm_medium=social&utm_ca
+ mpaign=autopost\n\n#FensaCertificate #TradesStation\n\n━━ LinkedIn po
+ st ━━\nReplacement windows and doors: what the Building Regulations r
+ equire\n\nWhen replacement windows and doors need Building Regulations si
+ gn-off\, and what to ask your installer.\n\nRead it on TradesStation: htt
+ ps://tradesstation.shmor.ai/blog/replacement-windows-doors-building-regul
+ ations/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#F
+ ensaCertificate #TradesStation #ShmorAI
+URL:https://tradesstation.shmor.ai/blog/replacement-windows-doors-building
+ -regulations/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261124T170000Z
 DTEND:20261124T171500Z
-SUMMARY:📝 Facebook + X: TravelDeals: UK airport liquids rule: the 100ml
-  limit\, 2-litre airports and what to check
+SUMMARY:📝 Facebook + X: TravelDeals: Passport validity for Europe: the 
+ 10-year and 3-month rules\, and how to check yours
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Tue\, 24 Nov 2026\, 1
  7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- TravelDeals (traveldeals.shmor.ai)\nArticle: UK airport liquids rule: the
-  100ml limit\, 2-litre airports and what to check\nLink: https://travelde
- als.shmor.ai/blog/uk-airport-liquids-rule-100ml-2-litres/\nKeywords: 100m
- l liquids rule uk\, 2 litre liquids airport\, hand luggage liquids uk\, u
- k airport liquid rules\, can i take more than 100ml hand luggage\, hand l
- uggage liquids rules 2026\nHashtags:\n  Facebook: #Holiday #Vacation #Tra
- velDeals #ShmorAI\n  X: #Holiday #TravelDeals\n\n━━ Facebook post ━
- ━\nUK airport liquids rule: the 100ml limit\, 2-litre airports and what
-  to check\n\nWhat GOV.UK says about the 100ml rule and 2-litre containers
- \, and how to pack for a trip with connections.\n\nRead it on TravelDeals
-  👇\n\n#Holiday #Vacation #TravelDeals #ShmorAI\n\n━━ X post ━━
- \nUK airport liquids rule: the 100ml limit\, 2-litre airports and what to
-  check\n\nWhat GOV.UK says about the 100ml rule and 2-litre containers\, 
- and how to pack for a trip with connections.\n\nhttps://traveldeals.shmor
- .ai/blog/uk-airport-liquids-rule-100ml-2-litres/?utm_source=x&utm_medium=
- social&utm_campaign=autopost\n\n#Holiday #TravelDeals
-URL:https://traveldeals.shmor.ai/blog/uk-airport-liquids-rule-100ml-2-litr
- es/
+ TravelDeals (traveldeals.shmor.ai)\nArticle: Passport validity for Europe
+ : the 10-year and 3-month rules\, and how to check yours\nLink: https://t
+ raveldeals.shmor.ai/blog/passport-validity-europe-10-year-3-month-rule/\n
+ Keywords: passport validity europe\, passport 3 months validity europe\, 
+ 10 year passport rule europe\, passport rules for spain\, uk passport val
+ id for schengen\, how old can my passport be to travel to europe\nHashtag
+ s:\n  Facebook: #PassportValidityEurope #TravelDeals #ShmorAI\n  X: #Pass
+ portValidityEurope #TravelDeals\n\n━━ Facebook post ━━\nPassport 
+ validity for Europe: the 10-year and 3-month rules\, and how to check you
+ rs\n\nThe 10-year issue date and 3-month expiry rules for UK passports tr
+ avelling to Europe\, and a simple way to check yours.\n\nRead it on Trave
+ lDeals 👇\n\n#PassportValidityEurope #TravelDeals #ShmorAI\n\n━━ X 
+ post ━━\nPassport validity for Europe: the 10-year and 3-month rules\
+ , and how to check yours\n\nThe 10-year issue date and 3-month expiry rul
+ es for UK passports travelling to Europe\, and a simple way to check your
+ s.\n\nhttps://traveldeals.shmor.ai/blog/passport-validity-europe-10-year-
+ 3-month-rule/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Pa
+ ssportValidityEurope #TravelDeals
+URL:https://traveldeals.shmor.ai/blog/passport-validity-europe-10-year-3-m
+ onth-rule/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261125T080000Z
 DTEND:20261125T081500Z
-SUMMARY:📝 Facebook + X: UK SEW: How to choose a sewing machine
+SUMMARY:📝 Facebook + X: UK SEW: Buying a sewing machine online: your ri
+ ghts and a pre-purchase checklist
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Wed\, 25 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- UK SEW (uksew.shmor.ai)\nArticle: How to choose a sewing machine\nLink: h
- ttps://uksew.shmor.ai/blog/how-to-choose-a-sewing-machine/\nKeywords: how
-  to choose a sewing machine\, best sewing machine uk\, first sewing machi
- ne\, sewing machine buying guide\nHashtags:\n  Facebook: #FirstSewingMach
- ine #UKSEW #ShmorAI\n  X: #FirstSewingMachine #UKSEW\n\n━━ Facebook p
- ost ━━\nHow to choose a sewing machine\n\nMachine types\, must-have f
- eatures\, new vs used and where to get advice.\n\nRead it on UK SEW 👇\
- n\n#FirstSewingMachine #UKSEW #ShmorAI\n\n━━ X post ━━\nHow to ch
- oose a sewing machine\n\nMachine types\, must-have features\, new vs used
-  and where to get advice.\n\nhttps://uksew.shmor.ai/blog/how-to-choose-a-
- sewing-machine/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#
- FirstSewingMachine #UKSEW
-URL:https://uksew.shmor.ai/blog/how-to-choose-a-sewing-machine/
+ UK SEW (uksew.shmor.ai)\nArticle: Buying a sewing machine online: your ri
+ ghts and a pre-purchase checklist\nLink: https://uksew.shmor.ai/blog/buyi
+ ng-sewing-machine-online-your-rights/\nKeywords: buying a sewing machine 
+ online\, sewing machine black friday\, sewing machine consumer rights\, f
+ aulty sewing machine refund\, return a sewing machine\, sewing machine 14
+  day cancellation\nHashtags:\n  Facebook: #SewingMachine #Overlocker #UKS
+ EW #ShmorAI\n  X: #SewingMachine #UKSEW\n\n━━ Facebook post ━━\nB
+ uying a sewing machine online: your rights and a pre-purchase checklist\n
+ \nCancellation and faulty-goods rights when you buy a sewing machine onli
+ ne\, plus a checklist.\n\nRead it on UK SEW 👇\n\n#SewingMachine #Overl
+ ocker #UKSEW #ShmorAI\n\n━━ X post ━━\nBuying a sewing machine on
+ line: your rights and a pre-purchase checklist\n\nCancellation and faulty
+ -goods rights when you buy a sewing machine online\, plus a checklist.\n\
+ nhttps://uksew.shmor.ai/blog/buying-sewing-machine-online-your-rights/?ut
+ m_source=x&utm_medium=social&utm_campaign=autopost\n\n#SewingMachine #UKS
+ EW
+URL:https://uksew.shmor.ai/blog/buying-sewing-machine-online-your-rights/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261125T120000Z
 DTEND:20261125T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: ViralGadgets: Apple HomeView\, HomeP
- od mini 2 and the new Apple TV 4K\, explained
+SUMMARY:📝 Facebook + X + LinkedIn: ViralGadgets: Bought a viral gadget 
+ that disappoints? Know your return rights
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Wed\, 25 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
  dIn (Alex F Morgan)\nSite: ViralGadgets (viralgadgets.shmor.ai)\nArticle:
-  Apple HomeView\, HomePod mini 2 and the new Apple TV 4K\, explained\nLin
- k: https://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple
- -tv/\nKeywords: apple homeview\, homepod mini 2\, new apple tv 4k\, apple
-  home hub\, homeview price\nHashtags:\n  Facebook: #AppleHomeview #Homepo
- dMini2 #AppleHomeHub #ViralGadgets #ShmorAI\n  X: #AppleHomeview #ViralGa
- dgets\n  LinkedIn: #AppleHomeview #HomepodMini2 #ViralGadgets #ShmorAI\n\
- n━━ Facebook post ━━\nApple HomeView\, HomePod mini 2 and the new
-  Apple TV 4K\, explained\n\nApple’s new smart display\, speaker and TV 
- box: prices\, dates and the catches.\n\nRead it on ViralGadgets 👇\n\n#
- AppleHomeview #HomepodMini2 #AppleHomeHub #ViralGadgets #ShmorAI\n\n━
- ━ X post ━━\nApple HomeView\, HomePod mini 2 and the new Apple TV 4
- K\, explained\n\nApple’s new smart display\, speaker and TV box: prices
- \, dates and the catches.\n\nhttps://viralgadgets.shmor.ai/blog/apple-hom
- eview-homepod-mini-2-apple-tv/?utm_source=x&utm_medium=social&utm_campaig
- n=autopost\n\n#AppleHomeview #ViralGadgets\n\n━━ LinkedIn post ━━
- \nApple HomeView\, HomePod mini 2 and the new Apple TV 4K\, explained\n\n
- Apple’s new smart display\, speaker and TV box: prices\, dates and the 
- catches.\n\nRead it on ViralGadgets: https://viralgadgets.shmor.ai/blog/a
- pple-homeview-homepod-mini-2-apple-tv/?utm_source=linkedin&utm_medium=soc
- ial&utm_campaign=autopost\n\n#AppleHomeview #HomepodMini2 #ViralGadgets #
- ShmorAI
-URL:https://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple
- -tv/
+  Bought a viral gadget that disappoints? Know your return rights\nLink: h
+ ttps://viralgadgets.shmor.ai/blog/returning-viral-gadgets-your-rights/\nK
+ eywords: return viral gadget\, 14 day return online purchase\, consumer r
+ ights online shopping\, faulty gadget refund\, returns tiktok made me buy
+  it\, online cancellation right uk\nHashtags:\n  Facebook: #ReturnViralGa
+ dget #FaultyGadgetRefund #ViralGadgets #ShmorAI\n  X: #ReturnViralGadget 
+ #ViralGadgets\n  LinkedIn: #ReturnViralGadget #FaultyGadgetRefund #ViralG
+ adgets #ShmorAI\n\n━━ Facebook post ━━\nBought a viral gadget tha
+ t disappoints? Know your return rights\n\nThe 14-day cancellation right\,
+  faulty goods and marketplace pitfalls.\n\nRead it on ViralGadgets 👇\n
+ \n#ReturnViralGadget #FaultyGadgetRefund #ViralGadgets #ShmorAI\n\n━━
+  X post ━━\nBought a viral gadget that disappoints? Know your return 
+ rights\n\nThe 14-day cancellation right\, faulty goods and marketplace pi
+ tfalls.\n\nhttps://viralgadgets.shmor.ai/blog/returning-viral-gadgets-you
+ r-rights/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Return
+ ViralGadget #ViralGadgets\n\n━━ LinkedIn post ━━\nBought a viral 
+ gadget that disappoints? Know your return rights\n\nThe 14-day cancellati
+ on right\, faulty goods and marketplace pitfalls.\n\nRead it on ViralGadg
+ ets: https://viralgadgets.shmor.ai/blog/returning-viral-gadgets-your-righ
+ ts/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#Retur
+ nViralGadget #FaultyGadgetRefund #ViralGadgets #ShmorAI
+URL:https://viralgadgets.shmor.ai/blog/returning-viral-gadgets-your-rights
+ /
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261125T170000Z
 DTEND:20261125T171500Z
 SUMMARY:📝 Facebook + X: VoucherVault: Black Friday returns and refunds:
@@ -752,219 +766,228 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261126T080000Z
 DTEND:20261126T081500Z
-SUMMARY:📝 Facebook + X: BestVPNs: VPN vs Tor vs proxy: what’s the dif
- ference?
+SUMMARY:📝 Facebook + X: BestVPNs: VPN free trials\, renewals and cancel
+ ling: what to check before you pay
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Thu\, 26 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- BestVPNs (bestvpns.shmor.ai)\nArticle: VPN vs Tor vs proxy: what’s the 
- difference?\nLink: https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/\nK
- eywords: vpn vs tor\, vpn vs proxy\, tor vs proxy\, tor browser\, proxy s
- erver\, socks5 proxy\nHashtags:\n  Facebook: #VPNVsTor #VPNVsProxy #TorVs
- Proxy #BestVPNs #ShmorAI\n  X: #VPNVsTor #BestVPNs\n\n━━ Facebook pos
- t ━━\nVPN vs Tor vs proxy: what’s the difference?\n\nHow VPNs\, Tor
-  and proxies route your traffic\, and which to use when.\n\nRead it on Be
- stVPNs 👇\n\n#VPNVsTor #VPNVsProxy #TorVsProxy #BestVPNs #ShmorAI\n\n
- ━━ X post ━━\nVPN vs Tor vs proxy: what’s the difference?\n\nHo
- w VPNs\, Tor and proxies route your traffic\, and which to use when.\n\nh
- ttps://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/?utm_source=x&utm_mediu
- m=social&utm_campaign=autopost\n\n#VPNVsTor #BestVPNs
-URL:https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
+ BestVPNs (bestvpns.shmor.ai)\nArticle: VPN free trials\, renewals and can
+ celling: what to check before you pay\nLink: https://bestvpns.shmor.ai/bl
+ og/vpn-free-trial-renewal-cancel/\nKeywords: vpn free trial\, cancel vpn 
+ subscription\, vpn auto renewal\, vpn refund\, vpn money back guarantee\,
+  vpn renewal price\nHashtags:\n  Facebook: #VPNFreeTrial #CancelVPNSubscr
+ iption #VPNAutoRenewal #BestVPNs #ShmorAI\n  X: #VPNFreeTrial #BestVPNs\n
+ \n━━ Facebook post ━━\nVPN free trials\, renewals and cancelling:
+  what to check before you pay\n\nFree trials\, auto-renewals and refunds:
+  check before you pay.\n\nRead it on BestVPNs 👇\n\n#VPNFreeTrial #Canc
+ elVPNSubscription #VPNAutoRenewal #BestVPNs #ShmorAI\n\n━━ X post ━
+ ━\nVPN free trials\, renewals and cancelling: what to check before you 
+ pay\n\nFree trials\, auto-renewals and refunds: check before you pay.\n\n
+ https://bestvpns.shmor.ai/blog/vpn-free-trial-renewal-cancel/?utm_source=
+ x&utm_medium=social&utm_campaign=autopost\n\n#VPNFreeTrial #BestVPNs
+URL:https://bestvpns.shmor.ai/blog/vpn-free-trial-renewal-cancel/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261126T120000Z
 DTEND:20261126T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: BuildLaw: How to write a valid pay l
- ess notice
+SUMMARY:📝 Facebook + X + LinkedIn: BuildLaw: Construction adjudication 
+ timetable: what happens in 28 days
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Thu\, 26 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: BuildLaw (buildlaw.shmor.ai)\nArticle: How to 
- write a valid pay less notice\nLink: https://buildlaw.shmor.ai/blog/how-t
- o-write-a-pay-less-notice/\nKeywords: pay less notice\, how to write a pa
- y less notice\, pay less notice template\, pay less notice example\, payl
- ess notice\, valid pay less notice\nHashtags:\n  Facebook: #PayLessNotice
-  #BuildLaw #ShmorAI\n  X: #PayLessNotice #BuildLaw\n  LinkedIn: #PayLessN
- otice #BuildLaw #ShmorAI\n\n━━ Facebook post ━━\nHow to write a v
- alid pay less notice\n\nWhat a pay less notice must say\, when to serve i
- t and the mistakes that make it invalid.\n\nRead it on BuildLaw 👇\n\n#
- PayLessNotice #BuildLaw #ShmorAI\n\n━━ X post ━━\nHow to write a 
- valid pay less notice\n\nWhat a pay less notice must say\, when to serve 
- it and the mistakes that make it invalid.\n\nhttps://buildlaw.shmor.ai/bl
- og/how-to-write-a-pay-less-notice/?utm_source=x&utm_medium=social&utm_cam
- paign=autopost\n\n#PayLessNotice #BuildLaw\n\n━━ LinkedIn post ━━
- \nHow to write a valid pay less notice\n\nWhat a pay less notice must say
- \, when to serve it and the mistakes that make it invalid.\n\nRead it on 
- BuildLaw: https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/?
- utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#PayLessNo
- tice #BuildLaw #ShmorAI
-URL:https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/
+ dIn (Alex F Morgan)\nSite: BuildLaw (buildlaw.shmor.ai)\nArticle: Constru
+ ction adjudication timetable: what happens in 28 days\nLink: https://buil
+ dlaw.shmor.ai/blog/adjudication-timetable-28-days/\nKeywords: adjudicatio
+ n timetable\, how long does adjudication take\, construction adjudication
+  28 days\, adjudication process uk\, notice of adjudication\, adjudicatio
+ n referral notice\nHashtags:\n  Facebook: #AdjudicationTimetable #Adjudic
+ ationProcessUK #NoticeOfAdjudication #BuildLaw #ShmorAI\n  X: #Adjudicati
+ onTimetable #BuildLaw\n  LinkedIn: #AdjudicationTimetable #AdjudicationPr
+ ocessUK #BuildLaw #ShmorAI\n\n━━ Facebook post ━━\nConstruction a
+ djudication timetable: what happens in 28 days\n\nThe 28-day adjudication
+  timetable explained: notice\, referral\, response\, decision and extensi
+ ons.\n\nRead it on BuildLaw 👇\n\n#AdjudicationTimetable #AdjudicationP
+ rocessUK #NoticeOfAdjudication #BuildLaw #ShmorAI\n\n━━ X post ━━
+ \nConstruction adjudication timetable: what happens in 28 days\n\nThe 28-
+ day adjudication timetable explained: notice\, referral\, response\, deci
+ sion and extensions.\n\nhttps://buildlaw.shmor.ai/blog/adjudication-timet
+ able-28-days/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Ad
+ judicationTimetable #BuildLaw\n\n━━ LinkedIn post ━━\nConstructio
+ n adjudication timetable: what happens in 28 days\n\nThe 28-day adjudicat
+ ion timetable explained: notice\, referral\, response\, decision and exte
+ nsions.\n\nRead it on BuildLaw: https://buildlaw.shmor.ai/blog/adjudicati
+ on-timetable-28-days/?utm_source=linkedin&utm_medium=social&utm_campaign=
+ autopost\n\n#AdjudicationTimetable #AdjudicationProcessUK #BuildLaw #Shmo
+ rAI
+URL:https://buildlaw.shmor.ai/blog/adjudication-timetable-28-days/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261126T170000Z
 DTEND:20261126T171500Z
-SUMMARY:📝 Facebook + X: CareCompass: ACA Marketplace open enrollment fo
- r 2027: dates and tips
+SUMMARY:📝 Facebook + X: CareCompass: Dental insurance annual maximums a
+ nd waiting periods explained
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Thu\, 26 Nov 2026\, 1
  7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- CareCompass (carecompass.shmor.ai)\nArticle: ACA Marketplace open enrollm
- ent for 2027: dates and tips\nLink: https://carecompass.shmor.ai/blog/aca
- -open-enrollment-2027/\nKeywords: aca open enrollment\, obamacare open en
- rollment 2027\, healthcare.gov\, marketplace insurance\, health insurance
-  open enrollment\nHashtags:\n  Facebook: #AcaOpenEnrollment #HealthcareGo
- v #MarketplaceInsurance #CareCompass #ShmorAI\n  X: #AcaOpenEnrollment #C
- areCompass\n\n━━ Facebook post ━━\nACA Marketplace open enrollmen
- t for 2027: dates and tips\n\nHealthCare.gov open enrollment for 2027 cov
- erage starts November 1\, 2026.\n\nRead it on CareCompass 👇\n\n#AcaOpe
- nEnrollment #HealthcareGov #MarketplaceInsurance #CareCompass #ShmorAI\n\
- n━━ X post ━━\nACA Marketplace open enrollment for 2027: dates an
- d tips\n\nHealthCare.gov open enrollment for 2027 coverage starts Novembe
- r 1\, 2026.\n\nhttps://carecompass.shmor.ai/blog/aca-open-enrollment-2027
- /?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#AcaOpenEnrollm
- ent #CareCompass
-URL:https://carecompass.shmor.ai/blog/aca-open-enrollment-2027/
+ CareCompass (carecompass.shmor.ai)\nArticle: Dental insurance annual maxi
+ mums and waiting periods explained\nLink: https://carecompass.shmor.ai/bl
+ og/dental-insurance-annual-maximums-waiting-periods/\nKeywords: dental in
+ surance annual maximum\, dental insurance waiting period\, dental insuran
+ ce cap\, dental insurance explained\, use dental benefits before end of y
+ ear\, dental insurance deductible\nHashtags:\n  Facebook: #DentalInsuranc
+ eCap #DentalInsuranceExplained #CareCompass #ShmorAI\n  X: #DentalInsuran
+ ceCap #CareCompass\n\n━━ Facebook post ━━\nDental insurance annua
+ l maximums and waiting periods explained\n\nWhat the annual cap and waiti
+ ng periods mean for your dental costs.\n\nRead it on CareCompass 👇\n\n
+ #DentalInsuranceCap #DentalInsuranceExplained #CareCompass #ShmorAI\n\n
+ ━━ X post ━━\nDental insurance annual maximums and waiting period
+ s explained\n\nWhat the annual cap and waiting periods mean for your dent
+ al costs.\n\nhttps://carecompass.shmor.ai/blog/dental-insurance-annual-ma
+ ximums-waiting-periods/?utm_source=x&utm_medium=social&utm_campaign=autop
+ ost\n\n#DentalInsuranceCap #CareCompass
+URL:https://carecompass.shmor.ai/blog/dental-insurance-annual-maximums-wai
+ ting-periods/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261127T080000Z
 DTEND:20261127T081500Z
-SUMMARY:📝 Facebook + X: CarHireDeals: Winter tyres and snow chains in a
-  hire car in Europe: what to check
+SUMMARY:📝 Facebook + X: CarHireDeals: Hiring a car in France: pollution
+  stickers and low-emission zones explained
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Fri\, 27 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- CarHireDeals (carhiredeals.shmor.ai)\nArticle: Winter tyres and snow chai
- ns in a hire car in Europe: what to check\nLink: https://carhiredeals.shm
- or.ai/blog/winter-tyres-snow-chains-hire-car-europe/\nKeywords: winter ty
- res hire car europe\, snow chains car hire\, winter tyres car hire austri
- a\, winter tyres car hire germany\, hire car snow chains france\, winter 
- tires rental car europe\nHashtags:\n  Facebook: #CarHire #CarRental #CarH
- ireDeals #ShmorAI\n  X: #CarHire #CarHireDeals\n\n━━ Facebook post 
- ━━\nWinter tyres and snow chains in a hire car in Europe: what to che
- ck\n\nWinter tyre and snow chain rules for hire cars in Germany\, Austria
- \, France\, Italy and Switzerland.\n\nRead it on CarHireDeals 👇\n\n#Ca
- rHire #CarRental #CarHireDeals #ShmorAI\n\n━━ X post ━━\nWinter t
- yres and snow chains in a hire car in Europe: what to check\n\nWinter tyr
- e and snow chain rules for hire cars in Germany\, Austria\, France\, Ital
- y and Switzerland.\n\nhttps://carhiredeals.shmor.ai/blog/winter-tyres-sno
- w-chains-hire-car-europe/?utm_source=x&utm_medium=social&utm_campaign=aut
- opost\n\n#CarHire #CarHireDeals
-URL:https://carhiredeals.shmor.ai/blog/winter-tyres-snow-chains-hire-car-e
- urope/
+ CarHireDeals (carhiredeals.shmor.ai)\nArticle: Hiring a car in France: po
+ llution stickers and low-emission zones explained\nLink: https://carhired
+ eals.shmor.ai/blog/hire-car-france-low-emission-zone-stickers/\nKeywords:
+  hire car france low emission zone\, crit'air sticker hire car\, paris lo
+ w emission zone car hire\, france pollution sticker rental car\, can i dr
+ ive hire car in paris\, lyon grenoble low emission zone\nHashtags:\n  Fac
+ ebook: #CarHire #CarRental #CarHireDeals #ShmorAI\n  X: #CarHire #CarHire
+ Deals\n\n━━ Facebook post ━━\nHiring a car in France: pollution s
+ tickers and low-emission zones explained\n\nWhat GOV.UK says about pollut
+ ion stickers in Paris\, Lyon and Grenoble\, and what to ask your hire com
+ pany.\n\nRead it on CarHireDeals 👇\n\n#CarHire #CarRental #CarHireDeal
+ s #ShmorAI\n\n━━ X post ━━\nHiring a car in France: pollution sti
+ ckers and low-emission zones explained\n\nWhat GOV.UK says about pollutio
+ n stickers in Paris\, Lyon and Grenoble\, and what to ask your hire compa
+ ny.\n\nhttps://carhiredeals.shmor.ai/blog/hire-car-france-low-emission-zo
+ ne-stickers/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Car
+ Hire #CarHireDeals
+URL:https://carhiredeals.shmor.ai/blog/hire-car-france-low-emission-zone-s
+ tickers/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261127T120000Z
 DTEND:20261127T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: CruiseDeals: Norwegian fjords cruise
- s and the new zero-emission rules: what travellers should know
+SUMMARY:📝 Facebook + X + LinkedIn: CruiseDeals: Cruise cabin types expl
+ ained: inside\, oceanview\, balcony and suite
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Fri\, 27 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: CruiseDeals (cruisedeals.shmor.ai)\nArticle: N
- orwegian fjords cruises and the new zero-emission rules: what travellers 
- should know\nLink: https://cruisedeals.shmor.ai/blog/norway-fjords-zero-e
- mission-rules-cruise/\nKeywords: norway fjords zero emission\, norwegian 
- fjords cruise 2027\, geirangerfjord cruise ships\, naeroyfjord cruise rul
- es\, zero emission fjords cruise\, norway fjords cruise ships ban\nHashta
- gs:\n  Facebook: #NaeroyfjordCruiseRules #CruiseDeals #ShmorAI\n  X: #Nae
- royfjordCruiseRules #CruiseDeals\n  LinkedIn: #NaeroyfjordCruiseRules #Cr
- uiseDeals #ShmorAI\n\n━━ Facebook post ━━\nNorwegian fjords cruis
- es and the new zero-emission rules: what travellers should know\n\nNorway
- 's zero-emission fjord rules\, which ships they cover now and from 2032\,
-  and what to ask before booking.\n\nRead it on CruiseDeals 👇\n\n#Naero
- yfjordCruiseRules #CruiseDeals #ShmorAI\n\n━━ X post ━━\nNorwegia
- n fjords cruises and the new zero-emission rules: what travellers should 
- know\n\nNorway's zero-emission fjord rules\, which ships they cover now a
- nd from 2032\, and what to ask before booking.\n\nhttps://cruisedeals.shm
- or.ai/blog/norway-fjords-zero-emission-rules-cruise/?utm_source=x&utm_med
- ium=social&utm_campaign=autopost\n\n#NaeroyfjordCruiseRules #CruiseDeals\
- n\n━━ LinkedIn post ━━\nNorwegian fjords cruises and the new zero
- -emission rules: what travellers should know\n\nNorway's zero-emission fj
- ord rules\, which ships they cover now and from 2032\, and what to ask be
- fore booking.\n\nRead it on CruiseDeals: https://cruisedeals.shmor.ai/blo
- g/norway-fjords-zero-emission-rules-cruise/?utm_source=linkedin&utm_mediu
- m=social&utm_campaign=autopost\n\n#NaeroyfjordCruiseRules #CruiseDeals #S
- hmorAI
-URL:https://cruisedeals.shmor.ai/blog/norway-fjords-zero-emission-rules-cr
- uise/
+ dIn (Alex F Morgan)\nSite: CruiseDeals (cruisedeals.shmor.ai)\nArticle: C
+ ruise cabin types explained: inside\, oceanview\, balcony and suite\nLink
+ : https://cruisedeals.shmor.ai/blog/cruise-cabin-types-inside-balcony-sui
+ te/\nKeywords: cruise cabin types\, inside vs balcony cabin\, inside cabi
+ n cruise\, oceanview cabin cruise\, balcony cabin worth it\, cruise suite
+  vs balcony\nHashtags:\n  Facebook: #CruiseCabinTypes #InsideCabinCruise 
+ #OceanviewCabinCruise #CruiseDeals #ShmorAI\n  X: #CruiseCabinTypes #Crui
+ seDeals\n  LinkedIn: #CruiseCabinTypes #InsideCabinCruise #CruiseDeals #S
+ hmorAI\n\n━━ Facebook post ━━\nCruise cabin types explained: insi
+ de\, oceanview\, balcony and suite\n\nInside\, oceanview\, balcony and su
+ ite: who each cruise cabin suits and what to check on the deck plan.\n\nR
+ ead it on CruiseDeals 👇\n\n#CruiseCabinTypes #InsideCabinCruise #Ocean
+ viewCabinCruise #CruiseDeals #ShmorAI\n\n━━ X post ━━\nCruise cab
+ in types explained: inside\, oceanview\, balcony and suite\n\nInside\, oc
+ eanview\, balcony and suite: who each cruise cabin suits and what to chec
+ k on the deck plan.\n\nhttps://cruisedeals.shmor.ai/blog/cruise-cabin-typ
+ es-inside-balcony-suite/?utm_source=x&utm_medium=social&utm_campaign=auto
+ post\n\n#CruiseCabinTypes #CruiseDeals\n\n━━ LinkedIn post ━━\nCr
+ uise cabin types explained: inside\, oceanview\, balcony and suite\n\nIns
+ ide\, oceanview\, balcony and suite: who each cruise cabin suits and what
+  to check on the deck plan.\n\nRead it on CruiseDeals: https://cruisedeal
+ s.shmor.ai/blog/cruise-cabin-types-inside-balcony-suite/?utm_source=linke
+ din&utm_medium=social&utm_campaign=autopost\n\n#CruiseCabinTypes #InsideC
+ abinCruise #CruiseDeals #ShmorAI
+URL:https://cruisedeals.shmor.ai/blog/cruise-cabin-types-inside-balcony-su
+ ite/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261127T170000Z
 DTEND:20261127T171500Z
-SUMMARY:📝 Facebook + X: DevisArtisans: Préparer sa maison pour l’hiv
- er : 10 points à vérifier
+SUMMARY:📝 Facebook + X: DevisArtisans: Assurance dommages-ouvrage : fa
+ ut-il la souscrire pour vos travaux ?
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Fri\, 27 Nov 2026\, 1
  7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- DevisArtisans (devisartisans.shmor.ai)\nArticle: Préparer sa maison pour
-  l’hiver : 10 points à vérifier\nLink: https://devisartisans.shmor.a
- i/blog/preparer-maison-hiver/\nKeywords: entretien\, préparer\, maison\,
-  l’hiver\nHashtags:\n  Facebook: #Entretien #Préparer #Maison #DevisAr
- tisans #ShmorAI\n  X: #Entretien #DevisArtisans\n\n━━ Facebook post 
- ━━\nPréparer sa maison pour l’hiver : 10 points à vérifier\n\nC
- haudière\, ramonage\, gouttières\, toiture\, isolation\, robinets exté
- rieurs : la check-list d’automne pour passer l’hiver au chaud et év
- iter les sinistres.\n\nÀ lire sur DevisArtisans 👇\n\n#Entretien #Pré
- parer #Maison #DevisArtisans #ShmorAI\n\n━━ X post ━━\nPréparer 
- sa maison pour l’hiver : 10 points à vérifier\n\nChaudière\, ramona
- ge\, gouttières\, toiture\, isolation\, robinets extérieurs : la check
- -list d’automne pour passer l’hiver au chaud et éviter les sinistres
- .\n\nhttps://devisartisans.shmor.ai/blog/preparer-maison-hiver/?utm_sourc
- e=x&utm_medium=social&utm_campaign=autopost\n\n#Entretien #DevisArtisans
-URL:https://devisartisans.shmor.ai/blog/preparer-maison-hiver/
+ DevisArtisans (devisartisans.shmor.ai)\nArticle: Assurance dommages-ouvra
+ ge : faut-il la souscrire pour vos travaux ?\nLink: https://devisartisa
+ ns.shmor.ai/blog/assurance-dommages-ouvrage/\nKeywords: assurance dommage
+ s-ouvrage\, dommages ouvrage obligatoire\, assurance dommage ouvrage part
+ iculier\, dommages-ouvrage travaux\, dommages ouvrage rénovation\, domma
+ ges ouvrage vente maison\nHashtags:\n  Facebook: #AssuranceDommagesOuvrag
+ e #DommagesOuvrageTravaux #DevisArtisans #ShmorAI\n  X: #AssuranceDommage
+ sOuvrage #DevisArtisans\n\n━━ Facebook post ━━\nAssurance dommage
+ s-ouvrage : faut-il la souscrire pour vos travaux ?\n\nQui doit la sous
+ crire\, quand\, quels délais en cas de sinistre.\n\nÀ lire sur DevisArt
+ isans 👇\n\n#AssuranceDommagesOuvrage #DommagesOuvrageTravaux #DevisArt
+ isans #ShmorAI\n\n━━ X post ━━\nAssurance dommages-ouvrage : fau
+ t-il la souscrire pour vos travaux ?\n\nQui doit la souscrire\, quand\, 
+ quels délais en cas de sinistre.\n\nhttps://devisartisans.shmor.ai/blog/
+ assurance-dommages-ouvrage/?utm_source=x&utm_medium=social&utm_campaign=a
+ utopost\n\n#AssuranceDommagesOuvrage #DevisArtisans
+URL:https://devisartisans.shmor.ai/blog/assurance-dommages-ouvrage/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261128T080000Z
 DTEND:20261128T081500Z
-SUMMARY:📝 Facebook + X: DomCom Insure: NFIP reauthorization: what the n
- ext deadline means for flood cover
+SUMMARY:📝 Facebook + X: DomCom Insure: What home insurance doesn’t co
+ ver: gaps to check before you claim
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Sat\, 28 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- DomCom Insure (domcominsure.shmor.ai)\nArticle: NFIP reauthorization: wha
- t the next deadline means for flood cover\nLink: https://domcominsure.shm
- or.ai/blog/nfip-reauthorization-2026/\nKeywords: nfip reauthorization\, n
- fip lapse\, flood insurance deadline\, national flood insurance program 2
- 026\nHashtags:\n  Facebook: #NfipReauthorization #NfipLapse #FloodInsuran
- ceDeadline #DomComInsure #ShmorAI\n  X: #NfipReauthorization #DomComInsur
- e\n\n━━ Facebook post ━━\nNFIP reauthorization: what the next dea
- dline means for flood cover\n\nThe NFIP is authorized until 11 December 2
- 026. What happens to new flood policies and renewals if it lapses\, and h
- ow to protect your home.\n\nRead it on DomCom Insure 👇\n\n#NfipReautho
- rization #NfipLapse #FloodInsuranceDeadline #DomComInsure #ShmorAI\n\n━
- ━ X post ━━\nNFIP reauthorization: what the next deadline means for
-  flood cover\n\nThe NFIP is authorized until 11 December 2026. What happe
- ns to new flood policies and renewals if it lapses\, and how to protect y
- our home.\n\nhttps://domcominsure.shmor.ai/blog/nfip-reauthorization-2026
- /?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#NfipReauthoriz
- ation #DomComInsure
-URL:https://domcominsure.shmor.ai/blog/nfip-reauthorization-2026/
+ DomCom Insure (domcominsure.shmor.ai)\nArticle: What home insurance doesn
+ ’t cover: gaps to check before you claim\nLink: https://domcominsure.sh
+ mor.ai/blog/what-home-insurance-doesnt-cover/\nKeywords: what home insura
+ nce doesnt cover\, home insurance exclusions\, what is not covered by hom
+ e insurance\, home insurance gaps\, buildings vs contents insurance\, hom
+ e insurance claim rejected\nHashtags:\n  Facebook: #HomeInsuranceExclusio
+ ns #HomeInsuranceGaps #DomComInsure #ShmorAI\n  X: #HomeInsuranceExclusio
+ ns #DomComInsure\n\n━━ Facebook post ━━\nWhat home insurance does
+ n’t cover: gaps to check before you claim\n\nWhat home insurance doesn
+ ’t cover and where claims go wrong: exclusions\, buildings vs contents 
+ disputes\, underinsurance and unoccupied homes explained.\n\nRead it on D
+ omCom Insure 👇\n\n#HomeInsuranceExclusions #HomeInsuranceGaps #DomComI
+ nsure #ShmorAI\n\n━━ X post ━━\nWhat home insurance doesn’t cov
+ er: gaps to check before you claim\n\nhttps://domcominsure.shmor.ai/blog/
+ what-home-insurance-doesnt-cover/?utm_source=x&utm_medium=social&utm_camp
+ aign=autopost\n\n#HomeInsuranceExclusions #DomComInsure
+URL:https://domcominsure.shmor.ai/blog/what-home-insurance-doesnt-cover/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261128T120000Z
 DTEND:20261128T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: EnergySavers: How to read your gas a
@@ -1000,7 +1023,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261128T170000Z
 DTEND:20261128T171500Z
 SUMMARY:📝 Facebook + X: FullBars: The digital landline switchover: what
@@ -1029,154 +1052,162 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261129T080000Z
 DTEND:20261129T081500Z
-SUMMARY:📝 Facebook + X: HandwerkerFinder: Balkonkraftwerk: Was Mieter u
- nd Eigentümer wissen sollten
+SUMMARY:📝 Facebook + X: HandwerkerFinder: Handwerkerrechnung prüfen: D
+ as muss auf der Rechnung stehen
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Sun\, 29 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- HandwerkerFinder (handwerkerfinder.shmor.ai)\nArticle: Balkonkraftwerk: W
- as Mieter und Eigentümer wissen sollten\nLink: https://handwerkerfinder.
- shmor.ai/blog/balkonkraftwerk-regeln/\nKeywords: balkonkraftwerk\, stecke
- rsolargerät\, balkonkraftwerk anmelden\, balkonkraftwerk mieter\nHashtag
- s:\n  Facebook: #Balkonkraftwerk #Steckersolargerät #HandwerkerFinder #S
- hmorAI\n  X: #Balkonkraftwerk #HandwerkerFinder\n\n━━ Facebook post 
- ━━\nBalkonkraftwerk: Was Mieter und Eigentümer wissen sollten\n\n800
-  Watt\, Registrierung und Zustimmung\n\nJetzt lesen auf HandwerkerFinder 
- 👇\n\n#Balkonkraftwerk #Steckersolargerät #HandwerkerFinder #ShmorAI\n
- \n━━ X post ━━\nBalkonkraftwerk: Was Mieter und Eigentümer wisse
- n sollten\n\n800 Watt\, Registrierung und Zustimmung\n\nhttps://handwerke
- rfinder.shmor.ai/blog/balkonkraftwerk-regeln/?utm_source=x&utm_medium=soc
- ial&utm_campaign=autopost\n\n#Balkonkraftwerk #HandwerkerFinder
-URL:https://handwerkerfinder.shmor.ai/blog/balkonkraftwerk-regeln/
+ HandwerkerFinder (handwerkerfinder.shmor.ai)\nArticle: Handwerkerrechnung
+  prüfen: Das muss auf der Rechnung stehen\nLink: https://handwerkerfinde
+ r.shmor.ai/blog/handwerkerrechnung-pruefen/\nKeywords: handwerkerrechnung
+  prüfen\, handwerkerrechnung pflichtangaben\, rechnung handwerker was mu
+ ss draufstehen\, handwerkerrechnung steuerbonus\, lohnanteil rechnung han
+ dwerker\, rechnung aufbewahren 2 jahre handwerker\nHashtags:\n  Facebook:
+  #HandwerkerrechnungPrüfen #HandwerkerFinder #ShmorAI\n  X: #Handwerkerr
+ echnungPrüfen #HandwerkerFinder\n\n━━ Facebook post ━━\nHandwerk
+ errechnung prüfen: Das muss auf der Rechnung stehen\n\nPflichtangaben\, 
+ Lohnanteil und Aufbewahrung: die Checkliste vor dem Bezahlen.\n\nJetzt le
+ sen auf HandwerkerFinder 👇\n\n#HandwerkerrechnungPrüfen #HandwerkerFi
+ nder #ShmorAI\n\n━━ X post ━━\nHandwerkerrechnung prüfen: Das mu
+ ss auf der Rechnung stehen\n\nPflichtangaben\, Lohnanteil und Aufbewahrun
+ g: die Checkliste vor dem Bezahlen.\n\nhttps://handwerkerfinder.shmor.ai/
+ blog/handwerkerrechnung-pruefen/?utm_source=x&utm_medium=social&utm_campa
+ ign=autopost\n\n#HandwerkerrechnungPrüfen #HandwerkerFinder
+URL:https://handwerkerfinder.shmor.ai/blog/handwerkerrechnung-pruefen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261129T120000Z
 DTEND:20261129T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: HappyDaysOut: Board game cafés: a r
- ainy day out for families and teens
+SUMMARY:📝 Facebook + X + LinkedIn: HappyDaysOut: Is the Family & Friend
+ s Railcard worth it for days out?
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Sun\, 29 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
  dIn (Alex F Morgan)\nSite: HappyDaysOut (happydaysout.shmor.ai)\nArticle:
-  Board game cafés: a rainy day out for families and teens\nLink: https:/
- /happydaysout.shmor.ai/blog/board-game-cafes-for-families/\nKeywords: boa
- rd game cafe\, board games\, rainy day ideas\, things to do with teenager
- s\, family games\, game cafe near me\nHashtags:\n  Facebook: #BoardGameCa
- fe #BoardGames #RainyDayIdeas #HappyDaysOut #ShmorAI\n  X: #BoardGameCafe
-  #HappyDaysOut\n  LinkedIn: #BoardGameCafe #BoardGames #HappyDaysOut #Shm
- orAI\n\n━━ Facebook post ━━\nBoard game cafés: a rainy day out f
- or families and teens\n\nHow cover charges work\, games for all ages and 
- why teens love them.\n\nRead it on HappyDaysOut 👇\n\n#BoardGameCafe #B
- oardGames #RainyDayIdeas #HappyDaysOut #ShmorAI\n\n━━ X post ━━\n
- Board game cafés: a rainy day out for families and teens\n\nHow cover ch
- arges work\, games for all ages and why teens love them.\n\nhttps://happy
- daysout.shmor.ai/blog/board-game-cafes-for-families/?utm_source=x&utm_med
- ium=social&utm_campaign=autopost\n\n#BoardGameCafe #HappyDaysOut\n\n━
- ━ LinkedIn post ━━\nBoard game cafés: a rainy day out for families
-  and teens\n\nHow cover charges work\, games for all ages and why teens l
- ove them.\n\nRead it on HappyDaysOut: https://happydaysout.shmor.ai/blog/
- board-game-cafes-for-families/?utm_source=linkedin&utm_medium=social&utm_
- campaign=autopost\n\n#BoardGameCafe #BoardGames #HappyDaysOut #ShmorAI
-URL:https://happydaysout.shmor.ai/blog/board-game-cafes-for-families/
+  Is the Family & Friends Railcard worth it for days out?\nLink: https://h
+ appydaysout.shmor.ai/blog/family-and-friends-railcard-worth-it/\nKeywords
+ : family and friends railcard\, family and friends railcard worth it\, fa
+ mily railcard\, railcard for families\, train discount for kids\, cheap t
+ rain tickets families\nHashtags:\n  Facebook: #FamilyRailcard #RailcardFo
+ rFamilies #HappyDaysOut #ShmorAI\n  X: #FamilyRailcard #HappyDaysOut\n  L
+ inkedIn: #FamilyRailcard #RailcardForFamilies #HappyDaysOut #ShmorAI\n\n
+ ━━ Facebook post ━━\nIs the Family & Friends Railcard worth it fo
+ r days out?\n\nHow the discounts work\, the break-even sum and the small 
+ print.\n\nRead it on HappyDaysOut 👇\n\n#FamilyRailcard #RailcardForFam
+ ilies #HappyDaysOut #ShmorAI\n\n━━ X post ━━\nIs the Family & Fri
+ ends Railcard worth it for days out?\n\nHow the discounts work\, the brea
+ k-even sum and the small print.\n\nhttps://happydaysout.shmor.ai/blog/fam
+ ily-and-friends-railcard-worth-it/?utm_source=x&utm_medium=social&utm_cam
+ paign=autopost\n\n#FamilyRailcard #HappyDaysOut\n\n━━ LinkedIn post 
+ ━━\nIs the Family & Friends Railcard worth it for days out?\n\nHow th
+ e discounts work\, the break-even sum and the small print.\n\nRead it on 
+ HappyDaysOut: https://happydaysout.shmor.ai/blog/family-and-friends-railc
+ ard-worth-it/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost
+ \n\n#FamilyRailcard #RailcardForFamilies #HappyDaysOut #ShmorAI
+URL:https://happydaysout.shmor.ai/blog/family-and-friends-railcard-worth-i
+ t/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261129T170000Z
 DTEND:20261129T171500Z
-SUMMARY:📝 Facebook + X: HotelHero: Hidden hotel fees and fake discounts
- : how to compare prices fairly
+SUMMARY:📝 Facebook + X: HotelHero: Free cancellation hotel bookings: wh
+ at your UK rights are and what to check
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Sun\, 29 Nov 2026\, 1
  7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- HotelHero (hotelhero.shmor.ai)\nArticle: Hidden hotel fees and fake disco
- unts: how to compare prices fairly\nLink: https://hotelhero.shmor.ai/blog
- /hidden-hotel-fees-and-fake-discounts/\nKeywords: hidden hotel fees\, fak
- e hotel discounts\, hotel drip pricing\, how to compare hotel prices\, ho
- tel total price uk\, strikethrough hotel prices\nHashtags:\n  Facebook: #
- HiddenHotelFees #FakeHotelDiscounts #HotelDripPricing #HotelHero #ShmorAI
- \n  X: #HiddenHotelFees #HotelHero\n\n━━ Facebook post ━━\nHidden
-  hotel fees and fake discounts: how to compare prices fairly\n\nSpot hidd
- en hotel fees\, misleading discounts and pressure messages\, and compare 
- hotel prices like for like.\n\nRead it on HotelHero 👇\n\n#HiddenHotelF
- ees #FakeHotelDiscounts #HotelDripPricing #HotelHero #ShmorAI\n\n━━ X
-  post ━━\nHidden hotel fees and fake discounts: how to compare prices
-  fairly\n\nSpot hidden hotel fees\, misleading discounts and pressure mes
- sages\, and compare hotel prices like for like.\n\nhttps://hotelhero.shmo
- r.ai/blog/hidden-hotel-fees-and-fake-discounts/?utm_source=x&utm_medium=s
- ocial&utm_campaign=autopost\n\n#HiddenHotelFees #HotelHero
-URL:https://hotelhero.shmor.ai/blog/hidden-hotel-fees-and-fake-discounts/
+ HotelHero (hotelhero.shmor.ai)\nArticle: Free cancellation hotel bookings
+ : what your UK rights are and what to check\nLink: https://hotelhero.shmo
+ r.ai/blog/free-cancellation-hotels-uk-booking-rights/\nKeywords: free can
+ cellation hotels uk\, hotel booking cancellation rights uk\, 14 day cooli
+ ng off hotel\, can i cancel a hotel booking\, hotel cancellation policy\,
+  non refundable hotel booking\nHashtags:\n  Facebook: #HotelCancellationP
+ olicy #HotelHero #ShmorAI\n  X: #HotelCancellationPolicy #HotelHero\n\n
+ ━━ Facebook post ━━\nFree cancellation hotel bookings: what your 
+ UK rights are and what to check\n\nNo 14-day cooling-off for hotel rooms:
+  how free cancellation works and what to check before you book.\n\nRead i
+ t on HotelHero 👇\n\n#HotelCancellationPolicy #HotelHero #ShmorAI\n\n
+ ━━ X post ━━\nFree cancellation hotel bookings: what your UK righ
+ ts are and what to check\n\nNo 14-day cooling-off for hotel rooms: how fr
+ ee cancellation works and what to check before you book.\n\nhttps://hotel
+ hero.shmor.ai/blog/free-cancellation-hotels-uk-booking-rights/?utm_source
+ =x&utm_medium=social&utm_campaign=autopost\n\n#HotelCancellationPolicy #H
+ otelHero
+URL:https://hotelhero.shmor.ai/blog/free-cancellation-hotels-uk-booking-ri
+ ghts/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261130T080000Z
 DTEND:20261130T081500Z
-SUMMARY:📝 Facebook + X: LocalPlumbers: Blocked and clogged drains
+SUMMARY:📝 Facebook + X: LocalPlumbers: Bathroom and kitchen plumbing pr
+ ojects
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Mon\, 30 Nov 2026\, 0
  8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- LocalPlumbers (localplumbers.shmor.ai)\nArticle: Blocked and clogged drai
- ns\nLink: https://localplumbers.shmor.ai/blocked-drains/\nKeywords: block
- ed drain\, clogged drain\, blocked toilet\, clogged toilet\, drain unbloc
- king\, drain cleaning\nHashtags:\n  Facebook: #BlockedDrain #CloggedDrain
-  #BlockedToilet #LocalPlumbers #ShmorAI\n  X: #BlockedDrain #LocalPlumber
- s\n\n━━ Facebook post ━━\nBlocked and clogged drains\n\nSlow sink
- s\, gurgling plugholes and toilets that won't clear are some of the most 
- common plumbing calls.\n\nRead it on LocalPlumbers 👇\n\n#BlockedDrain 
- #CloggedDrain #BlockedToilet #LocalPlumbers #ShmorAI\n\n━━ X post ━
- ━\nBlocked and clogged drains\n\nSlow sinks\, gurgling plugholes and to
- ilets that won't clear are some of the most common plumbing calls.\n\nhtt
- ps://localplumbers.shmor.ai/blocked-drains/?utm_source=x&utm_medium=socia
- l&utm_campaign=autopost\n\n#BlockedDrain #LocalPlumbers
-URL:https://localplumbers.shmor.ai/blocked-drains/
+ LocalPlumbers (localplumbers.shmor.ai)\nArticle: Bathroom and kitchen plu
+ mbing projects\nLink: https://localplumbers.shmor.ai/bathroom-plumbing/\n
+ Keywords: bathroom plumbing\, shower installation\, kitchen plumbing\, ba
+ throom remodel\, bathroom fitter\nHashtags:\n  Facebook: #BathroomPlumbin
+ g #ShowerInstallation #KitchenPlumbing #LocalPlumbers #ShmorAI\n  X: #Bat
+ hroomPlumbing #LocalPlumbers\n\n━━ Facebook post ━━\nBathroom and
+  kitchen plumbing projects\n\nNew bathrooms\, showers and kitchens involv
+ e more than fitting taps.\n\nRead it on LocalPlumbers 👇\n\n#BathroomPl
+ umbing #ShowerInstallation #KitchenPlumbing #LocalPlumbers #ShmorAI\n\n
+ ━━ X post ━━\nBathroom and kitchen plumbing projects\n\nNew bathr
+ ooms\, showers and kitchens involve more than fitting taps.\n\nhttps://lo
+ calplumbers.shmor.ai/bathroom-plumbing/?utm_source=x&utm_medium=social&ut
+ m_campaign=autopost\n\n#BathroomPlumbing #LocalPlumbers
+URL:https://localplumbers.shmor.ai/bathroom-plumbing/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261130T120000Z
 DTEND:20261130T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: OnBusLaw: The EU “withdraw from co
- ntract” button: what changed in June 2026
+SUMMARY:📝 Facebook + X + LinkedIn: OnBusLaw: How to cancel a subscripti
+ on: your rights in the US\, UK and EU
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Mon\, 30 Nov 2026\, 1
  2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: OnBusLaw (onbuslaw.shmor.ai)\nArticle: The EU 
- “withdraw from contract” button: what changed in June 2026\nLink: htt
- ps://onbuslaw.shmor.ai/blog/eu-withdrawal-button/\nKeywords: withdrawal b
- utton\, eu withdrawal button\, withdraw from contract here\, article 11a\
- , directive 2023/2673\, cancel online order eu\nHashtags:\n  Facebook: #W
- ithdrawalButton #Article11a #OnBusLaw #ShmorAI\n  X: #WithdrawalButton #O
- nBusLaw\n  LinkedIn: #WithdrawalButton #Article11a #OnBusLaw #ShmorAI\n\n
- ━━ Facebook post ━━\nThe EU “withdraw from contract” button: 
- what changed in June 2026\n\nWhat the new EU withdrawal function requires
- \, who it covers and how it helps shoppers.\n\nRead it on OnBusLaw 👇\n
- \n#WithdrawalButton #Article11a #OnBusLaw #ShmorAI\n\n━━ X post ━
- ━\nThe EU “withdraw from contract” button: what changed in June 202
- 6\n\nWhat the new EU withdrawal function requires\, who it covers and how
-  it helps shoppers.\n\nhttps://onbuslaw.shmor.ai/blog/eu-withdrawal-butto
- n/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#WithdrawalBut
- ton #OnBusLaw\n\n━━ LinkedIn post ━━\nThe EU “withdraw from con
- tract” button: what changed in June 2026\n\nWhat the new EU withdrawal 
- function requires\, who it covers and how it helps shoppers.\n\nRead it o
- n OnBusLaw: https://onbuslaw.shmor.ai/blog/eu-withdrawal-button/?utm_sour
- ce=linkedin&utm_medium=social&utm_campaign=autopost\n\n#WithdrawalButton 
- #Article11a #OnBusLaw #ShmorAI
-URL:https://onbuslaw.shmor.ai/blog/eu-withdrawal-button/
+ dIn (Alex F Morgan)\nSite: OnBusLaw (onbuslaw.shmor.ai)\nArticle: How to 
+ cancel a subscription: your rights in the US\, UK and EU\nLink: https://o
+ nbuslaw.shmor.ai/blog/cancel-subscriptions/\nKeywords: cancel subscriptio
+ n\, click to cancel\, ftc click to cancel\, auto renewal\, automatic rene
+ wal law\, rosca\nHashtags:\n  Facebook: #CancelSubscription #ClickToCance
+ l #AutoRenewal #OnBusLaw #ShmorAI\n  X: #CancelSubscription #OnBusLaw\n  
+ LinkedIn: #CancelSubscription #ClickToCancel #OnBusLaw #ShmorAI\n\n━━
+  Facebook post ━━\nHow to cancel a subscription: your rights in the U
+ S\, UK and EU\n\nThe FTC rule’s fate\, US state laws\, UK reforms\, EU 
+ rights and how to stop recurring payments.\n\nRead it on OnBusLaw 👇\n\
+ n#CancelSubscription #ClickToCancel #AutoRenewal #OnBusLaw #ShmorAI\n\n
+ ━━ X post ━━\nHow to cancel a subscription: your rights in the US
+ \, UK and EU\n\nThe FTC rule’s fate\, US state laws\, UK reforms\, EU r
+ ights and how to stop recurring payments.\n\nhttps://onbuslaw.shmor.ai/bl
+ og/cancel-subscriptions/?utm_source=x&utm_medium=social&utm_campaign=auto
+ post\n\n#CancelSubscription #OnBusLaw\n\n━━ LinkedIn post ━━\nHow
+  to cancel a subscription: your rights in the US\, UK and EU\n\nThe FTC r
+ ule’s fate\, US state laws\, UK reforms\, EU rights and how to stop rec
+ urring payments.\n\nRead it on OnBusLaw: https://onbuslaw.shmor.ai/blog/c
+ ancel-subscriptions/?utm_source=linkedin&utm_medium=social&utm_campaign=a
+ utopost\n\n#CancelSubscription #ClickToCancel #OnBusLaw #ShmorAI
+URL:https://onbuslaw.shmor.ai/blog/cancel-subscriptions/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261130T170000Z
 DTEND:20261130T171500Z
 SUMMARY:📝 Facebook + X: PetSavings: Fireworks and pets: how to keep dog
@@ -1203,72 +1234,68 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261201T080000Z
 DTEND:20261201T081500Z
-SUMMARY:📝 Facebook + X: ProFinders: Find a reliable bookkeeper for your
-  business
+SUMMARY:📝 Facebook + X: ProFinders: Find a qualified accountant for you
+ r business
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Tue\, 1 Dec 2026\, 08
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: P
- roFinders (profinders.shmor.ai)\nArticle: Find a reliable bookkeeper for 
- your business\nLink: https://profinders.shmor.ai/bookkeepers/\nKeywords: 
- bookkeepers\, bookkeeper near me\, find a bookkeeper\, bookkeeper for sma
- ll business\, hire a bookkeeper\nHashtags:\n  Facebook: #Bookkeepers #Boo
- kkeeperNearMe #FindABookkeeper #ProFinders #ShmorAI\n  X: #Bookkeepers #P
- roFinders\n\n━━ Facebook post ━━\nFind a reliable bookkeeper for 
- your business\n\nRecording sales\, purchases and expenses · Bank and cre
- dit-card reconciliation · Invoicing and chasing payments\n\nRead it on P
- roFinders 👇\n\n#Bookkeepers #BookkeeperNearMe #FindABookkeeper #ProFin
- ders #ShmorAI\n\n━━ X post ━━\nFind a reliable bookkeeper for you
- r business\n\nRecording sales\, purchases and expenses · Bank and credit
- -card reconciliation · Invoicing and chasing payments\n\nhttps://profind
- ers.shmor.ai/bookkeepers/?utm_source=x&utm_medium=social&utm_campaign=aut
- opost\n\n#Bookkeepers #ProFinders
-URL:https://profinders.shmor.ai/bookkeepers/
+ roFinders (profinders.shmor.ai)\nArticle: Find a qualified accountant for
+  your business\nLink: https://profinders.shmor.ai/accountants/\nKeywords:
+  accountants\, accountant near me\, find an accountant\, accountant for s
+ mall business\, hire an accountant\nHashtags:\n  Facebook: #Accountants #
+ AccountantNearMe #FindAnAccountant #ProFinders #ShmorAI\n  X: #Accountant
+ s #ProFinders\n\n━━ Facebook post ━━\nFind a qualified accountant
+  for your business\n\nYear-end accounts and business tax returns · Perso
+ nal tax returns for sole traders\, freelancers and owners · VAT or sales
+  tax registration and returns\n\nRead it on ProFinders 👇\n\n#Accountan
+ ts #AccountantNearMe #FindAnAccountant #ProFinders #ShmorAI\n\n━━ X p
+ ost ━━\nFind a qualified accountant for your business\n\nYear-end acc
+ ounts and business tax returns · Personal tax returns for sole traders\,
+  freelancers and owners · VAT or sales tax registration and returns\n\nh
+ ttps://profinders.shmor.ai/accountants/?utm_source=x&utm_medium=social&ut
+ m_campaign=autopost\n\n#Accountants #ProFinders
+URL:https://profinders.shmor.ai/accountants/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261201T120000Z
 DTEND:20261201T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: ProSourced: Contractor or employee? 
- How the US\, UK and EU decide
+SUMMARY:📝 Facebook + X + LinkedIn: ProSourced: Employer of record vs PE
+ O vs contractor: how to hire abroad
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Tue\, 1 Dec 2026\, 12
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
- In (Alex F Morgan)\nSite: ProSourced (prosourced.shmor.ai)\nArticle: Cont
- ractor or employee? How the US\, UK and EU decide\nLink: https://prosourc
- ed.shmor.ai/blog/contractor-or-employee-ir35-irs/\nKeywords: contractor v
- s employee\, ir35\, worker misclassification\, irs common law test\, off-
- payroll working rules\nHashtags:\n  Facebook: #ContractorVsEmployee #Work
- erMisclassification #OffPayrollWorkingRules #ProSourced #ShmorAI\n  X: #C
- ontractorVsEmployee #ProSourced\n  LinkedIn: #ContractorVsEmployee #Worke
- rMisclassification #ProSourced #ShmorAI\n\n━━ Facebook post ━━\nC
- ontractor or employee? How the US\, UK and EU decide\n\nHow the US\, UK a
- nd EU decide whether someone is a contractor or an employee: the IRS comm
- on-law test\, IR35 off-payroll rules and EU platform-work rules.\n\nRead 
- it on ProSourced 👇\n\n#ContractorVsEmployee #WorkerMisclassification #
- OffPayrollWorkingRules #ProSourced #ShmorAI\n\n━━ X post ━━\nCont
- ractor or employee? How the US\, UK and EU decide\n\nHow the US\, UK and 
- EU decide whether someone is a contractor or an employee: the IRS common-
- law test\, IR35 off-payroll rules and EU platform-work rules.\n\nhttps://
- prosourced.shmor.ai/blog/contractor-or-employee-ir35-irs/?utm_source=x&ut
- m_medium=social&utm_campaign=autopost\n\n#ContractorVsEmployee #ProSource
- d\n\n━━ LinkedIn post ━━\nContractor or employee? How the US\, UK
-  and EU decide\n\nHow the US\, UK and EU decide whether someone is a cont
- ractor or an employee: the IRS common-law test\, IR35 off-payroll rules a
- nd EU platform-work rules.\n\nRead it on ProSourced: https://prosourced.s
- hmor.ai/blog/contractor-or-employee-ir35-irs/?utm_source=linkedin&utm_med
- ium=social&utm_campaign=autopost\n\n#ContractorVsEmployee #WorkerMisclass
- ification #ProSourced #ShmorAI
-URL:https://prosourced.shmor.ai/blog/contractor-or-employee-ir35-irs/
+ In (Alex F Morgan)\nSite: ProSourced (prosourced.shmor.ai)\nArticle: Empl
+ oyer of record vs PEO vs contractor: how to hire abroad\nLink: https://pr
+ osourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contractor/\nKeywords
+ : employer of record\, eor vs peo\, hire employees abroad\, international
+  hiring\, global employment\nHashtags:\n  Facebook: #EmployerOfRecord #EO
+ RVsPEO #HireEmployeesAbroad #ProSourced #ShmorAI\n  X: #EmployerOfRecord 
+ #ProSourced\n  LinkedIn: #EmployerOfRecord #EORVsPEO #ProSourced #ShmorAI
+ \n\n━━ Facebook post ━━\nEmployer of record vs PEO vs contractor:
+  how to hire abroad\n\nHiring someone in another country?\n\nRead it on P
+ roSourced 👇\n\n#EmployerOfRecord #EORVsPEO #HireEmployeesAbroad #ProSo
+ urced #ShmorAI\n\n━━ X post ━━\nEmployer of record vs PEO vs cont
+ ractor: how to hire abroad\n\nHiring someone in another country?\n\nhttps
+ ://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contractor/?utm_
+ source=x&utm_medium=social&utm_campaign=autopost\n\n#EmployerOfRecord #Pr
+ oSourced\n\n━━ LinkedIn post ━━\nEmployer of record vs PEO vs con
+ tractor: how to hire abroad\n\nHiring someone in another country?\n\nRead
+  it on ProSourced: https://prosourced.shmor.ai/blog/employer-of-record-vs
+ -peo-vs-contractor/?utm_source=linkedin&utm_medium=social&utm_campaign=au
+ topost\n\n#EmployerOfRecord #EORVsPEO #ProSourced #ShmorAI
+URL:https://prosourced.shmor.ai/blog/employer-of-record-vs-peo-vs-contract
+ or/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261201T170000Z
 DTEND:20261201T171500Z
 SUMMARY:📝 Facebook + X: SillyBaby: Colic: signs\, soothing and coping
@@ -1291,7 +1318,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261202T080000Z
 DTEND:20261202T081500Z
 SUMMARY:📝 Facebook + X: StorageSavings: Container storage vs a storage 
@@ -1317,125 +1344,215 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261202T120000Z
 DTEND:20261202T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: TapTill: Global Payments now owns Wo
- rldpay: what it means for UK merchants
+SUMMARY:📝 Facebook + X + LinkedIn: TapTill: The £100 contactless limit
+  has gone: what it means for your business
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Wed\, 2 Dec 2026\, 12
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
- In (Alex F Morgan)\nSite: TapTill (taptill.shmor.ai)\nArticle: Global Pay
- ments now owns Worldpay: what it means for UK merchants\nLink: https://ta
- ptill.shmor.ai/blog/global-payments-worldpay-what-it-means/\nKeywords: wo
- rldpay\, global payments\, worldpay takeover\, global payments worldpay\,
-  takepayments\, worldpay merchants\nHashtags:\n  Facebook: #Worldpay #Glo
- balPayments #Takepayments #TapTill #ShmorAI\n  X: #Worldpay #TapTill\n  L
- inkedIn: #Worldpay #GlobalPayments #TapTill #ShmorAI\n\n━━ Facebook p
- ost ━━\nGlobal Payments now owns Worldpay: what it means for UK merch
- ants\n\nThe Worldpay deal\, takepayments\, and what changes for you.\n\nR
- ead it on TapTill 👇\n\n#Worldpay #GlobalPayments #Takepayments #TapTil
- l #ShmorAI\n\n━━ X post ━━\nGlobal Payments now owns Worldpay: wh
- at it means for UK merchants\n\nThe Worldpay deal\, takepayments\, and wh
- at changes for you.\n\nhttps://taptill.shmor.ai/blog/global-payments-worl
- dpay-what-it-means/?utm_source=x&utm_medium=social&utm_campaign=autopost\
- n\n#Worldpay #TapTill\n\n━━ LinkedIn post ━━\nGlobal Payments now
-  owns Worldpay: what it means for UK merchants\n\nThe Worldpay deal\, tak
- epayments\, and what changes for you.\n\nRead it on TapTill: https://tapt
- ill.shmor.ai/blog/global-payments-worldpay-what-it-means/?utm_source=link
- edin&utm_medium=social&utm_campaign=autopost\n\n#Worldpay #GlobalPayments
-  #TapTill #ShmorAI
-URL:https://taptill.shmor.ai/blog/global-payments-worldpay-what-it-means/
+ In (Alex F Morgan)\nSite: TapTill (taptill.shmor.ai)\nArticle: The £100 
+ contactless limit has gone: what it means for your business\nLink: https:
+ //taptill.shmor.ai/blog/contactless-limit-scrapped/\nKeywords: contactles
+ s limit\, contactless limit 2026\, contactless limit scrapped\, fca conta
+ ctless\, £100 contactless limit\, contactless payments business\nHashtag
+ s:\n  Facebook: #ContactlessLimit #FCAContactless #TapTill #ShmorAI\n  X:
+  #ContactlessLimit #TapTill\n  LinkedIn: #ContactlessLimit #FCAContactles
+ s #TapTill #ShmorAI\n\n━━ Facebook post ━━\nThe £100 contactless
+  limit has gone: what it means for your business\n\nIssuers now set their
+  own limits. What changes at the till.\n\nRead it on TapTill 👇\n\n#Con
+ tactlessLimit #FCAContactless #TapTill #ShmorAI\n\n━━ X post ━━\n
+ The £100 contactless limit has gone: what it means for your business\n\n
+ Issuers now set their own limits. What changes at the till.\n\nhttps://ta
+ ptill.shmor.ai/blog/contactless-limit-scrapped/?utm_source=x&utm_medium=s
+ ocial&utm_campaign=autopost\n\n#ContactlessLimit #TapTill\n\n━━ Linke
+ dIn post ━━\nThe £100 contactless limit has gone: what it means for 
+ your business\n\nIssuers now set their own limits. What changes at the ti
+ ll.\n\nRead it on TapTill: https://taptill.shmor.ai/blog/contactless-limi
+ t-scrapped/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n
+ \n#ContactlessLimit #FCAContactless #TapTill #ShmorAI
+URL:https://taptill.shmor.ai/blog/contactless-limit-scrapped/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202170000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261202T170000Z
 DTEND:20261202T171500Z
-SUMMARY:📝 Facebook + X: TradesStation: Artex ceilings and asbestos: wha
- t to do
+SUMMARY:📝 Facebook + X: TradesStation: Accessible bathrooms and Disable
+ d Facilities Grants
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Wed\, 2 Dec 2026\, 17
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: T
- radesStation (tradesstation.shmor.ai)\nArticle: Artex ceilings and asbest
- os: what to do\nLink: https://tradesstation.shmor.ai/blog/artex-asbestos-
- textured-ceilings/\nKeywords: artex asbestos\, textured ceiling asbestos\
- , artex removal\, plastering over artex\, asbestos testing\, is my artex 
- asbestos\nHashtags:\n  Facebook: #ArtexAsbestos #TexturedCeilingAsbestos 
- #ArtexRemoval #TradesStation #ShmorAI\n  X: #ArtexAsbestos #TradesStation
- \n\n━━ Facebook post ━━\nArtex ceilings and asbestos: what to do\
- n\nWhen to leave it\, getting it tested and how to cover or remove it saf
- ely.\n\nRead it on TradesStation 👇\n\n#ArtexAsbestos #TexturedCeilingA
- sbestos #ArtexRemoval #TradesStation #ShmorAI\n\n━━ X post ━━\nAr
- tex ceilings and asbestos: what to do\n\nWhen to leave it\, getting it te
- sted and how to cover or remove it safely.\n\nhttps://tradesstation.shmor
- .ai/blog/artex-asbestos-textured-ceilings/?utm_source=x&utm_medium=social
- &utm_campaign=autopost\n\n#ArtexAsbestos #TradesStation
-URL:https://tradesstation.shmor.ai/blog/artex-asbestos-textured-ceilings/
+ radesStation (tradesstation.shmor.ai)\nArticle: Accessible bathrooms and 
+ Disabled Facilities Grants\nLink: https://tradesstation.shmor.ai/blog/acc
+ essible-bathrooms-disabled-facilities-grant/\nKeywords: disabled faciliti
+ es grant\, accessible bathroom\, level access shower\, bathroom adaptatio
+ ns for disabled\, dfg grant bathroom\, wet room grant\nHashtags:\n  Faceb
+ ook: #DisabledFacilitiesGrant #AccessibleBathroom #LevelAccessShower #Tra
+ desStation #ShmorAI\n  X: #DisabledFacilitiesGrant #TradesStation\n\n━
+ ━ Facebook post ━━\nAccessible bathrooms and Disabled Facilities Gr
+ ants\n\nLevel-access showers\, grab rails and how a council grant can hel
+ p.\n\nRead it on TradesStation 👇\n\n#DisabledFacilitiesGrant #Accessib
+ leBathroom #LevelAccessShower #TradesStation #ShmorAI\n\n━━ X post 
+ ━━\nAccessible bathrooms and Disabled Facilities Grants\n\nLevel-acce
+ ss showers\, grab rails and how a council grant can help.\n\nhttps://trad
+ esstation.shmor.ai/blog/accessible-bathrooms-disabled-facilities-grant/?u
+ tm_source=x&utm_medium=social&utm_campaign=autopost\n\n#DisabledFacilitie
+ sGrant #TradesStation
+URL:https://tradesstation.shmor.ai/blog/accessible-bathrooms-disabled-faci
+ lities-grant/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203080000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261203T080000Z
 DTEND:20261203T081500Z
-SUMMARY:📝 Facebook + X: TravelDeals: How to protect your holiday bookin
- g: ATOL\, ABTA and paying by credit card
+SUMMARY:📝 Facebook + X: TravelDeals: UK airport liquids rule: the 100ml
+  limit\, 2-litre airports and what to check
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Thu\, 3 Dec 2026\, 08
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: T
- ravelDeals (traveldeals.shmor.ai)\nArticle: How to protect your holiday b
- ooking: ATOL\, ABTA and paying by credit card\nLink: https://traveldeals.
- shmor.ai/blog/protect-your-holiday-booking-atol-abta-credit-card/\nKeywor
- ds: atol protection\, abta protected holiday\, how to protect your holida
- y booking\, pay for holiday by credit card\, holiday refund if company co
- llapses\, package holiday protection\nHashtags:\n  Facebook: #AtolProtect
- ion #AbtaProtectedHoliday #PackageHolidayProtection #TravelDeals #ShmorAI
- \n  X: #AtolProtection #TravelDeals\n\n━━ Facebook post ━━\nHow t
- o protect your holiday booking: ATOL\, ABTA and paying by credit card\n\n
- What ATOL\, ABTA and credit card payments protect\, and the checks to mak
- e before you pay for a holiday.\n\nRead it on TravelDeals 👇\n\n#AtolPr
- otection #AbtaProtectedHoliday #PackageHolidayProtection #TravelDeals #Sh
- morAI\n\n━━ X post ━━\nHow to protect your holiday booking: ATOL\
- , ABTA and paying by credit card\n\nWhat ATOL\, ABTA and credit card paym
- ents protect\, and the checks to make before you pay for a holiday.\n\nht
- tps://traveldeals.shmor.ai/blog/protect-your-holiday-booking-atol-abta-cr
- edit-card/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#AtolP
- rotection #TravelDeals
-URL:https://traveldeals.shmor.ai/blog/protect-your-holiday-booking-atol-ab
- ta-credit-card/
+ ravelDeals (traveldeals.shmor.ai)\nArticle: UK airport liquids rule: the 
+ 100ml limit\, 2-litre airports and what to check\nLink: https://traveldea
+ ls.shmor.ai/blog/uk-airport-liquids-rule-100ml-2-litres/\nKeywords: 100ml
+  liquids rule uk\, 2 litre liquids airport\, hand luggage liquids uk\, uk
+  airport liquid rules\, can i take more than 100ml hand luggage\, hand lu
+ ggage liquids rules 2026\nHashtags:\n  Facebook: #Holiday #Vacation #Trav
+ elDeals #ShmorAI\n  X: #Holiday #TravelDeals\n\n━━ Facebook post ━
+ ━\nUK airport liquids rule: the 100ml limit\, 2-litre airports and what
+  to check\n\nWhat GOV.UK says about the 100ml rule and 2-litre containers
+ \, and how to pack for a trip with connections.\n\nRead it on TravelDeals
+  👇\n\n#Holiday #Vacation #TravelDeals #ShmorAI\n\n━━ X post ━━
+ \nUK airport liquids rule: the 100ml limit\, 2-litre airports and what to
+  check\n\nWhat GOV.UK says about the 100ml rule and 2-litre containers\, 
+ and how to pack for a trip with connections.\n\nhttps://traveldeals.shmor
+ .ai/blog/uk-airport-liquids-rule-100ml-2-litres/?utm_source=x&utm_medium=
+ social&utm_campaign=autopost\n\n#Holiday #TravelDeals
+URL:https://traveldeals.shmor.ai/blog/uk-airport-liquids-rule-100ml-2-litr
+ es/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203120000000@shmor.ai
-DTSTAMP:20261119T155802Z
+DTSTAMP:20261120T154111Z
 DTSTART:20261203T120000Z
 DTEND:20261203T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: UK SEW: How to thread a sewing machi
+SUMMARY:📝 Facebook + X + LinkedIn: UK SEW: How to choose a sewing machi
  ne
 DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
   may change if newer articles are published)\nWhen: Thu\, 3 Dec 2026\, 12
  :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
- In (Alex F Morgan)\nSite: UK SEW (uksew.shmor.ai)\nArticle: How to thread
-  a sewing machine\nLink: https://uksew.shmor.ai/blog/how-to-thread-a-sewi
- ng-machine/\nKeywords: how to thread a sewing machine\, threading sewing 
- machine\, thread bobbin\, take up lever\, needle threader\nHashtags:\n  F
- acebook: #ThreadingSewingMachine #ThreadBobbin #TakeUpLever #UKSEW #Shmor
- AI\n  X: #ThreadingSewingMachine #UKSEW\n  LinkedIn: #ThreadingSewingMach
- ine #ThreadBobbin #UKSEW #ShmorAI\n\n━━ Facebook post ━━\nHow to 
- thread a sewing machine\n\nSpool to needle in the right order\, plus bobb
- in winding.\n\nRead it on UK SEW 👇\n\n#ThreadingSewingMachine #ThreadB
- obbin #TakeUpLever #UKSEW #ShmorAI\n\n━━ X post ━━\nHow to thread
-  a sewing machine\n\nSpool to needle in the right order\, plus bobbin win
- ding.\n\nhttps://uksew.shmor.ai/blog/how-to-thread-a-sewing-machine/?utm_
- source=x&utm_medium=social&utm_campaign=autopost\n\n#ThreadingSewingMachi
- ne #UKSEW\n\n━━ LinkedIn post ━━\nHow to thread a sewing machine\
- n\nSpool to needle in the right order\, plus bobbin winding.\n\nRead it o
- n UK SEW: https://uksew.shmor.ai/blog/how-to-thread-a-sewing-machine/?utm
- _source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#ThreadingSew
- ingMachine #ThreadBobbin #UKSEW #ShmorAI
-URL:https://uksew.shmor.ai/blog/how-to-thread-a-sewing-machine/
+ In (Alex F Morgan)\nSite: UK SEW (uksew.shmor.ai)\nArticle: How to choose
+  a sewing machine\nLink: https://uksew.shmor.ai/blog/how-to-choose-a-sewi
+ ng-machine/\nKeywords: how to choose a sewing machine\, best sewing machi
+ ne uk\, first sewing machine\, sewing machine buying guide\nHashtags:\n  
+ Facebook: #FirstSewingMachine #UKSEW #ShmorAI\n  X: #FirstSewingMachine #
+ UKSEW\n  LinkedIn: #FirstSewingMachine #UKSEW #ShmorAI\n\n━━ Facebook
+  post ━━\nHow to choose a sewing machine\n\nMachine types\, must-have
+  features\, new vs used and where to get advice.\n\nRead it on UK SEW 
+ 👇\n\n#FirstSewingMachine #UKSEW #ShmorAI\n\n━━ X post ━━\nHow 
+ to choose a sewing machine\n\nMachine types\, must-have features\, new vs
+  used and where to get advice.\n\nhttps://uksew.shmor.ai/blog/how-to-choo
+ se-a-sewing-machine/?utm_source=x&utm_medium=social&utm_campaign=autopost
+ \n\n#FirstSewingMachine #UKSEW\n\n━━ LinkedIn post ━━\nHow to cho
+ ose a sewing machine\n\nMachine types\, must-have features\, new vs used 
+ and where to get advice.\n\nRead it on UK SEW: https://uksew.shmor.ai/blo
+ g/how-to-choose-a-sewing-machine/?utm_source=linkedin&utm_medium=social&u
+ tm_campaign=autopost\n\n#FirstSewingMachine #UKSEW #ShmorAI
+URL:https://uksew.shmor.ai/blog/how-to-choose-a-sewing-machine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261203170000000@shmor.ai
+DTSTAMP:20261120T154111Z
+DTSTART:20261203T170000Z
+DTEND:20261203T171500Z
+SUMMARY:📝 Facebook + X: ViralGadgets: Apple HomeView\, HomePod mini 2 a
+ nd the new Apple TV 4K\, explained
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Thu\, 3 Dec 2026\, 17
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: V
+ iralGadgets (viralgadgets.shmor.ai)\nArticle: Apple HomeView\, HomePod mi
+ ni 2 and the new Apple TV 4K\, explained\nLink: https://viralgadgets.shmo
+ r.ai/blog/apple-homeview-homepod-mini-2-apple-tv/\nKeywords: apple homevi
+ ew\, homepod mini 2\, new apple tv 4k\, apple home hub\, homeview price\n
+ Hashtags:\n  Facebook: #AppleHomeview #HomepodMini2 #AppleHomeHub #ViralG
+ adgets #ShmorAI\n  X: #AppleHomeview #ViralGadgets\n\n━━ Facebook pos
+ t ━━\nApple HomeView\, HomePod mini 2 and the new Apple TV 4K\, expla
+ ined\n\nApple’s new smart display\, speaker and TV box: prices\, dates 
+ and the catches.\n\nRead it on ViralGadgets 👇\n\n#AppleHomeview #Homep
+ odMini2 #AppleHomeHub #ViralGadgets #ShmorAI\n\n━━ X post ━━\nApp
+ le HomeView\, HomePod mini 2 and the new Apple TV 4K\, explained\n\nApple
+ ’s new smart display\, speaker and TV box: prices\, dates and the catch
+ es.\n\nhttps://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-a
+ pple-tv/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#AppleHo
+ meview #ViralGadgets
+URL:https://viralgadgets.shmor.ai/blog/apple-homeview-homepod-mini-2-apple
+ -tv/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261204080000000@shmor.ai
+DTSTAMP:20261120T154111Z
+DTSTART:20261204T080000Z
+DTEND:20261204T081500Z
+SUMMARY:📝 Facebook + X: VoucherVault: How to find voucher codes that ac
+ tually work
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Fri\, 4 Dec 2026\, 08
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: V
+ oucherVault (vouchervault.shmor.ai)\nArticle: How to find voucher codes t
+ hat actually work\nLink: https://vouchervault.shmor.ai/blog/how-to-find-v
+ oucher-codes-that-work/\nKeywords: how to find voucher codes\, working pr
+ omo codes\, where to find discount codes\, real coupon codes\nHashtags:\n
+   Facebook: #WorkingPromoCodes #RealCouponCodes #VoucherVault #ShmorAI\n 
+  X: #WorkingPromoCodes #VoucherVault\n\n━━ Facebook post ━━\nHow 
+ to find voucher codes that actually work\n\nWhere working promo codes rea
+ lly come from: brand banners\, official code pages\, sign-up offers\, gro
+ up discounts and affiliate feeds\, plus the traps to avoid..\n\nRead it o
+ n VoucherVault 👇\n\n#WorkingPromoCodes #RealCouponCodes #VoucherVault 
+ #ShmorAI\n\n━━ X post ━━\nHow to find voucher codes that actually
+  work\n\nWhere working promo codes really come from: brand banners\, offi
+ cial code pages\, sign-up offers\, group discounts and affiliate feeds\, 
+ plus the traps to avoid..\n\nhttps://vouchervault.shmor.ai/blog/how-to-fi
+ nd-voucher-codes-that-work/?utm_source=x&utm_medium=social&utm_campaign=a
+ utopost\n\n#WorkingPromoCodes #VoucherVault
+URL:https://vouchervault.shmor.ai/blog/how-to-find-voucher-codes-that-work
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261204120000000@shmor.ai
+DTSTAMP:20261120T154111Z
+DTSTART:20261204T120000Z
+DTEND:20261204T121500Z
+SUMMARY:📝 Facebook + X + LinkedIn: BestVPNs: VPN vs Tor vs proxy: what
+ ’s the difference?
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Fri\, 4 Dec 2026\, 12
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
+ In (Alex F Morgan)\nSite: BestVPNs (bestvpns.shmor.ai)\nArticle: VPN vs T
+ or vs proxy: what’s the difference?\nLink: https://bestvpns.shmor.ai/bl
+ og/vpn-vs-tor-vs-proxy/\nKeywords: vpn vs tor\, vpn vs proxy\, tor vs pro
+ xy\, tor browser\, proxy server\, socks5 proxy\nHashtags:\n  Facebook: #V
+ PNVsTor #VPNVsProxy #TorVsProxy #BestVPNs #ShmorAI\n  X: #VPNVsTor #BestV
+ PNs\n  LinkedIn: #VPNVsTor #VPNVsProxy #BestVPNs #ShmorAI\n\n━━ Faceb
+ ook post ━━\nVPN vs Tor vs proxy: what’s the difference?\n\nHow VPN
+ s\, Tor and proxies route your traffic\, and which to use when.\n\nRead i
+ t on BestVPNs 👇\n\n#VPNVsTor #VPNVsProxy #TorVsProxy #BestVPNs #ShmorA
+ I\n\n━━ X post ━━\nVPN vs Tor vs proxy: what’s the difference?\
+ n\nHow VPNs\, Tor and proxies route your traffic\, and which to use when.
+ \n\nhttps://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/?utm_source=x&utm_
+ medium=social&utm_campaign=autopost\n\n#VPNVsTor #BestVPNs\n\n━━ Link
+ edIn post ━━\nVPN vs Tor vs proxy: what’s the difference?\n\nHow VP
+ Ns\, Tor and proxies route your traffic\, and which to use when.\n\nRead 
+ it on BestVPNs: https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/?utm_s
+ ource=linkedin&utm_medium=social&utm_campaign=autopost\n\n#VPNVsTor #VPNV
+ sProxy #BestVPNs #ShmorAI
+URL:https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

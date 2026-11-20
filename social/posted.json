@@ -231,6 +231,62 @@
    "title": "UK visitor levy: what Edinburgh and Wales hotel guests will pay",
    "site": "HotelHero",
    "buffer": "6aff1c893ba4b53c30e5c48c"
+  },
+  {
+   "at": "2026-11-21T17:00:00.000Z",
+   "service": "facebook",
+   "url": "https://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/",
+   "title": "Frozen pipes: what to do, and when to call a plumber",
+   "site": "LocalPlumbers",
+   "buffer": "6b006a1616b7fc947dff7085"
+  },
+  {
+   "at": "2026-11-21T17:00:00.000Z",
+   "service": "twitter",
+   "url": "https://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/",
+   "title": "Frozen pipes: what to do, and when to call a plumber",
+   "site": "LocalPlumbers",
+   "buffer": "6b006a16cf533f8ce1402779"
+  },
+  {
+   "at": "2026-11-22T08:00:00.000Z",
+   "service": "facebook",
+   "url": "https://onbuslaw.shmor.ai/blog/selling-online-tax-reporting-vinted-ebay/",
+   "title": "Selling on Vinted or eBay: when platforms report you and when you owe tax",
+   "site": "OnBusLaw",
+   "buffer": "6b006a16cf533f8ce14027be"
+  },
+  {
+   "at": "2026-11-22T08:00:00.000Z",
+   "service": "twitter",
+   "url": "https://onbuslaw.shmor.ai/blog/selling-online-tax-reporting-vinted-ebay/",
+   "title": "Selling on Vinted or eBay: when platforms report you and when you owe tax",
+   "site": "OnBusLaw",
+   "buffer": "6b006a1716b7fc947dff70cc"
+  },
+  {
+   "at": "2026-11-22T12:00:00.000Z",
+   "service": "facebook",
+   "url": "https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting-periods/",
+   "title": "Pet insurance: pre-existing conditions and waiting periods explained",
+   "site": "PetSavings",
+   "buffer": "6b006a17d94183983ed73503"
+  },
+  {
+   "at": "2026-11-22T12:00:00.000Z",
+   "service": "twitter",
+   "url": "https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting-periods/",
+   "title": "Pet insurance: pre-existing conditions and waiting periods explained",
+   "site": "PetSavings",
+   "buffer": "6b006a1716b7fc947dff70fd"
+  },
+  {
+   "at": "2026-11-22T12:00:00.000Z",
+   "service": "linkedin",
+   "url": "https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting-periods/",
+   "title": "Pet insurance: pre-existing conditions and waiting periods explained",
+   "site": "PetSavings",
+   "buffer": "6b006a176d9c7aed6cb0bd91"
   }
  ]
 }
