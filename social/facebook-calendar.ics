@@ -10,7 +10,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:shmor-20261117184500000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261117T184500Z
 DTEND:20261117T190000Z
 SUMMARY:✅ Facebook + X + LinkedIn: BestVPNs: How to test your VPN for IP
@@ -40,7 +40,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261118T080000Z
 DTEND:20261118T081500Z
 SUMMARY:✅ Facebook + X: BuildLaw: Are construction retentions being bann
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261118T120000Z
 DTEND:20261118T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: CareCompass: Medicare open enrollment
@@ -100,7 +100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261118T170000Z
 DTEND:20261118T171500Z
 SUMMARY:✅ Facebook + X: CarHireDeals: Dubai car rental
@@ -122,7 +122,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261119T080000Z
 DTEND:20261119T081500Z
 SUMMARY:✅ Facebook + X: CruiseDeals: Christmas and New Year cruises: fes
@@ -149,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261119T120000Z
 DTEND:20261119T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: DevisArtisans: Audit énergétique :
@@ -185,7 +185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261119T170000Z
 DTEND:20261119T171500Z
 SUMMARY:✅ Facebook + X: DomCom Insure: Christmas gifts and your contents
@@ -213,7 +213,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261120T080000Z
 DTEND:20261120T081500Z
 SUMMARY:✅ Facebook + X: EnergySavers: Energy price cap January 2027: whe
@@ -241,7 +241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261120T120000Z
 DTEND:20261120T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: FullBars: How to switch mobile provid
@@ -274,95 +274,95 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261120T170000Z
 DTEND:20261120T171500Z
-SUMMARY:🗓 Facebook + X: HandwerkerFinder: Drei Angebote einholen und fa
- ir vergleichen
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Fri\, 20 Nov 2026\, 17:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Handwe
- rkerFinder (handwerkerfinder.shmor.ai)\nArticle: Drei Angebote einholen u
- nd fair vergleichen\nLink: https://handwerkerfinder.shmor.ai/blog/angebot
- e-richtig-vergleichen/\nKeywords: angebote einholen\, handwerker vergleic
- hen\, günstiger handwerker\, drei angebote\nHashtags:\n  Facebook: #Ange
- boteEinholen #HandwerkerVergleichen #GünstigerHandwerker #HandwerkerFind
- er #ShmorAI\n  X: #AngeboteEinholen #HandwerkerFinder\n\n━━ Facebook 
- post ━━\nDrei Angebote einholen und fair vergleichen\n\nGleiche Leist
- ung\, gleiche Basis\, gezielte Rückfragen\n\nJetzt lesen auf HandwerkerF
- inder 👇\n\n#AngeboteEinholen #HandwerkerVergleichen #GünstigerHandwer
- ker #HandwerkerFinder #ShmorAI\n\n━━ X post ━━\nDrei Angebote ein
- holen und fair vergleichen\n\nGleiche Leistung\, gleiche Basis\, gezielte
-  Rückfragen\n\nhttps://handwerkerfinder.shmor.ai/blog/angebote-richtig-v
- ergleichen/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Ange
- boteEinholen #HandwerkerFinder
+SUMMARY:✅ Facebook + X: HandwerkerFinder: Drei Angebote einholen und fai
+ r vergleichen
+DESCRIPTION:Status: Published via Buffer\nWhen: Fri\, 20 Nov 2026\, 17:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Handw
+ erkerFinder (handwerkerfinder.shmor.ai)\nArticle: Drei Angebote einholen 
+ und fair vergleichen\nLink: https://handwerkerfinder.shmor.ai/blog/angebo
+ te-richtig-vergleichen/\nKeywords: angebote einholen\, handwerker verglei
+ chen\, günstiger handwerker\, drei angebote\nHashtags:\n  Facebook: #Ang
+ eboteEinholen #HandwerkerVergleichen #GünstigerHandwerker #HandwerkerFin
+ der #ShmorAI\n  X: #AngeboteEinholen #HandwerkerFinder\n\n━━ Facebook
+  post ━━\nDrei Angebote einholen und fair vergleichen\n\nGleiche Leis
+ tung\, gleiche Basis\, gezielte Rückfragen\n\nJetzt lesen auf Handwerker
+ Finder 👇\n\n#AngeboteEinholen #HandwerkerVergleichen #GünstigerHandwe
+ rker #HandwerkerFinder #ShmorAI\n\n━━ X post ━━\nDrei Angebote ei
+ nholen und fair vergleichen\n\nGleiche Leistung\, gleiche Basis\, gezielt
+ e Rückfragen\n\nhttps://handwerkerfinder.shmor.ai/blog/angebote-richtig-
+ vergleichen/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Ang
+ eboteEinholen #HandwerkerFinder
 URL:https://handwerkerfinder.shmor.ai/blog/angebote-richtig-vergleichen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261121T080000Z
 DTEND:20261121T081500Z
-SUMMARY:🗓 Facebook + X: HappyDaysOut: An advent calendar of days out
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sat\, 21 Nov 2026\, 08:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: HappyD
- aysOut (happydaysout.shmor.ai)\nArticle: An advent calendar of days out\n
- Link: https://happydaysout.shmor.ai/blog/advent-days-out-calendar/\nKeywo
- rds: advent calendar ideas\, december activities\, christmas activities f
- or kids\, festive days out\, free christmas activities\, christmas lights
- \nHashtags:\n  Facebook: #AdventCalendarIdeas #DecemberActivities #Festiv
- eDaysOut #HappyDaysOut #ShmorAI\n  X: #AdventCalendarIdeas #HappyDaysOut\
- n\n━━ Facebook post ━━\nAn advent calendar of days out\n\nTwenty-
- four festive ideas for December\, many of them free.\n\nRead it on HappyD
- aysOut 👇\n\n#AdventCalendarIdeas #DecemberActivities #FestiveDaysOut #
- HappyDaysOut #ShmorAI\n\n━━ X post ━━\nAn advent calendar of days
-  out\n\nTwenty-four festive ideas for December\, many of them free.\n\nht
- tps://happydaysout.shmor.ai/blog/advent-days-out-calendar/?utm_source=x&u
- tm_medium=social&utm_campaign=autopost\n\n#AdventCalendarIdeas #HappyDays
- Out
+SUMMARY:✅ Facebook + X: HappyDaysOut: An advent calendar of days out
+DESCRIPTION:Status: Published via Buffer\nWhen: Sat\, 21 Nov 2026\, 08:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Happy
+ DaysOut (happydaysout.shmor.ai)\nArticle: An advent calendar of days out\
+ nLink: https://happydaysout.shmor.ai/blog/advent-days-out-calendar/\nKeyw
+ ords: advent calendar ideas\, december activities\, christmas activities 
+ for kids\, festive days out\, free christmas activities\, christmas light
+ s\nHashtags:\n  Facebook: #AdventCalendarIdeas #DecemberActivities #Festi
+ veDaysOut #HappyDaysOut #ShmorAI\n  X: #AdventCalendarIdeas #HappyDaysOut
+ \n\n━━ Facebook post ━━\nAn advent calendar of days out\n\nTwenty
+ -four festive ideas for December\, many of them free.\n\nRead it on Happy
+ DaysOut 👇\n\n#AdventCalendarIdeas #DecemberActivities #FestiveDaysOut 
+ #HappyDaysOut #ShmorAI\n\n━━ X post ━━\nAn advent calendar of day
+ s out\n\nTwenty-four festive ideas for December\, many of them free.\n\nh
+ ttps://happydaysout.shmor.ai/blog/advent-days-out-calendar/?utm_source=x&
+ utm_medium=social&utm_campaign=autopost\n\n#AdventCalendarIdeas #HappyDay
+ sOut
 URL:https://happydaysout.shmor.ai/blog/advent-days-out-calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261121T120000Z
 DTEND:20261121T121500Z
-SUMMARY:🗓 Facebook + X + LinkedIn: HotelHero: UK visitor levy: what Edi
- nburgh and Wales hotel guests will pay
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sat\, 21 Nov 2026\, 12:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
- lex F Morgan)\nSite: HotelHero (hotelhero.shmor.ai)\nArticle: UK visitor 
- levy: what Edinburgh and Wales hotel guests will pay\nLink: https://hotel
- hero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/\nKeywo
- rds: edinburgh visitor levy\, edinburgh tourist tax\, uk tourist tax\, uk
-  hotel tourist tax\, wales visitor levy\, cardiff tourist tax\nHashtags:\
- n  Facebook: #EdinburghVisitorLevy #EdinburghTouristTax #UKTouristTax #Ho
- telHero #ShmorAI\n  X: #EdinburghVisitorLevy #HotelHero\n  LinkedIn: #Edi
- nburghVisitorLevy #EdinburghTouristTax #HotelHero #ShmorAI\n\n━━ Face
- book post ━━\nUK visitor levy: what Edinburgh and Wales hotel guests 
- will pay\n\nEdinburgh's 5% visitor levy and Wales' nightly levy explained
- \, plus how to compare the true hotel total.\n\nRead it on HotelHero 👇
- \n\n#EdinburghVisitorLevy #EdinburghTouristTax #UKTouristTax #HotelHero #
- ShmorAI\n\n━━ X post ━━\nUK visitor levy: what Edinburgh and Wale
- s hotel guests will pay\n\nEdinburgh's 5% visitor levy and Wales' nightly
-  levy explained\, plus how to compare the true hotel total.\n\nhttps://ho
- telhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/?utm
- _source=x&utm_medium=social&utm_campaign=autopost\n\n#EdinburghVisitorLev
- y #HotelHero\n\n━━ LinkedIn post ━━\nUK visitor levy: what Edinbu
- rgh and Wales hotel guests will pay\n\nEdinburgh's 5% visitor levy and Wa
- les' nightly levy explained\, plus how to compare the true hotel total.\n
- \nRead it on HotelHero: https://hotelhero.shmor.ai/blog/uk-visitor-levy-e
- dinburgh-wales-hotel-bookings/?utm_source=linkedin&utm_medium=social&utm_
- campaign=autopost\n\n#EdinburghVisitorLevy #EdinburghTouristTax #HotelHer
- o #ShmorAI
+SUMMARY:✅ Facebook + X + LinkedIn: HotelHero: UK visitor levy: what Edin
+ burgh and Wales hotel guests will pay
+DESCRIPTION:Status: Published via Buffer\nWhen: Sat\, 21 Nov 2026\, 12:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (
+ Alex F Morgan)\nSite: HotelHero (hotelhero.shmor.ai)\nArticle: UK visitor
+  levy: what Edinburgh and Wales hotel guests will pay\nLink: https://hote
+ lhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/\nKeyw
+ ords: edinburgh visitor levy\, edinburgh tourist tax\, uk tourist tax\, u
+ k hotel tourist tax\, wales visitor levy\, cardiff tourist tax\nHashtags:
+ \n  Facebook: #EdinburghVisitorLevy #EdinburghTouristTax #UKTouristTax #H
+ otelHero #ShmorAI\n  X: #EdinburghVisitorLevy #HotelHero\n  LinkedIn: #Ed
+ inburghVisitorLevy #EdinburghTouristTax #HotelHero #ShmorAI\n\n━━ Fac
+ ebook post ━━\nUK visitor levy: what Edinburgh and Wales hotel guests
+  will pay\n\nEdinburgh's 5% visitor levy and Wales' nightly levy explaine
+ d\, plus how to compare the true hotel total.\n\nRead it on HotelHero 
+ 👇\n\n#EdinburghVisitorLevy #EdinburghTouristTax #UKTouristTax #HotelHe
+ ro #ShmorAI\n\n━━ X post ━━\nUK visitor levy: what Edinburgh and 
+ Wales hotel guests will pay\n\nEdinburgh's 5% visitor levy and Wales' nig
+ htly levy explained\, plus how to compare the true hotel total.\n\nhttps:
+ //hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-bookings/
+ ?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#EdinburghVisito
+ rLevy #HotelHero\n\n━━ LinkedIn post ━━\nUK visitor levy: what Ed
+ inburgh and Wales hotel guests will pay\n\nEdinburgh's 5% visitor levy an
+ d Wales' nightly levy explained\, plus how to compare the true hotel tota
+ l.\n\nRead it on HotelHero: https://hotelhero.shmor.ai/blog/uk-visitor-le
+ vy-edinburgh-wales-hotel-bookings/?utm_source=linkedin&utm_medium=social&
+ utm_campaign=autopost\n\n#EdinburghVisitorLevy #EdinburghTouristTax #Hote
+ lHero #ShmorAI
 URL:https://hotelhero.shmor.ai/blog/uk-visitor-levy-edinburgh-wales-hotel-
  bookings/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261121T170000Z
 DTEND:20261121T171500Z
 SUMMARY:🗓 Facebook + X: LocalPlumbers: Frozen pipes: what to do\, and w
@@ -388,7 +388,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261122T080000Z
 DTEND:20261122T081500Z
 SUMMARY:🗓 Facebook + X: OnBusLaw: Selling on Vinted or eBay: when platf
@@ -418,7 +418,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261122T120000Z
 DTEND:20261122T121500Z
 SUMMARY:🗓 Facebook + X + LinkedIn: PetSavings: Pet insurance: pre-exist
@@ -454,96 +454,93 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261122T170000Z
 DTEND:20261122T171500Z
-SUMMARY:📝 Facebook + X: ProFinders: Employment Rights Act 2025: the dat
+SUMMARY:🗓 Facebook + X: ProFinders: Employment Rights Act 2025: the dat
  es UK employers need to know
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Sun\, 22 Nov 2026\, 1
- 7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- ProFinders (profinders.shmor.ai)\nArticle: Employment Rights Act 2025: th
- e dates UK employers need to know\nLink: https://profinders.shmor.ai/blog
- /employment-rights-act-2025-key-dates/\nKeywords: employment rights act 2
- 025\, employment rights act 2025 key dates\, unfair dismissal 6 months\, 
- employment rights act employers\, sexual harassment duty employers\, trib
- unal time limit 6 months\nHashtags:\n  Facebook: #HrConsultant #HrHelp #P
- roFinders #ShmorAI\n  X: #HrConsultant #ProFinders\n\n━━ Facebook pos
- t ━━\nEmployment Rights Act 2025: the dates UK employers need to know
- \n\nThe Employment Rights Act 2025 timetable\, as of November 2026\, and 
- what employers should do.\n\nRead it on ProFinders 👇\n\n#HrConsultant 
- #HrHelp #ProFinders #ShmorAI\n\n━━ X post ━━\nEmployment Rights A
- ct 2025: the dates UK employers need to know\n\nThe Employment Rights Act
-  2025 timetable\, as of November 2026\, and what employers should do.\n\n
- https://profinders.shmor.ai/blog/employment-rights-act-2025-key-dates/?ut
- m_source=x&utm_medium=social&utm_campaign=autopost\n\n#HrConsultant #ProF
- inders
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sun\, 22 Nov 2026\, 17:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: ProFin
+ ders (profinders.shmor.ai)\nArticle: Employment Rights Act 2025: the date
+ s UK employers need to know\nLink: https://profinders.shmor.ai/blog/emplo
+ yment-rights-act-2025-key-dates/\nKeywords: employment rights act 2025\, 
+ employment rights act 2025 key dates\, unfair dismissal 6 months\, employ
+ ment rights act employers\, sexual harassment duty employers\, tribunal t
+ ime limit 6 months\nHashtags:\n  Facebook: #HrConsultant #HrHelp #ProFind
+ ers #ShmorAI\n  X: #HrConsultant #ProFinders\n\n━━ Facebook post ━
+ ━\nEmployment Rights Act 2025: the dates UK employers need to know\n\nT
+ he Employment Rights Act 2025 timetable\, as of November 2026\, and what 
+ employers should do.\n\nRead it on ProFinders 👇\n\n#HrConsultant #HrHe
+ lp #ProFinders #ShmorAI\n\n━━ X post ━━\nEmployment Rights Act 20
+ 25: the dates UK employers need to know\n\nThe Employment Rights Act 2025
+  timetable\, as of November 2026\, and what employers should do.\n\nhttps
+ ://profinders.shmor.ai/blog/employment-rights-act-2025-key-dates/?utm_sou
+ rce=x&utm_medium=social&utm_campaign=autopost\n\n#HrConsultant #ProFinder
+ s
 URL:https://profinders.shmor.ai/blog/employment-rights-act-2025-key-dates/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
-SUMMARY:📝 Facebook + X: ProSourced: Making Tax Digital for Income Tax: 
+SUMMARY:🗓 Facebook + X: ProSourced: Making Tax Digital for Income Tax: 
  do you need an accountant?
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Mon\, 23 Nov 2026\, 0
- 8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- ProSourced (prosourced.shmor.ai)\nArticle: Making Tax Digital for Income 
- Tax: do you need an accountant?\nLink: https://prosourced.shmor.ai/blog/m
- aking-tax-digital-income-tax-accountant/\nKeywords: making tax digital fo
- r income tax\, mtd for income tax\, mtd itsa\, do i need an accountant fo
- r mtd\, mtd quarterly updates\, making tax digital sole traders\nHashtags
- :\n  Facebook: #MtdItsa #MtdQuarterlyUpdates #ProSourced #ShmorAI\n  X: #
- MtdItsa #ProSourced\n\n━━ Facebook post ━━\nMaking Tax Digital fo
- r Income Tax: do you need an accountant?\n\nWho must use Making Tax Digit
- al for Income Tax\, what quarterly updates involve and when to hire help.
- \n\nRead it on ProSourced 👇\n\n#MtdItsa #MtdQuarterlyUpdates #ProSourc
- ed #ShmorAI\n\n━━ X post ━━\nMaking Tax Digital for Income Tax: d
- o you need an accountant?\n\nWho must use Making Tax Digital for Income T
- ax\, what quarterly updates involve and when to hire help.\n\nhttps://pro
- sourced.shmor.ai/blog/making-tax-digital-income-tax-accountant/?utm_sourc
- e=x&utm_medium=social&utm_campaign=autopost\n\n#MtdItsa #ProSourced
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Mon\, 23 Nov 2026\, 08:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: ProSou
+ rced (prosourced.shmor.ai)\nArticle: Making Tax Digital for Income Tax: d
+ o you need an accountant?\nLink: https://prosourced.shmor.ai/blog/making-
+ tax-digital-income-tax-accountant/\nKeywords: making tax digital for inco
+ me tax\, mtd for income tax\, mtd itsa\, do i need an accountant for mtd\
+ , mtd quarterly updates\, making tax digital sole traders\nHashtags:\n  F
+ acebook: #MtdItsa #MtdQuarterlyUpdates #ProSourced #ShmorAI\n  X: #MtdIts
+ a #ProSourced\n\n━━ Facebook post ━━\nMaking Tax Digital for Inco
+ me Tax: do you need an accountant?\n\nWho must use Making Tax Digital for
+  Income Tax\, what quarterly updates involve and when to hire help.\n\nRe
+ ad it on ProSourced 👇\n\n#MtdItsa #MtdQuarterlyUpdates #ProSourced #Sh
+ morAI\n\n━━ X post ━━\nMaking Tax Digital for Income Tax: do you 
+ need an accountant?\n\nWho must use Making Tax Digital for Income Tax\, w
+ hat quarterly updates involve and when to hire help.\n\nhttps://prosource
+ d.shmor.ai/blog/making-tax-digital-income-tax-accountant/?utm_source=x&ut
+ m_medium=social&utm_campaign=autopost\n\n#MtdItsa #ProSourced
 URL:https://prosourced.shmor.ai/blog/making-tax-digital-income-tax-account
  ant/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261123T120000Z
 DTEND:20261123T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: SillyBaby: Winter baby care: cosy\, 
+SUMMARY:🗓 Facebook + X + LinkedIn: SillyBaby: Winter baby care: cosy\, 
  safe and well
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Mon\, 23 Nov 2026\, 1
- 2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: SillyBaby (sillybaby.shmor.ai)\nArticle: Winte
- r baby care: cosy\, safe and well\nLink: https://sillybaby.shmor.ai/blog/
- winter-baby-care/\nKeywords: winter baby care\, how to dress baby in wint
- er\, baby car seat coat\, bronchiolitis\, rsv baby\, baby cold\nHashtags:
- \n  Facebook: #WinterBabyCare #Bronchiolitis #RsvBaby #SillyBaby #ShmorAI
- \n  X: #WinterBabyCare #SillyBaby\n  LinkedIn: #WinterBabyCare #Bronchiol
- itis #SillyBaby #ShmorAI\n\n━━ Facebook post ━━\nWinter baby care
- : cosy\, safe and well\n\nLayers\, car seats\, safe winter sleep and wint
- er bugs.\n\nRead it on SillyBaby 👇\n\n#WinterBabyCare #Bronchiolitis #
- RsvBaby #SillyBaby #ShmorAI\n\n━━ X post ━━\nWinter baby care: co
- sy\, safe and well\n\nLayers\, car seats\, safe winter sleep and winter b
- ugs.\n\nhttps://sillybaby.shmor.ai/blog/winter-baby-care/?utm_source=x&ut
- m_medium=social&utm_campaign=autopost\n\n#WinterBabyCare #SillyBaby\n\n
- ━━ LinkedIn post ━━\nWinter baby care: cosy\, safe and well\n\nLa
- yers\, car seats\, safe winter sleep and winter bugs.\n\nRead it on Silly
- Baby: https://sillybaby.shmor.ai/blog/winter-baby-care/?utm_source=linked
- in&utm_medium=social&utm_campaign=autopost\n\n#WinterBabyCare #Bronchioli
- tis #SillyBaby #ShmorAI
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Mon\, 23 Nov 2026\, 12:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
+ lex F Morgan)\nSite: SillyBaby (sillybaby.shmor.ai)\nArticle: Winter baby
+  care: cosy\, safe and well\nLink: https://sillybaby.shmor.ai/blog/winter
+ -baby-care/\nKeywords: winter baby care\, how to dress baby in winter\, b
+ aby car seat coat\, bronchiolitis\, rsv baby\, baby cold\nHashtags:\n  Fa
+ cebook: #WinterBabyCare #Bronchiolitis #RsvBaby #SillyBaby #ShmorAI\n  X:
+  #WinterBabyCare #SillyBaby\n  LinkedIn: #WinterBabyCare #Bronchiolitis #
+ SillyBaby #ShmorAI\n\n━━ Facebook post ━━\nWinter baby care: cosy
+ \, safe and well\n\nLayers\, car seats\, safe winter sleep and winter bug
+ s.\n\nRead it on SillyBaby 👇\n\n#WinterBabyCare #Bronchiolitis #RsvBab
+ y #SillyBaby #ShmorAI\n\n━━ X post ━━\nWinter baby care: cosy\, s
+ afe and well\n\nLayers\, car seats\, safe winter sleep and winter bugs.\n
+ \nhttps://sillybaby.shmor.ai/blog/winter-baby-care/?utm_source=x&utm_medi
+ um=social&utm_campaign=autopost\n\n#WinterBabyCare #SillyBaby\n\n━━ L
+ inkedIn post ━━\nWinter baby care: cosy\, safe and well\n\nLayers\, c
+ ar seats\, safe winter sleep and winter bugs.\n\nRead it on SillyBaby: ht
+ tps://sillybaby.shmor.ai/blog/winter-baby-care/?utm_source=linkedin&utm_m
+ edium=social&utm_campaign=autopost\n\n#WinterBabyCare #Bronchiolitis #Sil
+ lyBaby #ShmorAI
 URL:https://sillybaby.shmor.ai/blog/winter-baby-care/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261123T170000Z
 DTEND:20261123T171500Z
 SUMMARY:📝 Facebook + X: StorageSavings: Storing a car for winter: SORN\
@@ -572,7 +569,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261124T080000Z
 DTEND:20261124T081500Z
 SUMMARY:📝 Facebook + X: TapTill: Card chargebacks: how they work and wh
@@ -601,7 +598,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261124T120000Z
 DTEND:20261124T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: TradesStation: Replacement windows a
@@ -639,7 +636,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261124T170000Z
 DTEND:20261124T171500Z
 SUMMARY:📝 Facebook + X: TravelDeals: Passport validity for Europe: the 
@@ -671,7 +668,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261125T080000Z
 DTEND:20261125T081500Z
 SUMMARY:📝 Facebook + X: UK SEW: Buying a sewing machine online: your ri
@@ -700,7 +697,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261125T120000Z
 DTEND:20261125T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: ViralGadgets: Bought a viral gadget 
@@ -736,7 +733,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261125T170000Z
 DTEND:20261125T171500Z
 SUMMARY:📝 Facebook + X: VoucherVault: Black Friday returns and refunds:
@@ -766,7 +763,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261126T080000Z
 DTEND:20261126T081500Z
 SUMMARY:📝 Facebook + X: BestVPNs: VPN free trials\, renewals and cancel
@@ -793,7 +790,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261126T120000Z
 DTEND:20261126T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: BuildLaw: Construction adjudication 
@@ -830,7 +827,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261126T170000Z
 DTEND:20261126T171500Z
 SUMMARY:📝 Facebook + X: CareCompass: Dental insurance annual maximums a
@@ -860,7 +857,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261127T080000Z
 DTEND:20261127T081500Z
 SUMMARY:📝 Facebook + X: CarHireDeals: Hiring a car in France: pollution
@@ -891,7 +888,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261127T120000Z
 DTEND:20261127T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: CruiseDeals: Cruise cabin types expl
@@ -929,7 +926,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261127T170000Z
 DTEND:20261127T171500Z
 SUMMARY:📝 Facebook + X: DevisArtisans: Assurance dommages-ouvrage : fa
@@ -958,7 +955,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261128T080000Z
 DTEND:20261128T081500Z
 SUMMARY:📝 Facebook + X: DomCom Insure: What home insurance doesn’t co
@@ -987,7 +984,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261128T120000Z
 DTEND:20261128T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: EnergySavers: How to read your gas a
@@ -1023,7 +1020,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261128T170000Z
 DTEND:20261128T171500Z
 SUMMARY:📝 Facebook + X: FullBars: The digital landline switchover: what
@@ -1052,7 +1049,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261129T080000Z
 DTEND:20261129T081500Z
 SUMMARY:📝 Facebook + X: HandwerkerFinder: Handwerkerrechnung prüfen: D
@@ -1081,7 +1078,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261129T120000Z
 DTEND:20261129T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: HappyDaysOut: Is the Family & Friend
@@ -1116,7 +1113,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261129T170000Z
 DTEND:20261129T171500Z
 SUMMARY:📝 Facebook + X: HotelHero: Free cancellation hotel bookings: wh
@@ -1147,7 +1144,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261130T080000Z
 DTEND:20261130T081500Z
 SUMMARY:📝 Facebook + X: LocalPlumbers: Bathroom and kitchen plumbing pr
@@ -1173,7 +1170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261130T120000Z
 DTEND:20261130T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: OnBusLaw: How to cancel a subscripti
@@ -1207,7 +1204,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261130T170000Z
 DTEND:20261130T171500Z
 SUMMARY:📝 Facebook + X: PetSavings: Fireworks and pets: how to keep dog
@@ -1234,7 +1231,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261201T080000Z
 DTEND:20261201T081500Z
 SUMMARY:📝 Facebook + X: ProFinders: Find a qualified accountant for you
@@ -1262,7 +1259,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261201T120000Z
 DTEND:20261201T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: ProSourced: Employer of record vs PE
@@ -1295,7 +1292,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261201T170000Z
 DTEND:20261201T171500Z
 SUMMARY:📝 Facebook + X: SillyBaby: Colic: signs\, soothing and coping
@@ -1318,7 +1315,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261202T080000Z
 DTEND:20261202T081500Z
 SUMMARY:📝 Facebook + X: StorageSavings: Container storage vs a storage 
@@ -1344,7 +1341,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261202T120000Z
 DTEND:20261202T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: TapTill: The £100 contactless limit
@@ -1377,7 +1374,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261202T170000Z
 DTEND:20261202T171500Z
 SUMMARY:📝 Facebook + X: TradesStation: Accessible bathrooms and Disable
@@ -1407,7 +1404,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261203T080000Z
 DTEND:20261203T081500Z
 SUMMARY:📝 Facebook + X: TravelDeals: UK airport liquids rule: the 100ml
@@ -1437,7 +1434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261203T120000Z
 DTEND:20261203T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: UK SEW: How to choose a sewing machi
@@ -1467,7 +1464,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203170000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261203T170000Z
 DTEND:20261203T171500Z
 SUMMARY:📝 Facebook + X: ViralGadgets: Apple HomeView\, HomePod mini 2 a
@@ -1496,7 +1493,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261204080000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261204T080000Z
 DTEND:20261204T081500Z
 SUMMARY:📝 Facebook + X: VoucherVault: How to find voucher codes that ac
@@ -1526,7 +1523,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261204120000000@shmor.ai
-DTSTAMP:20261120T154111Z
+DTSTAMP:20261121T145123Z
 DTSTART:20261204T120000Z
 DTEND:20261204T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: BestVPNs: VPN vs Tor vs proxy: what
@@ -1553,6 +1550,96 @@ DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
  ource=linkedin&utm_medium=social&utm_campaign=autopost\n\n#VPNVsTor #VPNV
  sProxy #BestVPNs #ShmorAI
 URL:https://bestvpns.shmor.ai/blog/vpn-vs-tor-vs-proxy/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261204170000000@shmor.ai
+DTSTAMP:20261121T145123Z
+DTSTART:20261204T170000Z
+DTEND:20261204T171500Z
+SUMMARY:📝 Facebook + X: BuildLaw: How to write a valid pay less notice
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Fri\, 4 Dec 2026\, 17
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: B
+ uildLaw (buildlaw.shmor.ai)\nArticle: How to write a valid pay less notic
+ e\nLink: https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/\n
+ Keywords: pay less notice\, how to write a pay less notice\, pay less not
+ ice template\, pay less notice example\, payless notice\, valid pay less 
+ notice\nHashtags:\n  Facebook: #PayLessNotice #BuildLaw #ShmorAI\n  X: #P
+ ayLessNotice #BuildLaw\n\n━━ Facebook post ━━\nHow to write a val
+ id pay less notice\n\nWhat a pay less notice must say\, when to serve it 
+ and the mistakes that make it invalid.\n\nRead it on BuildLaw 👇\n\n#Pa
+ yLessNotice #BuildLaw #ShmorAI\n\n━━ X post ━━\nHow to write a va
+ lid pay less notice\n\nWhat a pay less notice must say\, when to serve it
+  and the mistakes that make it invalid.\n\nhttps://buildlaw.shmor.ai/blog
+ /how-to-write-a-pay-less-notice/?utm_source=x&utm_medium=social&utm_campa
+ ign=autopost\n\n#PayLessNotice #BuildLaw
+URL:https://buildlaw.shmor.ai/blog/how-to-write-a-pay-less-notice/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261205080000000@shmor.ai
+DTSTAMP:20261121T145123Z
+DTSTART:20261205T080000Z
+DTEND:20261205T081500Z
+SUMMARY:📝 Facebook + X: CareCompass: ACA Marketplace open enrollment fo
+ r 2027: dates and tips
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Sat\, 5 Dec 2026\, 08
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: C
+ areCompass (carecompass.shmor.ai)\nArticle: ACA Marketplace open enrollme
+ nt for 2027: dates and tips\nLink: https://carecompass.shmor.ai/blog/aca-
+ open-enrollment-2027/\nKeywords: aca open enrollment\, obamacare open enr
+ ollment 2027\, healthcare.gov\, marketplace insurance\, health insurance 
+ open enrollment\nHashtags:\n  Facebook: #AcaOpenEnrollment #HealthcareGov
+  #MarketplaceInsurance #CareCompass #ShmorAI\n  X: #AcaOpenEnrollment #Ca
+ reCompass\n\n━━ Facebook post ━━\nACA Marketplace open enrollment
+  for 2027: dates and tips\n\nHealthCare.gov open enrollment for 2027 cove
+ rage starts November 1\, 2026.\n\nRead it on CareCompass 👇\n\n#AcaOpen
+ Enrollment #HealthcareGov #MarketplaceInsurance #CareCompass #ShmorAI\n\n
+ ━━ X post ━━\nACA Marketplace open enrollment for 2027: dates and
+  tips\n\nHealthCare.gov open enrollment for 2027 coverage starts November
+  1\, 2026.\n\nhttps://carecompass.shmor.ai/blog/aca-open-enrollment-2027/
+ ?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#AcaOpenEnrollme
+ nt #CareCompass
+URL:https://carecompass.shmor.ai/blog/aca-open-enrollment-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261205120000000@shmor.ai
+DTSTAMP:20261121T145123Z
+DTSTART:20261205T120000Z
+DTEND:20261205T121500Z
+SUMMARY:📝 Facebook + X + LinkedIn: CarHireDeals: Winter tyres and snow 
+ chains in a hire car in Europe: what to check
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Sat\, 5 Dec 2026\, 12
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
+ In (Alex F Morgan)\nSite: CarHireDeals (carhiredeals.shmor.ai)\nArticle: 
+ Winter tyres and snow chains in a hire car in Europe: what to check\nLink
+ : https://carhiredeals.shmor.ai/blog/winter-tyres-snow-chains-hire-car-eu
+ rope/\nKeywords: winter tyres hire car europe\, snow chains car hire\, wi
+ nter tyres car hire austria\, winter tyres car hire germany\, hire car sn
+ ow chains france\, winter tires rental car europe\nHashtags:\n  Facebook:
+  #CarHire #CarRental #CarHireDeals #ShmorAI\n  X: #CarHire #CarHireDeals\
+ n  LinkedIn: #CarHire #CarRental #CarHireDeals #ShmorAI\n\n━━ Faceboo
+ k post ━━\nWinter tyres and snow chains in a hire car in Europe: what
+  to check\n\nWinter tyre and snow chain rules for hire cars in Germany\, 
+ Austria\, France\, Italy and Switzerland.\n\nRead it on CarHireDeals 👇
+ \n\n#CarHire #CarRental #CarHireDeals #ShmorAI\n\n━━ X post ━━\nW
+ inter tyres and snow chains in a hire car in Europe: what to check\n\nWin
+ ter tyre and snow chain rules for hire cars in Germany\, Austria\, France
+ \, Italy and Switzerland.\n\nhttps://carhiredeals.shmor.ai/blog/winter-ty
+ res-snow-chains-hire-car-europe/?utm_source=x&utm_medium=social&utm_campa
+ ign=autopost\n\n#CarHire #CarHireDeals\n\n━━ LinkedIn post ━━\nWi
+ nter tyres and snow chains in a hire car in Europe: what to check\n\nWint
+ er tyre and snow chain rules for hire cars in Germany\, Austria\, France\
+ , Italy and Switzerland.\n\nRead it on CarHireDeals: https://carhiredeals
+ .shmor.ai/blog/winter-tyres-snow-chains-hire-car-europe/?utm_source=linke
+ din&utm_medium=social&utm_campaign=autopost\n\n#CarHire #CarRental #CarHi
+ reDeals #ShmorAI
+URL:https://carhiredeals.shmor.ai/blog/winter-tyres-snow-chains-hire-car-e
+ urope/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
