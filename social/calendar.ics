@@ -10,7 +10,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:shmor-20261117184500000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261117T184500Z
 DTEND:20261117T190000Z
 SUMMARY:✅ Facebook + X + LinkedIn: BestVPNs: How to test your VPN for IP
@@ -40,7 +40,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261118T080000Z
 DTEND:20261118T081500Z
 SUMMARY:✅ Facebook + X: BuildLaw: Are construction retentions being bann
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261118T120000Z
 DTEND:20261118T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: CareCompass: Medicare open enrollment
@@ -100,7 +100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261118170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261118T170000Z
 DTEND:20261118T171500Z
 SUMMARY:✅ Facebook + X: CarHireDeals: Dubai car rental
@@ -122,7 +122,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261119T080000Z
 DTEND:20261119T081500Z
 SUMMARY:✅ Facebook + X: CruiseDeals: Christmas and New Year cruises: fes
@@ -149,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261119T120000Z
 DTEND:20261119T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: DevisArtisans: Audit énergétique :
@@ -185,7 +185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261119170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261119T170000Z
 DTEND:20261119T171500Z
 SUMMARY:✅ Facebook + X: DomCom Insure: Christmas gifts and your contents
@@ -213,7 +213,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261120T080000Z
 DTEND:20261120T081500Z
 SUMMARY:✅ Facebook + X: EnergySavers: Energy price cap January 2027: whe
@@ -241,7 +241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261120T120000Z
 DTEND:20261120T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: FullBars: How to switch mobile provid
@@ -274,7 +274,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261120170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261120T170000Z
 DTEND:20261120T171500Z
 SUMMARY:✅ Facebook + X: HandwerkerFinder: Drei Angebote einholen und fai
@@ -300,7 +300,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261121T080000Z
 DTEND:20261121T081500Z
 SUMMARY:✅ Facebook + X: HappyDaysOut: An advent calendar of days out
@@ -325,7 +325,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261121T120000Z
 DTEND:20261121T121500Z
 SUMMARY:✅ Facebook + X + LinkedIn: HotelHero: UK visitor levy: what Edin
@@ -362,46 +362,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261121170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261121T170000Z
 DTEND:20261121T171500Z
-SUMMARY:🗓 Facebook + X: LocalPlumbers: Frozen pipes: what to do\, and w
- hen to call a plumber
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sat\, 21 Nov 2026\, 17:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: LocalP
- lumbers (localplumbers.shmor.ai)\nArticle: Frozen pipes: what to do\, and
-  when to call a plumber\nLink: https://localplumbers.shmor.ai/blog/frozen
- -pipes-what-to-do/\nKeywords: frozen pipes\, frozen pipes what to do\, ho
- w to thaw frozen pipes\, burst pipe what to do\, frozen pipes uk\, frozen
-  pipes usa\nHashtags:\n  Facebook: #FrozenPipes #LocalPlumbers #ShmorAI\n
-   X: #FrozenPipes #LocalPlumbers\n\n━━ Facebook post ━━\nFrozen p
- ipes: what to do\, and when to call a plumber\n\nHow to prevent\, thaw an
- d deal with frozen and burst pipes\, for UK and US homes.\n\nRead it on L
- ocalPlumbers 👇\n\n#FrozenPipes #LocalPlumbers #ShmorAI\n\n━━ X pos
- t ━━\nFrozen pipes: what to do\, and when to call a plumber\n\nHow to
-  prevent\, thaw and deal with frozen and burst pipes\, for UK and US home
- s.\n\nhttps://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/?utm_so
- urce=x&utm_medium=social&utm_campaign=autopost\n\n#FrozenPipes #LocalPlum
- bers
+SUMMARY:✅ Facebook + X: LocalPlumbers: Frozen pipes: what to do\, and wh
+ en to call a plumber
+DESCRIPTION:Status: Published via Buffer\nWhen: Sat\, 21 Nov 2026\, 17:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Local
+ Plumbers (localplumbers.shmor.ai)\nArticle: Frozen pipes: what to do\, an
+ d when to call a plumber\nLink: https://localplumbers.shmor.ai/blog/froze
+ n-pipes-what-to-do/\nKeywords: frozen pipes\, frozen pipes what to do\, h
+ ow to thaw frozen pipes\, burst pipe what to do\, frozen pipes uk\, froze
+ n pipes usa\nHashtags:\n  Facebook: #FrozenPipes #LocalPlumbers #ShmorAI\
+ n  X: #FrozenPipes #LocalPlumbers\n\n━━ Facebook post ━━\nFrozen 
+ pipes: what to do\, and when to call a plumber\n\nHow to prevent\, thaw a
+ nd deal with frozen and burst pipes\, for UK and US homes.\n\nRead it on 
+ LocalPlumbers 👇\n\n#FrozenPipes #LocalPlumbers #ShmorAI\n\n━━ X po
+ st ━━\nFrozen pipes: what to do\, and when to call a plumber\n\nHow t
+ o prevent\, thaw and deal with frozen and burst pipes\, for UK and US hom
+ es.\n\nhttps://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/?utm_s
+ ource=x&utm_medium=social&utm_campaign=autopost\n\n#FrozenPipes #LocalPlu
+ mbers
 URL:https://localplumbers.shmor.ai/blog/frozen-pipes-what-to-do/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261122T080000Z
 DTEND:20261122T081500Z
-SUMMARY:🗓 Facebook + X: OnBusLaw: Selling on Vinted or eBay: when platf
- orms report you and when you owe tax
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sun\, 22 Nov 2026\, 08:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: OnBusL
- aw (onbuslaw.shmor.ai)\nArticle: Selling on Vinted or eBay: when platform
- s report you and when you owe tax\nLink: https://onbuslaw.shmor.ai/blog/s
- elling-online-tax-reporting-vinted-ebay/\nKeywords: do i pay tax selling 
- on vinted\, ebay seller hmrc reporting\, vinted tax uk\, hmrc online sell
- ers 30 sales\, digital platform reporting\, dac7 online sellers\nHashtags
- :\n  Facebook: #VintedTaxUK #DigitalPlatformReporting #Dac7OnlineSellers 
- #OnBusLaw #ShmorAI\n  X: #VintedTaxUK #OnBusLaw\n\n━━ Facebook post 
+SUMMARY:✅ Facebook + X: OnBusLaw: Selling on Vinted or eBay: when platfo
+ rms report you and when you owe tax
+DESCRIPTION:Status: Published via Buffer\nWhen: Sun\, 22 Nov 2026\, 08:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: OnBus
+ Law (onbuslaw.shmor.ai)\nArticle: Selling on Vinted or eBay: when platfor
+ ms report you and when you owe tax\nLink: https://onbuslaw.shmor.ai/blog/
+ selling-online-tax-reporting-vinted-ebay/\nKeywords: do i pay tax selling
+  on vinted\, ebay seller hmrc reporting\, vinted tax uk\, hmrc online sel
+ lers 30 sales\, digital platform reporting\, dac7 online sellers\nHashtag
+ s:\n  Facebook: #VintedTaxUK #DigitalPlatformReporting #Dac7OnlineSellers
+  #OnBusLaw #ShmorAI\n  X: #VintedTaxUK #OnBusLaw\n\n━━ Facebook post 
  ━━\nSelling on Vinted or eBay: when platforms report you and when you
   owe tax\n\nPlatform reporting to HMRC\, the IRS and EU tax authorities\,
   and when selling online becomes a taxable trade.\n\nRead it on OnBusLaw 
@@ -418,43 +418,43 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261122T120000Z
 DTEND:20261122T121500Z
-SUMMARY:🗓 Facebook + X + LinkedIn: PetSavings: Pet insurance: pre-exist
- ing conditions and waiting periods explained
-DESCRIPTION:Status: Scheduled in Buffer\nWhen: Sun\, 22 Nov 2026\, 12:00 (
- UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
- lex F Morgan)\nSite: PetSavings (petsavings.shmor.ai)\nArticle: Pet insur
- ance: pre-existing conditions and waiting periods explained\nLink: https:
- //petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting-
- periods/\nKeywords: pet insurance pre-existing conditions\, pet insurance
-  waiting period\, what does pet insurance not cover\, pet insurance exclu
- sions\, hereditary conditions pet insurance\, is pet insurance worth it\n
- Hashtags:\n  Facebook: #PetInsuranceExclusions #PetSavings #ShmorAI\n  X:
-  #PetInsuranceExclusions #PetSavings\n  LinkedIn: #PetInsuranceExclusions
-  #PetSavings #ShmorAI\n\n━━ Facebook post ━━\nPet insurance: pre-
- existing conditions and waiting periods explained\n\nWhat pre-existing co
- ndition exclusions and waiting periods mean for your pet.\n\nRead it on P
- etSavings 👇\n\n#PetInsuranceExclusions #PetSavings #ShmorAI\n\n━━ 
- X post ━━\nPet insurance: pre-existing conditions and waiting periods
-  explained\n\nWhat pre-existing condition exclusions and waiting periods 
- mean for your pet.\n\nhttps://petsavings.shmor.ai/blog/pet-insurance-pre-
- existing-conditions-waiting-periods/?utm_source=x&utm_medium=social&utm_c
- ampaign=autopost\n\n#PetInsuranceExclusions #PetSavings\n\n━━ LinkedI
- n post ━━\nPet insurance: pre-existing conditions and waiting periods
-  explained\n\nWhat pre-existing condition exclusions and waiting periods 
- mean for your pet.\n\nRead it on PetSavings: https://petsavings.shmor.ai/
- blog/pet-insurance-pre-existing-conditions-waiting-periods/?utm_source=li
- nkedin&utm_medium=social&utm_campaign=autopost\n\n#PetInsuranceExclusions
-  #PetSavings #ShmorAI
+SUMMARY:✅ Facebook + X + LinkedIn: PetSavings: Pet insurance: pre-existi
+ ng conditions and waiting periods explained
+DESCRIPTION:Status: Published via Buffer\nWhen: Sun\, 22 Nov 2026\, 12:00 
+ (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (
+ Alex F Morgan)\nSite: PetSavings (petsavings.shmor.ai)\nArticle: Pet insu
+ rance: pre-existing conditions and waiting periods explained\nLink: https
+ ://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions-waiting
+ -periods/\nKeywords: pet insurance pre-existing conditions\, pet insuranc
+ e waiting period\, what does pet insurance not cover\, pet insurance excl
+ usions\, hereditary conditions pet insurance\, is pet insurance worth it\
+ nHashtags:\n  Facebook: #PetInsuranceExclusions #PetSavings #ShmorAI\n  X
+ : #PetInsuranceExclusions #PetSavings\n  LinkedIn: #PetInsuranceExclusion
+ s #PetSavings #ShmorAI\n\n━━ Facebook post ━━\nPet insurance: pre
+ -existing conditions and waiting periods explained\n\nWhat pre-existing c
+ ondition exclusions and waiting periods mean for your pet.\n\nRead it on 
+ PetSavings 👇\n\n#PetInsuranceExclusions #PetSavings #ShmorAI\n\n━━
+  X post ━━\nPet insurance: pre-existing conditions and waiting period
+ s explained\n\nWhat pre-existing condition exclusions and waiting periods
+  mean for your pet.\n\nhttps://petsavings.shmor.ai/blog/pet-insurance-pre
+ -existing-conditions-waiting-periods/?utm_source=x&utm_medium=social&utm_
+ campaign=autopost\n\n#PetInsuranceExclusions #PetSavings\n\n━━ Linked
+ In post ━━\nPet insurance: pre-existing conditions and waiting period
+ s explained\n\nWhat pre-existing condition exclusions and waiting periods
+  mean for your pet.\n\nRead it on PetSavings: https://petsavings.shmor.ai
+ /blog/pet-insurance-pre-existing-conditions-waiting-periods/?utm_source=l
+ inkedin&utm_medium=social&utm_campaign=autopost\n\n#PetInsuranceExclusion
+ s #PetSavings #ShmorAI
 URL:https://petsavings.shmor.ai/blog/pet-insurance-pre-existing-conditions
  -waiting-periods/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261122170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261122T170000Z
 DTEND:20261122T171500Z
 SUMMARY:🗓 Facebook + X: ProFinders: Employment Rights Act 2025: the dat
@@ -482,7 +482,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🗓 Facebook + X: ProSourced: Making Tax Digital for Income Tax: 
@@ -510,7 +510,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261123T120000Z
 DTEND:20261123T121500Z
 SUMMARY:🗓 Facebook + X + LinkedIn: SillyBaby: Winter baby care: cosy\, 
@@ -540,103 +540,100 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261123170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261123T170000Z
 DTEND:20261123T171500Z
-SUMMARY:📝 Facebook + X: StorageSavings: Storing a car for winter: SORN\
+SUMMARY:🗓 Facebook + X: StorageSavings: Storing a car for winter: SORN\
  , tax and insurance explained
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Mon\, 23 Nov 2026\, 1
- 7:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- StorageSavings (storagesavings.shmor.ai)\nArticle: Storing a car for wint
- er: SORN\, tax and insurance explained\nLink: https://storagesavings.shmo
- r.ai/blog/storing-a-car-over-winter-sorn/\nKeywords: storing a car for wi
- nter\, car storage over winter uk\, sorn car storage\, do i need sorn if 
- car in storage\, vehicle storage winter\, classic car winter storage\nHas
- htags:\n  Facebook: #SornCarStorage #VehicleStorageWinter #StorageSavings
-  #ShmorAI\n  X: #SornCarStorage #StorageSavings\n\n━━ Facebook post 
- ━━\nStoring a car for winter: SORN\, tax and insurance explained\n\nW
- hen a SORN is needed\, what happens if you skip it\, and how to bring the
-  car back on the road.\n\nRead it on StorageSavings 👇\n\n#SornCarStora
- ge #VehicleStorageWinter #StorageSavings #ShmorAI\n\n━━ X post ━━
- \nStoring a car for winter: SORN\, tax and insurance explained\n\nWhen a 
- SORN is needed\, what happens if you skip it\, and how to bring the car b
- ack on the road.\n\nhttps://storagesavings.shmor.ai/blog/storing-a-car-ov
- er-winter-sorn/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#
- SornCarStorage #StorageSavings
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Mon\, 23 Nov 2026\, 17:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: Storag
+ eSavings (storagesavings.shmor.ai)\nArticle: Storing a car for winter: SO
+ RN\, tax and insurance explained\nLink: https://storagesavings.shmor.ai/b
+ log/storing-a-car-over-winter-sorn/\nKeywords: storing a car for winter\,
+  car storage over winter uk\, sorn car storage\, do i need sorn if car in
+  storage\, vehicle storage winter\, classic car winter storage\nHashtags:
+ \n  Facebook: #SornCarStorage #VehicleStorageWinter #StorageSavings #Shmo
+ rAI\n  X: #SornCarStorage #StorageSavings\n\n━━ Facebook post ━━\
+ nStoring a car for winter: SORN\, tax and insurance explained\n\nWhen a S
+ ORN is needed\, what happens if you skip it\, and how to bring the car ba
+ ck on the road.\n\nRead it on StorageSavings 👇\n\n#SornCarStorage #Veh
+ icleStorageWinter #StorageSavings #ShmorAI\n\n━━ X post ━━\nStori
+ ng a car for winter: SORN\, tax and insurance explained\n\nWhen a SORN is
+  needed\, what happens if you skip it\, and how to bring the car back on 
+ the road.\n\nhttps://storagesavings.shmor.ai/blog/storing-a-car-over-wint
+ er-sorn/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#SornCar
+ Storage #StorageSavings
 URL:https://storagesavings.shmor.ai/blog/storing-a-car-over-winter-sorn/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261124T080000Z
 DTEND:20261124T081500Z
-SUMMARY:📝 Facebook + X: TapTill: Card chargebacks: how they work and wh
+SUMMARY:🗓 Facebook + X: TapTill: Card chargebacks: how they work and wh
  at to do when one lands
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Tue\, 24 Nov 2026\, 0
- 8:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: 
- TapTill (taptill.shmor.ai)\nArticle: Card chargebacks: how they work and 
- what to do when one lands\nLink: https://taptill.shmor.ai/blog/card-charg
- ebacks-small-business/\nKeywords: card chargeback small business\, how to
-  dispute a chargeback\, chargeback card machine\, chargeback fee uk\, cha
- rgeback evidence\, what is a chargeback\nHashtags:\n  Facebook: #Chargeba
- ckCardMachine #ChargebackFeeUK #ChargebackEvidence #TapTill #ShmorAI\n  X
- : #ChargebackCardMachine #TapTill\n\n━━ Facebook post ━━\nCard ch
- argebacks: how they work and what to do when one lands\n\nHow chargebacks
-  work\, the 120-day window\, evidence to keep and how to respond and prev
- ent them.\n\nRead it on TapTill 👇\n\n#ChargebackCardMachine #Chargebac
- kFeeUK #ChargebackEvidence #TapTill #ShmorAI\n\n━━ X post ━━\nCar
- d chargebacks: how they work and what to do when one lands\n\nHow chargeb
- acks work\, the 120-day window\, evidence to keep and how to respond and 
- prevent them.\n\nhttps://taptill.shmor.ai/blog/card-chargebacks-small-bus
- iness/?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#Chargebac
- kCardMachine #TapTill
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Tue\, 24 Nov 2026\, 08:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: TapTil
+ l (taptill.shmor.ai)\nArticle: Card chargebacks: how they work and what t
+ o do when one lands\nLink: https://taptill.shmor.ai/blog/card-chargebacks
+ -small-business/\nKeywords: card chargeback small business\, how to dispu
+ te a chargeback\, chargeback card machine\, chargeback fee uk\, chargebac
+ k evidence\, what is a chargeback\nHashtags:\n  Facebook: #ChargebackCard
+ Machine #ChargebackFeeUK #ChargebackEvidence #TapTill #ShmorAI\n  X: #Cha
+ rgebackCardMachine #TapTill\n\n━━ Facebook post ━━\nCard chargeba
+ cks: how they work and what to do when one lands\n\nHow chargebacks work\
+ , the 120-day window\, evidence to keep and how to respond and prevent th
+ em.\n\nRead it on TapTill 👇\n\n#ChargebackCardMachine #ChargebackFeeUK
+  #ChargebackEvidence #TapTill #ShmorAI\n\n━━ X post ━━\nCard char
+ gebacks: how they work and what to do when one lands\n\nHow chargebacks w
+ ork\, the 120-day window\, evidence to keep and how to respond and preven
+ t them.\n\nhttps://taptill.shmor.ai/blog/card-chargebacks-small-business/
+ ?utm_source=x&utm_medium=social&utm_campaign=autopost\n\n#ChargebackCardM
+ achine #TapTill
 URL:https://taptill.shmor.ai/blog/card-chargebacks-small-business/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261124T120000Z
 DTEND:20261124T121500Z
-SUMMARY:📝 Facebook + X + LinkedIn: TradesStation: Replacement windows a
+SUMMARY:🗓 Facebook + X + LinkedIn: TradesStation: Replacement windows a
  nd doors: what the Building Regulations require
-DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
-  may change if newer articles are published)\nWhen: Tue\, 24 Nov 2026\, 1
- 2:00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linke
- dIn (Alex F Morgan)\nSite: TradesStation (tradesstation.shmor.ai)\nArticl
- e: Replacement windows and doors: what the Building Regulations require\n
- Link: https://tradesstation.shmor.ai/blog/replacement-windows-doors-build
- ing-regulations/\nKeywords: replacement windows building regulations\, do
-  i need building regulations for new windows\, fensa certificate\, replac
- ement doors building regulations\, double glazing building regulations\, 
- competent person scheme windows\nHashtags:\n  Facebook: #FensaCertificate
-  #TradesStation #ShmorAI\n  X: #FensaCertificate #TradesStation\n  Linked
- In: #FensaCertificate #TradesStation #ShmorAI\n\n━━ Facebook post ━
+DESCRIPTION:Status: Scheduled in Buffer\nWhen: Tue\, 24 Nov 2026\, 12:00 (
+ UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, LinkedIn (A
+ lex F Morgan)\nSite: TradesStation (tradesstation.shmor.ai)\nArticle: Rep
+ lacement windows and doors: what the Building Regulations require\nLink: 
+ https://tradesstation.shmor.ai/blog/replacement-windows-doors-building-re
+ gulations/\nKeywords: replacement windows building regulations\, do i nee
+ d building regulations for new windows\, fensa certificate\, replacement 
+ doors building regulations\, double glazing building regulations\, compet
+ ent person scheme windows\nHashtags:\n  Facebook: #FensaCertificate #Trad
+ esStation #ShmorAI\n  X: #FensaCertificate #TradesStation\n  LinkedIn: #F
+ ensaCertificate #TradesStation #ShmorAI\n\n━━ Facebook post ━━\nR
+ eplacement windows and doors: what the Building Regulations require\n\nWh
+ en replacement windows and doors need Building Regulations sign-off\, and
+  what to ask your installer.\n\nRead it on TradesStation 👇\n\n#FensaCe
+ rtificate #TradesStation #ShmorAI\n\n━━ X post ━━\nReplacement wi
+ ndows and doors: what the Building Regulations require\n\nWhen replacemen
+ t windows and doors need Building Regulations sign-off\, and what to ask 
+ your installer.\n\nhttps://tradesstation.shmor.ai/blog/replacement-window
+ s-doors-building-regulations/?utm_source=x&utm_medium=social&utm_campaign
+ =autopost\n\n#FensaCertificate #TradesStation\n\n━━ LinkedIn post ━
  ━\nReplacement windows and doors: what the Building Regulations require
  \n\nWhen replacement windows and doors need Building Regulations sign-off
- \, and what to ask your installer.\n\nRead it on TradesStation 👇\n\n#F
- ensaCertificate #TradesStation #ShmorAI\n\n━━ X post ━━\nReplacem
- ent windows and doors: what the Building Regulations require\n\nWhen repl
- acement windows and doors need Building Regulations sign-off\, and what t
- o ask your installer.\n\nhttps://tradesstation.shmor.ai/blog/replacement-
- windows-doors-building-regulations/?utm_source=x&utm_medium=social&utm_ca
- mpaign=autopost\n\n#FensaCertificate #TradesStation\n\n━━ LinkedIn po
- st ━━\nReplacement windows and doors: what the Building Regulations r
- equire\n\nWhen replacement windows and doors need Building Regulations si
- gn-off\, and what to ask your installer.\n\nRead it on TradesStation: htt
- ps://tradesstation.shmor.ai/blog/replacement-windows-doors-building-regul
- ations/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#F
- ensaCertificate #TradesStation #ShmorAI
+ \, and what to ask your installer.\n\nRead it on TradesStation: https://t
+ radesstation.shmor.ai/blog/replacement-windows-doors-building-regulations
+ /?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#FensaCe
+ rtificate #TradesStation #ShmorAI
 URL:https://tradesstation.shmor.ai/blog/replacement-windows-doors-building
  -regulations/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261124170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261124T170000Z
 DTEND:20261124T171500Z
 SUMMARY:📝 Facebook + X: TravelDeals: Passport validity for Europe: the 
@@ -668,7 +665,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261125T080000Z
 DTEND:20261125T081500Z
 SUMMARY:📝 Facebook + X: UK SEW: Buying a sewing machine online: your ri
@@ -697,7 +694,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261125T120000Z
 DTEND:20261125T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: ViralGadgets: Bought a viral gadget 
@@ -733,7 +730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261125170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261125T170000Z
 DTEND:20261125T171500Z
 SUMMARY:📝 Facebook + X: VoucherVault: Black Friday returns and refunds:
@@ -763,7 +760,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261126T080000Z
 DTEND:20261126T081500Z
 SUMMARY:📝 Facebook + X: BestVPNs: VPN free trials\, renewals and cancel
@@ -790,7 +787,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261126T120000Z
 DTEND:20261126T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: BuildLaw: Construction adjudication 
@@ -827,7 +824,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261126170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261126T170000Z
 DTEND:20261126T171500Z
 SUMMARY:📝 Facebook + X: CareCompass: Dental insurance annual maximums a
@@ -857,7 +854,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261127T080000Z
 DTEND:20261127T081500Z
 SUMMARY:📝 Facebook + X: CarHireDeals: Hiring a car in France: pollution
@@ -888,7 +885,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261127T120000Z
 DTEND:20261127T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: CruiseDeals: Cruise cabin types expl
@@ -926,7 +923,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261127170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261127T170000Z
 DTEND:20261127T171500Z
 SUMMARY:📝 Facebook + X: DevisArtisans: Assurance dommages-ouvrage : fa
@@ -955,7 +952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261128T080000Z
 DTEND:20261128T081500Z
 SUMMARY:📝 Facebook + X: DomCom Insure: What home insurance doesn’t co
@@ -984,7 +981,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261128T120000Z
 DTEND:20261128T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: EnergySavers: How to read your gas a
@@ -1020,7 +1017,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261128170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261128T170000Z
 DTEND:20261128T171500Z
 SUMMARY:📝 Facebook + X: FullBars: The digital landline switchover: what
@@ -1049,7 +1046,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261129T080000Z
 DTEND:20261129T081500Z
 SUMMARY:📝 Facebook + X: HandwerkerFinder: Handwerkerrechnung prüfen: D
@@ -1078,7 +1075,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261129T120000Z
 DTEND:20261129T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: HappyDaysOut: Is the Family & Friend
@@ -1113,7 +1110,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261129170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261129T170000Z
 DTEND:20261129T171500Z
 SUMMARY:📝 Facebook + X: HotelHero: Free cancellation hotel bookings: wh
@@ -1144,7 +1141,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261130T080000Z
 DTEND:20261130T081500Z
 SUMMARY:📝 Facebook + X: LocalPlumbers: Bathroom and kitchen plumbing pr
@@ -1170,7 +1167,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261130T120000Z
 DTEND:20261130T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: OnBusLaw: How to cancel a subscripti
@@ -1204,7 +1201,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261130170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261130T170000Z
 DTEND:20261130T171500Z
 SUMMARY:📝 Facebook + X: PetSavings: Fireworks and pets: how to keep dog
@@ -1231,7 +1228,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261201T080000Z
 DTEND:20261201T081500Z
 SUMMARY:📝 Facebook + X: ProFinders: Find a qualified accountant for you
@@ -1259,7 +1256,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261201T120000Z
 DTEND:20261201T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: ProSourced: Employer of record vs PE
@@ -1292,7 +1289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261201170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261201T170000Z
 DTEND:20261201T171500Z
 SUMMARY:📝 Facebook + X: SillyBaby: Colic: signs\, soothing and coping
@@ -1315,7 +1312,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261202T080000Z
 DTEND:20261202T081500Z
 SUMMARY:📝 Facebook + X: StorageSavings: Container storage vs a storage 
@@ -1341,7 +1338,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261202T120000Z
 DTEND:20261202T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: TapTill: The £100 contactless limit
@@ -1374,7 +1371,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261202170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261202T170000Z
 DTEND:20261202T171500Z
 SUMMARY:📝 Facebook + X: TradesStation: Accessible bathrooms and Disable
@@ -1404,7 +1401,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261203T080000Z
 DTEND:20261203T081500Z
 SUMMARY:📝 Facebook + X: TravelDeals: UK airport liquids rule: the 100ml
@@ -1434,7 +1431,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261203T120000Z
 DTEND:20261203T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: UK SEW: How to choose a sewing machi
@@ -1464,7 +1461,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261203170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261203T170000Z
 DTEND:20261203T171500Z
 SUMMARY:📝 Facebook + X: ViralGadgets: Apple HomeView\, HomePod mini 2 a
@@ -1493,7 +1490,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261204080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261204T080000Z
 DTEND:20261204T081500Z
 SUMMARY:📝 Facebook + X: VoucherVault: How to find voucher codes that ac
@@ -1523,7 +1520,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261204120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261204T120000Z
 DTEND:20261204T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: BestVPNs: VPN vs Tor vs proxy: what
@@ -1554,7 +1551,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261204170000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261204T170000Z
 DTEND:20261204T171500Z
 SUMMARY:📝 Facebook + X: BuildLaw: How to write a valid pay less notice
@@ -1579,7 +1576,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261205080000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261205T080000Z
 DTEND:20261205T081500Z
 SUMMARY:📝 Facebook + X: CareCompass: ACA Marketplace open enrollment fo
@@ -1607,7 +1604,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:shmor-20261205120000000@shmor.ai
-DTSTAMP:20261121T145123Z
+DTSTAMP:20261122T144811Z
 DTSTART:20261205T120000Z
 DTEND:20261205T121500Z
 SUMMARY:📝 Facebook + X + LinkedIn: CarHireDeals: Winter tyres and snow 
@@ -1640,6 +1637,102 @@ DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
  reDeals #ShmorAI
 URL:https://carhiredeals.shmor.ai/blog/winter-tyres-snow-chains-hire-car-e
  urope/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261205170000000@shmor.ai
+DTSTAMP:20261122T144811Z
+DTSTART:20261205T170000Z
+DTEND:20261205T171500Z
+SUMMARY:📝 Facebook + X: CruiseDeals: Norwegian fjords cruises and the n
+ ew zero-emission rules: what travellers should know
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Sat\, 5 Dec 2026\, 17
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: C
+ ruiseDeals (cruisedeals.shmor.ai)\nArticle: Norwegian fjords cruises and 
+ the new zero-emission rules: what travellers should know\nLink: https://c
+ ruisedeals.shmor.ai/blog/norway-fjords-zero-emission-rules-cruise/\nKeywo
+ rds: norway fjords zero emission\, norwegian fjords cruise 2027\, geirang
+ erfjord cruise ships\, naeroyfjord cruise rules\, zero emission fjords cr
+ uise\, norway fjords cruise ships ban\nHashtags:\n  Facebook: #Naeroyfjor
+ dCruiseRules #CruiseDeals #ShmorAI\n  X: #NaeroyfjordCruiseRules #CruiseD
+ eals\n\n━━ Facebook post ━━\nNorwegian fjords cruises and the new
+  zero-emission rules: what travellers should know\n\nNorway's zero-emissi
+ on fjord rules\, which ships they cover now and from 2032\, and what to a
+ sk before booking.\n\nRead it on CruiseDeals 👇\n\n#NaeroyfjordCruiseRu
+ les #CruiseDeals #ShmorAI\n\n━━ X post ━━\nNorwegian fjords cruis
+ es and the new zero-emission rules: what travellers should know\n\nNorway
+ 's zero-emission fjord rules\, which ships they cover now and from 2032\,
+  and what to ask before booking.\n\nhttps://cruisedeals.shmor.ai/blog/nor
+ way-fjords-zero-emission-rules-cruise/?utm_source=x&utm_medium=social&utm
+ _campaign=autopost\n\n#NaeroyfjordCruiseRules #CruiseDeals
+URL:https://cruisedeals.shmor.ai/blog/norway-fjords-zero-emission-rules-cr
+ uise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261206080000000@shmor.ai
+DTSTAMP:20261122T144811Z
+DTSTART:20261206T080000Z
+DTEND:20261206T081500Z
+SUMMARY:📝 Facebook + X: DevisArtisans: Préparer sa maison pour l’hiv
+ er : 10 points à vérifier
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Sun\, 6 Dec 2026\, 08
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\nSite: D
+ evisArtisans (devisartisans.shmor.ai)\nArticle: Préparer sa maison pour 
+ l’hiver : 10 points à vérifier\nLink: https://devisartisans.shmor.ai
+ /blog/preparer-maison-hiver/\nKeywords: entretien\, préparer\, maison\, 
+ l’hiver\nHashtags:\n  Facebook: #Entretien #Préparer #Maison #DevisArt
+ isans #ShmorAI\n  X: #Entretien #DevisArtisans\n\n━━ Facebook post 
+ ━━\nPréparer sa maison pour l’hiver : 10 points à vérifier\n\nC
+ haudière\, ramonage\, gouttières\, toiture\, isolation\, robinets exté
+ rieurs : la check-list d’automne pour passer l’hiver au chaud et év
+ iter les sinistres.\n\nÀ lire sur DevisArtisans 👇\n\n#Entretien #Pré
+ parer #Maison #DevisArtisans #ShmorAI\n\n━━ X post ━━\nPréparer 
+ sa maison pour l’hiver : 10 points à vérifier\n\nChaudière\, ramona
+ ge\, gouttières\, toiture\, isolation\, robinets extérieurs : la check
+ -list d’automne pour passer l’hiver au chaud et éviter les sinistres
+ .\n\nhttps://devisartisans.shmor.ai/blog/preparer-maison-hiver/?utm_sourc
+ e=x&utm_medium=social&utm_campaign=autopost\n\n#Entretien #DevisArtisans
+URL:https://devisartisans.shmor.ai/blog/preparer-maison-hiver/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shmor-20261206120000000@shmor.ai
+DTSTAMP:20261122T144811Z
+DTSTART:20261206T120000Z
+DTEND:20261206T121500Z
+SUMMARY:📝 Facebook + X + LinkedIn: DomCom Insure: NFIP reauthorization:
+  what the next deadline means for flood cover
+DESCRIPTION:Status: Planned (forecast\; scheduled into Buffer 48 h ahead\,
+  may change if newer articles are published)\nWhen: Sun\, 6 Dec 2026\, 12
+ :00 (UK time)\nNetworks: Facebook (Shmor.ai Page)\, X (@Shmorai)\, Linked
+ In (Alex F Morgan)\nSite: DomCom Insure (domcominsure.shmor.ai)\nArticle:
+  NFIP reauthorization: what the next deadline means for flood cover\nLink
+ : https://domcominsure.shmor.ai/blog/nfip-reauthorization-2026/\nKeywords
+ : nfip reauthorization\, nfip lapse\, flood insurance deadline\, national
+  flood insurance program 2026\nHashtags:\n  Facebook: #NfipReauthorizatio
+ n #NfipLapse #FloodInsuranceDeadline #DomComInsure #ShmorAI\n  X: #NfipRe
+ authorization #DomComInsure\n  LinkedIn: #NfipReauthorization #NfipLapse 
+ #DomComInsure #ShmorAI\n\n━━ Facebook post ━━\nNFIP reauthorizati
+ on: what the next deadline means for flood cover\n\nThe NFIP is authorize
+ d until 11 December 2026. What happens to new flood policies and renewals
+  if it lapses\, and how to protect your home.\n\nRead it on DomCom Insure
+  👇\n\n#NfipReauthorization #NfipLapse #FloodInsuranceDeadline #DomComI
+ nsure #ShmorAI\n\n━━ X post ━━\nNFIP reauthorization: what the ne
+ xt deadline means for flood cover\n\nThe NFIP is authorized until 11 Dece
+ mber 2026. What happens to new flood policies and renewals if it lapses\,
+  and how to protect your home.\n\nhttps://domcominsure.shmor.ai/blog/nfip
+ -reauthorization-2026/?utm_source=x&utm_medium=social&utm_campaign=autopo
+ st\n\n#NfipReauthorization #DomComInsure\n\n━━ LinkedIn post ━━\n
+ NFIP reauthorization: what the next deadline means for flood cover\n\nThe
+  NFIP is authorized until 11 December 2026. What happens to new flood pol
+ icies and renewals if it lapses\, and how to protect your home.\n\nRead i
+ t on DomCom Insure: https://domcominsure.shmor.ai/blog/nfip-reauthorizati
+ on-2026/?utm_source=linkedin&utm_medium=social&utm_campaign=autopost\n\n#
+ NfipReauthorization #NfipLapse #DomComInsure #ShmorAI
+URL:https://domcominsure.shmor.ai/blog/nfip-reauthorization-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
