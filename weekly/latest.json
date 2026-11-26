@@ -1,10 +1,54 @@
 {
   "issue": "2026-W48",
-  "generated": "2026-11-25T06:42:39.150Z",
-  "subject": "The Shmor Weekly: Right to suspend work for non-payment: what the Construction Act allows",
-  "preheader": "This week: BuildLaw, HappyDaysOut, LocalPlumbers and more, all in one place.",
+  "generated": "2026-11-26T06:42:44.716Z",
+  "subject": "The Shmor Weekly: Austria's digital vignette for 2027: what hire car drivers need to know",
+  "preheader": "This week: CarHireDeals, CruiseDeals, HotelHero and more, all in one place.",
   "intro": "Here's this week's round-up from across the Shmor network: the freshest guides and money-saving finds from 8 of our marketplaces, picked so you don't have to go looking.",
   "items": [
+    {
+      "site": "CarHireDeals",
+      "siteId": "carhiredeals",
+      "accent": "#2F6BFF",
+      "date": "2026-11-25",
+      "title": "Austria's digital vignette for 2027: what hire car drivers need to know",
+      "blurb": "Austria's vignette goes digital-only for 2027: what to check on a hire car, prices, how to buy and the fines.",
+      "url": "https://carhiredeals.shmor.ai/blog/austria-digital-vignette-2027-hire-car/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Rottenmann_-_Pyhrn-Autobahn_-_2014_11_14.jpg/1920px-Rottenmann_-_Pyhrn-Autobahn_-_2014_11_14.jpg",
+      "imageAlt": "Austrian Pyhrn motorway running through a wooded Alpine valley"
+    },
+    {
+      "site": "CruiseDeals",
+      "siteId": "cruisedeals",
+      "accent": "#0E2A4D",
+      "date": "2026-11-25",
+      "title": "Juneau's cruise passenger limit: what it means for your Alaska cruise",
+      "blurb": "Juneau's agreed daily cruise limits, what they cover, and how to plan an Alaska cruise around busy port days.",
+      "url": "https://cruisedeals.shmor.ai/blog/juneau-cruise-passenger-limit-alaska-cruises/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1690982951685-2b1d4cd62e02?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Huge tidewater glacier meeting the sea below snowy mountains"
+    },
+    {
+      "site": "HotelHero",
+      "siteId": "hotelhero",
+      "accent": "#0F1A3C",
+      "date": "2026-11-25",
+      "title": "Hotel booking scams: how to spot fake messages and what to do",
+      "blurb": "The warning signs of fake hotel booking messages, how to check a booking and what to do if you've been scammed.",
+      "url": "https://hotelhero.shmor.ai/blog/hotel-booking-scams-fake-messages-how-to-stay-safe/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Modern hotel lobby with designer furniture and wood walls"
+    },
+    {
+      "site": "TravelDeals",
+      "siteId": "traveldeals",
+      "accent": "#0A6CD6",
+      "date": "2026-11-25",
+      "title": "Flight delay compensation: what you can claim under UK and EU rules",
+      "blurb": "How much you could claim for a delayed flight under UK and EU rules, what airlines must provide, and how to claim.",
+      "url": "https://traveldeals.shmor.ai/blog/flight-delay-compensation-uk261-eu261/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Heathrow_Terminal_3_departures_2025.jpg/1920px-Heathrow_Terminal_3_departures_2025.jpg",
+      "imageAlt": "Departures area inside Heathrow Terminal 3 with check-in desks"
+    },
     {
       "site": "BuildLaw",
       "siteId": "buildlaw",
@@ -48,50 +92,6 @@
       "url": "https://onbuslaw.shmor.ai/blog/subject-access-request-online-companies/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
       "image": "https://images.unsplash.com/photo-1595666944516-bbb485958fb5?w=1120&h=560&fit=crop&auto=format&q=70",
       "imageAlt": "Black and white sign reading privacy please"
-    },
-    {
-      "site": "ProFinders",
-      "siteId": "profinders",
-      "accent": "#0F9B77",
-      "date": "2026-11-24",
-      "title": "Staff Christmas party tax: the £150 per head rule explained for employers",
-      "blurb": "How the £150 per head exemption and £50 trivial benefits rule work for UK employers.",
-      "url": "https://profinders.shmor.ai/blog/christmas-party-tax-employers-guide/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Christmas_at_the_table_-_Flickr_-_a_whisper_of_unremitting_demand.jpg/1920px-Christmas_at_the_table_-_Flickr_-_a_whisper_of_unremitting_demand.jpg",
-      "imageAlt": "Wine glasses and paper party hats on a dining table beneath blurred festive lights"
-    },
-    {
-      "site": "ProSourced",
-      "siteId": "prosourced",
-      "accent": "#1A1233",
-      "date": "2026-11-24",
-      "title": "Who owns the work when you hire a freelancer or agency?",
-      "blurb": "Why paying for work doesn't always mean owning it, and the contract clauses that fix it: assignment, licences, work for hire.",
-      "url": "https://prosourced.shmor.ai/blog/who-owns-the-work-freelancer-contracts-ip/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1627518788331-b3b7fdaa382f?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Hand signing a paper document with a pen"
-    },
-    {
-      "site": "TapTill",
-      "siteId": "taptill",
-      "accent": "#1C1A6E",
-      "date": "2026-11-24",
-      "title": "PCI DSS and your card machine: what small UK businesses need to know",
-      "blurb": "What PCI DSS is, who enforces it, why some providers charge a PCI fee, and what to ask before you sign.",
-      "url": "https://taptill.shmor.ai/blog/pci-dss-card-machine-small-business/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "A customer paying by card at a salon counter"
-    },
-    {
-      "site": "TradesStation",
-      "siteId": "tradesstation",
-      "accent": "#FFB300",
-      "date": "2026-11-24",
-      "title": "Wood burner installation: what the Building Regulations require",
-      "blurb": "Hearth, flue, CO alarm and HETAS: the rules for fitting a wood burner in England.",
-      "url": "https://tradesstation.shmor.ai/blog/wood-burner-installation-building-regulations/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Wood-burning_stove_at_The_Black_Horse_Inn%2C_Nuthurst%2C_West_Sussex.jpg/1920px-Wood-burning_stove_at_The_Black_Horse_Inn%2C_Nuthurst%2C_West_Sussex.jpg",
-      "imageAlt": "A black wood-burning stove set into a brick fireplace with a stone hearth"
     }
   ],
   "cta": {
