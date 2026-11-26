@@ -141,10 +141,12 @@ for (const p of pages) {
 for (const o of site.offers || []) if (!LINKS[o.link]) errors.push(`shmor-site.json: offer "${o.title}" uses unknown link "${o.link}"`);
 // Referral link extras: "banner": { src, width, height, alt } (an image creative from the network),
 // "expires": "YYYY-MM-DD" (last day it may be shown; after it the build hides it and /go/ sends clicks to "then")
+// "direct": true (link straight to the network's own tracking URL, skipping shmor.ai/go/, for programmes whose terms forbid redirects; needs a single string url)
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 for (const [slug, l] of Object.entries(LINKS)) {
   if (l.banner && !(l.banner.src && l.banner.width && l.banner.height)) errors.push(`shmor-site.json: link "${slug}" banner needs src, width and height`);
   if (l.expires && !DATE_RE.test(l.expires)) errors.push(`shmor-site.json: link "${slug}" expires must be YYYY-MM-DD`);
+  if (l.direct && typeof l.url !== 'string') errors.push(`shmor-site.json: link "${slug}" with "direct" needs one string url`);
   if (l.then && !LINKS[l.then]) errors.push(`shmor-site.json: link "${slug}" then "${l.then}" isn't a known link`);
   if (l.expires && l.expires < TODAY) warnings.push(`link "${slug}" expired on ${l.expires}: hidden on every page${l.then ? `, clicks go to "${l.then}"` : ''}`);
 }
@@ -173,7 +175,7 @@ const readMins = p => Math.max(1, Math.round(strip([p.intro, ...(p.sections || [
 const pageUrl = p => `${BASE}/${p.slug ? p.slug + '/' : ''}`;
 const pagePath = p => `/${p.slug ? p.slug + '/' : ''}`;
 const label = p => p.nav || p.short || p.h1;
-const goHref = (slug, src) => `${MASTER}/go/?to=${encodeURIComponent(slug)}&src=${encodeURIComponent(`${site.id}-${(src || 'home').replace(/\//g, '-')}`)}`;
+const goHref = (slug, src) => LINKS[slug] && LINKS[slug].direct ? LINKS[slug].url : `${MASTER}/go/?to=${encodeURIComponent(slug)}&src=${encodeURIComponent(`${site.id}-${(src || 'home').replace(/\//g, '-')}`)}`;
 const AFF = 'rel="sponsored nofollow noopener" target="_blank"';
 
 /* ---------- Affiliate placements ----------

@@ -2853,6 +2853,71 @@ Object.assign(AFFILIATE_LINKS, {
     "blurb": "AliExpress new US users: $12 off $80 with code 12NEWUSOFF.",
     "sector": "vouchervault"
   },
+  "rk53552-home": {
+    "merchant": "Anker SOLIX",
+    "network": "rakuten",
+    "direct": true,
+    "url": "https://click.linksynergy.com/deeplink?id=sIYPgarczt0&mid=53552&murl=https%3A%2F%2Fwww.ankersolix.com%2F",
+    "blurb": "Portable power stations, solar generators and solar panels (US store).",
+    "sector": "energysavers"
+  },
+  "rk53552-usaff5": {
+    "merchant": "Anker SOLIX",
+    "network": "rakuten",
+    "direct": true,
+    "url": "https://click.linksynergy.com/fs-bin/click?id=sIYPgarczt0&offerid=2103603.34&type=3&subid=0",
+    "blurb": "Code USAFF5: an extra 5% off plus free shipping at the Anker SOLIX US store. Valid until 30 December 2026.",
+    "expires": "2026-12-30",
+    "then": "rk53552-home",
+    "sector": "energysavers"
+  },
+  "rk53552-b-728": {
+    "merchant": "Anker SOLIX",
+    "network": "rakuten",
+    "direct": true,
+    "url": "https://click.linksynergy.com/fs-bin/click?id=sIYPgarczt0&offerid=2103603.266&subid=0&type=4",
+    "banner": {
+      "src": "/assets/img/partners/rk53552-b-728.jpg",
+      "width": 728,
+      "height": 90,
+      "alt": "Anker SOLIX S2000 portable power station"
+    },
+    "sector": "energysavers"
+  },
+  "rk53552-b-300": {
+    "merchant": "Anker SOLIX",
+    "network": "rakuten",
+    "direct": true,
+    "url": "https://click.linksynergy.com/fs-bin/click?id=sIYPgarczt0&offerid=2103603.262&subid=0&type=4",
+    "banner": {
+      "src": "/assets/img/partners/rk53552-b-300.png",
+      "width": 300,
+      "height": 250,
+      "alt": "Anker SOLIX S2000 portable power station"
+    },
+    "sector": "energysavers"
+  },
+  "rk53950-home": {
+    "merchant": "Waterdrop",
+    "network": "rakuten",
+    "url": "https://click.linksynergy.com/fs-bin/click?id=sIYPgarczt0&offerid=1888875.3&type=3&subid=0",
+    "blurb": "Water filters, under-sink and reverse osmosis systems (US store).",
+    "sector": "energysavers"
+  },
+  "rk53950-b-bf": {
+    "merchant": "Waterdrop",
+    "network": "rakuten",
+    "url": "https://click.linksynergy.com/fs-bin/click?id=sIYPgarczt0&offerid=1888875.64&subid=0&type=4",
+    "expires": "2026-11-30",
+    "then": "rk53950-home",
+    "banner": {
+      "src": "/assets/img/partners/rk53950-b-bf.jpg",
+      "width": 1024,
+      "height": 512,
+      "alt": "Waterdrop Black Friday sale, 19 to 30 November"
+    },
+    "sector": "energysavers"
+  },
   "cj7711902-home": {
     "merchant": "AliExpress",
     "network": "cj",
