@@ -639,6 +639,46 @@
    "title": "Slow broadband: how to use Ofcom’s speed code to fix it or leave penalty-free",
    "site": "FullBars",
    "buffer": "6b08688f3accdac92ce4d643"
+  },
+  {
+   "at": "2026-11-29T08:00:00.000Z",
+   "service": "facebook",
+   "url": "https://handwerkerfinder.shmor.ai/blog/rauchmelderpflicht-wo-wer-wartung/",
+   "title": "Rauchmelderpflicht: Welche Räume, wer installiert und wer wartet",
+   "site": "HandwerkerFinder",
+   "buffer": "6b09b5edd5bf252ef5383647"
+  },
+  {
+   "at": "2026-11-29T08:00:00.000Z",
+   "service": "twitter",
+   "url": "https://handwerkerfinder.shmor.ai/blog/rauchmelderpflicht-wo-wer-wartung/",
+   "title": "Rauchmelderpflicht: Welche Räume, wer installiert und wer wartet",
+   "site": "HandwerkerFinder",
+   "buffer": "6b09b5ee2b8a129ed80f4270"
+  },
+  {
+   "at": "2026-11-29T12:00:00.000Z",
+   "service": "facebook",
+   "url": "https://happydaysout.shmor.ai/blog/christmas-light-trails-with-kids-tips/",
+   "title": "Christmas light trails with kids: how to pick one and save money",
+   "site": "HappyDaysOut",
+   "buffer": "6b09b5eef34d25de1e2d9988"
+  },
+  {
+   "at": "2026-11-29T12:00:00.000Z",
+   "service": "twitter",
+   "url": "https://happydaysout.shmor.ai/blog/christmas-light-trails-with-kids-tips/",
+   "title": "Christmas light trails with kids: how to pick one and save money",
+   "site": "HappyDaysOut",
+   "buffer": "6b09b5ee2b8a129ed80f42a7"
+  },
+  {
+   "at": "2026-11-29T12:00:00.000Z",
+   "service": "linkedin",
+   "url": "https://happydaysout.shmor.ai/blog/christmas-light-trails-with-kids-tips/",
+   "title": "Christmas light trails with kids: how to pick one and save money",
+   "site": "HappyDaysOut",
+   "buffer": "6b09b5ee2b8a129ed80f430a"
   }
  ]
 }
