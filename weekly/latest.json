@@ -1,10 +1,76 @@
 {
   "issue": "2026-W48",
-  "generated": "2026-11-26T06:42:44.716Z",
-  "subject": "The Shmor Weekly: Austria's digital vignette for 2027: what hire car drivers need to know",
-  "preheader": "This week: CarHireDeals, CruiseDeals, HotelHero and more, all in one place.",
+  "generated": "2026-11-27T06:42:57.684Z",
+  "subject": "The Shmor Weekly: How to find your stop tap or main water shut-off valve (before you need it)",
+  "preheader": "This week: LocalPlumbers, ProFinders, TradesStation and more, all in one place.",
   "intro": "Here's this week's round-up from across the Shmor network: the freshest guides and money-saving finds from 8 of our marketplaces, picked so you don't have to go looking.",
   "items": [
+    {
+      "site": "LocalPlumbers",
+      "siteId": "localplumbers",
+      "accent": "#C35F25",
+      "date": "2026-11-26",
+      "title": "How to find your stop tap or main water shut-off valve (before you need it)",
+      "blurb": "Where to find and how to test your stop tap (UK) or main water shut-off valve (USA).",
+      "url": "https://localplumbers.shmor.ai/blog/find-and-turn-off-stop-tap-stopcock/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1596394723269-b2cbca4e6313?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Water drop on a brass pipe"
+    },
+    {
+      "site": "ProFinders",
+      "siteId": "profinders",
+      "accent": "#0F9B77",
+      "date": "2026-11-26",
+      "title": "UK limited company deadlines: accounts, Company Tax Return and Corporation Tax",
+      "blurb": "Companies House and HMRC deadlines for a UK limited company, and the cost of filing late.",
+      "url": "https://profinders.shmor.ai/blog/limited-company-filing-deadlines-uk/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1707902665498-a202981fb5ac?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Person at a desk with a calculator and a notebook"
+    },
+    {
+      "site": "TradesStation",
+      "siteId": "tradesstation",
+      "accent": "#FFB300",
+      "date": "2026-11-26",
+      "title": "Air source heat pump planning permission: what England's rules say",
+      "blurb": "Permitted development limits for air source heat pumps in England, and what to check first.",
+      "url": "https://tradesstation.shmor.ai/blog/air-source-heat-pump-planning-permission/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Air_Source_Heat_Pump_-_Vailliant_aroTherm_Plus_on_a_terraced_house.jpg",
+      "imageAlt": "An air source heat pump outdoor unit fixed to the side of a terraced house"
+    },
+    {
+      "site": "UK SEW",
+      "siteId": "uksew",
+      "accent": "#14213D",
+      "date": "2026-11-26",
+      "title": "What to do with an old sewing machine: repair, sell, donate or recycle",
+      "blurb": "Repair, sell, donate or recycle: the best routes for an old or broken sewing machine in the UK.",
+      "url": "https://uksew.shmor.ai/blog/what-to-do-with-an-old-sewing-machine/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1466027397211-20d0f2449a3f?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Vintage black and gold sewing machine"
+    },
+    {
+      "site": "BestVPNs",
+      "siteId": "bestvpns",
+      "accent": "#141A24",
+      "date": "2026-11-25",
+      "title": "VPN app permissions and privacy policies: what to check before you install",
+      "blurb": "A plain-English checklist for judging a VPN app's permissions, privacy policy and encryption.",
+      "url": "https://bestvpns.shmor.ai/blog/vpn-app-permissions-privacy-policy-checklist/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1614064643392-8dd713152ae9?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Pink and silver padlock resting on a black computer keyboard"
+    },
+    {
+      "site": "CareCompass",
+      "siteId": "carecompass",
+      "accent": "#13213F",
+      "date": "2026-11-25",
+      "title": "Medicare costs in 2027: the Part B premium, deductibles and what to check",
+      "blurb": "The 2027 Medicare Part A and B premiums, deductibles and income-related amounts, as announced by CMS.",
+      "url": "https://carecompass.shmor.ai/blog/medicare-costs-2027-part-b-premium/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Clinician using a laptop with a stethoscope on the desk"
+    },
     {
       "site": "CarHireDeals",
       "siteId": "carhiredeals",
@@ -26,72 +92,6 @@
       "url": "https://cruisedeals.shmor.ai/blog/juneau-cruise-passenger-limit-alaska-cruises/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
       "image": "https://images.unsplash.com/photo-1690982951685-2b1d4cd62e02?w=1120&h=560&fit=crop&auto=format&q=70",
       "imageAlt": "Huge tidewater glacier meeting the sea below snowy mountains"
-    },
-    {
-      "site": "HotelHero",
-      "siteId": "hotelhero",
-      "accent": "#0F1A3C",
-      "date": "2026-11-25",
-      "title": "Hotel booking scams: how to spot fake messages and what to do",
-      "blurb": "The warning signs of fake hotel booking messages, how to check a booking and what to do if you've been scammed.",
-      "url": "https://hotelhero.shmor.ai/blog/hotel-booking-scams-fake-messages-how-to-stay-safe/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Modern hotel lobby with designer furniture and wood walls"
-    },
-    {
-      "site": "TravelDeals",
-      "siteId": "traveldeals",
-      "accent": "#0A6CD6",
-      "date": "2026-11-25",
-      "title": "Flight delay compensation: what you can claim under UK and EU rules",
-      "blurb": "How much you could claim for a delayed flight under UK and EU rules, what airlines must provide, and how to claim.",
-      "url": "https://traveldeals.shmor.ai/blog/flight-delay-compensation-uk261-eu261/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Heathrow_Terminal_3_departures_2025.jpg/1920px-Heathrow_Terminal_3_departures_2025.jpg",
-      "imageAlt": "Departures area inside Heathrow Terminal 3 with check-in desks"
-    },
-    {
-      "site": "BuildLaw",
-      "siteId": "buildlaw",
-      "accent": "#0A1A33",
-      "date": "2026-11-24",
-      "title": "Right to suspend work for non-payment: what the Construction Act allows",
-      "blurb": "When you can stop work for unpaid sums, the 7-day notice, what happens to your programme and costs, and the mistakes to avoid.",
-      "url": "https://buildlaw.shmor.ai/blog/right-to-suspend-work-non-payment/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Grey concrete building frame under construction"
-    },
-    {
-      "site": "HappyDaysOut",
-      "siteId": "happydaysout",
-      "accent": "#FF7A1A",
-      "date": "2026-11-24",
-      "title": "Christmas light trails with kids: how to pick one and save money",
-      "blurb": "How to choose, book and enjoy a Christmas light trail with children.",
-      "url": "https://happydaysout.shmor.ai/blog/christmas-light-trails-with-kids-tips/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Christmas_lights_-_geograph.org.uk_-_5220231.jpg/1920px-Christmas_lights_-_geograph.org.uk_-_5220231.jpg",
-      "imageAlt": "Angel-shaped Christmas lights strung above a London street at night, with buses below"
-    },
-    {
-      "site": "LocalPlumbers",
-      "siteId": "localplumbers",
-      "accent": "#C35F25",
-      "date": "2026-11-24",
-      "title": "Carbon monoxide and your boiler or water heater: a winter safety guide",
-      "blurb": "Symptoms, alarms and when to call a registered engineer, for UK and US homes.",
-      "url": "https://localplumbers.shmor.ai/blog/carbon-monoxide-boiler-water-heater-safety/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Carbon_monoxide_alarm.jpg/1920px-Carbon_monoxide_alarm.jpg",
-      "imageAlt": "A white round carbon monoxide alarm with a test button lying on a wooden surface"
-    },
-    {
-      "site": "OnBusLaw",
-      "siteId": "onbuslaw",
-      "accent": "#0F1E3A",
-      "date": "2026-11-24",
-      "title": "How to make a subject access request to an online company",
-      "blurb": "Step-by-step: what to ask for, how to word it, response deadlines in the UK, EU and California, and escalating if ignored.",
-      "url": "https://onbuslaw.shmor.ai/blog/subject-access-request-online-companies/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1595666944516-bbb485958fb5?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Black and white sign reading privacy please"
     }
   ],
   "cta": {
