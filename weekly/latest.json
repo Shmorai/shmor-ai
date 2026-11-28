@@ -1,10 +1,65 @@
 {
   "issue": "2026-W48",
-  "generated": "2026-11-27T06:42:57.684Z",
-  "subject": "The Shmor Weekly: How to find your stop tap or main water shut-off valve (before you need it)",
-  "preheader": "This week: LocalPlumbers, ProFinders, TradesStation and more, all in one place.",
+  "generated": "2026-11-28T06:43:02.099Z",
+  "subject": "The Shmor Weekly: Dartford Crossing charge in a hire car: how to pay the Dart Charge",
+  "preheader": "This week: CarHireDeals, CruiseDeals, TravelDeals and more, all in one place.",
   "intro": "Here's this week's round-up from across the Shmor network: the freshest guides and money-saving finds from 8 of our marketplaces, picked so you don't have to go looking.",
   "items": [
+    {
+      "site": "CarHireDeals",
+      "siteId": "carhiredeals",
+      "accent": "#2F6BFF",
+      "date": "2026-11-27",
+      "title": "Dartford Crossing charge in a hire car: how to pay the Dart Charge",
+      "blurb": "How the Dartford Crossing charge works for hire car drivers, when to pay it and what to check with your rental company.",
+      "url": "https://carhiredeals.shmor.ai/blog/dartford-crossing-charge-hire-car-uk/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1549894595-4698795b38ee?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Traveller walking through a bright airport terminal with luggage"
+    },
+    {
+      "site": "CruiseDeals",
+      "siteId": "cruisedeals",
+      "accent": "#0E2A4D",
+      "date": "2026-11-27",
+      "title": "Cruise gratuities explained: how daily tips work and how to budget for them",
+      "blurb": "How daily cruise gratuities and service charges work, who gets them, and how to budget or change them.",
+      "url": "https://cruisedeals.shmor.ai/blog/cruise-gratuities-service-charges-explained/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1688269910724-97e4f876a3b3?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Pool and loungers on the stern deck of a cruise ship at sea"
+    },
+    {
+      "site": "TravelDeals",
+      "siteId": "traveldeals",
+      "accent": "#0A6CD6",
+      "date": "2026-11-27",
+      "title": "GHIC card explained: what it covers abroad and what it doesn’t",
+      "blurb": "What the free UK GHIC covers in Europe, what it leaves out, and how to apply on the official NHS site.",
+      "url": "https://traveldeals.shmor.ai/blog/ghic-uk-global-health-insurance-card-what-it-covers/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1497302347632-904729bc24aa?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Travel map, passport and notebook laid out for trip planning"
+    },
+    {
+      "site": "BuildLaw",
+      "siteId": "buildlaw",
+      "accent": "#0A1A33",
+      "date": "2026-11-26",
+      "title": "Pay when paid clauses: what the Construction Act says",
+      "blurb": "Pay when paid and pay if paid clauses: when they are ineffective, the insolvency exception, and what subcontractors can do.",
+      "url": "https://buildlaw.shmor.ai/blog/pay-when-paid-clauses-construction/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Calculator and pen resting on a sheet of paper"
+    },
+    {
+      "site": "HappyDaysOut",
+      "siteId": "happydaysout",
+      "accent": "#FF7A1A",
+      "date": "2026-11-26",
+      "title": "Boxing Day forest walks with kids: easy, low-cost family ideas",
+      "blurb": "Easy Forestry England trails for Boxing Day, plus what to check before you leave.",
+      "url": "https://happydaysout.shmor.ai/blog/boxing-day-forest-walks-with-kids/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1756982477676-420df08af67c?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "A family walking together on a grassy hill"
+    },
     {
       "site": "LocalPlumbers",
       "siteId": "localplumbers",
@@ -17,6 +72,17 @@
       "imageAlt": "Water drop on a brass pipe"
     },
     {
+      "site": "OnBusLaw",
+      "siteId": "onbuslaw",
+      "accent": "#0F1E3A",
+      "date": "2026-11-26",
+      "title": "Drip pricing and hidden fees: what the law says in the UK, US and EU",
+      "blurb": "What counts as drip pricing, how UK, US and EU rules treat mandatory fees, and what shoppers and sellers should do.",
+      "url": "https://onbuslaw.shmor.ai/blog/drip-pricing-hidden-fees-rules/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
+      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1120&h=560&fit=crop&auto=format&q=70",
+      "imageAlt": "Statue of Lady Justice holding scales and a sword"
+    },
+    {
       "site": "ProFinders",
       "siteId": "profinders",
       "accent": "#0F9B77",
@@ -26,72 +92,6 @@
       "url": "https://profinders.shmor.ai/blog/limited-company-filing-deadlines-uk/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
       "image": "https://images.unsplash.com/photo-1707902665498-a202981fb5ac?w=1120&h=560&fit=crop&auto=format&q=70",
       "imageAlt": "Person at a desk with a calculator and a notebook"
-    },
-    {
-      "site": "TradesStation",
-      "siteId": "tradesstation",
-      "accent": "#FFB300",
-      "date": "2026-11-26",
-      "title": "Air source heat pump planning permission: what England's rules say",
-      "blurb": "Permitted development limits for air source heat pumps in England, and what to check first.",
-      "url": "https://tradesstation.shmor.ai/blog/air-source-heat-pump-planning-permission/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Air_Source_Heat_Pump_-_Vailliant_aroTherm_Plus_on_a_terraced_house.jpg",
-      "imageAlt": "An air source heat pump outdoor unit fixed to the side of a terraced house"
-    },
-    {
-      "site": "UK SEW",
-      "siteId": "uksew",
-      "accent": "#14213D",
-      "date": "2026-11-26",
-      "title": "What to do with an old sewing machine: repair, sell, donate or recycle",
-      "blurb": "Repair, sell, donate or recycle: the best routes for an old or broken sewing machine in the UK.",
-      "url": "https://uksew.shmor.ai/blog/what-to-do-with-an-old-sewing-machine/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1466027397211-20d0f2449a3f?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Vintage black and gold sewing machine"
-    },
-    {
-      "site": "BestVPNs",
-      "siteId": "bestvpns",
-      "accent": "#141A24",
-      "date": "2026-11-25",
-      "title": "VPN app permissions and privacy policies: what to check before you install",
-      "blurb": "A plain-English checklist for judging a VPN app's permissions, privacy policy and encryption.",
-      "url": "https://bestvpns.shmor.ai/blog/vpn-app-permissions-privacy-policy-checklist/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1614064643392-8dd713152ae9?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Pink and silver padlock resting on a black computer keyboard"
-    },
-    {
-      "site": "CareCompass",
-      "siteId": "carecompass",
-      "accent": "#13213F",
-      "date": "2026-11-25",
-      "title": "Medicare costs in 2027: the Part B premium, deductibles and what to check",
-      "blurb": "The 2027 Medicare Part A and B premiums, deductibles and income-related amounts, as announced by CMS.",
-      "url": "https://carecompass.shmor.ai/blog/medicare-costs-2027-part-b-premium/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Clinician using a laptop with a stethoscope on the desk"
-    },
-    {
-      "site": "CarHireDeals",
-      "siteId": "carhiredeals",
-      "accent": "#2F6BFF",
-      "date": "2026-11-25",
-      "title": "Austria's digital vignette for 2027: what hire car drivers need to know",
-      "blurb": "Austria's vignette goes digital-only for 2027: what to check on a hire car, prices, how to buy and the fines.",
-      "url": "https://carhiredeals.shmor.ai/blog/austria-digital-vignette-2027-hire-car/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Rottenmann_-_Pyhrn-Autobahn_-_2014_11_14.jpg/1920px-Rottenmann_-_Pyhrn-Autobahn_-_2014_11_14.jpg",
-      "imageAlt": "Austrian Pyhrn motorway running through a wooded Alpine valley"
-    },
-    {
-      "site": "CruiseDeals",
-      "siteId": "cruisedeals",
-      "accent": "#0E2A4D",
-      "date": "2026-11-25",
-      "title": "Juneau's cruise passenger limit: what it means for your Alaska cruise",
-      "blurb": "Juneau's agreed daily cruise limits, what they cover, and how to plan an Alaska cruise around busy port days.",
-      "url": "https://cruisedeals.shmor.ai/blog/juneau-cruise-passenger-limit-alaska-cruises/?utm_source=shmor-weekly&utm_medium=email&utm_campaign=2026-W48",
-      "image": "https://images.unsplash.com/photo-1690982951685-2b1d4cd62e02?w=1120&h=560&fit=crop&auto=format&q=70",
-      "imageAlt": "Huge tidewater glacier meeting the sea below snowy mountains"
     }
   ],
   "cta": {
